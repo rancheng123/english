@@ -1,0 +1,60 @@
+*{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+/*弹性盒子 start*/
+.flex-father{
+    display: flex;
+    display: -webkit-box;
+}
+.flex-father .flex-child1{
+    -webkit-box-flex: 1;
+}
+/*弹性盒子 end*/
+
+#englishBtn,#chineseBtn,#symbolsBtn{
+    width: 33%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.active{
+    color: green;
+}
+
+ul{
+    padding-top: 50px;
+}
+li{
+    padding: 10px;
+    overflow: hidden;
+}
+.num{
+    display: block;
+    float: right;
+    width: 20px;
+}
+.english{
+    display: block;
+    float: left;
+    width: 120px;
+    visibility: hidden;
+}
+.symbols{
+    display: block;
+    float: left;
+    width: 100px;
+    visibility: hidden;
+}
+.chinese{
+    width: 100px;
+    display: block;
+    float: left;
+
+}
+.show{
+    visibility: visible;
+}
