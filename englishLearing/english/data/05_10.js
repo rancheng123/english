@@ -121,10 +121,6 @@ wordJson['05_10']  = [
         symbols: '[ˈkɒstli]',
         chinese: '昂贵的; 代价高的;'
     },{
-        english: 'clause',
-        symbols: '[klɔ:z]',
-        chinese: '从句，分句; 条款，款项;'
-    },{
         english: 'premier',
         symbols: '[ˈpremiə(r)]',
         chinese: '首要的; 第一的，首位的; '
@@ -316,9 +312,9 @@ wordJson['05_10']  = [
         symbols: '[ˈkɑ:gəʊ]',
         chinese: '货物; 负荷，荷重;'
     },{
-        english: '',
-        symbols: '',
-        chinese: ''
+        english: 'invite',
+        symbols: '[ɪnˈvaɪt] ',
+        chinese: '邀请'
     },{
         english: '',
         symbols: '',
