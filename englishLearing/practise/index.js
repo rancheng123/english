@@ -27,19 +27,7 @@ router.get('/*', function(req, res){
     if(route == '/'){
         responseIndexPage(req, res);
 
-        the criminal,a foremost villain
-
-        the symbol of this metropolitan is the Islamic mosque
-
-        the dissident was awarded a prize for his contrubition to literary
-
-        the patient,who was extre distressed and compassionnate, was diagnosed a cancer
-
-        the dissidents,who advocate democracy and had drafted a charter to legislate a law, attempt to subvert the govement. Subsequently, they failed and was asylumed in Norway embassy.
-
-            there is a crack in the tanker,which cause the gas leaking and littering on the ground.
-
-
+        vare
 
     }
     //��̬��Դ
@@ -65,13 +53,8 @@ router.get('/*', function(req, res){
     }
     //ҳ��·��
     else{
-        responseIndexPage(req, res)
-
-legislate
-
-
-
-}
+        tutelage
+    }
 
 
 
@@ -90,9 +73,7 @@ function responseIndexPage(req, res){
     function crushDissent(){
         this.crush = desent;
         this.counterpart = assembly;
-        conservative.democrat.scandal = 'sworn'
-
-
+        studio.note.bass = 'aaa';
 
     }
 
@@ -118,7 +99,6 @@ function responseIndexPage(req, res){
         this.couterpary = alternative;
         this.disarray = disarray;
 
-        upset
 
     }
 

@@ -254,6 +254,10 @@ wordJson['05_13']  = [
         symbols: '[bri:f]',
         chinese: '短暂的; （衣着） 短的；简单的;'
     },{
+        english: 'intermit',
+        symbols: '[ɪntə mɪt]',
+        chinese: '中断'
+    },{
         english: 'intermittent',
         symbols: '[ˌɪntəˈmɪtənt]',
         chinese: '间歇性; 间歇的; ，断断续续的;'

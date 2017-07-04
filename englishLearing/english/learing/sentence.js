@@ -38,11 +38,30 @@ Subseqently, he said: never consider it is in vain,
 
 
 
+ the criminal,a foremost villain
+
+ the symbol of this metropolitan is the Islamic mosque
+
+ the dissident was awarded a prize for his contrubition to literary
+
+ the patient,who was extre distressed and compassionnate, was diagnosed a cancer
+
+ the dissidents,who advocate democracy and had drafted a charter to legislate a law, attempt to subvert the govement. Subsequently, they failed and was asylumed in Norway embassy.
+
+ there is a crack in the tanker,which cause the gas leaking and littering on the ground.
+
+
+
+
+ The mischievous guy messed with the coy girl deliberately
+
+ you misinterprete me,and regard me as a crooked fraud.
+
+ the shifty guy funk me suddenly, with my heart throbs swiftly,
 
 
 
 
 
 
-
-*/
+ */
