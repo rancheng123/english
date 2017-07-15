@@ -545,6 +545,10 @@ wordJson['05_14']  = [
         symbols: '[bəˈlɪdʒərənt]',
         chinese: '好战的; 交战的;交战国，交战者;'
     },{
+        english: 'lustre',
+        symbols: '[ˈlʌstə(r)]',
+        chinese: '光泽'
+    },{
         english: 'lacklustre',
         symbols: '[ˈlæklʌstə(r)]',
         chinese: '无光泽的;黯淡的'
@@ -555,7 +559,7 @@ wordJson['05_14']  = [
     },{
         english: 'volume',
         symbols: '[ˈvɒlju:m]',
-        chinese: '音量; '
+        chinese: '量；体积；音量; '
     },{
         english: 'clash',
         symbols: '[klæʃ]',
@@ -564,6 +568,10 @@ wordJson['05_14']  = [
         english: 'fool',
         symbols: '[fu:l]',
         chinese: '傻瓜;愚弄，欺骗; '
+    },{
+        english: 'duff',
+        symbols: '[ˈdʌf]',
+        chinese: '没用的；笨的；垃圾的；臭的，'
     },{
         english: 'duffer',
         symbols: '[ˈdʌfə(r)]',

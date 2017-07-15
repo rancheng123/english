@@ -8,18 +8,6 @@
 /*
 
 
-暂停
-
-    stop  terminate  suspend
-
-
-阻止，制止
-    deter
-
-
-
-
-
 援助
    aid   bailout
 
@@ -154,6 +142,16 @@ traffic
 
 human
     noun
+
+        age
+            teenage
+                teenager
+
+            adult
+
+            old
+
+
         male
             man boy father brother
         female
@@ -248,6 +246,10 @@ human
 
                 竞争
                     compete contend  contest
+
+                    激烈的；猛烈的;
+                    fierce
+
                 对抗,挑战
                     defy      challenge
                     挑衅的
@@ -308,6 +310,9 @@ human
 
             聊天
                 cose  chat
+
+            夸口；吹牛；说大话
+                boast
 
             交流
             communicate
@@ -372,6 +377,9 @@ human
 
                 refer
                     reference
+
+
+                to do with
 
          看
             see  look  aim view  scan
@@ -481,7 +489,14 @@ human
             make establish  build
 
             //生成，形成
-            form constitute  construct
+            form  constitute  construct
+
+            创造
+                create
+                    发明
+                    invent
+
+
 
 
          胜利
@@ -494,7 +509,7 @@ human
 
 
 
-    emotion（sentiment,feeling,sense,mood)
+    emotion（sentiment,feeling,sense,mood, sensibility)
 
          excited
 
@@ -529,6 +544,9 @@ human
 
                 生气；发怒
                 huff
+
+                暴跳，暴怒; 狂暴行为;
+                rampage
 
 
          烦躁
@@ -577,8 +595,12 @@ human
 
     性格
     character
+
         善良的
-        benign
+            benign
+
+        凶猛的;
+            vicious
 
         调皮的
             naughty
@@ -588,9 +610,10 @@ human
 
         腼腆的;忸怩的;
             coy
+        活泼的;  有生气的;
+            perky
 
-        凶猛的;
-            vicious
+
 
 
     appellation
@@ -628,6 +651,9 @@ human
 
          死
             die  kill   murder  bloodshed
+
+                死亡
+                    death  demise
 
                 自杀
                 suicide
@@ -680,7 +706,8 @@ human
             compensate
 
         储蓄，存款
-            deposit
+            deposit    saving
+
         账目; 钱的记录
             account
 
@@ -688,6 +715,8 @@ human
 
         为…提供资金
             fund
+        资本; 资本的; 资源;
+            capital
 
 
      thinking logic
@@ -709,7 +738,7 @@ human
                     innocent
 
                 白痴; 傻瓜，笨蛋;
-                    idiot
+                    idiot   geek  nerd
 
             -----------
 
@@ -741,9 +770,12 @@ human
             猜测
                 guess  speculate
 
+             想象，幻想
+                imagine   fantasy
+
 
          希望
-            want hope  desire
+            want hope  desire   intend
             极度的希望
             be desperate to
 
@@ -1041,13 +1073,22 @@ police
 
 
 economy
+
+    经济衰退
+        recession
+
     agricultrue
 
-
-
-    tax
-    income
     corperation    conglomerate   company
+
+        金额流水
+
+            工资名单; 工薪总额;
+                payroll
+
+            tax
+
+            income
 
          工作室
             studio
@@ -1073,14 +1114,6 @@ economy
          上班
             on  duty
 
-            working
-
-                努力
-                    struggle    word hard
-
-
-                     工；做事情所消耗的工
-                     effort
 
             administration
                 管理层
@@ -1090,6 +1123,9 @@ economy
 
                 任务
                     task  mission
+
+                        团队协作
+                         teamwork  and hamorny
 
                          分配;(任务)
                          assign
@@ -1101,9 +1137,41 @@ economy
                             execute   conduct  perform
 
 
+                                working
+
+                                     努力
+                                     struggle    word hard
+
+
+                                         工；做事情所消耗的工
+                                         effort
+
+                                         认真的
+                                            earnest
+
+                                         专心做。。。
+                                         be devoted to
+
+                                    -----------------
+                                    懒散的; 悠闲的;
+                                        laid-back
+                                    苦干的，辛勤的;
+                                        painstaking
+                                    ---------------
+
+
+                            -------------------------
+                            没用的；笨的；垃圾的；臭的
+                                duff
+                                    笨蛋
+                                    duffer
+                            做的好
+                                welldone
+                            --------------------------
+
                             ------------------------------
                             累的
-                                tired
+                                tired   languid
 
                                     休息
                                         have a rest
@@ -1112,6 +1180,8 @@ economy
                                         rest upon
 
                             精力充沛
+                                 有力气的;充满力量的
+                                 dynamic
 
                             --------------------------------
 
@@ -1140,6 +1210,10 @@ economy
                 responsible
                 不负责任的;
                 irresponsible
+
+            逃避责任
+                fudge
+
 
 
 
@@ -1235,10 +1309,13 @@ militray
             violent
 
         处于交战的
-        embattled
+        embattled   belligerent
 
      weapon
         gun
+            手枪
+                pistol
+
             子弹，弹药;
             bullet
 
@@ -1347,7 +1424,15 @@ space
     place
 
     地点，场所;
-    spot
+    spot   venue
+
+
+ energy
+
+    nuclear
+        原子的; 原子能的
+        atomic
+
 
 
 
@@ -1379,6 +1464,28 @@ space
         doctorate
 
 music
+
+    乐队
+        band
+            -------------
+            歌手
+            singer
+                 偶像，崇拜物
+                 idol
+
+
+            观众; 听众; 读者
+            audience
+                 粉丝
+                 fans
+            --------------
+
+        剧团，戏班子
+        troupe
+
+    流行的
+        pop  popular
+
     舞台
         stage
             后台; 在幕后
@@ -1400,9 +1507,19 @@ music
             trumpet
 
     sing
-        合奏，合唱;
-        tutti
 
+        卡拉OK
+        karaoke
+
+        类型
+            合奏，合唱;
+            tutti
+
+            民歌
+            ballad
+
+            说唱
+            rap
         曲调
             tune
                 跑调的；走音的
@@ -1413,6 +1530,9 @@ music
 
             欢快的,跳动的
                 bouncy
+
+        抒情的(引申为歌词)
+            lyric
 
         音符
             note
@@ -1443,6 +1563,9 @@ buildings
 
     public area
         mansion hotel restraunt cafe
+
+
+
 
     personal() area
 
@@ -1478,6 +1601,14 @@ buildings
                         furniture
                             desk  bed chair sofa
 
+                            剪刀;剪开
+                            scissors
+
+                            camera
+                                 摄像头;网络摄像机
+                                 webcam
+
+
                 户外临时住所，营地，工地宿舍
                 camp
 
@@ -1510,7 +1641,11 @@ water
              wave  surge
 
     流动
-        `flow
+        flow
+
+        停滞，不流动，不发展
+            stagnate
+
 
     涌出; 倾，倒;
     pour   spilt
@@ -1641,7 +1776,7 @@ process
             intermittent
 
     继续，坚持
-        go on      keep
+        go on   keep   continue  sequel
 
         maintain
 
@@ -1653,9 +1788,11 @@ process
         折中；让步；妥协
         compromise
 
+
+
     half  middle
     停止
-        end  teminate  final
+        end  terminate  final
 
     没有尽头
         endless
@@ -1787,7 +1924,10 @@ food
         hotel
         restaurant
         小餐馆
-        cafe
+            cafe
+
+        酒馆；酒吧
+            pub
 
     食客
         foodie
@@ -1795,6 +1935,8 @@ food
         chef
 
         wine
+
+
             酒精
             alcohol  beer
         fruit
@@ -1802,6 +1944,13 @@ food
 
         milk
             cream
+
+travel
+    trip  tour  visit
+
+    景色，风景
+        scene  scenery
+
 
 net
     网民
@@ -1845,9 +1994,10 @@ math
 
 
 
-
-
-
+ 体积；量；
+ volume
+     小
+        small   little
 
 
      大
@@ -1889,12 +2039,19 @@ math
 -----------------------------------------------
     干净的
         clean
+
+        无污点的
+        immaculate
+
     肮脏的
         dirty
         肮脏;弄脏
         mess
             肮脏的，污秽的
             messy
+
+         弄污;有污点的
+         maculate
 
 ----------------------------------------------------
     超过
@@ -1912,6 +2069,9 @@ math
 ----------------------------------------------
      安静，宁静
         rest   quiet  pacific   calm
+
+        使镇静；安静的; 镇静的
+        sedate
 
         稳定，稳固
         stability
@@ -1966,6 +2126,9 @@ math
                 escape   flee    run away
              被离开（驱赶）
                 expel    go out
+
+         再见
+               bye  farewell
 
 
 -----------------------------------------------
@@ -2058,11 +2221,17 @@ math
     多
         many much lot  more
 
+        比…多
+        outnumber
+            donkeys outnumber cars
+
         规模; 比例，测量
         scale
 
         大量的
             substantial
+
+
 
     少
         little less lack  insufficient
@@ -2078,28 +2247,37 @@ math
 
 ----------------------------------
     一般的
-    general
+        general
 
     非常的，极其的
     very  extre
 
-    相当的
-    quite
+        相当的
+        quite
 
-        最...的
-        foremost   supreme
+            最...的
+            foremost   supreme
 
-        极端主义者，偏激的人
-        extremist
+            极端主义者，偏激的人
+            extremist
+
+        深刻的；强烈的；
+        profound
 
 -----------------------------------
     美
         beautiful pretty  handsome   sexy
 
+        可爱的
+            cute
+                cuteness
+            lovely
+
         宏伟的; 豪华的;
         grand
     丑
         ugly
+            ungainly
 
 
 ----------------------------------
@@ -2189,6 +2367,13 @@ math
 
         使沉溺; 使上瘾
         addict
+
+            使着迷;迷住;
+            obsess
+
+                obsession
+
+
     厌恶
         boring   hate  disgust
 
@@ -2283,6 +2468,9 @@ math
                     lie
                         liar
 
+                    诚实，真诚
+                        honesty
+
 
 
             妓院
@@ -2290,6 +2478,11 @@ math
 
                  强奸;
                  rape
+
+            drug
+                大麻
+                marijuana
+
 
     无罪，清白
         innocence
@@ -2320,6 +2513,12 @@ math
             批评
                 criticise
 
+            -------------------
+            严厉的，尖刻的; 不留情的;
+                scathing
+
+            --------------------
+
         辱骂;
             insult
 
@@ -2344,7 +2543,8 @@ math
 
 -------------------------
     带领
-        lead
+        lead   take  usher
+
             指导; 引路;
             guide
                 指引（名词），指南
@@ -2459,6 +2659,17 @@ math
     完成，实现
     achieve  accomplish  complete   come true     over
 
+        理想，抱负
+        dream
+
+        立志向;
+        aspire
+             I aspire to be a english speaker
+
+             有抱负的; 有志气的
+             aspiring
+
+
     完整的
         whole
 
@@ -2490,7 +2701,12 @@ math
         bright
 
             光      闪光
-            light  flash
+            light  flash   glitter
+
+            光泽
+            lustre
+                无光泽的;
+                lacklustre
 
     阴暗的
         sombre  dark
@@ -2513,7 +2729,7 @@ math
 
 -----------------------------
     在..之上
-        on   above
+        on   above  upon
 
     在..之下
         under  beneath
@@ -2583,8 +2799,12 @@ math
             compassion
                 compassionate
 
-    糊涂，困惑; 使糊涂
-         muddle
+    不明白,不理解，糊涂，困惑; 使糊涂
+         muddle  confuse
+
+         baffle
+            难理解的；不明白的
+            baffling
 
          误解
             misinterprete
@@ -2747,7 +2967,7 @@ math
 
 --------------------------
     真的
-        real  true   genuine   authentic
+        real  true   genuine   authentic   indeed
     假的
         false
 
@@ -2766,6 +2986,15 @@ math
 
         全体的；
         tutti
+
+        ---------------------
+        包括
+            include
+        除了
+            except
+                exceptional
+        -------------------------
+
     仅仅的
         only merely  just
 
@@ -2850,6 +3079,12 @@ math
     背地的
         backstage
 -------------------------------------
+    组装
+
+    拆卸
+        dismantle
+
+-------------------------------------
 
 
 球
@@ -2868,7 +3103,11 @@ math
         midfielder
 
 vessel (tank)
-    bin  box  bowl  dish  pan
+
+    箱子，盒子
+        bin  box   cassette
+
+    bowl  dish  pan
 
     罐子
         pot
@@ -2998,7 +3237,12 @@ vessel (tank)
 
 
 
+ 动力；力量
+    power
 
+    dynam
+        动力的;有力气的
+        dynamic
 
 
  time
@@ -3044,8 +3288,20 @@ vessel (tank)
 
         afterwards
 
+     -----------
+     早
+        early
+
+        准备
+            ready  prepare
+     晚
+        later
+     -------------
+
 condition
-   envirment circumstance  ceremony
+   envirment circumstance
+
+   ceremony
 
     会议
         meeting  congress
@@ -3057,8 +3313,17 @@ condition
     困境
         plight
 
+        令人尴尬的; 难对付的;不方便的
+            awkward
+
+    场景; 场面;
+        spectacle  scene
+
 
 literary ( literature )
+
+    字面的;
+        literal
 
     paper
         sandpaper
@@ -3154,6 +3419,9 @@ cloth
         反应
         react
 
+        互动; 相互作用;
+        interact
+
 
     measure
 
@@ -3211,12 +3479,17 @@ profile
         叉形              正方形
         straddle  circle  square
 
+        中心
+            center  hub
+
+
         角;角度 ( 比喻考虑、问题的 )
         angle
 
         平的
             flat  plain
 
+        ----------------------------
         直的
             straight
         弯的
@@ -3224,7 +3497,7 @@ profile
 
             弯曲;使弯曲
                 curve  crook  bend
-
+        ----------------------------------
 
 
 
