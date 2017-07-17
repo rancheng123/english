@@ -21,6 +21,10 @@ wordJson['05_15']  = [
         symbols: '[ˈsi:nəri] ',
         chinese: '景色，风景；'
     },{
+        english: 'interprete',
+        symbols: '[ɪn tɜːprɪt]  ',
+        chinese: '解释；翻译；'
+    },{
         english: 'baffle',
         symbols: '[ˈbæfl] ',
         chinese: '使困惑；使难理解'
@@ -245,9 +249,17 @@ wordJson['05_15']  = [
         symbols: '',
         chinese: '本地出产的；'
     },{
+        english: 'attitude',
+        symbols: '[ˈætɪtju:d]',
+        chinese: '态度; '
+    },{
         english: 'upbeat',
         symbols: '[ˈʌpbi:t]',
         chinese: '积极乐观的; 愉快的'
+    },{
+        english: 'downbeat',
+        symbols: '[ˈdaʊnbi:t]',
+        chinese: '消沉的，悲观的'
     },{
         english: 'etiquette',
         symbols: '[ˈetɪket]',
@@ -274,7 +286,7 @@ wordJson['05_15']  = [
         chinese: '副作用'
     },{
         english: 'schedule',
-        symbols: '[ˈʃedju:l]',
+        symbols: '[ˈskedʒu:l]',
         chinese: '日程安排；时刻表；'
     },{
         english: 'punishing',
@@ -287,7 +299,7 @@ wordJson['05_15']  = [
     },{
         english: 'weep',
         symbols: '[wi:p]',
-        chinese: '流泪; 哭泣;'
+        chinese: '流泪;'
     },{
         english: 'weeping',
         symbols: '',

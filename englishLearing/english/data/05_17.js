@@ -1,6 +1,31 @@
 
 wordJson['05_17']  = [
     {
+        english: 'dawn',
+        symbols: '[dɔ:n]',
+        chinese: '黎明，拂晓;（天）刚亮'
+    },{
+        english: 'the crack of dawn',
+        symbols: '',
+        chinese: '黎明'
+    },{
+        english: 'be up',
+        symbols: '',
+        chinese: '起床'
+    },{
+        english: 'swift',
+        symbols: '[swɪft]',
+        chinese: '雨燕'
+    },{
+        english: 'colony',
+        symbols: '[ˈkɒləni]',
+        chinese: '殖民地; 聚居地;'
+    },{
+        english: 'benefit',
+        symbols: '[ˈbenɪfɪt]',
+        chinese: '利益，好处;有益于，有助于; '
+    },
+    {
         english: 'mound',
         symbols: '[maʊnd]',
         chinese: '土堆，土丘'
@@ -69,8 +94,8 @@ wordJson['05_17']  = [
         symbols: '[ˈdʒɜ:ni]',
         chinese: '旅行'
     },{
-        english: 'nostrils',
-        symbols: '[nɒstrəlz]',
+        english: 'nostril',
+        symbols: '[nɒstrəl]',
         chinese: '鼻孔'
     },{
         english: 'briny',
@@ -97,6 +122,10 @@ wordJson['05_17']  = [
         symbols: '[maɪˈgreɪʃn]',
         chinese: '迁移，移居'
     },{
+        english: 'skip',
+        symbols: '[skɪp]',
+        chinese: '跳；跳跃; 跳，蹦跳; '
+    },{
         english: 'skipper',
         symbols: '[ˈskɪpə(r)]',
         chinese: '担任...长（首领）；首领，队长'
@@ -108,6 +137,10 @@ wordJson['05_17']  = [
         english: 'shallow',
         symbols: '[ˈʃæləʊ]',
         chinese: '浅的;浅处; 浅滩;'
+    },{
+        english: 'mist',
+        symbols: '[mɪst]',
+        chinese: '薄雾;下雾 '
     },{
         english: 'misty',
         symbols: '[ˈmɪsti]',
@@ -135,7 +168,7 @@ wordJson['05_17']  = [
     },{
         english: 'bounty',
         symbols: '[ˈbaʊnti]',
-        chinese: ' 慷慨，大方;'
+        chinese: ' 奖金，赏金;赠物，赠金;'
     },{
         english: 'a bounty of',
         symbols: '',
@@ -153,6 +186,10 @@ wordJson['05_17']  = [
         symbols: '[klæʃ]',
         chinese: '冲突'
     },{
+        english: 'archaeology',
+        symbols: '[ˌɑ:kiˈɒlədʒi],
+        chinese: '考古学;'
+    },{
         english: 'archaeologist',
         symbols: '[ˌɑ:kiˈɒlədʒɪst]',
         chinese: '考古学家;'
@@ -168,10 +205,6 @@ wordJson['05_17']  = [
         english: 'excavate',
         symbols: '[ˈekskəveɪt]',
         chinese: '挖掘; 挖出;'
-    },{
-        english: 'mysterious',
-        symbols: '[mɪˈstɪəriəs]',
-        chinese: '神秘的，诡秘的;'
     },{
         english: 'reveal',
         symbols: '[rɪˈvi:l]',
@@ -192,6 +225,10 @@ wordJson['05_17']  = [
         english: 'curious',
         symbols: '[ˈkjʊəriəs]',
         chinese: '好奇的; 奇妙的; 好求知的;'
+    },{
+        english: 'moss',
+        symbols: '[mɒs]',
+        chinese: '苔藓'
     },{
         english: 'mossy',
         symbols: '[ˈmɒsi]',

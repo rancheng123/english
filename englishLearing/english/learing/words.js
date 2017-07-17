@@ -36,6 +36,11 @@ traffic
                 急转弯
                 round a sharp bend
 
+            停车，搁浅;
+                strand
+
+                    stranded
+
             轮胎
                 tyre
 
@@ -92,12 +97,6 @@ traffic
 
 
 
-尝试
-   attempt try  dabble
-
-
-     阻挠; 使受挫折;
-     frustrate
 
 
 
@@ -279,9 +278,17 @@ human
             脸部
             face  feature
 
+                nose
+                    鼻孔
+                    nostril
+
             毛发
                 胡须
                 beard   hair
+
+                    理发；剃须，剃毛;
+                    shave
+                        shave head
 
             软骨
                 gristle
@@ -292,9 +299,20 @@ human
             hand
                 gesture
 
+                finger
+
+                    nail
+
             leg
+
+                foot
+                    足迹；
+                    trail
+
                 跳跃，跳动
                     jump
+
+                    skip
 
                     bounce
                         跳动的;有活力的
@@ -305,7 +323,7 @@ human
     verb
 
          说
-            consult   discuss   negotiate  state talk  speak  say   complain  explain  broadcase  report
+            consult   discuss   negotiate  state talk  speak  say   complain    broadcase  report
             tell express warn  impeach  conversation  comment
 
             聊天
@@ -394,6 +412,8 @@ human
                  尊重,重视
                     respect
 
+                        think nothing of
+
                     致敬
                     tribute
                  轻视,看不起
@@ -454,7 +474,11 @@ human
             find
 
          帮助
-            help   aid
+            help
+                有助于；有利于
+                helpful    benefit
+
+            aid
 
             外部援助；脱离困境(靠外部);
             bailout
@@ -528,6 +552,11 @@ human
                 tear
                     tearful
 
+                流泪
+                weep
+                    流泪的
+                    weeping
+
          生气
             anger  angry
 
@@ -548,9 +577,13 @@ human
                 暴跳，暴怒; 狂暴行为;
                 rampage
 
+         紧张的
+            nervous
 
          烦躁
             upset
+
+                upsetting
 
          害怕
             fear  afraid  worried  frightened  dread   threat  funk
@@ -717,6 +750,8 @@ human
             fund
         资本; 资本的; 资源;
             capital
+                资本家;有钱人
+                capitalist
 
 
      thinking logic
@@ -725,6 +760,11 @@ human
             wit
                 头脑；智力，智慧;
                 mind
+                    提醒; 使想起
+                    remind
+
+                    在我的记忆中
+                    in my mind
 
             ------------
             聪明的
@@ -765,13 +805,23 @@ human
                     意识到
                         realise
                 不知道
+                    unknown
+
+                        谜; 神秘
+                        mystery
+                            神秘的，诡秘的
+                            mysterious
 
                 --------------------
             猜测
                 guess  speculate
 
              想象，幻想
-                imagine   fantasy
+                imagine
+
+                fantasy
+                    幻想的；美好的
+                    fantastic
 
 
          希望
@@ -781,6 +831,10 @@ human
 
             意愿,自愿
             will
+
+
+            期望
+                expect  prospect
 
 
 
@@ -808,6 +862,10 @@ human
 
              裁判
                 jury
+
+
+                理性的; 理智的;
+                rational
 
 
 
@@ -960,11 +1018,37 @@ human
             dig
                 dug
 
+            excavate
+
         放置; 铺放;
             lay
 
+         摸
+            touch
+
+            触须; 触器;
+            palp
+                摸得到的;
+                palpable
 
 
+
+animal
+
+    家畜
+        stock  livestock
+
+            horse  pig  dog cat
+
+    野生的
+        wild
+
+            bird
+                雨燕
+                swift
+
+            驼鹿
+            moose
 
 
 
@@ -987,7 +1071,14 @@ policy
         prime ministor  premier
 
         king anti  rebel
-        chief   commander  leader
+
+
+        领导者
+            chief   commander  leader
+
+            captain
+            首领，队长
+            skipper
 
      system
          democracy   populism
@@ -1074,12 +1165,17 @@ police
 
 economy
 
-    经济衰退
-        recession
+    develop
+        停滞，不流动，不发展
+            stagnate
+
+        经济衰退
+            recession
 
     agricultrue
 
-    corperation    conglomerate   company
+    企业
+    corperation    conglomerate   company   establishment
 
         金额流水
 
@@ -1124,6 +1220,10 @@ economy
                 任务
                     task  mission
 
+                        日程安排；时刻表；
+                        schedule
+
+
                         团队协作
                          teamwork  and hamorny
 
@@ -1138,6 +1238,18 @@ economy
 
 
                                 working
+
+                                     态度
+                                     attitude
+                                        积极乐观的;
+                                            upbeat
+
+                                            optimism
+
+                                        消沉的，悲观的
+                                            downbeat
+
+
 
                                      努力
                                      struggle    word hard
@@ -1303,7 +1415,10 @@ militray
             militant
 
      战争
-        war  warfare  conflict  combat  fight  defeat  battle
+        war  warfare    combat  fight  defeat  battle
+
+        冲突
+            clash  conflict
 
         voilence
             violent
@@ -1418,6 +1533,20 @@ health
             tumour
 
 
+ 地理（学）; 地形，
+geography
+
+    landscape
+
+        mountain
+        hill
+
+        土堆，土丘
+        mound
+
+        plain
+
+
 
 space
 
@@ -1477,7 +1606,8 @@ music
             观众; 听众; 读者
             audience
                  粉丝
-                 fans
+                 fans  fandom
+
             --------------
 
         剧团，戏班子
@@ -1591,6 +1721,9 @@ buildings
                         storey  floor
 
                 house
+                    布局，规划图;
+                    layout
+
 
                     院子; 场地;
                     yard
@@ -1608,6 +1741,44 @@ buildings
                                  摄像头;网络摄像机
                                  webcam
 
+                    kitchen
+
+                         厨具
+                             bowl  dish  pan
+
+                             罐子
+                             pot
+
+                                洗
+                                    wash
+                                冲刷
+                                    scour
+
+                         厨师
+                            chef
+
+                         wine
+                             酒精
+                             alcohol  beer
+                         fruit
+                            apple banana pear peach coconut
+
+                         milk
+                            cream
+
+                         fish
+                             鲑鱼; 三文鱼; 大马哈鱼;
+                             salmon
+
+                         cake & bread
+
+                             华夫饼
+                             waffle
+
+                             烤的面包
+                             toast
+
+
 
                 户外临时住所，营地，工地宿舍
                 camp
@@ -1618,27 +1789,61 @@ buildings
                     accommodation
 
 
+history
+
+    //趋势，倾向
+    tend
+        趋向于稳定
+        be tended to be stabilized
+
+    考古学
+    archaeology
+
+        archaeologist
+
 
 water
-     river lake    rain  cloud
+     river lake
+
+     沼泽，泥塘;
+        bog
+            boggy
 
 
      water freeze ice
 
      海
      sea  ocean
+
+            Atlantic
+
             海的
-            marine
+            marine  briny
 
             水下的，海底的;
             submarine
 
+            地形
+                 海湾
+                 bay  gulf
 
-             海湾
-             bay  gulf
+                 海峡
+                    strait  channel
 
-             海浪
-             wave  surge
+             海水
+                 海浪
+                 wave  surge
+
+                波痕；水纹；产生水纹；产生波痕
+                ripple
+
+                潮汐; 潮水
+                tide
+
+             咸的
+                salty
+
+
 
     流动
         flow
@@ -1662,6 +1867,9 @@ water
 
         干燥；干的；
         dry
+
+            脆的；变脆; 烘脆
+            crisp
 
 
 fire
@@ -1709,9 +1917,19 @@ land
     noun
          area  region  district  state  country province  county  territary
 
+         领域，范围;圈子
+         realm
+
          岸边
-         shore beach  coast  coastal
-         island peninsula mainland  port
+            shore beach  coast  coastal
+         陆地
+             岛屿
+                island  isle
+
+             peninsula mainland  port
+
+             内陆
+                inland
          border
 
         爱国的
@@ -1735,6 +1953,9 @@ weather
     wind
         windy
 
+        微风；吹微风
+        breeze
+
         吹风
         blow
             blew
@@ -1756,6 +1977,12 @@ weather
     cloud
         cloudy
 
+    雾
+        mist
+            misty
+        fog
+            foggy
+
 part
     proportion
     percent
@@ -1766,6 +1993,24 @@ part
 process
     开始
         origin  origo  start  begin
+
+
+         尝试
+            attempt try  dabble
+
+             阻挠; 使受挫折;
+             frustrate
+
+                使（某人）气馁；使泄气
+                    daunt
+
+                放弃
+                    give up
+
+
+
+
+
     暂停
         suspend  pause     break off
 
@@ -1809,7 +2054,7 @@ process
         reason  grounds  as  because
 
         因素
-        factor
+        factor   parameter
     结果
         result conclusion
 
@@ -1926,27 +2171,17 @@ food
         小餐馆
             cafe
 
+
         酒馆；酒吧
             pub
 
     食客
         foodie
-    厨师
-        chef
 
-        wine
-
-
-            酒精
-            alcohol  beer
-        fruit
-            apple banana pear peach coconut
-
-        milk
-            cream
 
 travel
-    trip  tour  visit
+    trip  tour  visit   journey
+
 
     景色，风景
         scene  scenery
@@ -1964,7 +2199,22 @@ plant
 
         rose
 
+        丛; 簇，串 （单位）
+        cluster
+            a cluster of flowers
+
+        开花; 盛开
+        bloom
+
     grass
+
+    苔藓
+    moss
+        mossy
+
+    tree
+        葡萄树; 藤本植物;藤条
+        vine
 
 
 math
@@ -1999,6 +2249,12 @@ math
      小
         small   little
 
+        轻微的; 细小的;
+        slight
+
+        极小的，微小的
+        tiny
+
 
      大
         big  escalate  huge  large   enormous
@@ -2021,6 +2277,11 @@ math
         bad  worse  worst     corrupt  fade
 
         awful
+
+        恶劣的
+            harsh
+
+
      好的
         good better  best   well
         nice
@@ -2070,8 +2331,7 @@ math
      安静，宁静
         rest   quiet  pacific   calm
 
-        使镇静；安静的; 镇静的
-        sedate
+
 
         稳定，稳固
         stability
@@ -2106,6 +2366,16 @@ math
         坚固
         firm
 ------------------------------------------------
+    深的
+        deep
+
+             深刻的；深深地；
+             profound
+
+    浅的
+        shallow
+
+----------------------------------------------
 
     来
         come  welcome
@@ -2151,6 +2421,10 @@ math
             solid
             团结一致的
             solidary
+
+        充满
+        teem
+            the river teems with fish
 -------------------------------------
 
 
@@ -2163,8 +2437,13 @@ math
             处罚的，惩罚性的;
             punitive
 
+            punishing
+
     奖励
         award   prize
+
+        奖金，赏金;赠物，赠金;
+        bounty
 
 
 
@@ -2187,7 +2466,7 @@ math
     松的
         loose
     紧的
-        tense
+        tense   tight
 
 
 ----------------------------------
@@ -2236,8 +2515,6 @@ math
     少
         little less lack  insufficient
 
-        轻微的; 细小的;
-        slight
 
 
     足够
@@ -2261,8 +2538,7 @@ math
             极端主义者，偏激的人
             extremist
 
-        深刻的；强烈的；
-        profound
+
 
 -----------------------------------
     美
@@ -2325,6 +2601,11 @@ math
 -------------------------------
     流动的，迁移的
         migrant
+            migration
+
+            定居
+            settle
+
     静止的，常驻的
         resident
 
@@ -2351,7 +2632,12 @@ math
     兴趣
         intrest  like  enjoy
 
+        好奇的;  好求知的;
+        curious
+
         love
+            浪漫；谈情说爱; 追求某人;
+            romance
 
             kiss   embrace
 
@@ -2365,6 +2651,8 @@ math
         prefer
             preference
 
+        favourite
+
         使沉溺; 使上瘾
         addict
 
@@ -2373,9 +2661,15 @@ math
 
                 obsession
 
+        崇拜; 爱慕;
+        adore
+
 
     厌恶
-        boring   hate  disgust
+         hate  disgust
+
+        枯燥的
+            boring   dreary
 
 -----------------------------
     吸引人的
@@ -2390,6 +2684,9 @@ math
 ----------------------------
     本地的
         indigennous  local
+
+        本地出产的；
+        homegrown
 
     外地的
         abroad foreign  overseas
@@ -2504,6 +2801,7 @@ math
     逐渐的，预期的
         expected
 
+
 --------------------------- -
     指责
         accuse
@@ -2569,7 +2867,10 @@ math
 
 ------------------------
      显示
-        show  parade  display  uncovered  apparent  visible
+        show  parade  display   uncovered  apparent  visible
+
+        显露；展现
+        reveal
 
         透明的; 显而易见的;
         transparent
@@ -2620,6 +2921,8 @@ math
 -------------------------
     睡
         sleep
+             使昏昏入睡; 使镇静；安静的; 镇静的
+             sedate
 
         守夜，熬夜
             vigil
@@ -2631,6 +2934,9 @@ math
 
         有意识的，神志清醒的;
         conscious
+
+    起床
+        be up
 
 ----------------------
     单独
@@ -2690,6 +2996,13 @@ math
             inlet  entrance
 
 ------------------------
+    高的
+        tall
+    矮的
+        short  dwarf
+
+
+-------------------------
     融化
         dissolve
 
@@ -2723,7 +3036,7 @@ math
         congregate  rally
 
             聚集地；据点;
-            stronghold
+            stronghold   colony
 
     分散
 
@@ -2792,6 +3105,15 @@ math
     理解
         understand
 
+            解释
+                explain
+
+                interprete
+
+                     误解(错误的解释)
+                         misinterprete
+                            misinterpretation
+
         同情
             sympathy
             sympathise
@@ -2806,9 +3128,7 @@ math
             难理解的；不明白的
             baffling
 
-         误解
-            misinterprete
-                misinterpretation
+
 -------------------------------
     普通的
         ordinary  general
@@ -2838,6 +3158,9 @@ math
 --------------------------
     得到，获得
         get  got  gain  obtain
+        attain
+            无法取得的
+            unattainable
 
         重新获得
             regain
@@ -2855,6 +3178,8 @@ math
         donate
             donation
 
+
+
 --------------------------
     仍
         throw
@@ -2866,6 +3191,9 @@ math
 
             垃圾
             rubbish  litter
+
+        抛弃; 丢弃;离弃，
+        abandon
     捡
         pick
 
@@ -3053,6 +3381,10 @@ math
 --------------------------------------
     有用的
         useful  effective
+
+        副作用
+        side-effect
+
     无用的
         unuseful
 
@@ -3068,6 +3400,11 @@ math
             normalise
 
     异常的,反常的
+--------------------------------------
+    正
+
+    反
+        inverse
 --------------------------------------
     拥有
         have   possess  own
@@ -3107,10 +3444,7 @@ vessel (tank)
     箱子，盒子
         bin  box   cassette
 
-    bowl  dish  pan
 
-    罐子
-        pot
 
     bag
         麻袋;把…装进袋里; 掠夺;
@@ -3161,6 +3495,9 @@ vessel (tank)
             significance
 
         represent
+
+        indicate
+
 
 
 
@@ -3298,6 +3635,21 @@ vessel (tank)
         later
      -------------
 
+
+     day
+        黎明，拂晓;（天）刚亮
+        dawn
+            the crack of dawn
+
+        morning
+
+
+
+
+
+
+
+
 condition
    envirment circumstance
 
@@ -3376,6 +3728,8 @@ literary ( literature )
  line
     绳子
     tie
+        鞭子;鞭打
+        whip
 
     铁链
     chain
@@ -3463,7 +3817,12 @@ nations
 
     Europe
 
-        Detuschland  Hungry  Ireland   Israel  Bulgaria   Spain  Portugal   Norway
+        Detuschland  Hungry  Ireland   Israel  Bulgaria   Spain  Portugal
+
+        Norway
+            Norse
+
+            Norwegian
 
         Iceland
             Icelandic
@@ -3478,6 +3837,10 @@ profile
     shape
         叉形              正方形
         straddle  circle  square
+
+        长条，条板; 带状地带
+            strip
+                the narrow strip of water
 
         中心
             center  hub
