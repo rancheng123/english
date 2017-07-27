@@ -60,7 +60,7 @@ Subseqently, he said: never consider it is in vain,
  the shifty guy funk me suddenly, with my heart throbs swiftly,
 
 
-
+ the jagged shore, which is strewed with pebbles, jut into the sea
 
 
 

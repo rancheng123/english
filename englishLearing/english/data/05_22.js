@@ -1,382 +1,237 @@
 
-wordJson['05_17']  = [
+wordJson['05_22']  = [
     {
-        english: 'dawn',
-        symbols: '[dɔ:n]',
-        chinese: '黎明，拂晓;（天）刚亮'
+        english: 'caviar',
+        symbols: '[ˈkæviɑ:(r)]',
+        chinese: '鱼子酱'
     },{
-        english: 'the crack of dawn',
+        english: 'fame',
+        symbols: '[feɪm]',
+        chinese: '名声; 名望; 使闻名; 使出名;'
+    },{
+        english: 'specialise',
+        symbols: '[ speʃəlˌaɪz]',
+        chinese: '专门从事，专攻;'
+    },{
+        english: 'delicacy',
+        symbols: '[ˈdelɪkəsi]',
+        chinese: '美味佳肴; '
+    },{
+        english: 'putrid',
+        symbols: '[ˈpju:trɪd]',
+        chinese: '腐化的; 已腐烂的'
+    },{
+        english: 'bless',
+        symbols: '[bles]',
+        chinese: '祝福; 保佑; '
+    },{
+        english: 'advertise',
+        symbols: '[ˈædvətaɪz]',
+        chinese: '登广告，做广告; 做宣传;'
+    },{
+        english: 'positive',
+        symbols: '[ˈpɒzətɪv]',
+        chinese: '积极的; 正的;正面的'
+    },{
+        english: 'ferment',
+        symbols: '[fəˈment]',
+        chinese: '酝酿; 使发酵; '
+    },{
+        english: 'herring',
+        symbols: '[ˈherɪŋ]',
+        chinese: '鲱鱼'
+    },{
+        english: 'capitalise',
+        symbols: '[ kæpɪtəlaɪz]',
+        chinese: '使资本化'
+    },{
+        english: 'proper',
+        symbols: '[ˈprɒpə(r)]',
+        chinese: '正当的，正常的;'
+    },{
+        english: 'assure',
+        symbols: '[əˈʃʊə(r)]',
+        chinese: '向…保证; 使…确信; '
+    },{
+        english: 'certify',
+        symbols: '[ˈsɜ:tɪfaɪ]',
+        chinese: '证书；证明; 发证书给…;'
+    },{
+        english: 'admit',
+        symbols: '[ədˈmɪt]',
+        chinese: '承认'
+    },{
+        english: 'lemon',
+        symbols: '[ˈlemən]',
+        chinese: '柠檬;'
+    },{
+        english: 'onion',
+        symbols: '[ˈʌnjən]',
+        chinese: '洋葱'
+    },{
+        english: 'stink',
+        symbols: '[stɪŋk]',
+        chinese: '恶臭;臭味；散发臭味;'
+    },{
+        english: 'stinky',
+        symbols: '[ˈstɪŋki]',
+        chinese: '臭的'
+    },{
+        english: 'rot',
+        symbols: '[rɒt]',
+        chinese: '腐烂，腐朽;（使） 腐烂，（使）腐朽;'
+    },{
+        english: 'commemorate',
+        symbols: '[kəˈmeməreɪt]',
+        chinese: '纪念， 成为…的纪念;'
+    },{
+        english: 'palatable',
+        symbols: '[ˈpælətəbl]',
+        chinese: '可口的; 美味的;'
+    },{
+        english: 'controversy',
+        symbols: '[ˈkɒntrəvɜ:si]',
+        chinese: '争议；论战; 辩论;'
+    },{
+        english: 'recipe',
+        symbols: '[ˈresəpi]',
+        chinese: '食谱; 处方; 秘诀'
+    },{
+        english: 'vat',
+        symbols: '[væt]',
+        chinese: '大桶、大缸'
+    },{
+        english: 'ratio',
+        symbols: '[ˈreɪʃiəʊ]',
+        chinese: '比例; 比，比率; '
+    },{
+        english: 'subtle',
+        symbols: '[ˈsʌtl]',
+        chinese: '巧妙的'
+    },{
+        english: 'raw',
+        symbols: '[rɔ:]',
+        chinese: '生的，未加工的; '
+    },{
+        english: 'theory',
+        symbols: '[ˈθɪəri]',
+        chinese: '理论; 原理'
+    },{
+        english: 'tinge',
+        symbols: '[tɪndʒ]',
+        chinese: '颜色;着色，使…带上色彩;'
+    },{
+        english: 'tinct',
+        symbols: '[tɪŋkt]',
+        chinese: ' 颜色; 着色的，染色的;'
+    },{
+        english: 'gooey',
+        symbols: '[ˈgu:i]',
+        chinese: '粘的;胶粘物'
+    },{
+        english: 'reek',
+        symbols: '[ri:k]',
+        chinese: '水蒸汽; 雾; 烟;冒烟; '
+    },{
+        english: 'stench',
+        symbols: '[stentʃ]',
+        chinese: '臭气，恶臭;发恶臭'
+    },{
+        english: 'bacteria',
+        symbols: 'bækˈtɪəriə]',
+        chinese: '细菌'
+    },{
+        english: 'thrive',
+        symbols: '[θraɪv]',
+        chinese: '茁壮成长; 兴盛，兴隆;'
+    },{
+        english: 'fester',
+        symbols: '[ˈfestə(r)]',
+        chinese: '溃烂; 腐烂，腐败;使感染、发炎或腐烂;'
+    },{
+        english: 'stomach',
+        symbols: '[ˈstʌmək]',
+        chinese: '胃; '
+    },{
+        english: 'the upset stomach',
         symbols: '',
-        chinese: '黎明'
+        chinese: '胃不舒服'
     },{
-        english: 'be up',
+        english: 'lament',
+        symbols: '[ləˈment]',
+        chinese: '悲叹; 悔恨; 痛惜;'
+    },{
+        english: 'inevitable',
+        symbols: '[ɪnˈevɪtəbl]',
+        chinese: '必然发生的;必然的'
+    },{
+        english: 'steady',
+        symbols: '[ˈstedi]',
+        chinese: '稳定的，不变的; 镇定的，'
+    },{
+        english: 'monetary',
+        symbols: '[ˈmʌnɪtri]',
+        chinese: '货币的，金钱的; 钱的'
+    },{
+        english: 'loan',
+        symbols: '[ləʊn]',
+        chinese: '贷款; 借款; 借用;'
+    },{
+        english: 'used to',
         symbols: '',
-        chinese: '起床'
+        chinese: '曾经。。。'
     },{
-        english: 'swift',
-        symbols: '[swɪft]',
-        chinese: '雨燕'
-    },{
-        english: 'colony',
-        symbols: '[ˈkɒləni]',
-        chinese: '殖民地; 聚居地;'
-    },{
-        english: 'benefit',
-        symbols: '[ˈbenɪfɪt]',
-        chinese: '利益，好处;有益于，有助于; '
-    },
-    {
-        english: 'mound',
-        symbols: '[maʊnd]',
-        chinese: '土堆，土丘'
-    },{
-        english: 'mystery',
-        symbols: '[ˈmɪstri]',
-        chinese: '秘密，谜; 神秘'
-    },{
-        english: 'mysterious',
-        symbols: '[mɪˈstɪəriəs]',
-        chinese: '神秘的，诡秘的;'
-    },{
-        english: 'evidence',
-        symbols: '[ˈevɪdəns]',
-        chinese: '表明;证实;证据; 迹象; 证词;'
-    },{
-        english: 'moose',
-        symbols: '[mu:s]',
-        chinese: '驼鹿'
-    },{
-        english: 'strand',
-        symbols: '[strænd]',
-        chinese: '使滞留，使搁浅; '
-    },{
-        english: 'stranded',
-        symbols: '[strændɪd]',
-        chinese: '滞留的，搁浅的'
-    },{
-        english: 'stretch',
-        symbols: '[stretʃ]',
-        chinese: '伸展; 弹性; 可伸缩的; 弹性的;'
-    },{
-        english: 'trail',
-        symbols: '[treɪl]',
-        chinese: '足迹；跟踪，追踪'
-    },{
-        english: 'Norse',
-        symbols: '[nɔ:s]',
-        chinese: '挪威人的;挪威人（语）'
-    },{
-        english: 'settle',
-        symbols: '[ˈsetl]',
-        chinese: '定居; '
-    },{
-        english: 'inland',
-        symbols: '[ˌɪnˈlænd]',
-        chinese: '内地的，内陆的; 国内的;国内; 内地，内陆;'
-    },{
-        english: 'isle',
-        symbols: '[aɪl]',
-        chinese: '岛，小岛;'
-    },{
-        english: 'strait',
-        symbols: '[streɪt]',
-        chinese: '海峡; '
-    },{
-        english: 'strip',
-        symbols: '[strɪp]',
-        chinese: '长条，条板; 带状地带'
-    },{
-        english: 'the narrow strip of water ',
+        english: '1 yuan used to be paid for 10 candis now 5',
         symbols: '',
         chinese: ''
     },{
-        english: 'journey',
-        symbols: '[ˈdʒɜ:ni]',
-        chinese: '旅行'
+        english: 'segment',
+        symbols: '[ˈsegmənt]',
+        chinese: '环节; 部分，段落;  分割，分成快，分成段'
     },{
-        english: 'nostril',
-        symbols: '[nɒstrəl]',
-        chinese: '鼻孔'
+        english: 'decline',
+        symbols: '[dɪˈklaɪn]',
+        chinese: '谢绝'
     },{
-        english: 'briny',
-        symbols: '[ˈbraɪni]',
-        chinese: '海水的，盐水的，咸的;'
+        english: 'patience',
+        symbols: '[ˈpeɪʃns]',
+        chinese: '忍耐; 耐心，耐性; '
     },{
-        english: 'crisp',
-        symbols: '[krɪsp]',
-        chinese: '脆的；变脆; 烘脆'
+        english: 'soak',
+        symbols: '[səʊk]',
+        chinese: '浸泡'
     },{
-        english: 'breeze',
-        symbols: '[bri:z]',
-        chinese: '微风；吹微风'
+        english: 'insist',
+        symbols: '[ɪnˈsɪst]',
+        chinese: '坚持; 强调; 坚决要求; 坚决认为;'
     },{
-        english: 'ripple',
-        symbols: '[ˈrɪpl]',
-        chinese: '波痕；水纹；产生水纹；产生波痕'
+        english: 'cuisine',
+        symbols: '[kwɪˈzi:n]',
+        chinese: '菜肴; 烹饪，烹调法;'
     },{
-        english: 'landscape',
-        symbols: '[ˈlændskeɪp]',
-        chinese: '地形；风景; 风景画; 对…做景观美化'
+        english: 'spoil',
+        symbols: '[spɔɪl]',
+        chinese: '变质;  腐败;'
     },{
-        english: 'migration',
-        symbols: '[maɪˈgreɪʃn]',
-        chinese: '迁移，移居'
+        english: 'cashier',
+        symbols: '[kæˈʃɪə(r)]',
+        chinese: '出纳员；收银员'
     },{
-        english: 'skip',
-        symbols: '[skɪp]',
-        chinese: '跳；跳跃; 跳，蹦跳; '
+        english: 'shrug',
+        symbols: '[ʃrʌg]',
+        chinese: '耸肩'
     },{
-        english: 'skipper',
-        symbols: '[ˈskɪpə(r)]',
-        chinese: '担任...长（首领）；首领，队长'
-    },{
-        english: 'tide',
-        symbols: '[taɪd]',
-        chinese: '潮汐; 潮流，随潮水漂行'
-    },{
-        english: 'shallow',
-        symbols: '[ˈʃæləʊ]',
-        chinese: '浅的;浅处; 浅滩;'
-    },{
-        english: 'mist',
-        symbols: '[mɪst]',
-        chinese: '薄雾;下雾 '
-    },{
-        english: 'misty',
-        symbols: '[ˈmɪsti]',
-        chinese: '多雾的，被雾笼罩的; '
-    },{
-        english: 'harsh',
-        symbols: '[hɑ:ʃ]',
-        chinese: '恶劣的；残酷的'
-    },{
-        english: 'whip',
-        symbols: '[wɪp]',
-        chinese: '鞭子;鞭打'
-    },{
-        english: 'Atlantic',
-        symbols: '[ət læntɪk]',
-        chinese: '大西洋;大西洋里的'
-    },{
-        english: 'salmon',
-        symbols: '[ˈsæmən]',
-        chinese: '鲑鱼; 三文鱼; 大马哈鱼; '
-    },{
-        english: 'teem',
-        symbols: '[ti:m]',
-        chinese: '充满'
-    },{
-        english: 'bounty',
-        symbols: '[ˈbaʊnti]',
-        chinese: ' 奖金，赏金;赠物，赠金;'
-    },{
-        english: 'a bounty of',
+        english: '',
         symbols: '',
-        chinese: '大方的；慷慨的'
+        chinese: ''
     },{
-        english: 'livestock',
-        symbols: '[ˈlaɪvstɒk]',
-        chinese: '家畜，牲畜;'
+        english: '',
+        symbols: '',
+        chinese: ''
     },{
-        english: 'abandon',
-        symbols: '[əˈbændən]',
-        chinese: '放弃，抛弃; 离弃，丢弃;'
-    },{
-        english: 'clash',
-        symbols: '[klæʃ]',
-        chinese: '冲突'
-    },{
-        english: 'archaeology',
-        symbols: '[ˌɑ:kiˈɒlədʒi]',
-        chinese: '考古学;'
-    },{
-        english: 'archaeologist',
-        symbols: '[ˌɑ:kiˈɒlədʒɪst]',
-        chinese: '考古学家;'
-    },{
-        english: 'scour',
-        symbols: '[ˈskaʊə(r)]',
-        chinese: '冲刷;擦;'
-    },{
-        english: 'Norwegian',
-        symbols: '[nɔ: wi:dʒən]',
-        chinese: '挪威人; 挪威语;'
-    },{
-        english: 'excavate',
-        symbols: '[ˈekskəveɪt]',
-        chinese: '挖掘; 挖出;'
-    },{
-        english: 'reveal',
-        symbols: '[rɪˈvi:l]',
-        chinese: '显露；展现'
-    },{
-        english: 'layout',
-        symbols: '[ˈleɪaʊt]',
-        chinese: '布局，设计;规划图;'
-    },{
-        english: 'nail',
-        symbols: '[neɪl]',
-        chinese: '钉子; 指甲'
-    },{
-        english: 'indicate',
-        symbols: '[ˈɪndɪkeɪt]',
-        chinese: '表示，代表...意思，指示; 象征'
-    },{
-        english: 'curious',
-        symbols: '[ˈkjʊəriəs]',
-        chinese: '好奇的; 奇妙的; 好求知的;'
-    },{
-        english: 'moss',
-        symbols: '[mɒs]',
-        chinese: '苔藓'
-    },{
-        english: 'mossy',
-        symbols: '[ˈmɒsi]',
-        chinese: '长满苔藓的; 苔藓似的;'
-    },{
-        english: 'vine',
-        symbols: '[vaɪn]',
-        chinese: '藤; 葡萄树; 藤本植物;形成藤蔓;'
-    },{
-        english: 'bog',
-        symbols: '[bɒg]',
-        chinese: '沼泽，泥塘; 沼泽地区'
-    },{
-        english: 'boggy',
-        symbols: '[ˈbɒgi]',
-        chinese: '沼泽多的;'
-    },{
-        english: 'dwarf',
-        symbols: '[dwɔ:f]',
-        chinese: '矮子；变矮小'
-    },{
-        english: 'tiny',
-        symbols: '[ˈtaɪni]',
-        chinese: '极小的，微小的;'
-    },{
-        english: 'cluster',
-        symbols: '[ˈklʌstə(r)]',
-        chinese: '群; 丛; 簇，串 （单位）'
-    },{
-        english: 'bloom',
-        symbols: '[blu:m]',
-        chinese: '开花; 盛开；花'
-    },{
-        english: 'notice',
-        symbols: '[ˈnəʊtɪs]',
-        chinese: '注意;  留心'
-    },{
-        english: 'rustle',
-        symbols: '[ˈrʌsl]',
-        chinese: '沙沙声;发出沙沙的声音;'
-    },{
-        english: 'slap',
-        symbols: '[slæp]',
-        chinese: '拍击;'
-    },{
-        english: 'pebble',
-        symbols: '[ˈpebl]',
-        chinese: '卵石'
-    },{
-        english: 'strew',
-        symbols: '[stru:]',
-        chinese: '点缀; 撒满; 撒在…上; 散落于;'
-    },{
-        english: 'jagged',
-        symbols: '[ˈdʒægɪd]',
-        chinese: '锯齿状的; 参差不齐的;'
-    },{
-        english: 'jut',
-        symbols: '[dʒʌt]',
-        chinese: '突出，伸出'
-    },{
-        english: 'bite',
-        symbols: '[baɪt]',
-        chinese: '咬; 咬伤;'
-    },{
-        english: 'lodge',
-        symbols: '[lɒdʒ]',
-        chinese: '小屋，草屋; '
-    },{
-        english: 'animator',
-        symbols: '[ˈænɪmeɪtə(r)]',
-        chinese: '动画片绘制者'
-    },{
-        english: 'architecture',
-        symbols: '[ˈɑ:kɪtektʃə(r)]',
-        chinese: '建筑学; 建筑风格'
-    },{
-        english: 'demonstrate',
-        symbols: '[ˈdemənstreɪt]',
-        chinese: '展示；显示'
-    },{
-        english: 'doorway',
-        symbols: '[ˈdɔ:weɪ]',
-        chinese: '门口'
-    },{
-        english: 'sturdy',
-        symbols: '[ˈstɜ:di]',
-        chinese: '坚固的，耐用的;'
-    },{
-        english: 'sturdiness',
-        symbols: '[ stɜ:dɪnəs]',
-        chinese: '坚固性; 坚固;'
-    },{
-        english: 'howl',
-        symbols: '[haʊl]',
-        chinese: '吼叫;嚎叫'
-    },{
-        english: 'hut',
-        symbols: '[hʌt]',
-        chinese: '小屋; 棚屋; '
-    },{
-        english: 'nephew',
-        symbols: '[ˈnefju:]',
-        chinese: '侄子，外甥;'
-    },{
-        english: 'costume',
-        symbols: '[ˈkɒstju:m]',
-        chinese: '戏装，演出服;'
-    },{
-        english: 'enact',
-        symbols: '[ɪˈnækt]',
-        chinese: '担任…角色;'
-    },{
-        english: 'illustrate',
-        symbols: '[ˈɪləstreɪt]',
-        chinese: '证明；说明; 表明'
-    },{
-        english: 'laud',
-        symbols: '[lɔ:d]',
-        chinese: '称赞，赞美;'
-    },{
-        english: 'heritage',
-        symbols: '[ˈherɪtɪdʒ]',
-        chinese: '遗产; 传统; 文化遗产'
-    },{
-        english: 'status',
-        symbols: '[ˈsteɪtəs]',
-        chinese: '地位; 状态;'
-    },{
-        english: 'exhibit',
-        symbols: '[ɪgˈzɪbɪt]',
-        chinese: '展览，陈列; 展览品; 公开展示;'
-    },{
-        english: 'linger',
-        symbols: '[ˈlɪŋgə(r)]',
-        chinese: '逗留，徘徊; '
-    },{
-        english: 'instant',
-        symbols: '[ˈɪnstənt]',
-        chinese: '瞬间，顷刻;'
-    },{
-        english: 'while',
-        symbols: '[waɪl]',
-        chinese: ' 时间;在…期间'
-    },{
-        english: 'wander',
-        symbols: '[ˈwɒndə(r)] ',
-        chinese: '闲逛，慢走,漫步，漫游'
+        english: '',
+        symbols: '',
+        chinese: ''
     },{
         english: '',
         symbols: '',

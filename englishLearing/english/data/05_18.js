@@ -55,15 +55,15 @@ wordJson['05_18']  = [
     },{
         english: 'offshore',
         symbols: '[ˌɒfˈʃɔ:(r)]',
-        chinese: '离岸的;岸边的近海的;'
+        chinese: '离岸的;岸边的；近海的;'
     },{
         english: 'facility',
         symbols: '[fəˈsɪləti]',
         chinese: '设备'
     },{
-        english: 'distinctive',
-        symbols: '[dɪˈstɪŋktɪv]',
-        chinese: '独特; 有特色的，与众不同的;'
+        english: 'distinct',
+        symbols: '[dɪˈstɪŋk]',
+        chinese: '有区别的'
     },{
         english: 'innovate',
         symbols: '[ˈɪnəveɪt]',
@@ -213,10 +213,6 @@ wordJson['05_18']  = [
         symbols: '[ˈfaɪəsaɪd]',
         chinese: '炉边;'
     },{
-        english: 'schedule',
-        symbols: '[ˈʃedju:l]',
-        chinese: '时刻表，进度表; 清单，明细表;安排; 将…列表; 为…作目录;'
-    },{
         english: 'spontaneous',
         symbols: '[spɒnˈteɪniəs]',
         chinese: '不由自主地；自发的;无意识的;'
@@ -243,7 +239,7 @@ wordJson['05_18']  = [
     },{
         english: 'immerse',
         symbols: '[ɪˈmɜ:s]',
-        chinese: '沉迷…中；投入...中'
+        chinese: '浸泡；'
     },{
         english: 'immerse yourself in ....',
         symbols: '',

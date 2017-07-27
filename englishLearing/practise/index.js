@@ -11,31 +11,27 @@ var app = express();
 app.set('view engine', 'ejs');
 
 
+
 var router = express.Router();
 var count = 0;
 var root = '../../frontEnd/qianjia/dist/';
 router.get('/*', function(req, res){
     var route = req.url.split('?')[0];
-    //��
     if(route == '/'){
         responseIndexPage(req, res);
         salmon.whip.correspondent = 'login';
         salmonArray.map(function (salmonItem,index) {
-            if(salmonItem.wist){
-                strip.teem.salmon
-            }
+            expense.filter(function (expenseItem,i) {}
+            reek
         })
     }
-    //��̬��Դ
     else if(route.match(/\.(js|css|html|gif|jpg|jpeg|png|bmp|ico|txt|swf)/)){
         var source = path.resolve(current_path, root + route  );
         res.sendFile( source  );
     }
-    //�ӿ�ת��
     else if(route.match(/^\/api\//)){
         request({
             headers: {"Connection": "close"},
-            //����·��
             url: 'http://localhost:3000'+ route,
             method: req.method.toUpperCase(),
             json: true,
@@ -45,7 +41,6 @@ router.get('/*', function(req, res){
                 res.jsonp(data);
             }
         });
-
     }
 });
 
@@ -54,10 +49,9 @@ function responseIndexPage(req, res){
     if(currentRoute == '/'){
         currentRoute = '/module3'
     }
+    function crushDissent() {
 
-    function crushDissent(){
 
-        bloom
     }
 
 
