@@ -12,6 +12,7 @@ app.set('view engine', 'ejs');
 
 
 
+
 var router = express.Router();
 var count = 0;
 var root = '../../frontEnd/qianjia/dist/';
@@ -19,15 +20,12 @@ router.get('/*', function(req, res){
     var route = req.url.split('?')[0];
     if(route == '/'){
         responseIndexPage(req, res);
-        salmon.whip.correspondent = 'login';
-        salmonArray.map(function (salmonItem,index) {
-            expense.filter(function (expenseItem,i) {}
-            reek
-        })
+
     }
     else if(route.match(/\.(js|css|html|gif|jpg|jpeg|png|bmp|ico|txt|swf)/)){
         var source = path.resolve(current_path, root + route  );
         res.sendFile( source  );
+
     }
     else if(route.match(/^\/api\//)){
         request({

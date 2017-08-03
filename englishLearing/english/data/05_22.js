@@ -161,6 +161,10 @@ wordJson['05_22']  = [
         symbols: '[ləˈment]',
         chinese: '悲叹; 悔恨; 痛惜;'
     },{
+        english: 'evitable',
+        symbols: '[ evɪtəbl]',
+        chinese: '可避免的;'
+    },{
         english: 'inevitable',
         symbols: '[ɪnˈevɪtəbl]',
         chinese: '必然发生的;必然的'
