@@ -51,7 +51,7 @@ wordJson['05_24']  = [
     },{
         english: 'sacrifice',
         symbols: '[ˈsækrɪfaɪs]',
-        chinese: '牺牲; '
+        chinese: '牺牲; 把…奉献给'
     },{
         english: 'peer',
         symbols: '[pɪə(r)]',
@@ -147,7 +147,7 @@ wordJson['05_24']  = [
     },{
         english: 'mercy',
         symbols: '[ˈmɜ:si]',
-        chinese: '怜悯; 宽容;'
+        chinese: ' 宽容;宽恕；怜悯;'
     },{
         english: 'genital',
         symbols: '[ˈdʒenɪtl]',
@@ -196,6 +196,10 @@ wordJson['05_24']  = [
         english: 'corpse',
         symbols: '[kɔ:ps]',
         chinese: '死尸，尸体;'
+    },{
+        english: 'lie',
+        symbols: ' [laɪ]',
+        chinese: '躺;'
     },{
         english: 'sprawl',
         symbols: '[sprɔ:l]',
@@ -405,6 +409,10 @@ wordJson['05_24']  = [
         symbols: '[ˈsɜ:kə]',
         chinese: '大约; 近似'
     },{
+        english: 'conquer',
+        symbols: '[ˈkɒŋkə(r)]',
+        chinese: '征服; 克服; 攻克; 打败;'
+    },{
         english: 'conqueror',
         symbols: '[ˈkɒŋkərə(r)]',
         chinese: '征服者，占领者;'
@@ -484,10 +492,6 @@ wordJson['05_24']  = [
         english: 'scholarship',
         symbols: '[ˈskɒləʃɪp]',
         chinese: '奖学金; 学术; 学识;'
-    },{
-        english: 'aggress',
-        symbols: '[ə gres]',
-        chinese: '攻击，侵犯;'
     },{
         english: 'aggressive',
         symbols: '[əˈgresɪv]',

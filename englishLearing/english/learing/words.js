@@ -8,9 +8,6 @@
 /*
 
 
-援助
-   aid   bailout
-
 
 traffic
     tools ( vehicle )
@@ -44,6 +41,9 @@ traffic
 
             翻到的
                 overturned
+
+                翻滚，翻倒，弄翻
+                turnover
 
                 急转弯
                 round a sharp bend
@@ -185,7 +185,11 @@ human
 
             adult
 
-            old
+            老的
+                old
+
+                老化; 老龄化; 使变老;
+                aging
 
 
         male
@@ -193,16 +197,37 @@ human
         female
             woman  girl widow
 
+                白肤金发碧眼女人;
+                    blonde
+
                 养育
                     foster raise feed
 
+
+
                 怀孕的
                     pregnant
+
+                        怀孕
+                            pregnacy
+
+                            conceive
+
+                    （使） 避孕;
+                        contracept
+                            contraception
+
                     deliver
                     give birth
 
+                    流产; 堕胎
+                        abort
+
                     接生;接生婆
-                    midwife
+                        midwife
+
+                家庭妇女,家庭主妇
+                homemaker
 
         type
 
@@ -224,7 +249,11 @@ human
                 father mother
                 uncle  aunt
 
-                brother  sister
+                brother
+                sister
+                    同父异母或同母异父的姐妹
+                    half-sister
+
                 堂[表]兄弟姊妹
                 cousin
 
@@ -233,16 +262,33 @@ human
                 侄子，外甥
                 nephew
 
+                姐妹关系，姐妹之谊
+                sisterhood
+
 
             家庭，户;
             household
 
+            关系; 联系
+            relationship
+
+                 使和好，使和解; 调停
+                 reconcile
+
+                     可和解的，可调和的
+                     reconcilable
+
+                         （观点、目标或争议） 不可调和的
+                         irreconcilable
 
         nationlist
             Celtic
 
         career
-            candidate  lawyer
+            求职
+            candidate
+
+
 
         friendAndEnemy
 
@@ -256,12 +302,25 @@ human
                 mate
                     classmate
 
+                同志; 战友; 忠实伙伴;
+                comrade
+
+                同伴;同伴的; 同事的
+                fellow
+
+                [俚] 死党; 好友
+                sidekick
+
 
 
 
 
                 同意
                     agree
+                    approve
+
+                        approval
+
 
                     鼓掌
                     applaud
@@ -292,6 +351,12 @@ human
 
                     谢绝
                     decline
+
+                    驳回，拒绝受理
+                    dismiss
+
+                    击退; 拒绝
+                    repulse
 
 
                 竞争
@@ -371,8 +436,19 @@ human
                  nose
                      鼻孔
                      nostril
+
+
+                     呼吸
+                        breathe
+
+                             喘气，喘息
+                             pant
+
                  mouth
 
+                     lip
+
+                     tongue
 
             shoulder
                     扛着责任
@@ -380,6 +456,9 @@ human
 
                 耸肩
                 shrug
+
+            乳房，胸部
+                breast
 
             hand
                 gesture
@@ -410,8 +489,14 @@ human
     verb
 
          说
-            consult   discuss   negotiate  state talk  speak  say       broadcase  report
+            consult   discuss   negotiate  state talk  speak  say         report
             express warn  impeach  conversation  comment
+
+            广播
+                air  broadcast
+
+            （记忆、描述等） 清晰的;
+                vivid
 
             抱怨
                 complain
@@ -436,6 +521,10 @@ human
                 说长道短,说闲话
                 gossip
 
+                    话题
+                        topic  subject
+
+
             夸口；吹牛；说大话
                 boast
 
@@ -457,6 +546,8 @@ human
 
             提到，说起
                 mention
+                    说不出口的;难以启齿的
+                    unmentionable
 
             催促
             urge
@@ -480,6 +571,10 @@ human
 
             宣告，公布
                 claim procliam  announce pronounce   decalare
+
+                宣称; 声称
+                profess
+
             宣誓，发誓
                 vow sworn
 
@@ -491,6 +586,9 @@ human
 
             谋划（也要说）
                 collude
+
+                阴谋
+                conspiracy
 
             voice
                word sentence  song   rumour  scandal
@@ -517,6 +615,9 @@ human
 
 
                 to do with
+
+                牵涉,涉及
+                involve
 
          看
             see  look  aim view  scan
@@ -551,8 +652,18 @@ human
              注视，凝视
              contemplate
 
+                 盯着看
+                    peer
+
+
              关心，关注
-             concern  attent  focus
+                concern
+
+                focus
+                    焦点的，有焦点的;
+                    focal
+                attent
+                    attention
 
              辨别
              konw identifiy  recognize
@@ -586,6 +697,9 @@ human
                 记者
                 journalist  reporter  correspondent
 
+                日报，杂志
+                    journal  magazine
+
          do
             add
 
@@ -614,6 +728,9 @@ human
 
             施舍;救济品; 施舍物;
                 handout
+
+            赞助
+                sponsor
 
 
             assist
@@ -672,11 +789,20 @@ human
          高兴，愉快
             happy
 
+                欢呼; 使高兴; 为…喝彩; 为…加油
+                cheer
+                    啦啦队队长
+                    cheerleader
              满意
                 satisfied
 
              不满意
                 discontent
+
+                 使失望
+                 disappoint
+
+                    disappointment
 
          伤心
             sad
@@ -689,11 +815,18 @@ human
                     流泪的
                     weeping
 
+                流下; 流出;脱落;
+                shed
+                    shed tears
+
          生气
             anger  angry
 
             愤慨；愤怒，生气
             outrage
+
+            狂怒; 暴怒
+                fury
 
             使大怒，激怒
             infuriate
@@ -725,7 +858,7 @@ human
 
 
          害怕
-            fear  afraid  worried  frightened  dread     funk
+            fear  afraid  worried  frightened  dread     funk  appall
 
             威胁; 恐吓
                 menace  threat
@@ -737,6 +870,9 @@ human
 
              恐怖，可怕的事物
                 horror
+
+                    使感到恐怖
+                    horrify
 
 
          感谢
@@ -752,7 +888,7 @@ human
              forgive excuse
 
           吃惊,惊讶
-              amaze  surprise
+              amaze  surprise   stagger
 
 
           激励,鼓励
@@ -780,14 +916,24 @@ human
             benign
         邪恶的，罪恶的;邪恶，罪恶;
             evil
+
+            残忍的; 野蛮的; 无情的
+                brutal  savage
+
         --------------------------
 
+        礼貌
+            manner
+                mannered
+        -------------------
         凶猛的;
             vicious
+        温顺的; 驯服的;
+            meek
 
-        柔和的;轻柔的;缓和的，温和的;
-            muted
-
+            柔和的;轻柔的;缓和的，温和的;
+                muted
+        ---------------------
         调皮的
             naughty
 
@@ -810,15 +956,29 @@ human
 
             guy
 
+            匿名的; 无名的
+            anonymous
+
+
         reputation
+
+            诋毁，诽谤; 涂黑;
+            denigrate   defame
 
             著名的，出名的;
                 famous   fame
 
+                有名的，享有声誉的; 有声望的;
+                renowned
+
                  荣誉，光荣
-                 laurel
-                    荣誉获得者
-                    laureate
+                     laurel
+                        荣誉获得者
+                        laureate
+
+                     glory
+                        荣誉的
+                        glorious
 
                  精神
                     spirit  soul
@@ -838,16 +998,33 @@ human
                 revival
 
          死
-            die  kill   murder  bloodshed
+            die
+
+                杀死
+                    kill   murder  bloodshed
+
+                    勒死，绞死; 使…窒息;
+                    strangle
+
+                    自杀
+                    suicide
+
+                    斩尽杀绝; 种族灭绝; 灭种的罪行
+                    genocide
+
+                    大批杀害
+                    decimate
+
+                    报仇; 报复
+                        avenge
+
+                        revenge
+
+                            宽容;宽恕；怜悯;放过他；动恻隐之心
+                            mercy
 
                 死亡
                     death  demise
-
-                自杀
-                suicide
-
-                大批杀害
-                    decimate
 
                 消亡（消失）
                 perish
@@ -875,20 +1052,22 @@ human
                     葬礼; 葬，掩埋;
                     burial
 
-                body
-                    腐烂，腐朽
-                    decay  rot  spoil
+                尸体，死尸
+                    body   corpse
 
-                        腐化的; 已腐烂的
-                        putrid
+                        腐烂，腐朽
+                        decay  rot  spoil
 
-                        恶臭;臭味；散发臭味
-                            stink
-                                臭的
-                                stinky
+                            腐化的; 已腐烂的
+                            putrid
+
+                            恶臭;臭味；散发臭味
+                                stink
+                                    臭的
+                                    stinky
 
 
-                            stench
+                                stench
 
 
 
@@ -896,6 +1075,9 @@ human
 
         命运
         fate
+            致命的，毁灭性的，严重的;
+            fatal
+
             命运,死亡
             fatality
 
@@ -917,17 +1099,25 @@ human
 
 
         rich    wealth  gold
-        poor
+
+        贫穷
+            poor  needy
 
         货币
             money
                 货币的，金钱的; 钱的
-                 monetary
+                monetary
+
+                定为货币，铸造成货币;
+                monetize
 
             现金
                 cash
             钞票
                 note
+
+            钱币
+                coin
 
         债务
              debt
@@ -990,6 +1180,13 @@ human
                     纪念， 成为…的纪念;
                     commemorate
 
+                        周年纪念日；周年的; 周年纪念的; 年年的; 每年的
+                        anniversary
+
+                    纪念碑; 丰碑
+                    monument
+
+
                 头脑；智力，智慧;
                 mind
                     提醒; 使想起
@@ -1009,8 +1206,19 @@ human
                 天真地，头脑简单的人
                     innocent
 
+                    naive
+
+                    幼稚的; 孩子气的
+                    childish
+
                 白痴; 傻瓜，笨蛋;
                     idiot   geek  nerd
+
+                    王八蛋；讨厌的人
+                    beast
+
+                    愚蠢的人; 傻瓜;
+                    buffoon
 
             -----------
 
@@ -1020,6 +1228,14 @@ human
 
          思考
             think  consider  mull
+
+                想法
+                    thought
+
+                    观点，看法;
+                    perspective
+                        在我看来，从我的角度看
+                        from my perspective
 
                 想好了的
                 thoughtful
@@ -1036,6 +1252,11 @@ human
 
                     意识到
                         realise
+
+                        意识到的; 觉察到的
+                        aware
+                            洞察力；察觉，觉悟，意识;
+                            awareness
                 不知道
                     unknown
 
@@ -1050,7 +1271,7 @@ human
 
                 --------------------
             猜测
-                guess  speculate
+                guess  speculate  surmise
 
              想象，幻想
                 imagine
@@ -1059,12 +1280,22 @@ human
                     幻想的；美好的
                     fantastic
 
-                    神话的，虚构的;
-                    mythic
+
+
+                虚构的事情；神话
+                    myth
+                         神话的，虚构的;
+                         mythic
+
+                空想的，幻想的
+                visionary
 
 
          希望
-            want hope  desire   intend
+            want hope   intend
+            desire
+                desirable
+
             极度的希望
             be desperate to
 
@@ -1078,7 +1309,11 @@ human
 
 
          建议
-            suggest  opinion  proposal    advice  idea
+            suggest  opinion  proposal    advice
+
+            idea
+                思想家
+                ideologist
 
              突然的念头;一时的兴致;
              whim
@@ -1101,7 +1336,7 @@ human
              opt select choose
 
          决定
-            decide  decision
+            decide  decision  resolve
 
              裁判
                 jury
@@ -1136,9 +1371,20 @@ human
                 承认
                     acknowledge   admit
 
+                    坦白的；说实话的
+                    frank
+                        坦白;说实话
+                        frankness
+
                 证明，证实
                     prove
+                    proof
                     illustrate
+
+                    证实；用事实支持（某主张、说法等），
+                    substantiate
+
+                    testify
 
                         目击者，见证人; 证人; 证据
                         witness
@@ -1147,26 +1393,101 @@ human
 
 
              no
+                根本不是那么回事; 不是那样的
+                that is not at all the case
 
 
     marriage
-        marry  wed
+
+        girlfirend
+
+        订婚
+        engage
+
+             未婚妻
+             fiancee
+
+        结婚
+            marry  wed
 
             异族结婚
             intermarriage
 
-            离婚
-            divorce
 
+            wife
+                couple
 
-        couple
+        离婚
+        divorce
+
 
 
         sex
-            后代，养育后代，繁殖后代（交配）
-            breed
+
+            荷尔蒙的;激素的， 生理的
+            hormonal
+
+            繁殖，生育
+
+                可繁殖的;能生育的
+                fertile
+
+                    fertility
+
+                后代，养育后代，繁殖后代（交配）
+                breed
+
+                排卵，产卵;
+                ovulate
+
+                女性生理期
+                cycle
 
 
+            生殖器，外阴部
+            genital
+
+            性的; 性欲的，性交的
+                venereal
+
+                sexual
+
+                色情作品
+                porn
+                    色情文学; 色情描写
+                    pornography
+
+                    色情的，淫秽的
+                    pornographic   erotic
+
+                        马赛克; 镶嵌图案;
+                        mosaic
+
+                    （黄色作品） 赤裸裸描写性行为的;
+                    hardcore
+
+                    色情书刊
+                    softcore
+
+
+
+                     妓院
+                        brothel
+
+                         卖淫，卖身;妓女;男妓
+                         prostitute
+
+                         强奸;
+                            assault
+                            rape
+                                 强奸犯
+                                 rapist
+
+                        淫妇;坏女人;母狗
+                        bitch
+
+                        处女，童男;处女的; 纯洁的; 原始的; 未使用的;
+                        virgin
 
 
 
@@ -1175,6 +1496,9 @@ human
 
 
             吃
+                贪吃的；食欲过剩的
+                bulimic
+
                  eat
 
                  吞，咽
@@ -1207,7 +1531,10 @@ human
         lawsuit
 
         控告
-            impeach  prosecute  charge
+            impeach  prosecute  charge  sue
+
+            诉讼
+            suit
 
         合法的
         legal
@@ -1225,6 +1552,9 @@ human
 
             宣判;判决
             sentence
+
+                绞刑架
+                gallows
 
 
 
@@ -1283,6 +1613,9 @@ human
 
         钉住，钉住 (针;钉子;)
             pin
+                针尖，尖头;
+                pinpoint
+
          挖，掘
             dig
                 dug
@@ -1303,6 +1636,9 @@ human
         拉，拖，拽
             pull haul
 
+            猛拉; 急拉
+            yank
+
 
 
 animal
@@ -1318,11 +1654,6 @@ animal
             bird
 
 
-                鸟窝;鸟巢
-                    nest
-
-                    （鸟类） 栖息处; 歇息处;栖息;鸡棚;
-                    roost
 
                 飞翔
                     fly
@@ -1352,6 +1683,13 @@ action
                 除去（传染），给…消毒;
                 disinfect
             epidemic
+
+
+        蔓延
+        sprawl
+
+        扩张; 使…变大;展开;  张开
+        expand
 
 
 
@@ -1423,13 +1761,23 @@ police
         检查，核实
             check investigate
 
+                证据
+                evidence
+
 
             inspect
 
 
  religion ,belief
+
+    宗教的
+    religious
+
     people
         protestant  Christian  Islam  Islamic Muslim  terrorism
+
+        法西斯主义
+        fascism
 
     building
         temple  church
@@ -1472,6 +1820,9 @@ police
 
                 holy
 
+                圣地
+                shrine
+
 
 economy
 
@@ -1499,19 +1850,38 @@ economy
 
                 褶皱的田地，耕田，犁田，开沟;皱纹;褶皱；；
                 furrow
+                    田地的垄,隆起物;
+                    bump
+                         多垄的；颠簸的;
+                         bumpy
 
                  泥土
                      soil
+
+                     dirt
 
                      灰尘，颗粒
                          speck
 
                          dust
                             dusty
+
+                         微粒，颗粒; [数，物] 粒子
+                         particle
+
                  石头
                     rock  stone
                  卵石
                     pebble
+
+                 碎石，瓦砾; 碎砖
+                    rubble
+
+
+                 农具
+                    耙子;耙; 用耙子梳理
+                    rake
+
 
         牧场，牧草地，;放牧;
         pasture
@@ -1522,9 +1892,17 @@ economy
         设备
             equipment  facility
 
+            machine
+                杠杆; 操作杆
+                lever
+
+
         钢，钢铁; 钢制品;
             steel
                 steely
+
+            铁器，铁制品;铁制的，含铁的;
+            iron
 
         纺织
             （织机的） 梭子; 穿梭般来回移动;
@@ -1532,13 +1910,17 @@ economy
 
 
     企业
-    corperation    conglomerate   company   establishment
+    corperation    conglomerate   company   establishment  firm
+
+        企业家
+        entrepreneur
 
         证书；证明; 发证书给…
             certify
 
         登广告，做广告; 做宣传
             advertise
+                advertisement
 
         金额流水
 
@@ -1547,7 +1929,9 @@ economy
 
             tax
 
-            income
+            收入
+                income
+                earning
 
          工作室
             studio
@@ -1562,7 +1946,14 @@ economy
                 offer
 
          雇佣，聘用
-            hire employ
+            hire
+            employ
+
+                雇主，老板;
+                employer
+
+                雇工，雇员，职工
+                employee
 
          解聘，开除
             fire  dismiss
@@ -1595,13 +1986,23 @@ economy
 
 
                         团队协作
-                         teamwork  and hamorny
+                         teamwork   collaborate  cooperate
 
-                         分配;(任务)
-                         assign
+                            协调一致
+                            hamorny
 
-                         派遣
-                         dispatch
+
+
+
+
+                         任命; 提名…为候选人;
+                         nominate
+
+                             分配;(任务)
+                             assign
+
+                             派遣
+                             dispatch
 
                          执行，实施
                             execute   conduct  perform
@@ -1643,11 +2044,18 @@ economy
                                              dedicate
                                                 be dedicated to
 
+                                             牺牲; 把…奉献给
+                                             sacrifice
+                                                 sacrifice ... to ...
+
                                     熟练
                                     dexterity
 
                                         巧妙的
                                         subtle
+
+                                        长进；突破; 重要技术成就;
+                                        breakthrough
 
                                     -----------------
                                     懒散的; 悠闲的;
@@ -1655,6 +2063,12 @@ economy
                                     苦干的，辛勤的;
                                         painstaking
                                     ---------------
+
+                                    方法，策略
+                                        ploy
+                                        method
+                                        way
+
 
 
                             -------------------------
@@ -1760,7 +2174,7 @@ economy
 
         交易
             deal
-
+            transact
             trade
                 商标
                 trademark
@@ -1776,7 +2190,8 @@ economy
                     fee
                 租借
                     rent
-
+                        租费，租金额
+                        rental
                     tenancy
                         租客（租借的人）
                         tenant
@@ -1790,8 +2205,11 @@ economy
 
 militray
 
+        避难所; 遮蔽;
+        shelter
+
      军队
-        troop  militory  army   force  arm   guerrilla   navy
+        troop  militory  battalion  army   force  arm   guerrilla   navy
 
         海岸警卫队
         coastguard
@@ -1807,6 +2225,9 @@ militray
 
      人物
         aide  chief  commander
+
+        命令
+            command  decree
 
         士兵
             soldier
@@ -1828,8 +2249,16 @@ militray
         屈服
         succumb
 
+        征服; 克服; 攻克; 打败
+        conquer
+            conqueror
+
      weapon
         gun
+
+            机关枪;用机关枪射击，扫射;
+                machine-gun
+
             手枪
                 pistol
 
@@ -1844,20 +2273,33 @@ militray
 
         tank     cane
 
-        迫击炮
-        mortar
+        炮，大炮; 炮术; 炮兵部队
+        artillery
+
+            迫击炮
+            mortar
 
         missile  rock
             发射
             launch
 
 
-        knife
+        冷武器
+            knife
+
+            剑
+            sword
 
 
      行动
          攻击
              attack  strike  attempt  offense
+             aggress
+                具有攻击性的
+                aggressive
+
+                 闪电战; 闪电攻势； 突然袭击
+                 blitz
 
              fire  shot
 
@@ -1906,6 +2348,11 @@ militray
 health
     hospital
 
+        诊所，门诊部;
+        clinic
+            临床的; 诊所的;
+            clinical
+
     医生
         medic doctor
 
@@ -1919,12 +2366,20 @@ health
 
      patient
 
-        treat  operation  heal
+        治疗
+            treat  cure   heal
 
-        外科学，外科手术;
-        surgery
+            手术
+                operation
+
+                外科学，外科手术;
+                surgery
 
     drug medicine  pill
+
+        迷幻药
+        ecstasy
+
 
     disease   illness
         sick
@@ -1933,6 +2388,9 @@ health
             viral
         细菌
             bacteria
+
+        粉刺，小脓疱;
+        pimple
 
         cancer
             疙瘩;肿瘤，肿块;
@@ -1944,6 +2402,10 @@ health
         瘟疫;使染瘟疫;
             plague
 
+
+        感冒
+            catch a cold
+
         发烧的
             feverish
 
@@ -1953,7 +2415,7 @@ health
          injure  hurt   bruise   trauma
 
          刺伤; 刺
-         stabbing   stick
+         stabbing   stick   poke
 
          割伤，划伤
          lacerate
@@ -1962,44 +2424,68 @@ health
             fester
 
 
- 地理（学）; 地形，
-geography
 
-    landscape
+ science
+    科学的
+    scientific
 
-        mountain
+     物理学
+     physics
 
-            悬崖，峭壁
-                cliff
-
-            山脊；隆起线；脊梁；
-                ridge
-
-            洞穴
-                hole
-
-                凹坑，小窟窿
-                pockmark
-
-            攀登，爬
-                scramble  climb
+        物理学家
+        physicist
 
 
-        hill
 
-        土堆，土丘
-        mound
+     地理（学）; 地形，
+    geography
 
-            沙丘
-            dune
+        landscape
 
-        plain
+            mountain
 
-        高原
-            highland
+                悬崖，峭壁
+                    cliff
 
-        地平线
-            horizon
+                山脊；隆起线；脊梁；
+                    ridge
+
+                洞穴
+                    hole   cave  den
+
+
+                    凹坑，小窟窿
+                    pockmark
+
+                     巢穴
+                         （野兽的） 巢穴，窝; （人的） 藏身处;
+                            lair
+
+                         鸟窝;鸟巢
+                            nest
+
+                             （鸟类） 栖息处; 歇息处;栖息;鸡棚;
+                             roost
+
+                攀登，爬
+                    scramble  climb
+
+
+            hill
+
+            土堆，土丘
+            mound
+
+                沙丘
+                dune
+
+            plain
+
+            高原
+                highland
+
+            地平线
+                horizon
 
 
 
@@ -2009,6 +2495,9 @@ space
 
     地点，场所;
     spot   venue
+
+
+
 
 
  energy
@@ -2022,6 +2511,9 @@ space
 
  school  academy  college  university
 
+     奖学金; 学术; 学识
+        scholarship
+
      class
          lesson course
 
@@ -2032,6 +2524,19 @@ space
 
             指导;教
             tutelage
+
+            教，讲授; 教导，指导;
+            instruct
+
+                instruction
+
+
+            传授者
+                老师
+                    teacher
+                教练
+                    coach
+
      学习
          study
             student
@@ -2039,8 +2544,14 @@ space
      练习
         exercise practise
 
+        训练; 操练;军事训练;
+        drill
+
             理论; 原理
             theory
+
+
+
 
      培训
          train
@@ -2073,6 +2584,8 @@ music
 
     流行的
         pop  popular
+
+        vogue
 
     舞台
         stage
@@ -2113,6 +2626,9 @@ music
                 跑调的；走音的
                 out-of-tune
 
+            节奏，韵律;
+                rhythm
+
             凄凉的
                 plangent
 
@@ -2146,19 +2662,55 @@ art
         画廊
         gallery
 
+        描绘，描画;
+        depict
+
+    雕像，塑像
+        statue
+
 
 fashion
     精品店; （女士） 时装店
     boutique
 
+        化妆品; 美发油，美容的; 化妆用的;
+        cosmetic   makeup
+
+             香水;芳香，芬芳; 香气;
+             fragrance
+
+             口红; 唇膏;
+             lipstick
+
     装饰
         deco  decorate
 
 
-film
+film  movie   cinema
+
+    影片作品
+    filmography
+
+    娱乐节目; 娱乐，消遣
+    entertainment
+
+        过山车
+        rollercoaster
+
+
     被拍摄
     be filming with
 
+    声道; 音轨； 电影配音
+    soundtrack
+
+
+    cartoon
+        漫画
+        manga
+
+        动画片
+        animation
 
 
 buildings
@@ -2182,12 +2734,17 @@ buildings
         个人; 个体;
             individual  private  personal
 
+            各自的,每个人自己的
+            respective
+
         home
             家庭的，家的;
             domestic
 
             房地产; 不动产
             estate
+
+
 
                 住宅楼
                 apartment
@@ -2215,12 +2772,18 @@ buildings
                     走廊
                         cloister
 
+                    地下室，地窖
+                        cellar
+
                     door
                         门口
                         doorway
 
                         拱门，拱形的门；上半部是圆的门
                         archway
+
+                        使劲的关门
+                        slam
 
 
                     room
@@ -2231,6 +2794,11 @@ buildings
 
                             剪刀;剪开
                             scissors
+
+                            蜡烛
+                            candle
+                                蜡烛芯; （油灯的） 灯芯;
+                                wick
 
                             钩，铁钩;
                             hook
@@ -2260,6 +2828,9 @@ buildings
 
                     kitchen
 
+                        厨房的，烹饪的; 烹调用的;
+                            culinary
+
                          厨具
                              bowl  dish  pan
 
@@ -2276,6 +2847,9 @@ buildings
                             炉边
                             fireside
 
+                            烤箱，烤炉，灶;
+                            oven
+
                          厨师
                             chef
 
@@ -2288,6 +2862,9 @@ buildings
                                  raw
 
                                     cook
+                                        烹饪学
+                                        cookery
+
                                         油炸; 油煎
                                         fry
                                         煮沸，沸腾
@@ -2299,8 +2876,13 @@ buildings
 
                              美味佳肴
                                  delicacy
-                                     美味的，可口的;
-                                     delicious   palatable
+
+
+                                     口感;感觉；质感; 手感;
+                                     texture
+
+                                         美味的，可口的;
+                                         delicious   palatable
 
                                  菜肴
                                     dish
@@ -2311,13 +2893,37 @@ buildings
                              wine
                                  酒精
                                  alcohol  beer
+
+                                 葡萄酒
+                                 muscat
+
                              fruit
                                 apple banana pear peach coconut  lemon  grape
 
                                 water melon
 
+                                樱桃; 樱桃树;
+                                cherry
+
                              vegetable
                                 onion  potato cabbage tomato
+
+                             meat
+
+                                pork
+
+                                    培根; 腊肉; 熏猪肉;
+                                    bacon
+
+                                beef
+
+                                鸡
+                                    母鸡
+                                        hen
+                                    小鸡
+                                        chicken
+
+
 
                              milk
                                 cream
@@ -2350,15 +2956,30 @@ buildings
                                  使发酵;酝酿;
                                  ferment
 
+                                 烤，烘焙;
+                                 bake
+                                    面包房，面包店;烘焙房
+                                    bakery
 
-                                 cake & bread
 
-                                     华夫饼
-                                     waffle
 
-                                     烤的面包
-                                     toast
+                                    糕点; 油酥糕点; 油酥面团;
+                                    pastry
 
+                                         cake & bread
+
+                                             华夫饼
+                                             waffle
+
+                                             烤的面包
+                                             toast
+
+
+
+                             罐头; 将…装入密封罐中保存;
+                                can
+                                    罐装的
+                                    canned
 
                     bathroom
 
@@ -2373,6 +2994,9 @@ buildings
 
                 居住
                     reside  live
+                    dwell
+                        居民，居住者
+                        dweller
 
                     inhabit
                         无人居住的，无人烟的
@@ -2382,6 +3006,9 @@ buildings
                     accommodate
                         住处
                         accommodation
+
+                    （未婚者） 同居
+                    cohabit
 
 
 history
@@ -2399,6 +3026,10 @@ history
     archaeology
 
         archaeologist
+
+        古玩，古董;古老的，古代的;
+        antique
+
 
     博物馆
     museum
@@ -2428,7 +3059,12 @@ water
      海
      sea  ocean
 
-            Atlantic
+            各个海洋
+                Atlantic
+                Pacific
+
+                波罗的海的
+                Baltic
 
             海的
             marine  briny
@@ -2514,7 +3150,9 @@ fire
     spark
 
         点火
-            light   ignite   set alight
+            light
+                lit(light的过去式)
+            ignite   set alight
 
 
 
@@ -2580,6 +3218,9 @@ land, landmass
 
                 peninsula
 
+                    斯堪的纳维亚（半岛）
+                    Scandinavia
+
                      port
 
                          码头
@@ -2593,7 +3234,7 @@ land, landmass
                     inland
 
          边缘
-            border  edge
+            border  edge  rim
 
         爱国的
             patriotic
@@ -2639,6 +3280,15 @@ weather
             tempest
 
     snow
+        暴风雪
+            storm
+            blizzard
+
+            滑雪
+            ski
+
+                雪橇;滑行的车
+                coaster
 
     sun
         sunny
@@ -2657,6 +3307,21 @@ weather
 
     tinct
 
+    白色
+        white
+
+        苍白的;使变苍白
+        pale
+
+    金色
+        golden
+
+        亚麻色的，金色的;白肤金发碧眼女人;
+        blonde
+
+    黄褐色，棕黄色; （使） 晒成棕褐色
+        tan
+
 
 part
 
@@ -2666,8 +3331,7 @@ part
     比例; 比，比率
         ratio  proportion
 
-    块，段;分成块，分成段
-        segment
+
 
 
 
@@ -2677,6 +3341,13 @@ part
 process
     开始
         origin  origo  start  begin
+
+         开始做某事
+            set about doing sth
+
+            tackle
+
+            start to do
 
 
          尝试
@@ -2702,7 +3373,7 @@ process
 
 
     暂停
-        suspend  pause     break off
+        suspend  pause     break off   abort
 
         中断
         intermit
@@ -2727,7 +3398,14 @@ process
 
     half  middle
     停止
-        end  terminate  final
+        end  terminate
+
+        final
+            使结束
+            finalize
+
+        取消，废除; 撤销
+            cancle  revoke
 
     没有尽头
         endless
@@ -2735,6 +3413,12 @@ process
 
     阶段
         stage phase  version
+
+         块，段;分成块，分成段
+         segment
+
+         一集; 片段; 一段经历;
+         episode
 
 
     on duty
@@ -2826,7 +3510,10 @@ things
 
 
         worse
-            part partition  devided   separate
+            part partition  devided
+            separate
+                 分手;分离，分开; 间隔
+                 separation
 
             相隔;隔离的;
             apart
@@ -2857,6 +3544,9 @@ food
     饭店
         hotel
         restaurant
+            餐馆老板
+            restaurateur
+
         小餐馆
             cafe
                 迎宾;看门人;
@@ -2909,13 +3599,20 @@ plant
             茁壮成长; 兴盛，兴隆;
             thrive
 
+    衰老，枯黄，褪色
+        fade
 
+    脱落
+        shed
 
     flower
         花的，花似的
         floral
 
         rose
+
+        丁香花
+        lilac
 
         丛; 簇，串 （单位）
         cluster
@@ -2949,7 +3646,14 @@ plant
 
 
 math
+    数学
+    mathematics
+
     number
+
+        数量庞大的;数不清的
+        numerous
+
         1个  (个体；单位)
         unit
 
@@ -2967,6 +3671,12 @@ math
 
         100个
         hundred
+
+        thousand
+
+        million
+            百万富翁;100万以上人口的;
+            millionaire
 
         万亿; 万亿的
         trillion
@@ -2992,10 +3702,25 @@ math
         微小的；细微的
         subtle
 
+        较小的，小…; 未成年的;
+        minor
+
 
      大
         big  escalate  huge  large   enormous
+
+        巨大的
+        colossal
+
+
+
 -----------------------------------------
+    在....里面，在....中
+        in   amidst
+    在....外面，在....之外
+        out
+
+--------------------------------------
      升
         rise  higher
 
@@ -3009,6 +3734,9 @@ math
         减少，减小
         decrease
 
+        滑落; 下跌;
+        slid
+
 --------------------------------------------------
     专门的
         special
@@ -3019,7 +3747,7 @@ math
 
 ---------------------------------------------------
      坏的(不好的)
-        bad  worse  worst     corrupt  fade
+        bad  worse  worst     corrupt
 
         awful
 
@@ -3061,6 +3789,9 @@ math
          弄污;有污点的
          maculate
 
+         玷污; 弄脏; 丑化; 糟蹋
+         besmirch
+
 ----------------------------------------------------
     超过
         beyond
@@ -3080,7 +3811,7 @@ math
 
 ----------------------------------------------
      安静，宁静
-        rest   quiet  pacific   calm   serene
+        rest   quiet  pacific   calm   serene   lull
 
 
 
@@ -3110,6 +3841,9 @@ math
 
              钟的嘀嗒声
              tick
+
+             发呜呜声；发出哀叫声；哀诉，诉怨;
+             whine
 
 
 
@@ -3152,6 +3886,10 @@ math
 ----------------------------------------------
     准确，精确
         exactly   accurate
+
+        精密; 精确的;
+        precise
+
     大概，大约
         about
 
@@ -3160,6 +3898,9 @@ math
 
         大概的，约莫的
         approximate
+
+        大约; 近似
+        circa
 
 ---------------------------------------------
 
@@ -3202,6 +3943,9 @@ math
             首次的;处女秀;初次表演
             debut
 
+            首映(电影的)；初次公演，首次露面
+            premiere
+
     后
         last
 -----------------------------------------------
@@ -3235,7 +3979,9 @@ math
         award   prize
 
         奖金，赏金;赠物，赠金;
-        bounty
+            bounty
+
+            prix
 
 
 
@@ -3265,8 +4011,17 @@ math
 
 
 ----------------------------------
+    抓住
+        catch  grasp
+    放开
+        loose
+
+
+---------------------------------
+
     允许
-        allow
+        allow   admit
+
             使有资格
                 qualify
 
@@ -3276,8 +4031,13 @@ math
         forbid
         ban
 
+        禁忌;禁忌的
+        taboo
+
              限制，限定; 约束，束缚;
              restrict   confine
+
+
 
 -------------------------------------
     严格的
@@ -3325,6 +4085,11 @@ math
         sufficient enough
     不足
         insufficient     a lack of
+
+        少给; 少用;克扣;节省;
+        skimp
+            不足的，不够的;
+            skimpy
 
 ----------------------------------
      相同
@@ -3412,7 +4177,13 @@ math
             加入
                 affiliate  join
 
+        ---------------
+        出席的，在场的
+            attend
 
+        缺席的，不在场的
+            absent
+        -------------------
 
 ---------------------------------
 
@@ -3428,6 +4199,9 @@ math
 
         使蒙羞;使感到羞愧
         shame
+
+    耻辱，污名;丢人的事情
+        stigma
 
 ------------------------------
     骄傲的，自大的，狂妄的;
@@ -3474,6 +4248,9 @@ math
     兴趣
         intrest  like  enjoy
 
+        业余爱好; 嗜好，兴趣
+        hobby
+
         好奇的;  好求知的;
         curious
 
@@ -3484,15 +4261,27 @@ math
             浪漫；谈情说爱; 追求某人;
             romance
 
-            kiss   embrace
+            约会
+            date
+
+                 kiss  embrace
+
+                 私奔
+                 elope
+
+                 激情，热情; 热心
+                 passion
 
             亲爱的
             dear
                     心爱的人
                     darling
 
-            激情，热情; 热心
-            passion
+
+
+
+
+
 
 
         更喜欢
@@ -3511,12 +4300,17 @@ math
 
                 fascinate
 
+                glamour
+
         崇拜; 爱慕;
         adore
 
 
     厌恶
          hate  disgust
+
+        仇恨
+        hatred
 
         枯燥的
             boring   dreary
@@ -3568,6 +4362,12 @@ math
         （迫切的） 要求,恳求
         appeal
 
+        请愿; 祈求，请求;（向法庭） 申诉
+        petition
+
+        please
+        plea
+
 
     过分的
         steep
@@ -3593,8 +4393,10 @@ math
                 shifty
 
             罪
-              peccancy  guilt
+              peccancy
 
+              guilt
+                    guilty
               crime
                     criminal
 
@@ -3606,7 +4408,11 @@ math
 
             偷
             steal
+                小偷
                 thief
+
+                偷盗，偷窃
+                theft
 
             抢劫; 抢夺
             rob
@@ -3619,23 +4425,22 @@ math
 
                     fraud(名词)
                         defraud(动词)
+                欺骗，哄骗
+                    delude
 
                 说谎
+
                     lie
                         liar
+
+
 
                     诚实，真诚
                         honesty
 
 
 
-            妓院
-            brothel
 
-                 强奸;
-                 rape
-                    强奸犯
-                    rapist
 
             drug
                 大麻
@@ -3655,6 +4460,8 @@ math
     依赖
         depend
 
+        rely
+
 
 ---------------------------
     突然的
@@ -3671,8 +4478,16 @@ math
             allege
             allegation
 
+            谴责
+            condemn
+
             批评
                 criticise
+                    批评家; 批评者; 评论员; 挑剔的人;
+                    critic
+
+            谴责; 训斥;
+                reprimand
 
             -------------------
             严厉的，尖刻的; 不留情的;
@@ -3682,6 +4497,8 @@ math
 
         辱骂;
             insult
+
+            abuse
 
         讥讽的，讽刺的，挖苦的;
             sarcastic
@@ -3694,6 +4511,9 @@ math
 
         称赞，赞美
         laud    hail
+
+        称赞; 赞扬
+        acclaim
 
 
 
@@ -3739,8 +4559,8 @@ math
 
         demonstrate
 
-        显露；展现
-        reveal
+        显露；暴露，漏出来
+        reveal  expose
 
         透明的; 显而易见的;
         transparent
@@ -3760,7 +4580,9 @@ math
         recess
 ------------------------
     避开，躲避
-        avoid   evade
+        avoid
+            avoidance
+        evade
 
         躲避；向侧方跨步;
         sidestep
@@ -3777,6 +4599,11 @@ math
 
         面向
         presented
+
+            旋转，回旋;转身
+            whirl
+            turn round
+
 
         碰撞
             crash
@@ -3844,6 +4671,14 @@ math
         多个的
             multi
 
+            共同创办
+                co-found
+            同居（未婚者）
+                cohabit
+            合作
+                collaborate
+                cooperate
+
 
 --------------------
     完成，实现
@@ -3887,6 +4722,15 @@ math
 
 
 -------------------------
+    勇敢的;勇敢面对;
+        brave
+            敢; 敢于;有没有胆量（做某事）
+            dare
+                be dared to do
+
+    胆小的，懦弱的
+
+------------------------
     融化
         dissolve
 
@@ -3900,10 +4744,17 @@ math
             光      闪光
             light  flash   glitter
 
+            反射，反照;
+            reflect
+
             光泽
             lustre
                 无光泽的;
                 lacklustre
+
+
+           灯
+                lantern  lamp  light
 
     阴暗的
         sombre  dark
@@ -3919,7 +4770,7 @@ math
         collect  gather
 
         集合，聚集
-        congregate  rally
+        congregate  rally   huddle   concentrate
 
             聚集地；据点;
             stronghold   colony
@@ -3930,12 +4781,17 @@ math
                 挤进;挤入; 受挤压;
                     squash
 
+                突围;脱逃，越狱
+                    breakout
 
                 包围
                     besiege
 
 
     分散
+        散发，分发; 散布;
+        distribute
+
 
 -----------------------------
     在..之上
@@ -3954,6 +4810,9 @@ math
 
         使相信,取得相信
         convince
+
+        信任，信赖，信心
+        reliance
     怀疑
         suspicion
 
@@ -3998,6 +4857,11 @@ math
         danger
             dangerous
 
+        冒险; 冒险事业; 冒险行动;
+        venture
+            冒险经历; 冒险活动;
+            adventure
+
         顾虑
         reck
             鲁莽的，不顾危险的;
@@ -4007,6 +4871,9 @@ math
 -------------------------------
     理解
         understand
+
+            启示; 意外的发现;
+            revelation
 
             解释
                 explain
@@ -4047,6 +4914,10 @@ math
     客人
         guest  client
 
+        招待
+            treat   hospitality
+
+
 ------------------------------
     厚的，密集地
         thick
@@ -4071,11 +4942,18 @@ math
         重新获得
             regain
 
+            恢复; 找回; 重新获得;恢复健康
+            recover
+
+
         挣得; 赚，赚得;
             earn
 
         拿取，拿来;
             fetch
+
+        夺取或抓住; 抢夺，霸占;
+            grab
 
     付出，给予
         give contribute  pay
@@ -4155,6 +5033,8 @@ math
             bang
          敲打
             knock
+                轻弹,轻击
+                flick
 
          拍击;拍打
             slap
@@ -4186,6 +5066,8 @@ math
     热
         hot 形容词
         heat  名词，动词
+
+        thermo
 
 -------------------------
     对
@@ -4245,6 +5127,10 @@ math
         全体的；
         tutti
 
+
+        总的;总共收入;总额
+        gross   total
+
         ---------------------
         包括
             include
@@ -4278,8 +5164,16 @@ math
 
         veteran
 
+        资深的;高级的
+        senior
+
+
     无经验的
         unexperienced
+
+        低年级的; 资历较浅的;较年幼的，较年小的;
+        junior
+
 -----------------------------
     立刻，马上
         right now     immediate   soon
@@ -4296,6 +5190,12 @@ math
             城堡，堡垒;把…置于城堡中;
             castle
 
+            市郊，郊区
+                outskirt  suburb
+
+                偏僻的，边远的;
+                outlying
+
 
      乡下的，农村的
         rural
@@ -4311,12 +5211,20 @@ math
     坐着
         sit
 
+    躺着
+        lie
+
+         蔓延; 伸开四肢[躺];
+         sprawl
+
 
 -----------------------------------
     使用
         use  adopt
     弃用
         abandon
+
+        disused
 
 --------------------------------------
     有用的
@@ -4347,8 +5255,10 @@ math
         inverse
 --------------------------------------
     拥有
-        have   possess  own
-
+        have   possess
+        own
+            所有权;拥有权； 所有制;
+            ownership
     没有
 --------------------------------------
     当面的
@@ -4384,6 +5294,9 @@ vessel (tank)
     箱子，盒子
         bin  box   cassette
 
+        手提箱
+        suitcase
+
 
 
     bag
@@ -4417,27 +5330,56 @@ vessel (tank)
         演艺圈，娱乐性行业
         showbiz
 
-        喜剧; 喜剧性
-        comedy
+        类型
+            喜剧; 喜剧性
+            comedy
 
-         悲剧
-         tragedy
+            悲剧
+            tragedy
 
-        舞台; 表演台;领奖台；（各种台）
-        podium
+                戏剧，剧本;
+                drama
+
+        场地
+            舞台; 表演台;领奖台；（各种台）
+            podium
+
+            电影院，戏院
+            theatre
+
+                theatrical
+
+                售票处; 票房，票房收入
+                box office
+
+                    票
+                        fare  ticket
+
 
         戏装，演出服;
-        costume
+            costume
 
         演员
-        actor  actress
+        actor  actress   cast
+
+            试听; 试音;演员试音
+            audition
 
             担任…角色
             enact
 
+                小的角色
+                cameo role
+
+                主演
+                star
+
 
 位置
     position slot  location
+
+    精确定位，针尖定位;
+    pinpoint
 
 比赛
     match  final  race
@@ -4528,6 +5470,9 @@ vessel (tank)
 
 查找
     find   look for   seek   search
+
+        搜索;侦察;发现
+        scout
 
         追捕
         hunt
@@ -4635,10 +5580,11 @@ time
             遭受
             be subjected to
 
-    时机，机会
-        opportunity  chance
-        场合; 机会，时机;
-        occasion
+            容忍的，忍受的,宽容的;
+            tolerant
+
+
+
 
     before
         在…之前发生或出现
@@ -4669,6 +5615,9 @@ time
 
         morning
 
+        黄昏，傍晚;
+        dusk
+
 
 
 
@@ -4686,12 +5635,31 @@ condition
             污染
                 contaminate  pollute
 
+
+
+         时机，机会
+         opportunity  chance
+             场合; 机会，时机;
+             occasion
+
    ceremony
 
     会议
         meeting  congress
 
         session
+
+
+
+
+        节日
+            festival
+
+             狂欢节; 节日，联欢;嘉年华
+             carnival
+
+             盛会; 选美比赛
+             pageant
 
 
 
@@ -4707,6 +5675,8 @@ condition
 
 literary ( literature )
 
+
+
     字面的;
         literal
 
@@ -4716,6 +5686,16 @@ literary ( literature )
             墨水，油墨
             ink
 
+
+            字迹；手迹；
+                script
+                    碑铭；在石头上刻字
+                    inscript
+
+                    手写本；手写的，手抄的
+                    manuscript
+
+
         paper
             sandpaper
 
@@ -4723,10 +5703,17 @@ literary ( literature )
                 shred
 
 
-    book  novel
+    book
+        小说
+            novel
+                恐怖小说; 使人毛骨悚然的东西; （电影） 惊悚片
+                thriller
 
         记录
             note   record
+
+        文章，论文
+            article
 
     地图;图表; 航海图; 绘制地图;
         chart   map
@@ -4771,15 +5758,25 @@ literary ( literature )
                     传奇的; 传说的
                     legendary
 
+                故事情节
+                    storyline
+
+                    （戏剧、小说等的） 情节
+                    plot
+
          档案; 文件
          file
 
+         日记
+         diary
+            diarist
 
 
 
  line
     绳子
-    tie
+    tie  string
+
         鞭子;鞭打
         whip
 
@@ -4803,12 +5800,68 @@ cloth
     clothe
         clad
 
-    suit  clothes  skirt  dress  shirt  trousers  hat  towel  scarf
+        裁缝，成衣工;为…做衣服
+        tailor
+
+
+        衣服
+            suit  clothes    shirt
+
+            内衣
+            underwear
+
+                胸罩
+                bra
+
+            制服(学生制服，或工作制服);使穿制服
+            uniform
+
+
+        裙子
+            skirt  dress
+
+             超短裙
+             skimpy shorts
+        裤子
+            trousers
+
+            紧身裤
+            pants
+
+        帽子
+            hat
+        围巾
+            scarf
+        毛巾
+            towel
 
     curtain  canvas
 
+    鞋
+        shoe
+
+        长靴，皮靴
+        boot
+
+        袜子
+            短袜
+            sock
+
+            长袜
+            stocking
+
+            袜吊;悬挂物; 吊裤带;
+            suspender
+
+    腰带
+        belt
+
+
     裸体的
     naked
+
+        裸体; 裸露
+        nudity
 
         光秃秃的，赤裸的
         bare
@@ -4818,12 +5871,17 @@ cloth
         一丝不挂，赤裸;
         stark
 
+         露肉的；暴露身材的；
+         skimpy
+
+
+
 
 基础，根部
     base  fundament  root  basic
 
 行为
-    deed
+    deed   behaviour
     act
         action
 
@@ -4839,7 +5897,11 @@ cloth
 
     measure
 
+    --------------------------
+    道德的
+    moral
 
+    ---------------------------
 
 nature
 
@@ -4852,7 +5914,9 @@ nature
 
 nations
 
-    sovereign  state  kingdom  country
+    sovereign  state  kingdom  country   empire
+
+
 
     外交上的; 外交人员的;
         diplomatic
@@ -4877,20 +5941,33 @@ nations
 
     Europe
 
-        Detuschland  Hungry  Ireland   Israel  Bulgaria   Spain  Portugal
+        Detuschland  Hungry  Ireland
+        Israel
+            犹太人的
+            Jewish
+        Bulgaria   Spain  Portugal
 
-        Norway
-            Norse
+        Ukraine
 
-            Norwegian
+        Armenia
 
-        Iceland
-            Icelandic
+        北欧人；北欧人的
+        Nordic
+
+            Norway
+                Norse
+
+                Norwegian
+
+            Swede
+
+            Iceland
+                Icelandic
 
     republic
 
 citys
-    Dublin  Damascus
+    Dublin  Damascus   Oslo
 
 
 外形，轮廓
@@ -4902,6 +5979,12 @@ profile  contour
 
         圆形
             circle
+
+                （使） 循环; （使） 流通;
+                circulate
+
+                循环，周期；
+                cycle
 
         正方形
             square
@@ -4919,6 +6002,8 @@ profile  contour
 
         角;角度 ( 比喻考虑、问题的 )
         angle
+            科学的角度
+            the scientific angle
 
         平的
             flat  plain

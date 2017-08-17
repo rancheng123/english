@@ -33,10 +33,6 @@ wordJson['05_25']  = [
         symbols: '[ˈmɒrəl]',
         chinese: '道德的'
     },{
-        english: 'depict',
-        symbols: '[dɪˈpɪkt]',
-        chinese: '描述; 描绘，描画;'
-    },{
         english: 'reliance',
         symbols: '[rɪˈlaɪəns]',
         chinese: '信任，信赖，信心;'
@@ -67,11 +63,11 @@ wordJson['05_25']  = [
     },{
         english: 'skimpy',
         symbols: '[ˈskɪmpi]',
-        chinese: '（衣服） 小而暴露的; （数量或大小）不足的，不够的;'
+        chinese: '露骨的；暴露身材的；（衣服） 小而暴露的; （数量或大小）不足的，不够的;'
     },{
-        english: '',
-        symbols: '',
-        chinese: ''
+        english: 'skimp',
+        symbols: '[skɪmp]',
+        chinese: '节省; 少给; 少用;克扣'
     },{
         english: '',
         symbols: '',
