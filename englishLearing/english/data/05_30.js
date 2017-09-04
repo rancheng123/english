@@ -128,7 +128,11 @@ wordJson['05_30']  = [
         english: 'awash',
         symbols: '[əˈwɒʃ]',
         chinese: '刚被水覆盖的; 被淹没的'
-    },{
+    },
+
+
+
+    {
         english: 'diminutive',
         symbols: '[dɪˈmɪnjətɪv]',
         chinese: '小的，小型的;'
@@ -144,6 +148,26 @@ wordJson['05_30']  = [
         english: 'Before me in a field stood seven diminutive stone houses, windowless, with door openings, but no doors;',
         symbols: '',
         chinese: ''
+    },{
+        english: 'yummy',
+        symbols: '[ˈjʌmi]',
+        chinese: '很好吃的'
+    },{
+        english: 'porcelain',
+        symbols: '[ˈpɔ:səlɪn]',
+        chinese: '瓷，瓷器;瓷制的; '
+    },{
+        english: 'centigrade',
+        symbols: '[ˈsentɪgreɪd]',
+        chinese: '摄氏的; 百分度的; 摄氏温度计的;摄氏'
+    },{
+        english: 'kidding',
+        symbols: '[kɪdɪŋ]',
+        chinese: '开玩笑;'
+    },{
+        english: 'alter',
+        symbols: '[ˈɔ:ltə(r)]',
+        chinese: '改变; 更改; 修改;'
     },{
         english: 'inlay',
         symbols: '[ˌɪnˈleɪ]',
@@ -280,7 +304,14 @@ wordJson['05_30']  = [
         english: 'in the hands of',
         symbols: '',
         chinese: '在…掌握中'
-    },{
+    },
+
+
+
+
+
+
+    {
         english: 'continent',
         symbols: '[ˈkɒntɪnənt]',
         chinese: '大陆，陆地'
@@ -380,7 +411,12 @@ wordJson['05_30']  = [
         english: 'seatbelt',
         symbols: '[si:tbelt]',
         chinese: '安全带'
-    },{
+    },
+
+
+
+
+    {
         english: 'accelerator',
         symbols: '[əkˈseləreɪtə(r)]',
         chinese: '(车的)油门'
@@ -436,10 +472,6 @@ wordJson['05_30']  = [
         english: 'grin',
         symbols: '[grɪn]',
         chinese: '露齿而笑；咧嘴笑'
-    },{
-        english: 'axle',
-        symbols: '[ˈæksl]',
-        chinese: '车轴; 轮轴; 轴端'
     },{
         english: 'crunch',
         symbols: '[krʌntʃ]',
@@ -552,286 +584,6 @@ wordJson['05_30']  = [
         english: 'steer',
         symbols: '[stɪə(r)]',
         chinese: ' 驾驶; 操纵，控制'
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
-    },{
-        english: '',
-        symbols: '',
-        chinese: ''
     },{
         english: '',
         symbols: '',

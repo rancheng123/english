@@ -45,6 +45,10 @@ wordJson['06_01']  = [
         symbols: '[rɪˈsɪpiənt]',
         chinese: '接受者; 容器; 容纳者;'
     },{
+        english: 'psychology',
+        symbols: '[saɪˈkɒlədʒi]',
+        chinese: '心理学;'
+    },{
         english: 'psychologist',
         symbols: '[saɪˈkɒlədʒɪst]',
         chinese: '心理学研究者，心理学家;'

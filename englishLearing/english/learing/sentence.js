@@ -64,4 +64,12 @@ Subseqently, he said: never consider it is in vain,
 
 
 
+ Before me in a field stood seven diminutive stone houses, windowless, with door openings, but no doors;
+
+
+
+
+
+
+
  */

@@ -89,6 +89,10 @@ wordJson['06_02']  = [
         symbols: '[ˈtrɪki]',
         chinese: '（形势、工作等） 复杂的'
     },{
+        english: 'penalty',
+        symbols: '[ˈpenəlti]',
+        chinese: '刑罚; 惩罚;'
+    },{
         english: 'penalise',
         symbols: '[ pi:nəlaɪz]',
         chinese: '对…予以惩罚'
@@ -100,7 +104,12 @@ wordJson['06_02']  = [
         english: 'academic',
         symbols: '[ˌækəˈdemɪk]',
         chinese: '学院的，学者; 大学教师，大学生'
-    },{
+    },
+
+
+
+
+    {
         english: 'analyst',
         symbols: '[ˈænəlɪst]',
         chinese: '分析家，化验员'
@@ -212,7 +221,11 @@ wordJson['06_02']  = [
         english: 'mentor',
         symbols: '[ˈmentɔ:(r)]',
         chinese: '顾问，做…的良师；指导;'
-    },{
+    },
+
+
+
+    {
         english: 'club',
         symbols: '[klʌb]',
         chinese: '俱乐部,组成俱乐部,融入俱乐部'
@@ -452,7 +465,11 @@ wordJson['06_02']  = [
         english: 'pry',
         symbols: '[praɪ]',
         chinese: '打听，打探，窥探，;'
-    },{
+    },
+
+
+
+    {
         english: 'co-worker',
         symbols: '[ˈkəʊˌwɜ:kə]',
         chinese: '同事，同僚;'
