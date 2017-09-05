@@ -389,7 +389,10 @@ wordJson['06_02']  = [
         english: 'promotion',
         symbols: '[prəˈməʊʃn]',
         chinese: ' 升职，提升，升级；促进，增进;'
-    },{
+    },
+
+
+    {
         english: '',
         symbols: '',
         chinese: ''

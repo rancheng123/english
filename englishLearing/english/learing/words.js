@@ -273,6 +273,9 @@ human
             relative
 
                 father mother
+
+                    kid  child
+
                 uncle  aunt
 
                 brother
@@ -312,7 +315,9 @@ human
 
         career
             求职
-            candidate
+                candidate
+            升职，提升，升级
+                 promotion
 
 
 
@@ -321,7 +326,8 @@ human
             对待
                 treat
 
-            friend
+            friend   pal
+
                 counterpart
                 assistant   secretary
 
@@ -336,6 +342,8 @@ human
 
                 [俚] 死党; 好友
                 sidekick
+
+
 
 
 
@@ -494,6 +502,17 @@ human
                     描述（人或物）的面貌特征
                     characterise
 
+                    印象; 印记 ,给…以深刻印象; 使铭记;
+                    impress
+                         印象，感觉
+                         impression
+
+                         形象
+                         persona
+
+                         仪容仪表，言谈举止
+                         presence
+
                  nose
                      鼻孔
                      nostril
@@ -565,8 +584,11 @@ human
     verb
 
          说
-            consult   discuss   negotiate   talk  speak  say         report
-            express warn  impeach  conversation  comment
+            consult discuss   negotiate   talk  speak  say         report
+            express   impeach  conversation  comment
+
+            警告
+                caution  warn
 
             广播
                 air  broadcast
@@ -620,6 +642,9 @@ human
 
             夸口；吹牛；说大话
                 boast
+
+                 夸张;夸大
+                 exaggerate
 
             交流
             communicate
@@ -741,24 +766,29 @@ human
 
                         think nothing of
 
-                    致敬
-                    tribute
+                        致敬
+                        tribute
                  轻视,看不起
                     scorn
-                 忽视，忽略，不顾
-                    ignore
+                         冷落，怠慢
+                         snub
 
-                 歧视;
-                    discriminate
+                         忽视，忽略，不顾
+                            ignore
 
-                     歧视某人
-                     discrimination against someone
+                         歧视;
+                            discriminate
+
+                             歧视某人
+                             discrimination against someone
 
              监视，监控
                  monitor  watch
 
              注视，凝视
-             contemplate
+                contemplate
+
+                regard
 
                  盯着看
                     peer
@@ -799,7 +829,13 @@ human
             listen hear  scandal
 
                 偷听
-                eavesdrop
+                    eavesdrop
+                偷偷接近
+                    stalk
+                打听，打探，窥探
+                    pry
+
+
 
             news
                 记者
@@ -825,6 +861,11 @@ human
             help
                 有助于；有利于
                 helpful    benefit
+
+                有利条件;有利于;获利
+                advantage
+                    advantaged
+                        disadvantaged
 
             aid
 
@@ -1270,6 +1311,8 @@ human
 
         债务
              debt
+                 借方; 借方帐目,记入借方;
+                 debit
 
              借出
                  为…提供资金
@@ -1316,6 +1359,9 @@ human
 
                     invest
                         investor
+
+                    剥削，压榨，利用（…为自己谋利）
+                        exploit
 
 
 
@@ -1457,6 +1503,11 @@ human
                     like  liken  as
 
                     seem
+                        貌似; 看来似乎; 表面上看来
+                        seemingly
+
+                    像是，似乎是
+                    come across as
 
 
          希望
@@ -1477,11 +1528,17 @@ human
 
 
          建议
-            suggest  opinion  proposal    advice
+            suggest  opinion      advice
+            propose
+                proposal
 
             idea
                 思想家
                 ideologist
+
+                思维方式,思想观念
+                mindset
+
 
              突然的念头;一时的兴致;
              whim
@@ -1490,6 +1547,13 @@ human
              counsel
                  顾问，谋士，参与意见的人
                  counseller
+
+                 顾问,商议者，意见者
+                 consultant
+
+                 顾问，做…的良师；指导
+                 mentor
+
              提倡
                 advocate
 
@@ -1709,6 +1773,8 @@ human
 
         立法，制定法律;
         legislate
+             使合法;合法化，合法的
+             legitimate
 
         律师
             lawyer  attorney
@@ -1870,6 +1936,9 @@ animal
 
                 豹，黑豹
                 panther
+
+                恐龙
+                dinosaur
 
 
 
@@ -2192,6 +2261,10 @@ economy
 
          招聘
             recruit
+                recruitment
+
+                招聘专员，招聘人员
+                recruiter
 
                 出价，开价;
                 offer
@@ -2220,6 +2293,8 @@ economy
 
                 同事
                     colleague
+
+                    co-worker
 
                 管理层
                     chief executive
@@ -2270,7 +2345,7 @@ economy
                              dispatch
 
                          执行，实施
-                            execute   conduct  perform
+                            execute   conduct  perform   implement
 
 
                                 working
@@ -2340,6 +2415,11 @@ economy
                                          懈怠; 放松; 偷懒; 懈怠的; 松（弛）的
                                          slack
 
+
+                                         空闲时间; 闲暇; 悠闲; 安逸;闲暇的; 空闲的
+                                         leisure
+
+
                                     苦干的，辛勤的;
                                         painstaking
                                     ---------------
@@ -2348,6 +2428,9 @@ economy
                                         ploy
                                         method
                                         way
+
+                                         方法; 途径
+                                         approach
 
 
 
@@ -2383,6 +2466,9 @@ economy
 
              请假， 脱离工作 一段时间
              take some time off
+
+             没在办公司，没在岗位上
+             out-of-office
 
         退休
             retire
@@ -2752,10 +2838,16 @@ health
         物理学家
         physicist
 
+        物理的，身体的，体育的
+        physical
+
 
 
      地理（学）; 地形，
     geography
+
+        纬度
+            latitude
 
         landscape
 
@@ -2835,10 +2927,16 @@ space
  school
 
      学校，学院
+
+        幼儿园，学前班
+        kindergarten
+
         school  college  university
 
         academy
             academic
+
+
 
 
      奖学金; 学术; 学识
@@ -2850,15 +2948,18 @@ space
      教导
         teach
             灌输思想
-            indoctrinate
+                indoctrinate
 
             指导;教
-            tutelage
+                tutelage
+
+            传授; 给予;
+                impart
 
             教，讲授; 教导，指导;
-            instruct
+                instruct
 
-                instruction
+                    instruction
 
 
             传授者
@@ -2867,8 +2968,7 @@ space
                 教练
                     coach
 
-                顾问，做…的良师；指导
-                    mentor
+
 
      学习
          study
@@ -2913,7 +3013,10 @@ music
             --------------
 
         剧团，戏班子
-        troupe
+            troupe
+        俱乐部,组成俱乐部,融入俱乐部
+            club
+
 
     流行的
         pop  popular
@@ -3276,6 +3379,9 @@ buildings
                              vegetable
                                 onion  potato cabbage tomato
 
+                                茄子; 紫红色
+                                aubergine
+
                              meat
 
                                 pork
@@ -3403,10 +3509,17 @@ history
          prehistoric
 
     //趋势，倾向
-    tend  trend
+        tend
 
-        趋向于稳定
-        be tended to be stabilized
+            趋向于稳定
+            be tended to be stabilized
+
+        trend
+
+        prone
+            她还是容易紧张
+            she was still prone to nerves
+
 
     考古学
     archaeology
@@ -3590,7 +3703,10 @@ land, landmass
          area  region  district  state  country province  county  territary
 
          领域，范围;圈子
-         realm
+            realm
+
+            部门; 领域
+            sector
 
          岸边
             shore beach  coast  coastal
@@ -3616,13 +3732,14 @@ land, landmass
                     斯堪的纳维亚（半岛）
                     Scandinavia
 
-                     port
+                    港口
+                        port  harbour
 
-                         码头
-                         quay
+                             码头
+                             quay
 
-                         灯塔
-                         lighthouse
+                             灯塔
+                             lighthouse
 
              大陆
                  mainland   continent
@@ -3818,8 +3935,13 @@ process
             使结束
             finalize
 
+        ---------------------
         取消，废除; 撤销
             cancle  revoke
+
+        保留
+            retention
+        ---------------------
 
     没有尽头
         endless
@@ -3971,7 +4093,7 @@ things
 
 
     speed
-         fast  quickly  rapid  swift  soon
+         fast  quickly  rapid  swift  soon  prompt
 
 
 food
@@ -4213,6 +4335,10 @@ math
 
             专门从事
             specialise
+
+        专业人士; 专业的; 职业的; 专业性的;
+        professional
+
     综合的
 
 ---------------------------------------------------
@@ -4386,6 +4512,8 @@ math
 
         估计，估算;
         estimate
+            评估,评定; 估价
+            assess
 
         大概的，约莫的
         approximate
@@ -4818,7 +4946,8 @@ math
         prefer
             preference
 
-        favourite
+        favour
+            favourite
 
         使沉溺; 使上瘾
         addict
@@ -5095,6 +5224,15 @@ math
     然而
         however nevertheless
 
+    不管
+        regardless of
+            regardless of whether you’ve got kids or no kids
+        no matter
+
+        无论什么
+        whatever
+
+            whatsoever
 
 ------------------------
      显示
@@ -5110,6 +5248,11 @@ math
 
         明显的; 显而易见的;
         obvious
+
+             强调，突出; 把…照亮;
+             highlight
+
+
      隐藏
         hide conceal  covered
 
@@ -5370,6 +5513,13 @@ math
         reliance
     怀疑
         suspicion
+
+         不怀疑的，无猜疑的; 可信任的;
+         unsuspecting
+
+         不信任; 怀疑
+         distrust
+
 
 
 ------------------------------
@@ -5647,7 +5797,12 @@ temperature
         right
 
         合适的
-        fit   appropriate
+            fit
+            appropriate
+                不合适; 不妥; 不宜; 不恰当的，不适宜的;
+                inappropriate
+            合适
+            suit
 
 
     错
@@ -5674,7 +5829,9 @@ temperature
         real  true   genuine   authentic   indeed
 
          实际的; 真实的
-         actual
+            actual
+
+            practical
 
     假的
         false
@@ -5708,6 +5865,10 @@ temperature
 
         总的;总共收入;总额
         gross   total
+
+        彻底的，全面的，彻头彻尾的
+        thorough
+
 
         ---------------------
         包括
@@ -6036,9 +6197,16 @@ vessel (tank)
 
     天资，天赋,天生的才能
     talent
+         解决问题的能力
+         problem-solving skills
 
     gift
         gifted
+
+
+    technology
+         技术; 技巧; 技能; 技艺;
+         technique
 
 道路
     corridor  path road route way  channel  lane
@@ -6192,6 +6360,11 @@ time
         precede
             空前的; 前所未有的
             unprecedented
+
+        提前; 预先
+        advance
+            in advance
+
     after
         subseq
             subsequent
@@ -6204,6 +6377,13 @@ time
          rear
             （车的）后视镜
             the rear view mirror
+
+         最终，最后
+            ultimate
+            final
+
+             最终发生的,终于的
+             eventual
 
      -----------
      早
@@ -6234,7 +6414,10 @@ time
 
 
 
+     同时
+        meanwhile
 
+        at the same time
 
 
 
@@ -6562,6 +6745,14 @@ cloth
     moral
 
     ---------------------------
+
+
+sport
+    蹦极
+    bungee jumping
+
+         跳簧
+         bungee
 
 nature
 
