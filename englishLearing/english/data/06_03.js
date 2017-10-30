@@ -323,7 +323,7 @@ wordJson['06_03']  = [
         symbols: '[plɪməθ]',
         chinese: '普利茅斯'
     },{
-        english: 'persecutie',
+        english: 'persecute',
         symbols: '[ˈpɜ:sɪkju:t]',
         chinese: '迫害;'
     },{
@@ -373,7 +373,7 @@ wordJson['06_03']  = [
     },{
         english: 'abolition',
         symbols: '[ˌæbəˈlɪʃn]',
-        chinese: '[ˌæbəˈlɪʃn]'
+        chinese: '废除; 废止;'
     },{
         english: 'facilitate',
         symbols: '[fəˈsɪlɪteɪt]',

@@ -1,7 +1,5 @@
 
-wordJson['06_03']  = [
-
-
+wordJson['06_03_part2']  = [
 
     {
         english: 'elaborate',
@@ -128,6 +126,14 @@ wordJson['06_03']  = [
         symbols: '[sfɪə(r)]',
         chinese: ' 球，范围; 势力范围; '
     },{
+        english: 'atmos',
+        symbols: '[ætməʊz]',
+        chinese: '大气，空气; 大气压;'
+    },{
+        english: 'atmosphere',
+        symbols: '[ˈætməsfɪə(r)]',
+        chinese: '气氛; 大气层; 大气， '
+    },{
         english: 'outstanding',
         symbols: '[aʊtˈstændɪŋ]',
         chinese: '出的; 显著的; 凸出的; '
@@ -135,6 +141,10 @@ wordJson['06_03']  = [
         english: 'entente',
         symbols: '[ɒnˈtɒnt]',
         chinese: '协定，协约，有协定关系的各国'
+    },{
+        english: 'treaty',
+        symbols: '[ˈtri:ti]',
+        chinese: '条约; 协议，协商; 谈判'
     },{
         english: 'acquire',
         symbols: '[əˈkwaɪə(r)]',
@@ -151,7 +161,12 @@ wordJson['06_03']  = [
         english: 'lifespan',
         symbols: '[ˈlaɪfspæn]',
         chinese: '寿命; 存在期; 使用期; 有效期;'
-    },{
+    },
+
+
+
+
+    {
         english: 'strategic',
         symbols: '[strəˈti:dʒɪk]',
         chinese: '战略性的; 战略（上）的; 有战略意义的; 至关重要的;'
@@ -295,7 +310,12 @@ wordJson['06_03']  = [
         english: 'mandate',
         symbols: '[ˈmændeɪt]',
         chinese: '托管;委托,委托办理;'
-    },{
+    },
+
+
+
+
+    {
         english: 'Palestine',
         symbols: '[ˈpæləstaɪn]',
         chinese: '巴勒斯坦'
@@ -380,7 +400,7 @@ wordJson['06_03']  = [
         symbols: '[ˈsɪmə(r)]',
         chinese: '炖; 煮'
     },{
-        english: 'protectorate',
+        english: 'protectorate ----------------------------------------------------------------',
         symbols: '[prəˈtektərət]',
         chinese: '受保护国，受保护领地;'
     },{
@@ -402,7 +422,7 @@ wordJson['06_03']  = [
     },{
         english: 'stance',
         symbols: '[stæns]',
-        chinese: '态度，立场; 站姿，'
+        chinese: '站姿，态度，立场; '
     },{
         english: 'insurgency',
         symbols: '[ɪnˈsɜ:dʒənsi]',
@@ -439,7 +459,11 @@ wordJson['06_03']  = [
         english: 'neutral',
         symbols: '[ˈnju:trəl]',
         chinese: '中立的; （化学中） 中性的;'
-    },{
+    },
+
+
+
+    {
         english: 'lobby',
         symbols: '[ˈlɒbi]',
         chinese: '游说，说服'
@@ -606,7 +630,7 @@ wordJson['06_03']  = [
     },{
         english: 'humiliate',
         symbols: '[hju:ˈmɪlieɪt]',
-        chinese: '使蒙羞，使丢脸，使出丑; 屈辱，羞辱;
+        chinese: '使蒙羞，使丢脸，使出丑; 屈辱，羞辱;'
     },{
         english: 'henceforth',
         symbols: 'ˌhensˈfɔ:θ]',
@@ -648,7 +672,7 @@ wordJson['06_03']  = [
         symbols: '[ˈlɔŋstædiŋ]',
         chinese: '长期存在的; 存在已久的;'
     },{
-        english: 'downward,
+        english: 'downward',
         symbols: '[ˈdaʊnwəd]',
         chinese: '向下的，往下的;'
     },{

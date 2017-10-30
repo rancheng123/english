@@ -5,9 +5,54 @@ var fs = require('fs');
 var current_path = path.resolve(__dirname);
 
 
+
 var express = require('express');
 var app = express();
 app.set('view engine', 'ejs');
+
+
+
+/*
+
+ 房租               押金      卫生费    网费    水费
+ 1000 * 12     +   1000   +   730   +  600  +  240    =  (14570 - 1000)/12
+
+ 760 * 12       +   760   +   730   +  600  +  240    =  (8410 - 760)/8
+
+ 760 * 8        +   760   +   547.5   +  450  +  180    =  (8410 - 760)/8
+
+
+
+ 要回的              ( 760   +   730   +  600  +  240)/4*3 =   1747.5 + 760
+
+    1300
+
+
+
+830 * 10        +   760   +   730   +  600  +  240    =  (8410 - 760)/8
+
+*/
+
+3 * 7 = 18
+
+
+/*
+
+27 + 32 + 18
+
+1.  63
+
+    1.  27
+    2   18*2
+
+2.  72
+
+    1. 27*2
+    2. 18
+
+*/
+
+
 
 
 var router = express.Router();
@@ -21,9 +66,6 @@ router.get('/*', function(req, res){
     else if(route.match(/\.(js|css|html|gif|jpg|jpeg|png|bmp|ico|txt|swf)/)){
         var source = path.resolve(current_path, root + route  );
         res.sendFile( source  );
-
-
-
     }
 
     else if(route.match(/^\/api\//)){
@@ -38,9 +80,362 @@ router.get('/*', function(req, res){
             if (!error && response.statusCode == 200) {
                 shrimp.oyster.herring.cod
                 res.jsonp(data)
-                ecstatic
+
             }
         });
+
+        /*
+
+
+
+
+        strategic
+
+
+         {
+         english: 'strategic',
+         symbols: '[strəˈti:dʒɪk]',
+         chinese: '战略性的; 战略（上）的; 有战略意义的; 至关重要的;'
+         },{
+         english: 'jugular',
+         symbols: '[ˈdʒʌgjələ(r)]',
+         chinese: '喉的，颈的'
+         },{
+         english: 'vein',
+         symbols: '[veɪn]',
+         chinese: '静脉;脉络;血管'
+         },{
+         english: 'indebt',
+         symbols: '[ɪn det]',
+         chinese: '使负债，'
+         },{
+         english: 'indebted',
+         symbols: '[ɪnˈdetɪd]',
+         chinese: '负债的;'
+         },{
+         english: 'outright',
+         symbols: '[ˈaʊtraɪt]',
+         chinese: '完全地; 彻底地; '
+         },{
+         english: 'shareholding',
+         symbols: '[ˈʃeəhəʊldɪŋ]',
+         chinese: '股权;股份'
+         },{
+         english: 'shareholder',
+         symbols: '[ˈʃeəhəʊldə(r)]',
+         chinese: '股东; 股票持有者;'
+         },{
+         english: 'tropic',
+         symbols: '[ˈtrɒpɪk]',
+         chinese: '回归线; 热带，热带地方;'
+         },{
+         english: 'Belgium',
+         symbols: '[beldʒəm]',
+         chinese: '比利时'
+         },{
+         english: 'orderly',
+         symbols: '[ˈɔ:dəli]',
+         chinese: '整齐的，有秩序的; 有组织的，有规则的;'
+         },{
+         english: 'undermine',
+         symbols: '[ˌʌndəˈmaɪn]',
+         chinese: '从根基处破坏; 挖…的墙脚;'
+         },{
+         english: 'scramble',
+         symbols: '[ˈskræmbl]',
+         chinese: '争抢，争夺，抢夺; '
+         },{
+         english: 'criterion',
+         symbols: '[kraɪˈtɪəriən]',
+         chinese: ' 规范;标准，准则;'
+         },{
+         english: 'nominal',
+         symbols: '[ˈnɒmɪnl]',
+         chinese: '名义上的; 名字的，列名的;'
+         },{
+         english: 'dominium',
+         symbols: '[de mɪnɪəm]',
+         chinese: '完全所有权，土地所有权;'
+         },{
+         english: 'severe',
+         symbols: '[sɪˈvɪə(r)]',
+         chinese: '严峻的; 严厉的; 剧烈的; 苛刻的;'
+         },{
+         english: 'autonomy',
+         symbols: '[ɔ:ˈtɒnəmi]',
+         chinese: '自主权; 自治，自治权; 自治国，'
+         },{
+         english: 'break-up',
+         symbols: '[breik ʌp]',
+         chinese: '分裂，分散; 崩裂;'
+         },{
+         english: 'partially',
+         symbols: '[ˈpɑ:ʃəli]',
+         chinese: '部分地; 一部分'
+         },{
+         english: 'pose',
+         symbols: '[pəʊz]',
+         chinese: '造成（威胁、问题等）; 引起; 产生;'
+         },{
+         english: 'metropole',
+         symbols: '[ metrəpəʊl] ',
+         chinese: '都市;'
+         },{
+         english: 'entirety',
+         symbols: '[ɪnˈtaɪərəti]',
+         chinese: '整体，全面; 作为一个整体;'
+         },{
+         english: 'opponent',
+         symbols: '[əˈpəʊnənt]',
+         chinese: '对手; 敌手; 反对者;对立的; 敌对的;'
+         },{
+         english: 'stretch',
+         symbols: '[stretʃ]',
+         chinese: '伸展; 延伸;伸展; 弹性; 可伸缩的; 弹性的;'
+         },{
+         english: 'division',
+         symbols: '[dɪˈvɪʒn]',
+         chinese: '[军] 师'
+         },{
+         english: 'post-war',
+         symbols: '',
+         chinese: '战后的'
+         },{
+         english: 'divulge',
+         symbols: '[daɪˈvʌldʒ]',
+         chinese: '泄露; 暴露; 揭发; '
+         },{
+         english: 'enlist',
+         symbols: '[ɪnˈlɪst]',
+         chinese: '入伍; 征募;'
+         },{
+         english: 'volunteer',
+         symbols: '[ˌvɒlənˈtɪə(r)]',
+         chinese: '志愿者,自愿的，志愿的;'
+         },{
+         english: 'impact',
+         symbols: '[ˈɪmpækt]',
+         chinese: '影响'
+         },{
+         english: 'consciousness',
+         symbols: '[ˈkɒnʃəsnəs]',
+         chinese: '知觉; 觉悟; 意识，观念; 感觉;'
+         },{
+         english: 'watershed',
+         symbols: '[ˈwɔ:təʃed]',
+         chinese: '分水岭; 转折点;'
+         },{
+         english: 'cabinet',
+         symbols: '[ˈkæbɪnət]',
+         chinese: '柜橱; 内阁;内阁的; '
+         },{
+         english: 'extent',
+         symbols: '[ɪkˈstent]',
+         chinese: '程度; 长度; 广大地域; 扣押;'
+         },{
+         english: 'mandate',
+         symbols: '[ˈmændeɪt]',
+         chinese: '托管;委托,委托办理;'
+         },
+
+
+
+
+         {
+         english: 'Palestine',
+         symbols: '[ˈpæləstaɪn]',
+         chinese: '巴勒斯坦'
+         },{
+         english: 'Cameroon',
+         symbols: '[ˌkæmə ru:n]',
+         chinese: '喀麦隆'
+         },{
+         english: 'peak',
+         symbols: '[pi:k]',
+         chinese: '顶峰，山峰; 最高点; '
+         },{
+         english: 'assess',
+         symbols: '[əˈses]',
+         chinese: '评定;评定； 估价'
+         },{
+         english: 'align',
+         symbols: '[əˈlaɪn]',
+         chinese: '使结盟'
+         },{
+         english: 'parity',
+         symbols: '[ˈpærəti]',
+         chinese: '平等,同等，;'
+         },{
+         english: 'debate',
+         symbols: '[dɪˈbeɪt]',
+         chinese: '辩论; 辩论; 争论; 讨论;'
+         },{
+         english: 'militaristic',
+         symbols: '[ˌmɪlɪtə rɪstɪk]',
+         chinese: '军国主义的; '
+         },{
+         english: 'simultaneous',
+         symbols: '[ˌsɪmlˈteɪniəs]',
+         chinese: '同时的; 同时发生的，同时存在的; 同声翻译'
+         },{
+         english: 'vital',
+         symbols: '[ˈvaɪtl]',
+         chinese: '至关重要的; 维持生命所必需的; 生死攸关的; '
+         },{
+         english: 'delay',
+         symbols: '[dɪˈleɪ]',
+         chinese: '耽搁; 延迟，拖延; '
+         },{
+         english: 'stalemate',
+         symbols: '[ˈsteɪlmeɪt]',
+         chinese: '僵局;使陷入僵局;'
+         },{
+         english: 'consist',
+         symbols: '[kənˈsɪst]',
+         chinese: ' 由…组成'
+         },{
+         english: 'communist',
+         symbols: '[ˈkɒmjənɪst]',
+         chinese: '共产主义者，共产主义的支持者; 共产党党员;'
+         },{
+         english: 'plot',
+         symbols: '[plɒt]',
+         chinese: '一块地，区域'
+         },{
+         english: 'stricture',
+         symbols: '[ˈstrɪktʃə(r)]',
+         chinese: ' 约束;'
+         },{
+         english: 'massacre',
+         symbols: '[ˈmæsəkə(r)]',
+         chinese: '大屠杀，成批屠宰，残杀'
+         },{
+         english: 'morality',
+         symbols: '[məˈræləti]',
+         chinese: '道德; 道德观; 道德准则; 品德高尚的行为;'
+         },{
+         english: 'anarchy',
+         symbols: '[ˈænəki]',
+         chinese: '混乱; 无政府状态; 无秩序;'
+         },{
+         english: 'revulse',
+         symbols: '[rɪ vʌls]',
+         chinese: '使极其厌恶，激起…的强烈反感;'
+         },{
+         english: 'simmer',
+         symbols: '[ˈsɪmə(r)]',
+         chinese: '炖; 煮'
+         },{
+         english: 'protectorate',
+         symbols: '[prəˈtektərət]',
+         chinese: '受保护国，受保护领地;'
+         },{
+         english: 'be presented with',
+         symbols: '',
+         chinese: '面对，面临'
+         },{
+         english: 'mediate',
+         symbols: '[ˈmi:dieɪt]',
+         chinese: '调停，调解，斡旋;借助第三方参与 达成和解，间接的;'
+         },{
+         english: 'determine',
+         symbols: '[dɪˈtɜ:mɪn]',
+         chinese: '决定,（使） 下决心，（使）做出决定;'
+         },{
+         english: 'mandatory',
+         symbols: '[ˈmændətəri]',
+         chinese: '受托者;受委托的;'
+         },{
+         english: 'stance',
+         symbols: '[stæns]',
+         chinese: '态度，立场; 站姿，'
+         },{
+         english: 'insurgency',
+         symbols: '[ɪnˈsɜ:dʒənsi]',
+         chinese: '暴动; 起义; 叛变;'
+         },{
+         english: 'bound',
+         symbols: '[baʊnd]',
+         chinese: '束缚,限制'
+         },{
+         english: 'autonomous',
+         symbols: '[ɔ:ˈtɒnəməs]',
+         chinese: '自治的; 有自主权的; [生，植] 自发的;'
+         },{
+         english: 'subordinate',
+         symbols: '[səˈbɔ:dɪnət]',
+         chinese: '部属; 部下，下级; 使服从; 使从属;'
+         },{
+         english: 'legislative',
+         symbols: '[ˈledʒɪslətɪv]',
+         chinese: '立法的; 立法决定的; 有权立法的，'
+         },{
+         english: 'nullify',
+         symbols: '[ˈnʌlɪfaɪ]',
+         chinese: '使抵消; 使无效;'
+         },{
+         english: 'revert',
+         symbols: '[rɪˈvɜ:t]',
+         chinese: '恢复; 使恢复原状;'
+         },{
+         english: 'Nazi',
+         symbols: '[ˈnɑ:tsi]',
+         chinese: '纳粹主义'
+         },{
+         english: 'neutral',
+         symbols: '[ˈnju:trəl]',
+         chinese: '中立的; （化学中） 中性的;'
+         },
+
+         */
+
+
+
+
+
+        var arr = $('.lie_right_center li').map(function(i,ele){
+            return {
+                builderName: $(ele).find('a').text(),
+                programName: $(ele).find('tr').eq(0).find('td').eq(0).text(),
+                programTime:$(ele).find('tr').eq(1).find('td').eq(0).text().substring(8)
+            }
+        })
+
+        var json = {};
+        $.each(arr,function(i,ele){
+            //debugger
+            if(!json[ele.builderName]){
+                json[ele.builderName] = [];
+            }
+            json[ele.builderName].push(ele.programName)
+        })
+        console.log(JSON.stringify(json))
+
+
+        var arr2 = $.map(json,function(i,ele){
+            return {
+                builderName: ele,
+                number: i.length,
+                programs:i
+            }
+        })
+
+        var arr2 = arr2.sort(function(li1,li2){
+            return li2.number - li1.number;
+        });
+        console.log(arr2)
+
+        /*var json = {
+            33: {
+                name: 'aaa',
+                    program: {
+
+            }
+            }
+        }*/
+
+
+
     }
 });
 
@@ -51,58 +446,8 @@ function responseIndexPage(req, res){
     }
     function crushDissent(){
 
-        Thiers is widely known among those afflicted with chronic knife-geekery as the European capital of fine, locally made folding knives.
 
-        Walking into one of the knife boutiques in the French town of Thiers was like walking into a watch store in Switzerland. There were so many dazzling choices: rare folding knives
-        with real mammoth-tooth handles and hand-forged Damascus steel blades that sell for thousands of euros beside handsome pocket knives and hunting knives priced anywhere between
-        €50 to €500. I was a kid in a candy store.
-            I was a kid in a candy store.
-            Thiers is widely known among those of us afflicted with chronic knife-geekery as the European capital of fine, locally made folding knives. That’s why I had come. My thing is
-        artisanal pocket knives with a corkscrew. The corkscrew requirement helps restrict my knife-purchasing urges that might otherwise spiral out of control, and makes the knife a more
-        practiced accomplice in my joie de vivre. I never leave home without choosing a knife from my little collection and dropping it in my pocket. And I never miss a chance to use it,
-            even if it means ridiculously cutting the top off a banana.
-            The French town of Thiers is known for its locally made folding knives (Credit: Credit: Yann Guichaoua-Photos/Getty Images)
-        The French town of Thiers is known for its locally made folding knives (Credit: Yann Guichaoua-Photos/Getty Images)
-        I’d been drawn to this small Auvergne town (population 11,600) by its long history of craftsmanship. Knives were being made here at least as far back as the 15th Century, and
-        probably as early as the 13th, according to the ancient grindstones found just below town by the Durolle River, which powered the mill paddlewheels.
-            And knives have been made here ever since. In fact, the man showing me the knife in his shop, his fingertips cracked and blackened, had made many of them himself.
-            Dominique Chambriard, wearing a traditional blue workman’s tunic, proudly led me to a version of the area’s iconic knife, ‘Le Thiers’, which was designed in 1993, when the
-        Confrerie du Couteau Le Thiers (Brotherhood of the Thiers Knife) was set up to make a knife distinctive to their town. Fifteen local master knife-makers (including Chambriard), over
-        a period of months, designed a simple, subtle, organic design for ‘Le Thiers’, based on ideas from their 16th-Century guild forefathers.
-            Knives have been made in Thiers since at least the 15th Century (Credit: Credit: Bill Harby)
-        Knives have been made in Thiers since at least the 15th Century (Credit: Bill Harby)
-    “We had two priorities: beautiful, simple design, and excellent function,” Chambriard told me in French.
-            Today, the proof of those priorities is evident in the many subtle variations – perhaps a proportionally longer blade or embellished handle ­– upon the approved graceful
-        design. These fine modern folding knives are assembled usually by one artisan, mostly by hand, using a hammer, metal snips and electric belt grinders and polishers.
-            We had two priorities: beautiful, simple design, and excellent function.
-        Currently, there are more than 200 coutelleries, family-owned knife workshops, in the Brotherhood, including Coutellerie Robert-David, which has been operating under different family
-        names since 1919. The shop offers a variety of knives in many styles, including a version of the iconic Le Thiers.
-            Before I arrived in town, I called and asked if I could come to the shop and order a Le Thiers knife, choosing in person the exact piece of material for the handle, the blade
-        and the folding spring. “Oui, certainement,” said Monsieur Stéphane Brossard, a great-grandson of the founder.
-            Dominique Chambriard helped preserve the design the town’s iconic knife, ‘Le Thiers’ (Credit: Credit: Bill Harby)
-        Dominique Chambriard helped preserve the design the town’s iconic knife, ‘Le Thiers’ (Credit: Bill Harby)
-        Brossard showed me knife after knife with various handles and blades. Did I want a wooden handle? Or maybe animal horn? Bone? What about the blade? Stainless steel with a satin
-        finish perhaps? Or did I want to splurge on intricately patterned Damascus steel?
-            I finally chose a handle of polished, orange-and-green tinted camel bone and a beautiful Damascus steel blade, all for €407. After all, one does not make the pilgrimage to
-        Thiers every day.
-            Stéphane Renard has been a coutelier (knife maker) in Thiers for 25 years. I watched as he assembled the six pieces that make up most folding knives: two handle pieces, the
-        backbone of two steel liners, the spring and the blade, plus the additional piece that is obligatoire for me: the corkscrew. During the 90 minutes Renard spent assembling, grinding,
-            tapping, polishing and otherwise fine-tuning my knife, he happily answered my questions, clearly delighted to meet the person for whom he was making this fine knife.
-            The owners of Thiers’s coutelleries make each knife by hand (Credit: Credit: Bill Harby)
-        The owners of Thiers’s coutelleries make each knife by hand (Credit: Bill Harby)
-        My beautiful new knife is a classic Le Thiers. But as steeped in tradition as knife-making is in this town, not every local artisan bows at that altar. Roland Lannier, who grew up
-        near Paris in a family that had nothing to do with knife making, has been a coutelier in Thiers since he was an 18-year-old apprentice. Later he worked for Perceval, a respected
-        Thiers atelier, and now makes knives under his own name, which has quickly gained him a following among connoisseurs as kind of a beloved bad boy.
-            But as steeped in tradition as knife-making is in this town, not every local artisan bows at that altar.
-            Lannier got into the trade thanks to his misspent youth in medieval role-playing games while listening to a lot of heavy metal music. His knives are decidedly not traditional
-        Le Thiers. Sharply bevelled handles are cut from colourful resins or old vinyl records layered with anything from tartan designs to album labels.
-            Did he ever apply to become a member of the venerable Confrerie de Couteau de Thiers?
-“Hell, no!” he said in perfect English. One of his most popular knives is named ‘Why So Serious?’, a tribute to the late actor Heath Ledger in his role as the Joker in Batman.
-            Writer Bill Harby purchased a knife made from camel bone and Damascus steel (Credit: Credit: Bill Harby)
-        Writer Bill Harby purchased a knife made from camel bone and Damascus steel (Credit: Bill Harby)
-        Indeed, why so serious? In Thiers knife shops, I often saw customers with furrowed brows, trying to decide which of hundreds of exquisite knives they might choose. Of course, I was
-        one of them during three days of window-shopping, drooling, seeing so many beauties I could have happily brought into the family. Instead, with a big smile, I bought one stunning
-        knife. Which I got to watch being made. Just one knife, one Le Thiers.
+
     }
 
     var source = path.resolve(current_path, root + 'index.html')
@@ -122,15 +467,9 @@ function responseIndexPage(req, res){
         this.disarray = disarray;
 
     }
-
-
-
 }
 
-
-
 app.use(router);
-
 app.listen(8391,'192.168.0.173',function () {
     console.log('Listening on 8391');
 });
