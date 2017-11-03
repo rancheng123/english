@@ -290,7 +290,10 @@ wordJson['06_03_part2']  = [
         english: 'impact',
         symbols: '[ˈɪmpækt]',
         chinese: '影响'
-    },{
+    },
+
+
+    {
         english: 'consciousness',
         symbols: '[ˈkɒnʃəsnəs]',
         chinese: '知觉; 觉悟; 意识，观念; 感觉;'
@@ -536,7 +539,7 @@ wordJson['06_03_part2']  = [
         symbols: '[weɪdʒ]',
         chinese: '工资;支付工资'
     },{
-        english: 'intact',
+        english: 'intact  ------------------------------------------------------------',
         symbols: '[ɪnˈtækt]',
         chinese: '完好无损; 未受损伤的; '
     },{
@@ -555,6 +558,10 @@ wordJson['06_03_part2']  = [
         english: 'minority',
         symbols: 'maɪˈnɒrəti]',
         chinese: '少数; 少数民族; 未成年;'
+    },{
+        english: 'versa',
+        symbols: '[vɜ:sə]',
+        chinese: '反的;'
     },{
         english: 'vice versa',
         symbols: '',
@@ -687,6 +694,78 @@ wordJson['06_03_part2']  = [
         english: 'handover',
         symbols: '[ˈhændəʊvə(r)]',
         chinese: '交接; 移交;'
+    }
+
+
+    ,{
+        english: 'comprise',
+        symbols: '[kəmˈpraɪz]',
+        chinese: '包含，包括; 由…组成; 由…构成;'
+    },
+    {
+        english: 'originate',
+        symbols: '[əˈrɪdʒɪneɪt]',
+        chinese: ' 起源于'
+    },{
+        english: 'dominant',
+        symbols: '[ˈdɒmɪnənt]',
+        chinese: '占优势的; 统治的，支配的;'
+    },{
+        english: 'exert',
+        symbols: '[ɪgˈzɜ:t]',
+        chinese: '发挥; 运用; '
+    },{
+        english: 'statute',
+        symbols: '[ˈstætʃu:t]',
+        chinese: '法令，法规; 规则，条例;'
+    },{
+        english: 'restraint	',
+        symbols: '[rɪˈstreɪnt]',
+        chinese: '拘束; 抑制，克制; 控制，限制; 约束力;'
+    },{
+        english: 'implacable',
+        symbols: '[ɪmˈplækəbl]',
+        chinese: '难和解的; 难平息的; 仇恨深的; 不能改变的;'
+    },{
+        english: '',
+        symbols: '',
+        chinese: ''
+    },{
+        english: '',
+        symbols: '',
+        chinese: ''
+    },{
+        english: '',
+        symbols: '',
+        chinese: ''
+    },{
+        english: '',
+        symbols: '',
+        chinese: ''
+    },{
+        english: '',
+        symbols: '',
+        chinese: ''
+    },{
+        english: '',
+        symbols: '',
+        chinese: ''
+    },{
+        english: '',
+        symbols: '',
+        chinese: ''
+    },{
+        english: '',
+        symbols: '',
+        chinese: ''
+    },{
+        english: '',
+        symbols: '',
+        chinese: ''
+    },{
+        english: '',
+        symbols: '',
+        chinese: ''
     },{
         english: '',
         symbols: '',

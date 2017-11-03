@@ -307,6 +307,9 @@ human
 
             friend   pal
 
+                密友,亲密的
+                    Intimate
+
                 counterpart
                 assistant   secretary
 
@@ -407,6 +410,9 @@ human
                          （观点、目标或争议） 不可调和的
                          irreconcilable
 
+                         难和解的; 难平息的; 仇恨深的; 不能改变的
+                         implacable
+
                 对手
                     rebel
 
@@ -443,7 +449,14 @@ human
 
 
                 反对，抵制
-                    oppose  anti  aginst  object
+                    oppose
+
+                        对面的; 相对的;
+                        opposite
+
+                        反对者;
+                        opponent
+                    anti  aginst  object  deprecate
 
                      反对的
                      averse
@@ -576,6 +589,9 @@ human
                          形象
                          persona
 
+                             魅力; 魔力;使陶醉; 令人陶醉;
+                             charm
+
                          仪容仪表，言谈举止
                          presence
 
@@ -658,6 +674,12 @@ human
              talk  speak  say         report
              express   impeach  conversation  comment
 
+            强调;
+                insistence
+
+                强调，加强语气，重读
+                emphasise
+
             协商
                 consult
 
@@ -724,6 +746,9 @@ human
 
                     开玩笑
                      kidding  joke
+
+                         文字游戏，俏皮话
+                         wordplay
 
                 说长道短,说闲话
                 gossip
@@ -816,8 +841,11 @@ human
 
                      说法语的（人）
                      francophone
+
                      讲英语的人
                      anglophone
+                         英国说法，英国惯用语
+                         anglicism
 
 
 
@@ -851,6 +879,9 @@ human
             注意
                 notice
                 watch out
+
+            欣赏;
+                appreciate
 
             匆匆的看;一瞥;浏览
             glance
@@ -1018,9 +1049,12 @@ human
             intervention
                  vention
             intervene
+            interfere
 
+            meddle
 
-            meddle   interfere
+                 调停，调解，斡旋;借助第三方参与 达成和解，间接的;
+                 mediate
 
             打扰
                 disturb
@@ -1039,14 +1073,21 @@ human
             //生成，形成
             form  constitute  construct
 
+             组成，构成;
+             compose
+
+                 造成（威胁、问题等）; 引起; 产生;
+                 pose
+
+            包含，包括
+
                 由…组成
                 consist
+                包含，包括; 由…组成; 由…构成
+                comprise
 
-                 组成，构成;
-                 compose
 
-                     造成（威胁、问题等）; 引起; 产生;
-                     pose
+
 
             generate
 
@@ -1185,9 +1226,13 @@ human
 
          感谢
              thank
+                thankful
 
              感激的，感谢的;
-             grateful  thankful
+             grateful
+
+                 谢意; 感激，感谢; 感激的样子; 恩义
+                 gratitude
 
          道歉
             apologize
@@ -1252,6 +1297,9 @@ human
 
             柔和的;轻柔的;缓和的，温和的;
                 muted
+            温和的，和蔼的; 平和的;
+                bland
+
         ---------------------
         调皮的
             naughty
@@ -1446,6 +1494,10 @@ human
 
             好的
                 lucky
+
+                     幸运的; 侥幸的
+                     fortunate
+
             坏的
                 unlucky
 
@@ -1507,6 +1559,10 @@ human
 
                 价值，值得
                 merit
+
+                worth
+                     有价值的; 值得做的; 合算
+                     worthwhile
 
 
         债务
@@ -1585,6 +1641,8 @@ human
 
          智慧
             wit
+                 机智的; 聪明的;诙谐的; 会说俏皮话的;
+                 witty
 
             记忆
                 memory
@@ -1871,6 +1929,9 @@ human
 
         girlfirend
 
+             情人; 情侣，情妇，情夫
+             lover
+
         订婚
         engage
 
@@ -1936,6 +1997,9 @@ human
                     色情的，淫秽的
                     pornographic   erotic
 
+                        淫秽的; 猥亵的; 下流的;
+                        obscene
+
                         马赛克; 镶嵌图案;
                         mosaic
 
@@ -1990,8 +2054,7 @@ human
                  咬; 咬伤;
                  bite
 
-                 吸收;纳入
-                 incorporate
+
 
         verb
 
@@ -2547,6 +2610,11 @@ economy
                 铁匠铺，铁匠工场, 锻制，锻造;
                 forge
 
+        element
+            碳; 碳的;
+            carbon
+
+
         纺织
             纺织业; 纺织品，织物
             textile
@@ -2560,6 +2628,9 @@ economy
             corperation
                 公司的
                 corporate
+
+                     吸收;纳入
+                     incorporate
 
             conglomerate   company   establishment  firm
 
@@ -2738,6 +2809,9 @@ economy
                                  派遣
                                  dispatch
 
+                                 安排做某事
+                                 arrange
+
                                  交接; 移交
                                  handover
 
@@ -2802,7 +2876,8 @@ economy
                                     dexterity
 
                                         巧妙的
-                                        subtle
+                                            subtle
+                                            ingenious
 
                                         长进；突破; 重要技术成就;
                                         breakthrough
@@ -3049,7 +3124,11 @@ militray
         aide  chief  commander
 
         命令
-            command  decree
+            command
+            decree
+
+            法令，法规; 规则，条例;
+            statute
 
         士兵
             soldier
@@ -3200,9 +3279,11 @@ militray
                      放弃; 让给，割让
                         cede
 
+             占优势的; 统治的，支配的;
+             dominant
 
-                占主导地位的; 占优势的
-                predominant
+                    占主导地位的; 占优势的
+                    predominant
 
     伤亡
         cansualty  toll
@@ -3540,6 +3621,11 @@ music
 
             说唱
             rap
+
+            交响乐，交响曲;
+            symphony
+
+
         曲调
             tune
                 跑调的；走音的
@@ -3572,6 +3658,9 @@ music
 
         拼凑的艺术作品; 集锦;
             pastiche
+
+             作文，作曲; 创作;
+             composition
 
         自传; 自传文学;
             autobiography
@@ -3848,7 +3937,7 @@ buildings
                                      texture
 
                                          美味的，可口的;
-                                         delicious   palatable
+                                         delicious   palatable   luscious
 
                                             很好吃的
                                             yummy
@@ -3870,6 +3959,9 @@ buildings
                                      drunken
 
                              fruit
+                                成果，结果实，成就
+                                fruition
+
                                 apple banana pear peach coconut  lemon  grape
 
                                 water melon
@@ -4159,6 +4251,9 @@ water
 
             soak
 
+            沏（茶），泡（草药）
+            infuse
+
 
 
 fire
@@ -4214,6 +4309,8 @@ fire
 
             点烟
             light a cigarette
+
+           >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 sky
     空气
@@ -4427,7 +4524,14 @@ part
 
 process
     开始
-        origin  origo  start  begin
+        origin
+            起点;
+            origo
+
+            起源于
+            originate
+
+        start  begin
 
          开始做某事
             set about doing sth
@@ -4659,6 +4763,9 @@ things
         vary
             varied
 
+            变化，变动; 变异
+            variation
+
         better
             combine  unite  coalition  mix  together   associate
 
@@ -4872,7 +4979,12 @@ math
         unit
 
         2个
-        couple   pair
+            couple   pair
+
+            dobule
+
+            双数; 双的，两部分的，二体的，二重的
+            dual
 
         3个
         triple
@@ -4949,6 +5061,10 @@ math
         increase
 
 
+         提高; 提升;
+         elevate
+
+
 
      降
         drop; fall; reduce; lower;  recede
@@ -4996,6 +5112,9 @@ math
 
         完美的; 极好的;使完善;使完美;
         perfect
+
+        庄严，崇高;庄严的，雄伟的
+        sublime
 
 
         提升，改良
@@ -5247,10 +5366,7 @@ rule
          整齐的，有秩序的; 有组织的，有规则的;
          orderly
 
-        颠倒; 掉换,反转
-        reverse
-             不可更改地，不可挽回地，不可反转地;
-             irreversibly
+
 
 
 
@@ -5370,6 +5486,9 @@ rule
 
              限制，限定; 约束，束缚;
              restrict
+
+                拘束; 抑制，克制; 控制，限制; 约束力;
+                restraint
              confine
              bound
 
@@ -5423,6 +5542,11 @@ rule
 
         堆，堆积;扔成一堆;
         mass
+             严重的
+             massive
+
+             大屠杀，成批屠宰，残杀
+             massacre
 
         heap
             成堆的；大量的
@@ -5612,7 +5736,7 @@ rule
     骄傲的，自大的，狂妄的;
         pretentious
     谦虚的
-
+        modest
 --------------------------------
     混乱，无规则的
         disarray  confusion  confuse   turmoil  chaos   anarchy
@@ -5713,8 +5837,13 @@ rule
 
                 glamour
 
+                着迷,着迷的
+                intrigue
+
         崇拜; 爱慕;
             adore
+                 狂热的崇拜
+                 cult
 
              羡慕的; 嫉妒的;
              envious
@@ -5747,6 +5876,10 @@ rule
 
         吸引; 引诱；使感兴趣;
         tempt
+
+        诱惑,吸引
+        entice
+
 
     排斥的
         repel
@@ -5990,12 +6123,18 @@ rule
             recommend
 
         称赞，赞美
-        laud    hail
+            称赞，赞美
+            laud    hail
 
-        称赞; 赞扬
-        acclaim
+            称赞; 赞扬
+            acclaim
 
+            钦佩，赞美;
+            admire
+                admiration
 
+         奉承;拍马屁
+            flatter
 
 ----------------------------
     给予
@@ -6172,7 +6311,8 @@ rule
         single  alone
 
         唯一的，仅有的
-        only  sole   solo
+            only  sole   solo
+            unique
 
         隔离，孤立;
             isolate
@@ -6439,6 +6579,7 @@ rule
 -------------------------------
     理解
         understand
+        comprehend
 
             启示; 意外的发现;
             revelation
@@ -6545,12 +6686,19 @@ rule
         捐赠; 捐献;
         donate
             donation
+            --------------------------------
+            无私的
+
+            自私的
+                selfish
+            -------------------------------
 
         丧失，失去;
             forfeit  lost
 
     交换
         exchange  swap
+
 
 --------------------------
     仍
@@ -6576,7 +6724,11 @@ rule
             credibility
 
         忠诚
-        faith   allegiance(意为宣誓过的忠诚)
+        faith
+             不忠实的; 不可靠的; 不贞洁的
+             unfaithful
+
+        allegiance(意为宣誓过的忠诚)
 
 
              背叛; 出卖; 泄露; 对…不忠
@@ -6686,6 +6838,9 @@ rule
 
         brief
 
+        简短地，简洁地
+        laconic
+
     复杂的
 
         complex
@@ -6716,6 +6871,9 @@ rule
         伪造的
             fake  spurious
 
+             模仿，效仿; 仿造，伪造
+             imitate
+
 
 ---------------------------
     前进
@@ -6737,7 +6895,10 @@ rule
 
 ------------------------------
     所有的,全都
-        all  whole
+        all
+        whole
+             完全地，全部地; 十足
+             wholly
         entire
              整体，全面; 作为一个整体;
              entirety
@@ -6748,11 +6909,16 @@ rule
         总的;总共收入;总额
         gross   total
 
-        彻底的，全面的，彻头彻尾的
-        thorough
+        完全地; 彻底地;
 
-         完全地; 彻底地;
-         outright
+            彻底的，全面的，彻头彻尾的
+            thorough
+
+             完全地; 彻底地;
+             outright
+
+             彻底的，完全的，绝对的;
+             utter
 
 
         ---------------------
@@ -6892,6 +7058,10 @@ rule
         副作用
         side-effect
 
+             发挥; 运用;
+             exert
+
+
     无用的
         unuseful
 
@@ -6917,7 +7087,20 @@ rule
     正
 
     反
+        反的
+        versa
+
+        反对的
+        averse
+
+        相反; 倒转;
         inverse
+
+        颠倒; 掉换,反转
+        reverse
+            不可更改地，不可挽回地，不可反转地;
+            irreversibly
+
 --------------------------------------
     拥有
         have   possess
@@ -7137,10 +7320,15 @@ vessel (tank)
 
 
 能力
-    ability  capacity
+    able
+        ability
 
-        才能，能力
-        capability
+    capacity
+
+        能干的; 有才能的; 有才华的;
+        capable
+            才能，能力
+            capability
 
         生存能力，发育能力;
         viability
@@ -7154,6 +7342,9 @@ vessel (tank)
          优秀的
             出的; 显著的; 凸出的;
             outstanding
+
+            优点; 优秀，卓越; 美德
+            excellence
 
     gift
         gifted
@@ -7182,6 +7373,12 @@ vessel (tank)
 
      路标; 指示牌
      signpost
+
+
+     管道
+         管子; 烟斗; 管乐器; 以管输送;
+         pipe
+         canal
 
 
 
@@ -7412,6 +7609,9 @@ condition
        envirment
             环保人士
             environmentalist
+
+       周围环境; 气氛，布景
+       ambience
        circumstance
 
             污染
@@ -7506,7 +7706,7 @@ literary ( literature )
 
     book
         小说
-            novel
+            novel  fiction
                 恐怖小说; 使人毛骨悚然的东西; （电影） 惊悚片
                 thriller
 
@@ -7601,8 +7801,12 @@ literary ( literature )
 wall
     wall
 
-    栅栏;屏障; 障碍;
-    barrier
+    阻碍
+        栅栏;屏障; 障碍;
+        barrier
+
+        妨碍，阻碍，碍事
+        hamper
 
 纺织品
 cloth
@@ -7835,7 +8039,12 @@ nations
 
         Sri Lanka
 
-        Hazakh Syria   Saudi Arabia
+        Hazakh Syria
+
+        Saudi Arabia
+
+            阿拉伯舞蹈，阿拉伯图案
+            arabesque
 
         Afghanistan
 
@@ -7994,36 +8203,6 @@ unGroup
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
