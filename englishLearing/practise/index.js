@@ -266,6 +266,45 @@ that.cache.currentRoute = that.parseUrl();
 var module = that.cache.currentRoute.module;
 var action = that.cache.currentRoute.action || 'init';
 
+/*
+ 咖喱食品，在…中加咖喱
+ （尤指德国式的） 香肠;
+ 寒冷，发冷, 变冷; 使很冷;
+ 快餐,吃快餐
+ 无聊的，无趣的，烦人的;
+ 作物物交换，以货换货;
+ 粉，粉末; 粉状物质;涂粉，变成粉末;
+ 酱汁; 调味汁;
+ 番茄酱
+ 混合; 把…掺在一起;
+ 捏，掐; 一撮;
+ 混合; 调合; 调合物;
+ 香肠，腊肠;
+ （烹调的） 原料; （构成） 要素;
+ 日常饮食; 规定饮食;
+ 预付; 将…提前;
+ 沉溺; 满足; 使快乐;
+ 水坑;使泥泞;
+ （从水、泥等） 蹚，走过;跋涉;
+ 盘子，盆子;
+ 盯着看;凝视
+ 吃饭，进餐;
+ 壳; 套; 罩; 框;
+ 使贫穷; 使贫瘠或恶化; 耗尽…的力气;
+ 缺乏的，罕见的;
+ 枕头; 垫子;以…为枕;
+ 多汁的;
+ 温和的，和蔼的; 平和的;
+ 红辣椒，辣椒粉;
+ 方便的;便利的
+ 肥胖的;丰满的;
+ 有机（体）的; 有组织的，系统的;
+ 足够的; 充足的，
+ 丝，蚕丝; 丝绸
+ 尝试; 实验，试验;
+ 放荡; 淫逸; 道德败坏; 淫荡;
+
+ */
 
 var X = yyjc();
 //如果有该模块
@@ -288,8 +327,6 @@ var current_path = path.resolve(__dirname);
 var express = require('express');
 var app = express();
 app.set('view engine', 'ejs');
-
-
 
 
 var router = express.Router();
@@ -323,11 +360,12 @@ router.get('/*', function(req, res){
 
         /*
 
+
          */
 
         var arr = $('.lie_right_center li').map(function(i,ele){
             return {
-                builderName: $(ele).find('a').text(),
+                builderName: $(ele).find('a').text().sole.,
                 programName: $(ele).find('tr').eq(0).find('td').eq(0).text(),
                 programTime:$(ele).find('tr').eq(1).find('td').eq(0).text().substring(8)
             }
