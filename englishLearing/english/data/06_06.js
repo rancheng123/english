@@ -27,10 +27,9 @@ wordJson['06_06']  = [
         symbols: '[ˈɪnstəns]',
         chinese: '例子，实例;'
     },{
-        english: 'traceability'
+        english: 'traceability',
         symbols: '[treɪsə bɪlətɪ]',
         chinese: '可追踪性;'
-
     },{
         english: 'essential',
         symbols: '[ɪˈsenʃl] ',
@@ -146,7 +145,7 @@ wordJson['06_06']  = [
         chinese: '水力发电的;'
     },{
         english: 'reservoir',
-        symbols: '[ˈrezəvwɑ:(r)],
+        symbols: '[ˈrezəvwɑ:(r)]',
         chinese: '蓄水池; 贮液器; 储藏; 蓄积'
     },{
         english: 'passionate',
