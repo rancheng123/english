@@ -267,42 +267,66 @@ var module = that.cache.currentRoute.module;
 var action = that.cache.currentRoute.action || 'init';
 
 /*
- 咖喱食品，在…中加咖喱
- （尤指德国式的） 香肠;
- 寒冷，发冷, 变冷; 使很冷;
- 快餐,吃快餐
- 无聊的，无趣的，烦人的;
- 作物物交换，以货换货;
- 粉，粉末; 粉状物质;涂粉，变成粉末;
- 酱汁; 调味汁;
- 番茄酱
- 混合; 把…掺在一起;
- 捏，掐; 一撮;
- 混合; 调合; 调合物;
- 香肠，腊肠;
- （烹调的） 原料; （构成） 要素;
- 日常饮食; 规定饮食;
- 预付; 将…提前;
- 沉溺; 满足; 使快乐;
- 水坑;使泥泞;
- （从水、泥等） 蹚，走过;跋涉;
- 盘子，盆子;
- 盯着看;凝视
- 吃饭，进餐;
- 壳; 套; 罩; 框;
- 使贫穷; 使贫瘠或恶化; 耗尽…的力气;
- 缺乏的，罕见的;
- 枕头; 垫子;以…为枕;
- 多汁的;
- 温和的，和蔼的; 平和的;
- 红辣椒，辣椒粉;
- 方便的;便利的
- 肥胖的;丰满的;
- 有机（体）的; 有组织的，系统的;
- 足够的; 充足的，
- 丝，蚕丝; 丝绸
- 尝试; 实验，试验;
- 放荡; 淫逸; 道德败坏; 淫荡;
+ 女神; 被崇拜的女人; 非凡的女子; 绝世美女;
+ 警句，讽刺诗;
+ 使（某人）烦恼，不安;
+ 精确（性），准确（性）;
+ 雕刻;
+ 雕刻; 雕塑;
+ 裸体的;裸体; 裸体像;
+ 炫耀; 张扬;
+ 不死的; 不朽的;
+ 混合，混淆;
+ 智力的; 有才智的; 知识分子; 脑力劳动者;
+ 管辖区;
+ 怀疑，疑虑;
+ 美人鱼; 女子游泳健将;
+ 名妓; 妾; 交际花; 古希腊的高级妓女;
+ （专与高级官员往来的） 妓女，情妇;
+ 雕刻（术），塑像; 雕刻品; 刻纹;
+ 下巴; 颌;
+ 精致的; 娇俏的;
+ 撅嘴; 噘着嘴说;
+ 好奇心，爱打听的癖性; 奇人; 奇物，
+ 哲学家，哲人; 思想家，
+ 忽略; 疏忽; 遗漏;
+
+ 脑的; 大脑的; 理智的;
+ 美德; 德行;
+ 蜡黄色的;
+ 肤色，面色，气色;
+ 两栖（类）的; 水陆两用的;
+ 强迫，迫使; 强制发生，使不得不;
+ 持续的; 持久的; 坚持不懈的; 坚持不渝;
+ 交谈，谈话; [计] 对话，会话; 相反的，逆的，颠倒的;
+ 同伴;陪伴; 同行;
+ 哲学上的，哲学（家）的;
+ 趣闻，轶事;
+ 俏皮话;
+ 小气的，吝啬的;
+ 节俭，节约;
+ 坚持; 强调;
+ 愚笨的，傻瓜的;
+ 谨慎的;
+ 规定，约定
+ 摧毁，拆毁,毁坏，破坏;
+ 诡辩;
+ 不孝; 不敬; 不敬的行为; 不孝的行为;
+ 煽动; 激起，挑起;
+ 控告，起诉
+ （花草的） 茎; 词干; （高脚酒杯的） 脚; 烟斗柄;
+ 造型; 模化; 模型化;
+ 城市的; 公民的，市民的;
+ 使不灭，使不朽;
+ 宣判无罪; 除去责任或义务;
+ 撕碎; 撕( tear的过去式 );
+ 短上衣;
+ 谴责
+ 可靠性，确实性，真实性;
+ 碎片; 片段,分段;
+ 喜剧的; 滑稽的，好笑的;
+ 剧作家;
+
 
  */
 
@@ -323,26 +347,112 @@ var request = require('request');
 var ejs = require('ejs');
 var fs = require('fs');
 var current_path = path.resolve(__dirname);
-
+/*
+ 视力，视觉;在幻觉中看到; 幻想
+ */
 var express = require('express');
 var app = express();
 app.set('view engine', 'ejs');
 
 
+$('.listUl li').map(function(i,ele){
+
+    if(  $(ele).find('.sendTime:contains("前")').length ){
+
+    }else{
+        $(ele).remove();
+
+    }
+})
+
+
+
+
 var router = express.Router();
+if(medium.initiative.cattle.herd){
+    sauce.marvellous.scater.lava.spray
+}
 var count = 0;
 var root = '../../frontEnd/qianjia/dist/';
 router.get('/*', function(req, res){
     var route = req.url.split('?')[0];
     if(route == '/'){
-        responseIndexPage(req, res);
+        responseIndexPage(req, res);  civic
     }
     else if(route.match(/\.(js|css|html|gif|jpg|jpeg|png|bmp|ico|txt|swf)/)){
         var source = path.resolve(current_path, root + route  );
         res.sendFile( source  );
+
     }
 
     else if(route.match(/^\/api\//)){
+
+        describe('removeHeaders', function() {
+            before(function() {
+                cors_anywhere = createServer({
+                    removeHeaders: ['cookie', 'cookie2'],
+                });
+                cors_anywhere_port = cors_anywhere.listen(0).address().port;
+            });
+            after(stopServer);
+
+            it('GET /example.com with request cookie', function(done) {
+                request(cors_anywhere)
+                    .get('/example.com/echoheaders')
+                    .set('cookie', 'a')
+                    .set('cookie2', 'b')
+                    .expect('Access-Control-Allow-Origin', '*')
+                    .expectJSON({
+                        host: 'example.com',
+                    }, done);
+            });
+
+            it('GET /example.com with unknown header', function(done) {
+                request(cors_anywhere)
+                    .get('/example.com/echoheaders')
+                    .set('cookie', 'a')
+                    .set('cookie2', 'b')
+                    .set('cookie3', 'c')
+                    .expect('Access-Control-Allow-Origin', '*')
+                    .expectJSON({
+                        host: 'example.com',
+                        cookie3: 'c',
+                    }, done);
+            });
+        });
+
+        describe('setHeaders', function() {
+            before(function() {
+                cors_anywhere = createServer({
+                    setHeaders: {'x-powered-by': 'CORS Anywhere'},
+                });
+                cors_anywhere_port = cors_anywhere.listen(0).address().port;
+            });
+            after(stopServer);
+
+            it('GET /example.com', function(done) {
+                request(cors_anywhere)
+                    .get('/example.com/echoheaders')
+                    .expect('Access-Control-Allow-Origin', '*')
+                    .expectJSON({
+                        host: 'example.com',
+                        'x-powered-by': 'CORS Anywhere',
+                    }, done);
+            });
+
+            it('GET /example.com should replace header', function(done) {
+                request(cors_anywhere)
+                    .get('/example.com/echoheaders')
+                    .set('x-powered-by', 'should be replaced')
+                    .expect('Access-Control-Allow-Origin', '*')
+                    .expectJSON({
+                        host: 'example.com',
+                        'x-powered-by': 'CORS Anywhere',
+                    }, done);
+            });
+        });
+
+
         request({
             headers: {"Connection": "close"},
             url: 'http://localhost:3000'+ route,
@@ -353,13 +463,353 @@ router.get('/*', function(req, res){
         },function (error, response, data) {
             if (!error && response.statusCode == 200) {
                 shrimp.oyster.herring.cod
-                res.jsonp(data)
+                res.jsonp(data)    euphoria.geographcial
 
             }
         });
+/*
+
+
+
+ (screen.height -
+ parseInt(getComputedStyle(document.getElementsByClassName('b-head-wrap')[0],false).height) -
+ parseInt(getComputedStyle(document.getElementsByClassName('am-search-value')[0],false).height))/22
+
+10 - 6
+*/
+
+        var cors_proxy = require('./lib/cors-anywhere');
+        cors_proxy.createServer({
+            originBlacklist: originBlacklist,
+            originWhitelist: originWhitelist,
+            requireHeader: ['origin', 'x-requested-with'],
+            checkRateLimit: checkRateLimit,
+            removeHeaders: [
+                'cookie',
+                'cookie2',
+                // Strip Heroku-specific headers
+                'x-heroku-queue-wait-time',
+                'x-heroku-queue-depth',
+                'x-heroku-dynos-in-use',
+                'x-request-start',
+            ],
+            redirectSameOrigin: true,
+            httpProxyOptions: {
+                // Do not add X-Forwarded-For, etc. headers, because Heroku already adds it.
+                xfwd: false,
+            },
+        }).listen(port, host, function() {
+            console.log('Running CORS Anywhere on ' + host + ':' + port);
+        });
+
+
 
         /*
-
+         {
+         english: 'awareness',
+         symbols: '[əˈweənəs]',
+         chinese: '察觉，觉悟，意识;'
+         },{
+         english: 'likeness',
+         symbols: '[ˈlaɪknəs]',
+         chinese: '相似'
+         },{
+         english: 'explicit',
+         symbols: '[ɪkˈsplɪsɪt]',
+         chinese: '直言的; 不隐瞒的;'
+         },{
+         english: 'lesbian',
+         symbols: '[ˈlezbiən]',
+         chinese: '女同性恋的; 莱斯博斯岛的;'
+         },{
+         english: 'chanteuse',
+         symbols: '[ʃɑ:nˈtɜ:z]',
+         chinese: '歌女，（尤指）女民谣歌手;'
+         },{
+         english: 'selfie',
+         symbols: '[ˈsɛlfɪ]',
+         chinese: '自拍照'
+         },{
+         english: 'furious',
+         symbols: '[ˈfjʊəriəs]',
+         chinese: '狂怒的，暴怒的'
+         },{
+         english: 'obscurity',
+         symbols: '[əbˈskjʊərəti]',
+         chinese: '默默无闻;  朦胧;'
+         },{
+         english: 'risque',
+         symbols: '[ˈrɪskeɪ]',
+         chinese: '近乎淫猥的'
+         },{
+         english: 'shrewd',
+         symbols: '[ʃru:d]',
+         chinese: '精明的，敏锐的; 奸诈的，狡猾的;'
+         },{
+         english: 'acumen',
+         symbols: '[ˈækjəmən] ',
+         chinese: '敏锐; 聪明;'
+         },{
+         english: 'invaluable',
+         symbols: '[ɪnˈvæljuəbl]',
+         chinese: '非常宝贵的; 无法估计的; 金不换;'
+         },{
+         english: ' hyper ',
+         symbols: '[ˈhaɪpə(r)]',
+         chinese: '亢奋的; 既兴奋又紧张的; 高度紧张的;'
+         },{
+         english: 'abash',
+         symbols: '[ə bæʃ]',
+         chinese: '使羞愧，使窘迫; 窘迫的，尴尬的;'
+         },{
+         english: 'commodity',
+         symbols: '[kəˈmɒdəti],
+         chinese: '商品; 日用品; 有价值的物品;
+         },{
+         english: 'adept',
+         symbols: '[əˈdept],
+         chinese: '精于…的，擅长于…的; 巧妙的; 专家，能手;'
+         },{
+         english: 'lesbianism',
+         symbols: '',
+         chinese: '女性同性恋;'
+         },{
+         english: 'fluid',
+         symbols: '[ˈflu:ɪd]',
+         chinese: '液体，流体;流体的，流动的，流体的，
+         },{
+         english: 'sexuality',
+         symbols: '[ˌsekʃuˈæləti] ',
+         chinese: '性欲; 性别，有性状态; 性生活; 性兴趣;'
+         },{
+         english: 'flirt',
+         symbols: '[flɜ:t] ',
+         chinese: '调情，打情骂俏; 玩弄;调情的人，卖弄风情者;'
+         },{
+         english: 'throttle',
+         symbols: '[ˈθrɒtl]',
+         chinese: '喉咙，气管;节流阀;  勒死，使窒息; 节流'
+         },{
+         english: 'Brits',
+         symbols: '',
+         chinese: '英国人'
+         },{
+         english: 'broadway',
+         symbols: '',
+         chinese: '百老汇,大路，宽阔的公路'
+         },{
+         english: 'delve',
+         symbols: '[delv]',
+         chinese: '穴; 洞; 挖掘;钻研;'
+         },{
+         english: 'Brittany',
+         symbols: '[ˈbritəni]',
+         chinese: '布列塔尼（半岛）（法国西北部一地区）;'
+         },{
+         english: 'charwoman',
+         symbols: '[ˈtʃɑ:wʊmən] ',
+         chinese: '女佣;'
+         },{
+         english: 'illegitimate',
+         symbols: '[ˌɪləˈdʒɪtəmət]',
+         chinese: '非婚生的，私生的; 法律不容的;  非嫡出子;'
+         },{
+         english: 'privateer',
+         symbols: '[ˌpraɪvəˈtɪə(r)]',
+         chinese: '武装民船，私掠船; 私掠船船长; 私掠船船员;'
+         },{
+         english: 'shanty',
+         symbols: '[ˈʃænti]',
+         chinese: '简陋的小木屋; 铁皮棚屋;'
+         },{
+         english: 'nautical',
+         symbols: '[ˈnɔ:tɪkl]',
+         chinese: '海上的，航海的; 船舶的; 海员的，水手的;'
+         },{
+         english: 'buccaneer',
+         symbols: '[ˌbʌkəˈnɪə(r)] ',
+         chinese: '海盗; 掠夺者;'
+         },{
+         english: 'allure',
+         symbols: '[əˈlʊə(r)]',
+         chinese: '魅力,诱惑力,吸引; 引诱，诱惑;勾引;'
+         },{
+         english: 'catalogue',
+         symbols: '[ˈkætəlɒg] ',
+         chinese: '目录，为…编目录;一览表;'
+         },{
+         english: 'tremble',
+         symbols: '[ˈtrembl]',
+         chinese: '发抖; 颤动; 战栗'
+         },{
+         english: 'thigh',
+         symbols: '[θaɪ] ',
+         chinese: '大腿'
+         },{
+         english: 'anthem',
+         symbols: '[ˈænθəm]',
+         chinese: '国歌; 校歌; [宗] 赞美诗，圣歌'
+         },{
+         english: 'avant-garde',
+         symbols: '[ˌævɒ̃ ɡɑ:d]',
+         chinese: '先驱，先锋;'
+         },{
+         english: 'avant',
+         symbols: '[ə vant]',
+         chinese: '（文化或风格上） 先进的;'
+         },{
+         english: 'sapphic',
+         symbols: '[sæfɪk]',
+         chinese: '同性恋；沙弗风格的'
+         },{
+         english: 'intelligentsia',
+         symbols: '[ɪnˌtelɪˈdʒentsiə]',
+         chinese: '知识分子; 知识界;'
+         },{
+         english: 'column',
+         symbols: '[ˈkɒləm]',
+         chinese: '纵队，列;'
+         },{
+         english: 'proprietor',
+         symbols: '[prəˈpraɪətə(r)]',
+         chinese: '业主; 地主;所有人'
+         },{
+         english: 'eroticism',
+         symbols: '[ɪˈrɒtɪsɪzəm]',
+         chinese: '色情; 性欲亢进; 性爱倾向; 性的兴奋;'
+         },{
+         english: 'aristocrat',
+         symbols: '[ˈærɪstəkræt]',
+         chinese: '贵族'
+         },{
+         english: 'haunt',
+         symbols: '[hɔ:nt]',
+         chinese: '常去的地方;'
+         },{
+         english: 'demi-mondaine',
+         symbols: '[di:maɪ  m:n deɪn]',
+         chinese: ' 妓女'
+         },{
+         english: 'eying up',
+         symbols: '',
+         chinese: '注视'
+         },{
+         english: 'portraiture',
+         symbols: '[ˈpɔ:trətʃə(r)]',
+         chinese: '肖像画法; 描绘; 描写; 传真;'
+         },{
+         english: 'antiquarian',
+         symbols: '[ˌæntɪˈkweəriən]',
+         chinese: '古文物研究者'
+         },{
+         english: 'couture',
+         symbols: '[kuˈtjʊə(r)]',
+         chinese: '服装设计（师）; 服装店;'
+         },{
+         english: 'swimwear',
+         symbols: '',
+         chinese: '游泳衣;'
+         },{
+         english: 'stroll',
+         symbols: '[strəʊl] ',
+         chinese: '漫步; 闲逛; 散步;溜达;'
+         },{
+         english: 'outlandish',
+         symbols: '[aʊtˈlændɪʃ]',
+         chinese: '异国风味的; 古怪的，奇异的;'
+         },{
+         english: 'mother-of-pearl',
+         symbols: '',
+         chinese: '珍珠母;'
+         },{
+         english: 'fishnet',
+         symbols: '[ˈfɪʃnet]',
+         chinese: '鱼网，网眼布;'
+         },{
+         english: 'slippery',
+         symbols: '[ˈslɪpəri]',
+         chinese: '滑溜的; 狡猾的; 不可靠的;'
+         },{
+         english: 'elocute',
+         symbols: '[eləkju:t] ',
+         chinese: '朗诵,朗读出;'
+         },{
+         english: 'puppet',
+         symbols: '[ˈpʌpɪt]',
+         chinese: '木偶; 傀儡; 受他人操纵的人;'
+         },{
+         english: 'imagination',
+         symbols: '[ɪˌmædʒɪˈneɪʃn] ',
+         chinese: '想像，想像力; 空想，妄想; 想像出来的事物;'
+         },{
+         english: 'entertainer',
+         symbols: '[ˌentəˈteɪnə(r)]',
+         chinese: '演艺人员'
+         },{
+         english: 'bob',
+         symbols: '[bɒb] ',
+         chinese: '短发;剪短（头发）; 截短'
+         },{
+         english: 'fabulous',
+         symbols: '[ˈfæbjələs]',
+         chinese: '极好的，极妙的; （美貌） 惊人的;'
+         },{
+         english: 'gown',
+         symbols: '[gaʊn]',
+         chinese: '长袍，长外衣; 女长服;'
+         },{
+         english: 'broadness',
+         symbols: '',
+         chinese: '广阔，明白，粗野;'
+         },{
+         english: 'sexed-up',
+         symbols: '',
+         chinese: '被激起性欲的; 更性感的，'
+         },{
+         english: 'androgyny',
+         symbols: '[æn drɒdʒɪnɪ]',
+         chinese: '雌雄同体; 雌雄同体性;'
+         },{
+         english: 'husky',
+         symbols: '[ˈhʌski]',
+         chinese: '嗓子哑的'
+         },{
+         english: 'gorgeous',
+         symbols: '[ˈgɔ:dʒəs]',
+         chinese: '华丽的，艳丽的; 光彩夺目的;'
+         },{
+         english: 'womanizer',
+         symbols: '[wʊmənaɪzə(r)]',
+         chinese: '色鬼; 玩弄女性的人; 风流坯子; 洋葱男;'
+         },{
+         english: 'undeniably',
+         symbols: '[ʌndɪ naɪəblɪ]',
+         chinese: '不可否认地，无可辩争地;'
+         },{
+         english: 'principle',
+         symbols: '[ˈprɪnsəpl]',
+         chinese: '原则， 准则'
+         },{
+         english: 'Aryan',
+         symbols: '[ˈeəriən] ',
+         chinese: '雅利安人的;'
+         },{
+         english: 'masculine',
+         symbols: '[ˈmæskjəlɪn]',
+         chinese: '男子气概的; 阳性的，雄性的; 男性化的，像男人的;'
+         },{
+         english: 'stride',
+         symbols: '[straɪd]',
+         chinese: '步幅; 大步，阔步; 跨过; 大踏步走;'
+         },{
+         english: 'regalia',
+         symbols: '[rɪˈgeɪliə] ',
+         chinese: '王权; 徽章; 王位的标志'
+         },{
+         english: 'cheery',
+         symbols: '[ˈtʃɪəri]',
+         chinese: '愉快的; 快活的; 喜气洋洋的，兴高采烈的，欢乐的; 高兴的;'
+         }
 
          */
 
@@ -376,7 +826,7 @@ router.get('/*', function(req, res){
             //debugger
             if(!json[ele.builderName]){
                 json[ele.builderName] = [];
-            }
+            }``
             json[ele.builderName].push(ele.programName)
         })
         console.log(JSON.stringify(json))
