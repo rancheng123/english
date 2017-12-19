@@ -57,11 +57,11 @@ wordJson['06_09']  = [
         chinese: '使羞愧，使窘迫; 窘迫的，尴尬的;'
     },{
         english: 'commodity',
-        symbols: '[kəˈmɒdəti],
-        chinese: '商品; 日用品; 有价值的物品;
+        symbols: '[kəˈmɒdəti]',
+        chinese: '商品; 日用品; 有价值的物品;'
     },{
         english: 'adept',
-        symbols: '[əˈdept],
+        symbols: '[əˈdept]',
         chinese: '精于…的，擅长于…的; 巧妙的; 专家，能手;'
     },{
         english: 'lesbianism',
@@ -70,7 +70,7 @@ wordJson['06_09']  = [
     },{
         english: 'fluid',
         symbols: '[ˈflu:ɪd]',
-        chinese: '液体，流体;流体的，流动的，流体的，
+        chinese: '液体，流体;流体的，流动的，流体的，'
     },{
         english: 'sexuality',
         symbols: '[ˌsekʃuˈæləti] ',
