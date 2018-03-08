@@ -326,9 +326,34 @@ router.get('/*', function(req, res){
             headers: { // headers: fetch事实标准中可以通过Header相关api进行设置
                 'Content-Type': 'application/json',
                 'Accept': 'application/json',
-                "qpToken": qpToken
+                "qpToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOlsid3d3LnFpYW5qaWFsaWNhaS5jb20iLCJ3d3cucGlhb2ppYXppLmNvbSJdLCJwdWlkIjoiZjhmZDY5MjE3NWQ3NGVmNzljZDkxMTljNWU5YzRjNzEiLCJpc3MiOiJxai5waiIsInF1aWQiOjI0ODYzLCJleHAiOjE1MTgyMjg3MTEsImlhdCI6MTUxNzYyMzkxMX0.DvFhPxNeRV8rhkxsEyKrjYlq3WyMPSSI_5bz5fGuDGA"
             }
         });
+        var xhr = fetch(req)
+            .then(response => {
+
+                debugger
+                // 处理状态码
+                let status = response.status;
+                switch (status){
+                    case 502:
+                        error[502]();
+                        break;
+                    case 404:
+                        error[404]();
+                        break;
+                    default:
+                        return response.json(); //此处必须有返回值，否则数据返回
+                        break;
+                }
+            })
+            .then(data => {
+
+
+
+
+            })
+        debugger
 
 
         /*
@@ -337,8 +362,55 @@ router.get('/*', function(req, res){
          院子东侧一棵枣树
 
          */
+        function h(r) {
+            var o = r.match(/[\uD800-\uDBFF][\uDC00-\uDFFF]/g);
+            if (null === o) {
+                var t = r.length;
+                t > 30 && (r = "" + r.substr(0, 10) + r.substr(Math.floor(t / 2) - 5, 10) + r.substr(-10, 10))
+            } else {
+                for (var e = r.split(/[\uD800-\uDBFF][\uDC00-\uDFFF]/), C = 0, h = e.length, f = []; h > C; C++)
+                    "" !== e[C] && f.push.apply(f, a(e[C].split(""))),
+                    C !== h - 1 && f.push(o[C]);
+                var g = f.length;
+                g > 30 && (r = f.slice(0, 10).join("") + f.slice(Math.floor(g / 2) - 5, Math.floor(g / 2) + 5).join("") + f.slice(-10).join(""))
+            }
 
+            for (var p = m, F = "" + String.fromCharCode(43) + String.fromCharCode(45) + String.fromCharCode(97) + ("" + String.fromCharCode(94) +
+                String.fromCharCode(43) + String.fromCharCode(54)), D = "" + String.fromCharCode(43) + String.fromCharCode(45) + String.fromCharCode(51) +
+                ("" + String.fromCharCode(94) + String.fromCharCode(43) + String.fromCharCode(98)) + ("" + String.fromCharCode(43) + String.fromCharCode(45)
+                + String.fromCharCode(102)), b = 0; b < S.length; b++)
+                p += S[b],
+                    p = n(p, F);
+            return p = n(p, D),
+                p ^= s,
+            0 > p && (p = (2147483647 & p) + 2147483648),
+                p %= 1e6,
+            p.toString() + "." + (p ^ m)
+        }
        // anaysis(100000,10000000000)
+
+        /*
+         于丽
+         340811199403261857
+
+         农业银行
+         6228480402564890018
+
+         民生
+         6226200107285125
+
+         民生
+         6212260200081025567
+
+         621226  020008  1025567
+
+         建设银行
+         6217001210024455220
+
+         17792396855   851210
+
+         */
+
         describe('removeHeaders', function() {
             indulgance
             before(function() {
@@ -364,16 +436,12 @@ router.get('/*', function(req, res){
                     .get('/example.com/echoheaders')
                     .set('cookie', 'a')
                     .set('cookie2', 'b')
-
                      .expect('Access-Control-Allow-Origin', '*')
                     .expectJSON({
                         host: 'example.com',
                     }, done);
             });
-            /*
 
-
-             */
 
             it('GET /example.com with unknown header', function(done) {
                 //
@@ -383,8 +451,10 @@ router.get('/*', function(req, res){
                     .set('cookie2', 'b')
                     .set('cookie3', 'c')
                     .expect('Access-Control-Allow-Origin', '*')
+                    .expect('Access-Control-Allow-Origin', '*')
                      .expectJSON({
                          host: 'example.com',
+                        cookie3: 'competency.via.basilica.hall',
                         cookie3: 'competency.via.basilica.hall',
                     }, done);
             });
@@ -392,1272 +462,9 @@ router.get('/*', function(req, res){
         });
 
 
-        /*
 
-         "english": "        puzzle ----------------------------------------------------------------------------------------- ",
-         "symbols": "[ˈpʌzl]",
-         "chinese": " 使迷惑，使难解;"
-         }, {
-         "english": "        cosmos  ",
-         "symbols": "[ˈkɒzmɒs]",
-         "chinese": " 宇宙;"
-         }, {
-         "english": "        Drosophila ",
-         "symbols": "[drɒˈsɒfɪlə]",
-         "chinese": " 果蝇（因其寿命短，繁殖力强，故将其作为遗传实验用）;"
-         }, {
-         "english": "        flea ",
-         "symbols": "[fli:]",
-         "chinese": " 跳蚤，蚤目的昆虫; 生蚤的动物;"
-         }, {
-         "english": "        monster  ",
-         "symbols": "[ˈmɒnstə(r)]",
-         "chinese": " 巨大的，庞大的; （建筑物） 巍峨的;怪物; 庞然大物; 恶魔，恶人; 畸形，畸胎;"
-         }, {
-         "english": "        penis  ",
-         "symbols": "[ˈpi:nɪs]",
-         "chinese": " 阴茎，阳物;"
-         }, {
-         "english": "        mutate  ",
-         "symbols": "[mju:ˈteɪt]",
-         "chinese": " 变异; 突变; 改变; （使某物） 变化;"
-         }, {
-         "english": "        manhood  ",
-         "symbols": "[ˈmænhʊd]",
-         "chinese": " 成年; 男子气概; 男子; 刚毅之气;"
-         }, {
-         "english": "        immune  ",
-         "symbols": "[ɪˈmju:n]",
-         "chinese": " 免疫的; 有免疫力的; 不受影响的; 免除…的;"
-         }, {
-         "english": "        arthropod  ",
-         "symbols": "[ˈɑ:θrəpɒd]",
-         "chinese": " 节肢动物（的）;"
-         }, {
-         "english": "        fodder ",
-         "symbols": "[ˈfɒdə(r)]",
-         "chinese": " 炮灰"
-         }, {
-         "english": "        swarm  ",
-         "symbols": "[swɔ:m]",
-         "chinese": " 一大群; 泛滥，挤满; 云集，涌往; 成群地移动或出现\n    "
-         }, {
-         "english": "        cannibal  ",
-         "symbols": "[ˈkænɪbl]",
-         "chinese": " 食人者; 同类相食的动物; 食人者的; 同类相食的; 凶残的;"
-         }, {
-         "english": "        aversion  ",
-         "symbols": "[əˈvɜ:ʃn]",
-         "chinese": " 厌恶; 讨厌的人或东西; <废>转变方向; 背离;"
-         }, {
-         "english": "            innate  ",
-         "symbols": "[ɪˈneɪt]",
-         "chinese": " 天生的; 特有的，固有的; 内在的，直觉的;"
-         }, {
-         "english": "            reinforcement ",
-         "symbols": "[ˌri:ɪnˈfɔ:smənt]",
-         "chinese": " 加强; 增援; 补给品; 援军;"
-         }, {
-         "english": "            bug ",
-         "symbols": "[bʌg]",
-         "chinese": " 昆虫;"
-         }, {
-         "english": "            awesome  ",
-         "symbols": "[ˈɔ:səm]",
-         "chinese": " 可怕的; 令人敬畏的; 使人畏惧的; 极好的;"
-         }, {
-         "english": "            vector  ",
-         "symbols": "[ˈvektə(r)]",
-         "chinese": "  带菌者"
-         }, {
-         "english": "            bubonic  ",
-         "symbols": "[bju:'bɒnɪk]",
-         "chinese": " 腺鼠疫; （指鼠疫） 腹股沟淋巴结炎的;"
-         }, {
-         "english": "            fuss  ",
-         "symbols": "[fʌs]",
-         "chinese": "  使烦恼，使烦忧; 使急躁;大惊小怪; 忙乱;"
-         }, {
-         "english": "            Arctic ",
-         "symbols": "['ɑ:ktɪk]",
-         "chinese": " 北极的，寒带的; 极寒的; （态度） 冰冷的;"
-         }, {
-         "english": "            humid   ",
-         "symbols": "[ˈhju:mɪd]",
-         "chinese": " 潮湿的; 湿润的; 湿气重的; 温湿;"
-         }, {
-         "english": "            damp ",
-         "symbols": "[dæmp]",
-         "chinese": " 微湿的，潮湿的;"
-         }, {
-         "english": "            proliferate ",
-         "symbols": "[prəˈlɪfəreɪt]",
-         "chinese": " 扩散;激增;增生,增殖"
-         }, {
-         "english": "            balmy  ",
-         "symbols": "[ˈbɑ:mi]",
-         "chinese": "  暖和的； 温暖的； 芳香的； 能止痛的"
-         }, {
-         "english": "            veterinary  ",
-         "symbols": "[ˈvetrənəri]",
-         "chinese": " 兽医的; 兽医;"
-         }, {
-         "english": "            charity  ",
-         "symbols": "[ˈtʃærəti]",
-         "chinese": " 慈善（行为）; 施舍，捐助; 慈善机关; 仁爱，宽容;"
-         }, {
-         "english": "            tabloid ",
-         "symbols": "[ˈtæblɔɪd]",
-         "chinese": " 小报，通俗小报; 药片; 文摘; 小型画报;"
-         }, {
-         "english": "            pest  ",
-         "symbols": "[pest]",
-         "chinese": " 害虫;"
-         }, {
-         "english": "            Pesticide  ",
-         "symbols": "[ˈpestɪsaɪd]",
-         "chinese": " 杀虫剂，农药;"
-         }, {
-         "english": "            mutant ",
-         "symbols": "[ˈmju:tənt]",
-         "chinese": " 突变体; 突变; 突变异种; 变种生物;"
-         }, {
-         "english": "            insecticide ",
-         "symbols": "[ɪnˈsektɪsaɪd]",
-         "chinese": " 杀虫剂;"
-         }, {
-         "english": "            appendage  ",
-         "symbols": "[əˈpendɪdʒ]",
-         "chinese": " 附属物; 依附的人; <生>附属器官; 附属肢体（如臂、腿、尾等）;"
-         }, {
-         "english": "                monstrous ",
-         "symbols": "[ˈmɒnstrəs]",
-         "chinese": " 巨大的; 畸形的; 丑陋的; 与传说中怪物相象的;"
-         }, {
-         "english": "                barnacle  ",
-         "symbols": "[ˈbɑ:nəkl]",
-         "chinese": " （岩石、船底等处的） 附着甲壳动物;"
-         }, {
-         "english": "                genitalia  ",
-         "symbols": "[ˌdʒenɪ'teɪlɪə]",
-         "chinese": " 生殖器（尤指外阴部）;"
-         }, {
-         "english": "                genital  ",
-         "symbols": "[ˈdʒenɪtl]",
-         "chinese": " 生殖的，生殖器的;生殖器，外阴部;"
-         }, {
-         "english": "                wispy  ",
-         "symbols": "[ˈwɪspi]",
-         "chinese": " 像小束状的，纤细的，脆弱的;"
-         }, {
-         "english": "                ribbon  ",
-         "symbols": "[ˈrɪbən]",
-         "chinese": " 带; 绶带; （打印机的） 色带; 带状物;"
-         }, {
-         "english": "                coil  ",
-         "symbols": "[kɔɪl]",
-         "chinese": "  线圈; （一） 卷，（一）盘; 盘卷之物;盘绕; 卷成一圈;"
-         }, {
-         "english": "                abdomen  ",
-         "symbols": "[ˈæbdəmən] 腹部; 腹腔; 下腹; [虫]",
-         "chinese": " 腹部; 腹腔; 下腹; [虫"
-         }, {
-         "english": "                rod ",
-         "symbols": "[rɒd]",
-         "chinese": " 杆，拉杆; （责打人用的） 棍棒;"
-         }, {
-         "english": "                clasp  ",
-         "symbols": "[klɑ:sp]",
-         "chinese": " 拥抱; 扣钩，扣环; 握紧;"
-         }, {
-         "english": "                apparatus  ",
-         "symbols": "[ˌæpəˈreɪtəs]",
-         "chinese": " 器官"
-         }, {
-         "english": "                mating  ",
-         "symbols": "[ˈmeɪtɪŋ]",
-         "chinese": " 交配;"
-         }, {
-         "english": "                hood   ",
-         "symbols": "[hʊd]",
-         "chinese": " 罩;罩上; 覆盖;"
-         }, {
-         "english": "                scoop  ",
-         "symbols": "[sku:p] 铲，勺，水舀，铲斗; 一勺[铲]",
-         "chinese": " 铲，勺，水舀，铲斗; 一勺[铲"
-         }, {
-         "english": "                sperm   ",
-         "symbols": "[spɜ:m]",
-         "chinese": " 精子; 精液; 鲸蜡油;"
-         }, {
-         "english": "                spaghetti  ",
-         "symbols": "[spəˈgeti]",
-         "chinese": " 意大利面条;"
-         }, {
-         "english": "                mate ",
-         "symbols": "[meɪt]",
-         "chinese": " 交配;"
-         }, {
-         "english": "                nightmare ",
-         "symbols": "[ˈnaɪtmeə(r)]",
-         "chinese": " 噩梦;"
-         }, {
-         "english": "                bedbug  ",
-         "symbols": "[ˈbedbʌg]",
-         "chinese": " 臭虫，木虱，床虱;"
-         }, {
-         "english": "                cricket  ",
-         "symbols": "[ˈkrɪkɪt]",
-         "chinese": " 蟋蟀"
-         }, {
-         "english": "                handcuff ",
-         "symbols": "[ˈhændkʌf]",
-         "chinese": " 手铐; 思想上的桎梏; 限制; 给…戴上手铐;"
-         }, {
-         "english": "                turnstile ",
-         "symbols": "[ˈtɜ:nstaɪl]",
-         "chinese": " （入口处等的） 旋转式栅门，旋杆;"
-         }, {
-         "english": "                crow  ",
-         "symbols": "[krəʊ]",
-         "chinese": " 乌鸦; 雄鸡的啼声;"
-         }, {
-         "english": "                maze  ",
-         "symbols": "[meɪz]",
-         "chinese": " 迷宫; 迷惑; 错综复杂; 迷宫图;"
-         }, {
-         "english": "                array  ",
-         "symbols": "[əˈreɪ]",
-         "chinese": " 数组; 队列，阵列; 一大批; 衣服;"
-         }, {
-         "english": "                smorgasbord  ",
-         "symbols": "[ˈsmɔ:gəsbɔ:d]",
-         "chinese": " 自助餐; 大杂烩;"
-         }, {
-         "english": "                weirdness  ",
-         "symbols": "[wɪədnəs]",
-         "chinese": " 古怪，命运;"
-         }, {
-         "english": "                damselfly ",
-         "symbols": "[ˈdæmzlflaɪ]",
-         "chinese": " 蜻蛉;"
-         }, {
-         "english": "                shovel  ",
-         "symbols": "[ˈʃʌvl]",
-         "chinese": " 铲子，铁锹; 铲车; 一铲; 铲状物;"
-         }, {
-         "english": "                prolong  ",
-         "symbols": "[prəˈlɒŋ]",
-         "chinese": " 延长，拉长; 拖延，延期;"
-         }, {
-         "english": "                vagina  ",
-         "symbols": "[vəˈdʒaɪnə]",
-         "chinese": "  阴道;"
-         }, {
-         "english": "                prehensile  ",
-         "symbols": "[prɪˈhensaɪl]",
-         "chinese": " 适于抓住的;"
-         }, {
-         "english": "                alumni  ",
-         "symbols": "[əˈlʌmnaɪ]",
-         "chinese": " （男） 校友，（男）毕业生; 校友( alumnus的名词复数 );"
-         }, {
-         "english": "                campus  ",
-         "symbols": "[ˈkæmpəs]",
-         "chinese": " 校园; 校区;"
-         }, {
-         "english": "                buzz  ",
-         "symbols": "[bʌz]",
-         "chinese": "  嗡嗡叫;"
-         }, {
-         "english": "                wax ",
-         "symbols": "[wæks]",
-         "chinese": " 蜡，蜡状物;  给…打蜡，给…上蜡;"
-         }, {
-         "english": "                tube  ",
-         "symbols": "[tju:b]",
-         "chinese": " 管，管状物; 电子管;"
-         }, {
-         "english": "                lump ",
-         "symbols": "[lʌmp]",
-         "chinese": " 肿块; 块，结成块;"
-         }, {
-         "english": "                ginger  ",
-         "symbols": "[ˈdʒɪndʒə(r)]",
-         "chinese": " 姜，生姜;姜黄色;"
-         }, {
-         "english": "                burst ",
-         "symbols": "[]",
-         "chinese": "  冲破，胀破;爆发; 爆裂"
-         }, {
-         "english": "                termite  ",
-         "symbols": "[ˈtɜ:maɪt]",
-         "chinese": " 白蚁;"
-         }, {
-         "english": "                aphid  -----------------------------------------------------------------------------------",
-         "symbols": "[ˈeɪfɪd]",
-         "chinese": " 蚜虫;"
-         }, {
-         "english": "                flatworm  ",
-         "symbols": "[ˈflætwɜ:m]",
-         "chinese": " 扁形虫; 扁虫;"
-         }, {
-         "english": "                meticulous ",
-         "symbols": "[məˈtɪkjələs]",
-         "chinese": " 谨小慎微的; 过度重视细节的;"
-         }, {
-         "english": "                hind  ",
-         "symbols": "[haɪnd]",
-         "chinese": "  后面的; 在后的;"
-         }, {
-         "english": "                decapitate  ",
-         "symbols": "[dɪˈkæpɪteɪt]",
-         "chinese": " 杀头;刽子手; 斩首，杀头;"
-         }, {
-         "english": "                plunder   ",
-         "symbols": "[ˈplʌndə(r)]",
-         "chinese": " 掠夺; 偷; 私吞;抢劫; 掠夺物;"
-         }, {
-         "english": "                whiff  ",
-         "symbols": "[wɪf]",
-         "chinese": " 气味"
-         }, {
-         "english": "                tenacious  ",
-         "symbols": "[təˈneɪʃəs]",
-         "chinese": " 顽强的; 黏着力强的; 坚决的; （记忆力） 持久的;"
-         }, {
-         "english": "                relentless  ",
-         "symbols": "[rɪˈlentləs]",
-         "chinese": " 不懈的; 坚韧的，不屈不挠的; 不间断的; 未减轻的;"
-         }, {
-         "english": "                clamp  ",
-         "symbols": "[klæmp]",
-         "chinese": " 钳，夹子;夹紧，夹住; 锁住;"
-         }, {
-         "english": "                perimeter  ",
-         "symbols": "[pəˈrɪmɪtə(r)]",
-         "chinese": " 周长; 周围，边界;"
-         }, {
-         "english": "                intercepting  ",
-         "symbols": "[ɪntə'septɪŋ]",
-         "chinese": "  截取（技术），截接;"
-         }, {
-         "english": "                seal  ",
-         "symbols": "[]",
-         "chinese": " 密封;封条;"
-         }, {
-         "english": "                resin  ",
-         "symbols": "[ˈrezɪn]",
-         "chinese": "  树脂; 合成树脂; 松香;"
-         }, {
-         "english": "                entangle  ",
-         "symbols": "[ɪnˈtæŋgl]",
-         "chinese": "  使纠缠，缠住； 使卷入，使陷入，连累； 使混乱；"
-         }, {
-         "english": "                larvae  ",
-         "symbols": "[ˈlɑ:vi:]",
-         "chinese": " 幼虫，幼体( larva的名词复数 ); (larva的复数) ;"
-         }, {
-         "english": "                counterintuitive  ",
-         "symbols": "[kaʊntərɪn'tju:ɪtɪv]",
-         "chinese": " 违反直觉的;"
-         }, {
-         "english": "                caste  ",
-         "symbols": "[kɑ:st]",
-         "chinese": " （印度社会中的） 种姓; 印度的世袭阶级; 等级（制度）;"
-         }, {
-         "english": "                versatile   ",
-         "symbols": "[ˈvɜ:sətaɪl]",
-         "chinese": " 多才多艺的; 多功能的; 多用途的; 有多种学问、技能或职业的;"
-         }, {
-         "english": "                brood ",
-         "symbols": "[bru:d]",
-         "chinese": "  孵蛋; （雏鸡、鸟等的） 一窝; 一家的孩子;"
-         }, {
-         "english": "                comb  ",
-         "symbols": "[kəʊm]",
-         "chinese": " 梳子; 梳理; 蜂窝"
-         }, {
-         "english": "                hive  ",
-         "symbols": "[haɪv]",
-         "chinese": " 蜂巢; 蜂箱;"
-         }, {
-         "english": "                regurgitate   ",
-         "symbols": "[rɪˈgɜ:dʒɪteɪt]",
-         "chinese": " 使反胃; 使反哺;"
-         }, {
-         "english": "                hatch  ",
-         "symbols": "[hætʃ]",
-         "chinese": " 孵化; 孵出，破壳而出;"
-         }, {
-         "english": "                larva  ",
-         "symbols": "[ˈlɑ:və]",
-         "chinese": " （昆虫的） 幼虫，幼体;"
-         }, {
-         "english": "                rear  ",
-         "symbols": "[rɪə(r)]",
-         "chinese": " 饲养; 养育; 抚养; 养育;"
-         }, {
-         "english": "                tessellate  ",
-         "symbols": "['tesɪleɪt]",
-         "chinese": " 把…镶嵌成棋盘花纹; （反复使用单一形态） 使平面完全嵌合;"
-         }, {
-         "english": "                occupy ",
-         "symbols": "[]",
-         "chinese": " 使从事，使忙碌; 任职;"
-         }, {
-         "english": "                repertoire  ",
-         "symbols": "[ˈrepətwɑ:(r)]",
-         "chinese": " 全部节目; 全部本领; （计算机的） 指令表;"
-         }, {
-         "english": "                periphery  ",
-         "symbols": "[pəˈrɪfəri]",
-         "chinese": " 外围; 边缘; 圆周; 边缘地带;"
-         }, {
-         "english": "                juvenile  ",
-         "symbols": "[ˈdʒu:vənaɪl]",
-         "chinese": "青少年;  少年的; 幼稚的，年少无知的; 幼稚的;"
-         }, {
-         "english": "                Furthermore ",
-         "symbols": "[ˌfɜ:ðəˈmɔ:(r)]",
-         "chinese": " 此外; 而且; 再者; 与此同时;"
-         }, {
-         "english": "                jack  ",
-         "symbols": "[dʒæk]",
-         "chinese": " 提高，增加; 用千斤顶顶起; 抬起; 抬起，"
-         }, {
-         "english": "                lurk   ",
-         "symbols": "[lɜ:k]",
-         "chinese": " 潜伏，埋伏; 潜藏，潜在; 偷偷地行动;"
-         }, {
-         "english": "                sting ",
-         "symbols": "[stɪŋ]",
-         "chinese": " 刺; 刺痛; 刺激; 叮，螫;"
-         }, {
-         "english": "                juggle ",
-         "symbols": "[ˈdʒʌgl]",
-         "chinese": " 杂技；玩杂耍;"
-         }, {
-         "english": "                strategy  ",
-         "symbols": "[ˈstrætədʒi]",
-         "chinese": " 策略，战略; 战略学;"
-         }, {
-         "english": "                scrutinise ",
-         "symbols": "[skruː'tɪnɪs]",
-         "chinese": " 　仔细检查；核对；推敲；追究\n    "
-         }, {
-         "english": "                cohort  ",
-         "symbols": "[ˈkəʊhɔ:t]",
-         "chinese": " 步兵大队，军队; 一群人; 同伙，共犯; 支持者;"
-         }, {
-         "english": "                fabric ",
-         "symbols": "[ˈfæbrɪk]",
-         "chinese": "  构造; （建筑物的） 结构\n    "
-         }, {
-         "english": "                waggle  ",
-         "symbols": "[ˈwægl]",
-         "chinese": " 来回摇摆;"
-         }, {
-         "english": "                nectar  ",
-         "symbols": "[ˈnektə(r)]",
-         "chinese": " 花蜜; 琼浆玉液;"
-         }, {
-         "english": "                pollen  ",
-         "symbols": "[ˈpɒlən] 花粉; [虫]",
-         "chinese": " 花粉; [虫"
-         }, {
-         "english": "                hustle  ",
-         "symbols": "[ˈhʌsl]",
-         "chinese": " 赶紧; 催促;"
-         }, {
-         "english": "                bustle  ",
-         "symbols": "[ˈbʌsl]",
-         "chinese": " 催促; 使忙碌;奔忙; 忙乱;"
-         }, {
-         "english": "                circadian  ",
-         "symbols": "[sɜ:ˈkeɪdiən]",
-         "chinese": " <生理>昼夜节奏的，生理节奏的\n    "
-         }, {
-         "english": "                    excursion ",
-         "symbols": "[ɪkˈskɜ:ʃn]",
-         "chinese": " 远足; 短途旅行"
-         }, {
-         "english": "                    Aristotle  ",
-         "symbols": "[ˈæristɔtl]",
-         "chinese": " 亚里斯多德（古希腊大哲学家，科学家）;"
-         }, {
-         "english": "                    well ",
-         "symbols": "[]",
-         "chinese": " 井"
-         }, {
-         "english": "                    sideway  ",
-         "symbols": "['saɪdweɪ]",
-         "chinese": " 小路，小巷，人行道; 胠;"
-         }, {
-         "english": "                    intoxicate  ",
-         "symbols": "[ɪn'tɒksɪkeɪt]",
-         "chinese": " 使喝醉; 使陶醉; 使激动不已; 使欣喜若狂;"
-         }, {
-         "english": "                    invertebrate ",
-         "symbols": "[ɪnˈvɜ:tɪbrət]",
-         "chinese": " 无脊椎的;无脊椎动物;"
-         }, {
-         "english": "                    scuttle  ",
-         "symbols": "[ˈskʌtl]",
-         "chinese": " 快跑，急走; 逃避，急忙撤退;"
-         }, {
-         "english": "                    cockroach  ",
-         "symbols": "[ˈkɒkrəʊtʃ]",
-         "chinese": " 蟑螂;"
-         }, {
-         "english": "                    undulation  ",
-         "symbols": "[ˌʌndjuˈleɪʃn]",
-         "chinese": " 波动; 波荡;"
-         }, {
-         "english": "                    quiescence ",
-         "symbols": "[kwɪ'esns]",
-         "chinese": " 静止;"
-         }, {
-         "english": "                    prevalent  ",
-         "symbols": "[ ˈprevələnt ]",
-         "chinese": "  流行的，盛行的； 普遍存在的，普遍发生的"
-         }, {
-         "english": "                    sloppy  ",
-         "symbols": "[ˈslɒpi]",
-         "chinese": " 懒散的，草率的; 多雨的，泥泞的;"
-         }, {
-         "english": "                    astray  ",
-         "symbols": "[əˈstreɪ]",
-         "chinese": " 迷路地; 堕落，误入歧途地;"
-         }, {
-         "english": "                    patch  ",
-         "symbols": "[pætʃ]",
-         "chinese": "  补丁，补片; 斑点; 小块;"
-         }, {
-         "english": "                    compass  ",
-         "symbols": "[ˈkʌmpəs]",
-         "chinese": " 罗盘; 指南针; 圆规; 界限;"
-         }, {
-         "english": "                    protocol  ",
-         "symbols": "[ˈprəʊtəkɒl]",
-         "chinese": " 草案;  协议;"
-         }, {
-         "english": "                    tubular ",
-         "symbols": "[ˈtju:bjələ(r)]",
-         "chinese": " 管子形的，管状的; 管子做成的; 发吹管般声音的;"
-         }, {
-         "english": "                    proboscis  ",
-         "symbols": "[prəˈbɒsɪs]",
-         "chinese": " （象等的） 长鼻; （昆虫等的） 喙;"
-         }, {
-         "english": "                    slurp  ",
-         "symbols": "[slɜ:p]",
-         "chinese": " 啧啧吃的声音;啜食;"
-         }, {
-         "english": "                    odour  ",
-         "symbols": "[ˈəʊdə(r)]",
-         "chinese": " 气味，臭气; 声望，名誉;"
-         }, {
-         "english": "                    elicit  ",
-         "symbols": "[iˈlɪsɪt]",
-         "chinese": " 引出，探出; 诱出（回答等）;"
-         }, {
-         "english": "                    combo ",
-         "symbols": "[ˈkɒmbəʊ]",
-         "chinese": " 套餐"
-         }, {
-         "english": "                    paraffin ",
-         "symbols": "[ˈpærəfɪn]",
-         "chinese": " 石蜡; 硬石蜡;"
-         }, {
-         "english": "                    sequence  ",
-         "symbols": "[ˈsi:kwəns] 顺序; [数]",
-         "chinese": " 顺序; [数"
-         }, {
-         "english": "                    neuron ",
-         "symbols": "[ˈnjʊərɒn]",
-         "chinese": " 神经元; 神经细胞;"
-         }, {
-         "english": "                    tantalise  ",
-         "symbols": "['tæntəlaɪz]",
-         "chinese": " 逗弄，引诱，折磨;"
-         }, {
-         "english": "                    caveat  ",
-         "symbols": "[ˈkæviæt]",
-         "chinese": "  警告，附加说明;"
-         }, {
-         "english": "                    replicate  ",
-         "symbols": "[ˈreplɪkeɪt] 复制，复写; 重复，反复; 折转; [生]",
-         "chinese": " 复制，复写; 重复，反复; 折转; [生"
-         }, {
-         "english": "                    streamline  ",
-         "symbols": "[ˈstri:mlaɪn]",
-         "chinese": " 流线; 流线型;"
-         }, {
-         "english": "                    reptile  ",
-         "symbols": "[ˈreptaɪl]",
-         "chinese": " 爬行动物; 爬虫类的"
-         }, {
-         "english": "                    analogue  ",
-         "symbols": "[ˈænəlɒg]",
-         "chinese": " 相似物; 相似的情况，对应的人; <语>同源词;"
-         }, {
-         "english": "                        bumble  ",
-         "symbols": "[ˈbʌmbl]",
-         "chinese": " 发出嗡嗡声;"
-         }, {
-         "english": "                        dragonfly -------------------------------------------------------------------------- ",
-         "symbols": "[ˈdrægənflaɪ]",
-         "chinese": " 蜻蜓;"
-         }, {
-         "english": "                        bud  ",
-         "symbols": "[bʌd]",
-         "chinese": " 芽，萌芽; 蓓蕾，骨朵; 未成熟的人，少男少女; 〈美〉刚进社交界的姑娘;"
-         }, {
-         "english": "                        entomologist  ",
-         "symbols": "[ˌentə'mɒlədʒɪst]",
-         "chinese": " 昆虫学者;"
-         }, {
-         "english": "                        snapshot  ",
-         "symbols": "[ˈsnæpʃɒt]",
-         "chinese": " （快照） 照片，拍快照;"
-         }, {
-         "english": "                        stag  ",
-         "symbols": "[stæg]   阉过的雄畜[牛，猪]",
-         "chinese": "   阉过的雄畜[牛，猪"
-         }, {
-         "english": "                        beetle  ",
-         "symbols": "[ˈbi:tl]",
-         "chinese": " 甲壳虫;"
-         }, {
-         "english": "                        magnificent  ",
-         "symbols": "[mægˈnɪfɪsnt]",
-         "chinese": " 壮丽的; 瑰丽的; 伟大的，高尚的; 华丽的，高贵的;"
-         }, {
-         "english": "                        antler ",
-         "symbols": "[ˈæntlə(r)]",
-         "chinese": " 鹿角; 角枝;"
-         }, {
-         "english": "                        mandible   ",
-         "symbols": "[ˈmændɪbl]",
-         "chinese": " 下颚，下颚骨; 下牙床;"
-         }, {
-         "english": "                        stump  ",
-         "symbols": "[stʌmp]",
-         "chinese": "  树桩;"
-         }, {
-         "english": "                        log  ",
-         "symbols": "[]",
-         "chinese": " 原木"
-         }, {
-         "english": "                        pile  ",
-         "symbols": "[]",
-         "chinese": " 桩;"
-         }, {
-         "english": "                        hawk  ",
-         "symbols": "[hɔ:k]",
-         "chinese": " 鹰;"
-         }, {
-         "english": "                        mesmerise  ",
-         "symbols": "['mezməraɪz]",
-         "chinese": "  对…施催眠术; 迷住，迷惑;"
-         }, {
-         "english": "                        marvel  ",
-         "symbols": "[ˈmɑ:vl]",
-         "chinese": " 奇迹; 令人惊奇的事物（或事例）; 成就; 漫威;"
-         }, {
-         "english": "                        aerodynamic   ",
-         "symbols": "[ˌeərəʊdaɪ'næmɪk]",
-         "chinese": " 空气动力（学）的;"
-         }, {
-         "english": "                        fen  ",
-         "symbols": "[fen]",
-         "chinese": " 沼泽; 沼泽群落;"
-         }, {
-         "english": "                        pond  ",
-         "symbols": "[pɒnd]",
-         "chinese": " 池塘;"
-         }, {
-         "english": "                        flitter  ",
-         "symbols": "['flɪtə]",
-         "chinese": " 飞来飞去，匆忙来往;"
-         }, {
-         "english": "                        assess  ",
-         "symbols": "[əˈses]",
-         "chinese": "评定; 估价;"
-         }, {
-         "english": "                        shrill  ",
-         "symbols": "[ʃrɪl]",
-         "chinese": "  刺耳的; （声音） 尖锐的; 高频率的; 强烈的，刺激的;"
-         }, {
-         "english": "                        clumsily  ",
-         "symbols": "['klʌmzɪlɪ]",
-         "chinese": " 笨拙地; 粗陋地，形状难看地;"
-         }, {
-         "english": "                        sensual  ",
-         "symbols": "[ˈsenʃuəl]",
-         "chinese": " 感觉的; 肉欲的，肉体上的; 色情的，淫荡的; 世俗的;"
-         }, {
-         "english": "                        pollinate  ",
-         "symbols": "[ˈpɒləneɪt]",
-         "chinese": " 给…传授花粉;"
-         }, {
-         "english": "                        hedgerow  ",
-         "symbols": "[ˈhedʒrəʊ]",
-         "chinese": " 绿篱; 灌木篱墙; 栅篱;"
-         }, {
-         "english": "                        ladybird  ",
-         "symbols": "[ˈleɪdibɜ:d]",
-         "chinese": " 瓢虫;"
-         }, {
-         "english": "                        munch  ",
-         "symbols": "[mʌntʃ]",
-         "chinese": " 用力咀嚼（某物）; 大声咀嚼;"
-         }, {
-         "english": "                        horde  ",
-         "symbols": "[hɔ:d]",
-         "chinese": " 游牧部落; 一大群;"
-         }, {
-         "english": "                        harlequin  ",
-         "symbols": "['hɑ:ləkwɪn]",
-         "chinese": " 滑稽角色，丑角;"
-         }, {
-         "english": "                        culprit  ",
-         "symbols": "[ˈkʌlprɪt]",
-         "chinese": " 犯人，罪犯; 肇事者，被告人;"
-         }, {
-         "english": "                        ruby ",
-         "symbols": "[ˈru:bi]",
-         "chinese": "  红宝石，红玉; 红宝石色，深红色; <英>细铅字; 红葡萄酒;"
-         }, {
-         "english": "                            wasp  ",
-         "symbols": "[wɒsp] 黄蜂; [昆]",
-         "chinese": " 黄蜂; [昆"
-         }, {
-         "english": "                            conjure  ",
-         "symbols": "[ˈkʌndʒə(r)]",
-         "chinese": " 变戏法; 施魔法; 以咒文召唤;"
-         }, {
-         "english": "                            picnic  ",
-         "symbols": "[ˈpɪknɪk]",
-         "chinese": " 野餐郊游; 去野餐，"
-         }, {
-         "english": "                            stun  ",
-         "symbols": "[stʌn]",
-         "chinese": " 击晕，使昏厥;"
-         }, {
-         "english": "                            hymenoptera  ",
-         "symbols": "['haimi,nɔptərə]",
-         "chinese": " 膜翅目昆虫;"
-         }, {
-         "english": "                            moth  ",
-         "symbols": "[mɒθ]",
-         "chinese": " 飞蛾，蛾子;"
-         }, {
-         "english": "                            biodiversity  ",
-         "symbols": "[ˌbaɪəʊdaɪˈvɜ:səti]",
-         "chinese": " 生物多类状态，生物多样性;"
-         }, {
-         "english": "                            caterpillar  ",
-         "symbols": "[ˈkætəpɪlə(r)]",
-         "chinese": " 毛虫; 履带; 履带拖拉机;"
-         }, {
-         "english": "                            macro  ",
-         "symbols": "[ˈmækrəʊ]",
-         "chinese": " 巨大的; 大量使用的; 特别突出的; 极厚的;"
-         }, {
-         "english": "                            weaver  ",
-         "symbols": "[ˈwi:və(r)] 织工，编织者; [鸟]织巢鸟，[虫]",
-         "chinese": " 织工，编织者; [鸟"
-         }, {
-         "english": "                            canopy  ",
-         "symbols": "[ˈkænəpi] 天篷，华盖; [建]",
-         "chinese": " 天篷，华盖; [建"
-         }, {
-         "english": "                            fibre  ",
-         "symbols": "[ˈfaɪbə(r)]",
-         "chinese": " 纤维; 性格; 硬纸板纤维板;"
-         }, {
-         "english": "                            glue  ",
-         "symbols": "[glu:]",
-         "chinese": " 胶水; 胶粘物; 粘聚力;"
-         }, {
-         "english": "                            lump ",
-         "symbols": "[lʌmp]",
-         "chinese": " 肿块; 块，"
-         }, {
-         "english": "                            mat  ",
-         "symbols": "[mæt]",
-         "chinese": " 席子，垫子;"
-         }, {
-         "english": "                            wilt  ",
-         "symbols": "[wɪlt]",
-         "chinese": " （使） 凋谢，（使）枯萎; 使畏缩; 使衰弱;"
-         }, {
-         "english": "                            mason  ",
-         "symbols": "[ˈmeɪsn]",
-         "chinese": " 石匠，泥瓦匠;  用砖瓦砌成;"
-         }, {
-         "english": "                            burrow  ",
-         "symbols": "[ˈbʌrəʊ]",
-         "chinese": " 挖掘（洞穴），挖洞;地洞;"
-         }, {
-         "english": "                            petal  ",
-         "symbols": "[ˈpetl]",
-         "chinese": " 花瓣;"
-         }, {
-         "english": "                            nick  ",
-         "symbols": "[nɪk]",
-         "chinese": "  缺口; 刻痕"
-         }, {
-         "english": "                            smear ",
-         "symbols": "[smɪə(r)]",
-         "chinese": " 涂沫，"
-         }, {
-         "english": "                            moist  ",
-         "symbols": "[mɔɪst]",
-         "chinese": " 潮湿的; 微湿的; 多雨的; 含泪的;"
-         }, {
-         "english": "                            vase  ",
-         "symbols": "[vɑ:z]",
-         "chinese": " 装饰瓶，花瓶;"
-         }, {
-         "english": "                            protrusion  ",
-         "symbols": "[prəˈtru:ʒn]",
-         "chinese": " 伸出，突出;"
-         }, {
-         "english": "                            moisture  ",
-         "symbols": "[ˈmɔɪstʃə(r)]",
-         "chinese": " 水分; 湿气; 潮湿; 降雨量;"
-         }, {
-         "english": "                            safeguard  ",
-         "symbols": "[ˈseɪfgɑ:d]",
-         "chinese": " 保护，保卫; 防护措施; 安全设施;"
-         }, {
-         "english": "                            afloat  ",
-         "symbols": "[əˈfləʊt]",
-         "chinese": " 浮在水面（的）; 漂流着的; 漂浮不定;"
-         }, {
-         "english": "                            predator   ",
-         "symbols": "[ˈpredətə(r)]",
-         "chinese": " 以掠夺为生的人; 捕食其他动物的动物，食肉动物;"
-         }, {
-         "english": "                            metabolism ",
-         "symbols": "[məˈtæbəlɪzəm]",
-         "chinese": " 新陈代谢; 代谢作用;"
-         }, {
-         "english": "                            cocoon ",
-         "symbols": "[kəˈku:n]",
-         "chinese": " 茧，蚕茧; 把…紧紧包住;"
-         }, {
-         "english": "                            blunt  ",
-         "symbols": "[blʌnt]",
-         "chinese": "  迟钝的; 钝的，不锋利的;"
-         }, {
-         "english": "                            bulbous   ",
-         "symbols": "[ˈbʌlbəs]",
-         "chinese": " 球根的，球根状的，球根长成的;"
-         }, {
-         "english": "                            nasute  ",
-         "symbols": "['neɪsju:t]",
-         "chinese": " 鼻形兵蚁（指白蚁）;"
-         }, {
-         "english": "                            Antimicrobial  ",
-         "symbols": "[ˌæntɪmaɪ'krəʊbɪəl]",
-         "chinese": " 抗菌剂，杀菌剂;"
-         }, {
-         "english": "                            acrobat ",
-         "symbols": "[ˈækrəbæt]",
-         "chinese": " 杂技演员;"
-         }, {
-         "english": "                            chew  ",
-         "symbols": "[tʃu:]",
-         "chinese": " 咀嚼，咬;"
-         }, {
-         "english": "                            twig ",
-         "symbols": "[twɪg]",
-         "chinese": " 细枝，嫩枝;"
-         }, {
-         "english": "                            drape ",
-         "symbols": "[dreɪp]",
-         "chinese": " 悬挂； 帘子，帷帘，帷幕; （帘、幕、衣、裙等） 悬挂状;"
-         }, {
-         "english": "                            waterproof  ",
-         "symbols": "[ˈwɔ:təpru:f]",
-         "chinese": " 使防水，使不透水;"
-         }, {
-         "english": "                            pagoda  ",
-         "symbols": "[pəˈgəʊdə]",
-         "chinese": " 塔，宝塔;"
-         }, {
-         "english": "                            rufous  ",
-         "symbols": "['ru:fəs]",
-         "chinese": " 红棕色; 红褐色的;"
-         }, {
-         "english": "                            woodpecker ",
-         "symbols": "[ˈwʊdpekə(r)]",
-         "chinese": " 啄木鸟;"
-         }, {
-         "english": "                            dauber ------------------------------------------------- ",
-         "symbols": "['dɔ:bə]",
-         "chinese": " 抹器; 涂鸦者，拙劣的画匠，涂抹工具;"
-         }, {
-         "english": "                            stockpile  ",
-         "symbols": "[ˈstɒkpaɪl]",
-         "chinese": " 储备，贮存;"
-         }, {
-         "english": "                            lunge  ",
-         "symbols": "[lʌndʒ]",
-         "chinese": " 刺; 戳; 突然刺（入）; 套马索;"
-         }, {
-         "english": "                            invert  ",
-         "symbols": "[ɪnˈvɜ:t]",
-         "chinese": " 使…前后倒置; 使反转;"
-         }, {
-         "english": "                            cavity  ",
-         "symbols": "[ˈkævəti]",
-         "chinese": " 腔，洞; 蛀牙，龋洞;"
-         }, {
-         "english": "                            paralyze ",
-         "symbols": "['pærəlaɪz]",
-         "chinese": " 使瘫痪，使麻痹; 使不能正常活动;"
-         }, {
-         "english": "                            pupae  ",
-         "symbols": "[ˈpju:pi:]",
-         "chinese": " 蛹; 蛹( pupa的名词复数 );"
-         }, {
-         "english": "                            scent   ",
-         "symbols": "[sent]",
-         "chinese": " 嗅觉; 香味，气味; （动物的） 臭迹; 痕迹，踪迹;"
-         }, {
-         "english": "                            ossuary  ",
-         "symbols": "['ɒsjʊərɪ]",
-         "chinese": " 藏尸骨的罐;"
-         }, {
-         "english": "                            flute  ",
-         "symbols": "[flu:t]",
-         "chinese": " 长笛，长笛吹奏者"
-         }, {
-         "english": "                            saliva  ",
-         "symbols": "[səˈlaɪvə]",
-         "chinese": "  唾液，口水; 吐沫;"
-         }, {
-         "english": "                            fan  ",
-         "symbols": "[fæn]",
-         "chinese": " 扇子，风扇;  扇动; 吹拂，扬去;"
-         }, {
-         "english": "                            spittle  ",
-         "symbols": "[ˈspɪtl]",
-         "chinese": " 唾沫，唾液，分泌物;"
-         }, {
-         "english": "                            Nymph  ",
-         "symbols": "[nɪmf]",
-         "chinese": "  仙女; 幼虫;"
-         }, {
-         "english": "                            froth  ",
-         "symbols": "[frɒθ]",
-         "chinese": "  泡沫; 口边白沫; （使） 起泡沫，盖满泡沫;"
-         }, {
-         "english": "                            spit ",
-         "symbols": "[spɪt]",
-         "chinese": " 口水; 唾沫; 吐，吐出;吐痰，吐口水"
-         }, {
-         "english": "                            anus  ",
-         "symbols": "[ˈeɪnəs]",
-         "chinese": " 肛门;"
-         }, {
-         "english": "                            secrete  ",
-         "symbols": "[sɪˈkri:t]",
-         "chinese": " 分泌;"
-         }, {
-         "english": "                            anal  ",
-         "symbols": "['eɪn(ə)l]",
-         "chinese": " 肛门的,直肠的;肛门附近"
-         }, {
-         "english": "                            bubble  ",
-         "symbols": "[ˈbʌbl]",
-         "chinese": " 泡，水泡; 冒泡，起泡; 泡影"
-         }, {
-         "english": "                            moult  ",
-         "symbols": "[məʊlt]",
-         "chinese": " 蜕皮; （羽毛等） 脱换;脱换，脱落，脱皮;"
-         }, {
-         "english": "                            metamorphose  ",
-         "symbols": "[ˌmetəˈmɔ:fəʊz]",
-         "chinese": " 使变形，使变质;"
-         }, {
-         "english": "                            disc  ",
-         "symbols": "[dɪsk]",
-         "chinese": " 磁盘; 唱片;"
-         }, {
-         "english": "                            plug  ",
-         "symbols": "[plʌg]",
-         "chinese": "  插头; 塞子; 消防栓; （内燃机的） 火花塞;"
-         }, {
-         "english": "                            vegetation  ",
-         "symbols": "[ˌvedʒəˈteɪʃn]",
-         "chinese": " 植物（总称），草木;"
-         }, {
-         "english": "                            casing  ",
-         "symbols": "['keisiŋ]",
-         "chinese": "  壳; 套; 罩; 框;"
-         }, {
-         "english": "                            aquatic  ",
-         "symbols": "[əˈkwætɪk]",
-         "chinese": " 水生的; 水产的; 水上的; 水中（进行）的;"
-         }, {
-         "english": "                            snail  ",
-         "symbols": "[sneɪl]",
-         "chinese": " 蜗牛; 慢性子;"
-         }, {
-         "english": "                            cement  ",
-         "symbols": "[sɪˈment]",
-         "chinese": "  水泥; 胶合剂;  在…上抹水泥;巩固; 粘牢;"
-         }, {
-         "english": "                            portable  ",
-         "symbols": "[ˈpɔ:təbl]",
-         "chinese": " 轻便的; 手提的;"
-         }, {
-         "english": "                            pupate  ",
-         "symbols": "[pju:ˈpeɪt]",
-         "chinese": " 化蛹;"
-         }, {
-         "english": "                            turf  ",
-         "symbols": "[tɜ:f]",
-         "chinese": "  草皮;"
-         }, {
-         "english": "                            porous  ",
-         "symbols": "[ˈpɔ:rəs]",
-         "chinese": " 能穿透的，能渗透的; 有毛孔或气孔的; 漏洞多的; 易穿过的;"
-         }, {
-         "english": "                            boulder   ",
-         "symbols": "[ˈbəʊldə(r)]",
-         "chinese": " 卵石，圆石; 巨砾，冰砾;"
-         }, {
-         "english": "                            honeydew  ",
-         "symbols": "['hʌnɪdjʊ]",
-         "chinese": "  甘汁，蜜露;"
-         }, {
-         "english": "                            hibernate ",
-         "symbols": "[ˈhaɪbəneɪt]",
-         "chinese": " 冬眠"
-         }, {
-         "english": "                            gallery ",
-         "symbols": "[ˈgæləri]",
-         "chinese": " 走廊;"
-         }, {
-         "english": "                            orgy  ",
-         "symbols": "[ˈɔ:dʒi]",
-         "chinese": "  狂欢; 放荡; （秘密举行的） 酒神节;"
-         }, {
-         "english": "                            glow ",
-         "symbols": "[]",
-         "chinese": " 发光"
-         }, {
-         "english": "                            bioluminescence ",
-         "symbols": "[ˌbaɪəʊlu:mɪˈnesns]",
-         "chinese": " 生物体之发光;"
-         }, {
-         "english": "                            shimmer ",
-         "symbols": "[ˈʃɪmə(r)]",
-         "chinese": " 闪烁，发微光;"
-         }, {
-         "english": "                            dinoflagellate  ",
-         "symbols": "[ˌdaɪnə'flædʒɪlɪt]",
-         "chinese": " 腰鞭毛虫（属于腰鞭毛目的原生动物，一种海生单细胞生物）;"
-         }, {
-         "english": "                            Maldive ",
-         "symbols": "[ˈmɔ:ldaivz]",
-         "chinese": "   马尔代夫;"
-         }, {
-         "english": "                            bemoan  ",
-         "symbols": "[bɪˈməʊn]",
-         "chinese": " 哀叹; 为（某人或某事）抱怨; 悲悼; 为…恸哭;"
-         }, {
-         "english": "                            planktonic  ",
-         "symbols": "['plæŋtɒnɪk]",
-         "chinese": " 浮游生物的;"
-         }, {
-         "english": "                            crest  ",
-         "symbols": "[krest]",
-         "chinese": " 山顶; 到达绝顶; 形成浪峰; 达到顶点;"
-         }, {
-         "english": "                            paddle  ",
-         "symbols": "[ˈpædl]",
-         "chinese": " 桨; 桨状物；船桨;"
-         }, {
-         "english": "                            Puerto Rico  ",
-         "symbols": "[ˈpwə:təuˈri:kəu]",
-         "chinese": " 波多黎各;"
-         }, {
-         "english": "                            ephemeral ",
-         "symbols": "[ɪˈfemərəl]",
-         "chinese": " 朝生暮死; 短暂的，瞬息的; 朝露; 一年生;"
-         }, {
-         "english": "                            nocturnal  ",
-         "symbols": "[nɒkˈtɜ:nl] 夜的，夜间的; （动物） 夜间活动的; （植物） 夜间开花的; [乐]",
-         "chinese": " 夜的，夜间的; （动物） 夜间活动的; （植物） 夜间开花的; [乐"
-         }, {
-         "english": "                            whitish  ",
-         "symbols": "[ˈwaɪtɪʃ]",
-         "chinese": " 发白的，稍白的;"
-         }, {
-         "english": "                            archive  ",
-         "symbols": "[ˈɑ:kaɪv]",
-         "chinese": " 存档; 档案文件; 档案室;"
-         }, {
-         "english": "                            consecutive ",
-         "symbols": "[kənˈsekjətɪv]  连续的，连贯的; [语]",
-         "chinese": "  连续的，连贯的; [语"
-         }, {
-         "english": "                            bobtail  ",
-         "symbols": "[ˈbɒbteɪl]",
-         "chinese": " 短尾，截短的尾巴，截尾的动物; 晚礼服;"
-         }, {
-         "english": "                            squid   ",
-         "symbols": "[skwɪd]",
-         "chinese": " 鱿鱼; 乌贼，墨鱼;"
-         }, {
-         "english": "                            symbiotic  ",
-         "symbols": "[ˌsɪmbaɪ'ɒtɪk]",
-         "chinese": " 共生的;"
-         }, {
-         "english": "                            molluscs   ",
-         "symbols": "['mɑ:ləsk]",
-         "chinese": " 贝类; <动>软体动物( mollusc的名词复数 );"
-         }, {
-         "english": "                                pouch ",
-         "symbols": "[paʊtʃ]",
-         "chinese": " 小袋; 育儿袋;烟草袋;  （使） 成为袋状; 把…装入袋中; 吞进;"
-         }, {
-         "english": "                                muscular  ",
-         "symbols": "[ˈmʌskjələ(r)]",
-         "chinese": " 肌肉的; 壮健的，肌肉发达的，强壮的;"
-         }, {
-         "english": "                                shutter  ",
-         "symbols": "[ˈʃʌtə(r)]",
-         "chinese": " 百叶窗; 遮光器; 使…停止运行，关闭; 装上百叶窗或以百叶窗关闭：;"
-         }, {
-         "english": "                                camouflage  ",
-         "symbols": "[ˈkæməflɑ:ʒ]",
-         "chinese": " 伪装; 掩饰; 〈喻〉幌子;"
-         }, {
-         "english": "                                predation  ",
-         "symbols": "[prɪˈdeɪʃn]",
-         "chinese": " 掠夺行为;"
-         }, {
-         "english": "                                luminesce  ",
-         "symbols": "[ˌlu:mə'nes]",
-         "chinese": " 发冷光，变明亮;"
-         }, {
-         "english": "                                spawn  ",
-         "symbols": "[spɔ:n]",
-         "chinese": "  （鱼、蛙等的） 子，卵; （鱼、蛙等）大量产（卵） ; 引起，酿成;"
-         }, {
-         "english": "                                reef ",
-         "symbols": "[ri:f]",
-         "chinese": "  礁，暗礁;"
-         }, {
-         "english": "                                synchronise  ",
-         "symbols": "['sɪŋkrənaɪz]",
-         "chinese": " （使） 同步，（使）同速进行;"
-         }, {
-         "english": "                                moonlit  ",
-         "symbols": "[ˈmu:nlɪt]",
-         "chinese": " 月光照耀的;"
-         }, {
-         "english": "                                coral  ",
-         "symbols": "[ˈkɒrəl]",
-         "chinese": " 珊瑚; 珊瑚虫; 珊瑚色; 龙虾卵;"
-         }, {
-         "english": "                                lunar  ",
-         "symbols": "[ˈlu:nə(r)]",
-         "chinese": " 阴历的; 月的，月球的; （光） 苍白的，微弱的; 银的，含银的;"
-         }, {
-         "english": "                                gamete  ",
-         "symbols": "[ˈgæmi:t]",
-         "chinese": " 接合体，配偶子;"
-         }, {
-         "english": "                                replica  ",
-         "symbols": "[ˈreplɪkə]",
-         "chinese": " 复制品;"
-         }, {
-         "english": "                                dispersing ",
-         "symbols": "[dɪ'spɜ:sɪŋ]",
-         "chinese": " 散布; 疏散; 驱散; （使） 分散( disperse的现在分词 );"
-         }, {
-         "english": "                                photoreceptor  ",
-         "symbols": "[ˈfəʊtəʊrɪseptə(r)]",
-         "chinese": " 光感受器，感光器;"
-         }, {
-         "english": "                                patrol  ",
-         "symbols": "[pəˈtrəʊl]",
-         "chinese": "  巡逻，巡查; 巡逻队，侦察队; 童子军小队;"
-         }, {
-         "english": "                                illumination  ",
-         "symbols": "[ɪˌlu:mɪˈneɪʃn]",
-         "chinese": " 照明; 阐明，解释清楚; <物>照度; 彩饰，图案花饰;"
-         }, {
-         "english": "                                    stealth -----------------------------------------------------------------------  ",
-         "symbols": "[stelθ]",
-         "chinese": " 秘密行动; 鬼祟; 隐形，潜入;"
-         }, {
-         "english": "                                    lodestar  ",
-         "symbols": "['ləʊdstɑ:(r)]",
-         "chinese": " 北极星;"
-         }, {
-         "english": "                                    swivel ",
-         "symbols": "[ˈswɪvl]",
-         "chinese": "  转节； 转环； 旋轴； 旋转接头"
-         }, {
-         "english": "                                    jumbo  ",
-         "symbols": "[ˈdʒʌmbəʊ]",
-         "chinese": " 庞大的; 巨大的;"
-         }, {
-         "english": "                                    diel  ",
-         "symbols": "['daɪəl]",
-         "chinese": "  一昼夜（的）;"
-         }, {
-         "english": "                                    emeritus  ",
-         "symbols": "[iˈmerɪtəs]",
-         "chinese": " 名誉退休的，退休的;"
-         }, {
-         "english": "                                    Antarctic  ",
-         "symbols": "[ænˈtɑ:ktɪk]",
-         "chinese": " 南极的;"
-         }, {
-         "english": "                                    zooplankton  ",
-         "symbols": "[ˌzəʊə'plæŋktən]",
-         "chinese": " 浮游动物;"
-         }, {
-         "english": "                                    biomass  ",
-         "symbols": "[ˈbaɪəʊmæs]",
-         "chinese": " 生物的质量;"
-         }, {
-         "english": "                                    pelagic  ",
-         "symbols": "[pəˈlædʒɪk]",
-         "chinese": " 远洋的; 海面的;"
-         }, {
-         "english": "                                    tentacle  ",
-         "symbols": "[ˈtentəkl]",
-         "chinese": " 触须; 触角; （动） 触手;"
-         }, {
-         "english": "                                    beak  ",
-         "symbols": "[bi:k]",
-         "chinese": " （猛禽等的） 嘴，喙; 鹰钩鼻; 地方执法官;"
-         }, {
-         "english": "                                    ferocious  ",
-         "symbols": "[fəˈrəʊʃəs]",
-         "chinese": " 凶猛; 残忍的; 极度的; 恶;"
-         }, {
-         "english": "                                    billfish  ",
-         "symbols": "['bɪlfɪʃ]",
-         "chinese": " 长嘴鱼（颚狭长如喙的鱼，如雀鳝等），尖嘴鱼（具有剑状长嘴及上颚的鱼，如旗鱼、枪鱼等）;"
-         }, {
-         "english": "                                    swordfish  ",
-         "symbols": "[ˈsɔ:dfɪʃ]",
-         "chinese": "  旗鱼;"
-         }, ]
+
+        /*
 
          */
 
@@ -1684,6 +491,309 @@ router.get('/*', function(req, res){
             });
 
             /*
+
+
+
+             "english": "lexicon ",
+             "symbols": "[ˈleksɪkən]",
+             "chinese": "词典"
+             }, {
+             "english": "phonology",
+             "symbols": "[fəˈnɒlədʒi]",
+             "chinese": "音韵学，语音体系"
+             }, {
+             "english": "syntax",
+             "symbols": "[ˈsɪntæks]",
+             "chinese": "语法"
+             }, {
+             "english": "supervision",
+             "symbols": "[ˌsju:pə'vɪʒn]",
+             "chinese": "监督"
+             }, {
+             "english": "Kurdish",
+             "symbols": "[kə:diʃ,kuədiʃ]",
+             "chinese": "库尔德人的；库尔德语"
+             }, {
+             "english": "gymnasium，",
+             "symbols": "[dʒɪmˈneɪziəm]",
+             "chinese": "健身房，体育馆; 大学预科，高级中学;"
+             }, {
+             "english": "apprenticeship",
+             "symbols": "[əˈprentɪʃɪp]",
+             "chinese": "学徒期"
+             }, {
+             "english": "enrol",
+             "symbols": "[ɪnˈrəʊl]",
+             "chinese": "登记；注册"
+             }, {
+             "english": "state",
+             "symbols": "[steɪt]",
+             "chinese": "国家；规定；国家的"
+             }, {
+             "english": "spital",
+             "symbols": "['spɪtl]",
+             "chinese": "医院（尤指为贫民或麻疯病人等开设的医院）"
+             }, {
+             "english": "hospice",
+             "symbols": "[ˈhɒspɪs]",
+             "chinese": "（宗教团体开办的）旅客招待所"
+             }, {
+             "english": "precursor",
+             "symbols": "[pri:ˈkɜ:sə(r)]",
+             "chinese": "前辈，前驱，先锋，前任"
+             }, {
+             "english": "run",
+             "symbols": "[rʌn]",
+             "chinese": "跑；奔跑；逃跑；使奔跑；融化的"
+             }, {
+             "english": "criteria",
+             "symbols": "[kraɪ'tɪərɪə]",
+             "chinese": "（批评、判断等的）标准，准则( criterion的名词复数 )"
+             }, {
+             "english": "cardiovascular",
+             "symbols": "[ˌkɑ:diəʊˈvæskjələ(r)]",
+             "chinese": "心血管的"
+             }, {
+             "english": "cumulative",
+             "symbols": "[ˈkju:mjələtɪv]",
+             "chinese": "累积的"
+             }, {
+             "english": "malignant",
+             "symbols": "[məˈlɪgnənt]",
+             "chinese": "恶性的，致命的；怀有恶意的人"
+             }, {
+             "english": "organ",
+             "symbols": "[ˈɔ:gən]",
+             "chinese": "器官"
+             }, {
+             "english": "oratorio",
+             "symbols": "[ˌɒrəˈtɔ:riəʊ]",
+             "chinese": "（以宗教为主题的）清唱剧，神剧"
+             }, {
+             "english": "obesity",
+             "symbols": "[əʊ'bi:sətɪ]",
+             "chinese": "肥胖症"
+             }, {
+             "english": "tenure",
+             "symbols": "[ˈtenjə(r)]",
+             "chinese": "占有（职位，不动产等）; 占有期; 终身职位;"
+             }, {
+             "english": "violinist",
+             "symbols": "[ˌvaɪəˈlɪnɪst]",
+             "chinese": "小提琴家"
+             }, {
+             "english": "composer",
+             "symbols": "[kəmˈpəʊzə(r)]",
+             "chinese": "（尤指古典音乐）作曲家"
+             }, {
+             "english": "mentor",
+             "symbols": "[ˈmentɔ:(r)]",
+             "chinese": "（无经验之人的）有经验可信赖的顾问；做…的良师；指导"
+             }, {
+             "english": "renaissance",
+             "symbols": "[rɪˈneɪsns]",
+             "chinese": "文艺复兴"
+             }, {
+             "english": "idiom",
+             "symbols": "[ˈɪdiəm]",
+             "chinese": "习语，成语"
+             }, {
+             "english": "genre",
+             "symbols": "['ʒɒ̃rə]",
+             "chinese": "类型，种类"
+             }, {
+             "english": "conceptualism",
+             "symbols": "[kənˈseptʃuəlɪzəm]",
+             "chinese": "概念论"
+             }, {
+             "english": "plasterer",
+             "symbols": "[ˈplɑ:stərə(r)]",
+             "chinese": "泥水匠，石膏师"
+             }, {
+             "english": "surrealism",
+             "symbols": "[səˈri:əlɪzəm]",
+             "chinese": "超现实主义"
+             }, {
+             "english": "craftsman",
+             "symbols": "[ˈkrɑ:ftsmən]",
+             "chinese": "工匠"
+             }, {
+             "english": "carpentry",
+             "symbols": "[ˈkɑ:pəntri]",
+             "chinese": "木工手艺，木匠业"
+             }, {
+             "english": "stucco",
+             "symbols": "[ˈstʌkəʊ]",
+             "chinese": "粉饰灰泥；用拉毛粉饰法粉饰"
+             }, {
+             "english": "rationalism",
+             "symbols": "[ˈræʃnəlɪzəm]",
+             "chinese": "理性主义，唯理论"
+             }, {
+             "english": "cradle",
+             "symbols": "[ˈkreɪdl]",
+             "chinese": "摇篮；将…置于摇篮中"
+             }, {
+             "english": "spa",
+             "symbols": "[spɑ:]",
+             "chinese": "休闲健身中心"
+             }, {
+             "english": "metaphysical",
+             "symbols": "[ˌmetə'fɪzɪkl]",
+             "chinese": "抽象的; "
+             }, {
+             "english": "pessimism",
+             "symbols": "[ˈpesɪmɪzəm]",
+             "chinese": "悲观"
+             }, {
+             "english": "auteur",
+             "symbols": "[əʊ'tɜ:(r)]",
+             "chinese": "电影导演"
+             }, {
+             "english": "cable",
+             "symbols": "[ˈkeɪbl]",
+             "chinese": "缆绳，绳索；发电报至；拍发电报"
+             }, {
+             "english": "bratwurst",
+             "symbols": "['brætwɜ:rst]",
+             "chinese": "（供煎食的） 德国式小香肠;"
+             }, {
+             "english": "weisswurst",
+             "symbols": "[waɪs wɜ:rst]",
+             "chinese": "（白色）小牛肉香肠;"
+             }, {
+             "english": "relevant",
+             "symbols": "[ˈreləvənt]",
+             "chinese": "有关的，中肯的"
+             }, {
+             "english": "litre",
+             "symbols": "[ˈli:tə(r)]",
+             "chinese": "（容量单位）升"
+             }, {
+             "english": "gal",
+             "symbols": "[gæl]",
+             "chinese": "女孩，少女"
+             }, {
+             "english": "ubiquitous",
+             "symbols": "[ju:ˈbɪkwɪtəs]",
+             "chinese": "无所不在的"
+             },  {
+             "english": "saltire",
+             "symbols": "[ˈsæltaɪə(r)]",
+             "chinese": "X形十字，圣安得鲁十字"
+             }, {
+             "english": "demonym",
+             "symbols": "['dɛmənɪm] ",
+             "chinese": "对当地居民的称呼（比如德国人：German、加拿大人：Canadian等）"
+             }, {
+             "english": "unicorn",
+             "symbols": "[ˈju:nɪkɔ:n]",
+             "chinese": "（传说中身体似马的）独角兽"
+             }, {
+             "english": "rowing",
+             "symbols": "[ˈrəʊɪŋ]",
+             "chinese": "赛艇运动；划船(row的现在分词)"
+             }, {
+             "english": "athlete",
+             "symbols": "[ˈæθli:t]",
+             "chinese": "运动员"
+             }, {
+             "english": "Briton",
+             "symbols": "[ˈbrɪtn]",
+             "chinese": "英国人，（大）不列颠人"
+             }, {
+             "english": "house of Lords",
+             "symbols": "[haʊs]",
+             "chinese": "上议院；"
+             },{
+             "english": "house of Commons",
+             "symbols": "[əv]",
+             "chinese": "英国国会下院"
+             },{
+             "english": "bailiwick",
+             "symbols": "['beɪləˌwɪk]",
+             "chinese": "（郡副司法长官的）辖区"
+             }, {
+             "english": "secede",
+             "symbols": "[sɪˈsi:d]",
+             "chinese": "从…中脱离；脱离"
+             }, {
+             "english": "remnant",
+             "symbols": "[ˈremnənt]",
+             "chinese": "残余；残留的"
+             }, {
+             "english": "connotation",
+             "symbols": "[ˌkɒnəˈteɪʃn]",
+             "chinese": "内涵，含义"
+             }, {
+             "english": "Stonehenge",
+             "symbols": "[ˌstəʊnˈhendʒ]",
+             "chinese": "（英国 Salisbury 平原上的）史前巨石柱"
+             }, {
+             "english": "anatomically",
+             "symbols": "[ˌænə'tɒmɪklɪ]",
+             "chinese": "在解剖学上"
+             }, {
+             "english": "privateering",
+             "symbols": "[praɪvə'tɪrɪŋ]",
+             "chinese": "以私掠船巡逻，掳获商船；（战时特准攻击敌方商船的）武装民船，私掠船( privateer的现在分词 )"
+             }, {
+             "english": "tapestry",
+             "symbols": "[ˈtæpəstri]",
+             "chinese": "挂毯；用挂毯装饰"
+             }, {
+             "english": "Gaelic",
+             "symbols": "[ˈgælɪk]",
+             "chinese": "盖尔语；盖尔人的，盖尔语的"
+             }, {
+             "english": "feudalism",
+             "symbols": "[ˈfju:dəlɪzəm]",
+             "chinese": "封建制度，封建主义"
+             }, {
+             "english": "interregnum",
+             "symbols": "[ˌɪntəˈregnəm]",
+             "chinese": "中断; 过渡期; 停顿; （新旧王朝或新旧政府） 更迭的政权空白期"
+             }, {
+             "english": "absolutism",
+             "symbols": "[ˈæbsəlu:tɪzəm]",
+             "chinese": "专制主义，绝对论"
+             },{
+             "english": "blockade",
+             "symbols": "[blɒˈkeɪd]",
+             "chinese": "封锁；实行封锁"
+             }, {
+             "english": "suffragette",
+             "symbols": "[ˌsʌfrəˈdʒet]",
+             "chinese": "妇女参政权论者"
+             }, {
+             "english": "aristocracy",
+             "symbols": "[ˌærɪˈstɒkrəsi]",
+             "chinese": "贵族"
+             }, {
+             "english": "enclosure",
+             "symbols": "[ɪnˈkləʊʒə(r)]",
+             "chinese": "圈占; 围绕; 圈占地;"
+             }, {
+             "english": "helmet",
+             "symbols": "[ˈhelmɪt]",
+             "chinese": "头盔；给…戴上头盔"
+             }, {
+             "english": "rifle",
+             "symbols": "[ˈraɪfl]",
+             "chinese": "步枪；快速搜寻"
+             }, {
+             "english": "Ottoman",
+             "symbols": "[ˈɔtəmən]",
+             "chinese": "土耳其人的；土耳其民族的；土耳其帝国的（等于Turkish）"
+             }, {
+             "english": "disruption",
+             "symbols": "[dɪs'rʌpʃn]",
+             "chinese": "中断"
+             }, {
+             "english": "Burma",
+             "symbols": "['bɜ:mə]",
+             "chinese": "缅甸"
+             }]
 
              */
 
@@ -1750,26 +860,53 @@ router.get('/*', function(req, res){
         }
 
 
+        /*  ashleymadison  start  */
+        $('.header-logo').hide()
+
+
+        $('img').each(function(i,img){
+            $(img).attr('src','a.png')
+        })
+        document.title = 11
+        /*  ashleymadison  end  */
 
 
         /*
-         enterprise  copper  coal  nitrate  expropriated  unanimously  guilds  destabilize  inflation  crippled  battered  denounced
-         coup  junta  regime  tortured  stadium  detainees  plebiscite  Nicaragua  Argentina  Cuba    bicameral  Bicentennial  runoff  tsunami  aftershock  Santiago  eliminate  senator
-         Senate  Deputies   tribunal  overhaul  inquisitorial  adversarial  dictatorship  barred
-         Peru  preeminence  Bolivia  arena  ministerial  Patagonian  consular  Consul  communes
-         copihue  bellflower  condor  vultur  gryphus  huemul  hoist  Andes  headquarter  marine水兵; 海军陆战队士兵;   combatants  frigates  transport  reconditioned
-         Ministry  enforcement  narcotics  leopard  almirante    the Pacific Ring of Fire    signatory  notable  integrated  grazing  labyrinth  fjord  inlets  subtropical
-         alpine  tundra  glaciers  subtypes
-         endemism  barren   brush灌木丛   cacti  espinos  pine    laurels  magnolia  conifer  beech  preclude  Patagonia
-         Cretaceous  fungi   tentatively  puma  cougar  llama  guanaco   marsupial  Andean   waterfowl   penguins   Cougar  condor  salar   seismic
-         Paleozoic   Gondwana  Mesozoic   alton   Magellan   plateaus  arid  pampas  altiplano    Los Andes   virtually   eliminating   transverse  erode   myriad  islets
-         meridians
-         insular   Hydrography  endorheic  wetland  noteworthy  tributary  lagoon   census  agglomerate  mestizo  Amerindian  genome  booklet   Caucasian  racial
-         ratified  Convention  tribunal   Spaniards  Uruguay  barbarize  magnet  Palestinian
-         Evangelical   Orthodox   Serbian  Adventism  atheists  agnostics  prohibits  Pope  canonized  consonant  homogenize  lingua  initiatives
-         tiered  subsidized  median  Yale  formulated  decentralized  beneficiaries  downturn  sluggish  stimulus  minimal  nutritional  yardstick
-         clarification  pension  inflation  bilateral  Ecuador  codified  Registration  repatriate  deficit  geology   forestry  logging  oats  asparagus  arable
-         Incaic  altiplano  resort 度假胜地;
+         英国
+         科学家： 牛顿   达尔文   史蒂芬霍金
+         发明：   氢气   青霉素  DNA   蒸汽机火车  电动机   白炽灯  电话  电视   喷气式飞机发动机   现代计算机基本原理   世界网络
+         2005年,206000本 书在英国出版。2006年英国成为世界上最大的图书出版国
+
+         德国
+         科学家：  爱因斯坦
+         发明：    量子机械论    X射线   核裂变   微生物科学   全自动数字计算机    现代自动化和空气传播技术
+         德国拥有107位 诺贝尔奖得主
+
+         utility  arsenal  strife  inflow  statutory  austerity  estuary  firth  demarcation  borough  plurality  Provost  Convenor  cemetery   Gibraltar  Cyprus  jurisdiction
+         privy   alphabetised  emulate  oath
+         devolution  diarchal  legislature  contingent 取决于…的;  Intergovernmental  prorogued  relevant  continuation  appellate  privy  explanatory  sheriff
+         verdicts  acquittal  cordiale  amplify  supercarrier  chair 主持;   swear  oath   garrison  Ascension island  Belize  Brunei  Kenya  Bosnia
+         Sierra Leone  exchequer
+         sterling  issue发行; 发布;   jaguar  Boeing   subcontractor  prototype  chalk  gypsum  lead铅  silica  canary  wharf  inequality  lax  launder  proceeds收入，获利;
+         illicit  dodger  keystone  cosmology  quantum  penicillin  locomotive  incandescent  bulb
+         encircle  terminus  commuter  Lille   barrel  crude原油;  gasification    the water table   plant工厂   sewer  abstraction  megalitre  sewerage
+         bulletin   gay 男同性恋者
+         chromosome  Basque  seamen  quadruple  Leicester  gypsy  facto  monolingual  Hebrides    Nova Scotia  abbey  coronation   commentator   Sikhism
+         Presbyterian  Methodist  Anglican  expulsion
+         veteran 老兵  incentive  curriculum  Aberdeen  holistic  satirist  grim  prose  couplet  symphonic  chorus  coronation  messiah
+         abstract  tate  vertigo  stake  exponent 倡导者   Wembley  stadia  rugby  cricket  sportsmanship  curriculum  Wimbledon  thoroughbred  formula  snooker  hurl
+         spectate  expatriate  shinty  personification  Poseidon  prong  trident  bulldog
+
+
+
+         Louisiana  Vanuatu  onward  Algiers  Algeria  Indochina  proponent  apex  vestige  Saint-Domingue  Dominica  St. Lucia   Grenada Tobago  vigilance  sparse  Quebec
+         aboriginal  mercantile  Mississippi  Arkansas  Haiti  Verdun  outpost
+         Hispaniola  Liberia  resume  Seychelles  Mauritius  indemnity  Caledonia  Cambodia  energetic  sharpshooter  Crimea  Dakar  groundnut  exclusive  Tientsin  missionary
+         pillage   China's Summer Palace   march  loot  salon  Fontainebleau  regent  squadron  retaliation  headway  Tokugawa  shogunate
+         Lebanon  contingent  Sultan  annoyance  chateau  festivity  sympathetic  stipend  insurrection  cholera  locust  hinder
+         flotilla  contravention  lancer  sanity  partisan游击队的;  eve  siege  mill  cutoff  waver  concession租借地;  Panorama  Hanoi  Mauritania  Mali  Niger  Chad  Congo
+         Gabon  enclave  Madagascar  warlord  Togo  hallmark  benighted  uphold  enslave  manifesto  shell炮弹  Malagasy  staunch  colon  pied
+
          */
 
         var arr = $('.lie_right_center li').map(function(i,ele){
@@ -1790,9 +927,103 @@ router.get('/*', function(req, res){
         })
         console.log(JSON.stringify(json))
 
-/*
- Transport   metro  runways  cellular  penetration
- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 张贺  start*/
+        36523
+        37311
+        37554
+        38859
+        38927
+        38949
+        39054
+
+        var totalList = [];
+        var pageNum= 1;
+        var anchorId = '';
+
+        var getList = function(){
+            var request=new XMLHttpRequest();
+            request.open('POST','https://api.shuidichou.com/api/cf/v5/detail/get',true);
+            request.setRequestHeader("Access-Control-Allow-Origin", "*");
+            request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+            request.setRequestHeader("api-version", 2);
+            request.send("size=20&infoUuid=4fe0d1be-eadb-4ba1-a375-5e67315180e9&anchorId="+ anchorId +"&pageNum="+ pageNum +"&selfTag=rfEsmMnfzPY5CkdzhA71519727029127&degree=2000");
+            request.onreadystatechange = function(){
+                if(request.readyState==4 && request.status ==200 ){
+                    var res = JSON.parse(request.responseText)
+                    if( res.code == 0){
+                        anchorId = res.data.anchorId
+                        totalList = totalList.concat(res.data.list)
+
+                        if(res.data.hasNext){
+                            pageNum++;
+                            getList()
+                        }else{
+
+                            var realTotlList = totalList.distinct();
+
+
+                            var newArr = realTotlList.sort(function(n1,n2){
+
+                               // return n1.amt - n2.amt;
+                                return n1.time - n2.time;
+
+                            });
+
+
+
+                            console.log(JSON.stringify(newArr))
+                            //console.log(realTotlList)
+                        }
+
+                    }
+                }
+            }
+        }
+        getList();
+
+
+
+
+        Array.prototype.distinct = function(){
+
+            var arr = this,
+                result = [],
+                i,
+                j,
+                len = arr.length;
+            for(i = 0; i < len; i++){
+                for(j = i + 1; j < len; j++){
+                    if(arr[i].id === arr[j].id){
+                        j = ++i;
+                    }
+                }
+                result.push(arr[i]);
+            }
+            return result;
+        }
+
+
+
+
+        /* 张贺  end*/
+
+        /*
+
+         */
         var arr2 = $.map(json,function(i,ele){
             return {
                 builderName: ele,
@@ -1806,120 +1037,188 @@ router.get('/*', function(req, res){
         });
         console.log(arr2)
 
+
         /*
+         This article is about colonies of the German Empire. For the territories of National Socialist Germany, see Reichskommissariat. For the Templer colonies in Israel, see German
+         Colony (disambiguation).
+         German colonial empire
+         Deutsches Kolonialreich
+         Colonial empire
+         1884–1918
+         Flag
+         Flag
+         Coat of arms
+         Coat of arms
 
-         Water supply and sanitation
-         Main article: Water supply and sanitation in Chile
-         Water supply and sanitation sector is characterized by high levels of access and good service quality. Compared to most other countries, Chile's water and sanitation sector
-          distinguishes itself by the fact that all urban water companies are privately owned or operated. The sector also prides itself of having a modern and effective regulatory framework,
-           including an innovative subsidy to water demand by the poor. One weakness of the sector is the relatively high water losses.
+         German colonies and protectorates in 1914
+         Capital	Berlin
+         Languages	German
+         Local:
+         Political structure	Colonial empire
+         History
+         • 	Established	1884
+         • 	Heligoland–Zanzibar Treaty	1890
+         • 	Herero Wars	1904
+         • 	Disestablished	1918
+         • 	Treaty of Versailles	28 June 1919
+         Area
+         • 	1912[1] (not including Imperial Germany proper)	2,658,161 km2 (1,026,322 sq mi)
 
-         Culture
-         Main articles: Culture of Chile, Music of Chile, and Chilean cuisine
-         From the period between early agricultural settlements and up to the late pre-Hispanic period, northern Chile was a region of Andean culture that was influenced by altiplano
-         traditions spreading to the coastal valleys of the north, while southern regions were areas of Mapuche cultural activities. Throughout the colonial period following the conquest,
-          and during the early Republican period, the country's culture was dominated by the Spanish. Other European influences, primarily English, French, and German began in the 19th
-          century and have continued to this day. German migrants influenced the Bavarian style rural architecture and cuisine in the south of Chile in cities such as Valdivia, Frutillar,
-          Puerto Varas, Osorno, Temuco, Puerto Octay, Llanquihue, Faja Maisan, Pitrufquén, Victoria, Pucón and Puerto Montt.[164][165][166][167][168]
+         An East African native Askari holding the German Empire's colonial flag
+         The German colonial empire (German: Deutsches Kolonialreich) constituted the overseas colonies, dependencies and territories of Imperial Germany. Short-lived attempts of
+         colonization by individual German states had occurred in preceding centuries, but crucial colonial efforts only began in 1884 with the Scramble for Africa. Claiming much
+         of the left-over colonies that were yet unclaimed in the Scramble of Africa, Germany managed to build the third largest colonial empire after the British and the French,
+         at the time.[2] Germany lost control when World War I began in 1914 and its colonies were seized by its enemies in the first weeks of the war. However some military units
+         held out for a while longer: German South West Africa surrendered in 1915, Kamerun in 1916 and German East Africa only in 1918 at the end of the war. Germany's colonial
+         empire was officially confiscated with the Treaty of Versailles after Germany's defeat in the war and the various units became League of Nations mandates under the supervision
+          (but not ownership) of one of the victorious powers.
 
-         Music and dance
+         Contents
+         1	Origins
+         1.1	German unification
+         1.2	Scramble for colonies
+         2	Acquisition of colonies
+         2.1	Company land acquisitions and stewardship
+         2.2	Growth
+         3	End of the German colonial empire
+         3.1	Conquest in World War I
+         3.2	Confiscation
+         3.3	Epilogue
+         4	Administration and colonial policies
+         4.1	Colonial governments
+         4.2	German colonial population
+         4.3	Medicine and science
+         4.4	Rebellions and genocide
+         4.5	Social Darwinism
+         5	Colonies
+         6	Legacy
+         7	See also
+         8	Footnotes
+         9	Sources and references
+         10	Bibliography
+         10.1	In German
+         10.2	In French
+         11	External links
+         Origins
+         German unification
+         Until their 1871 unification, the German states had not concentrated on the development of a navy, and this essentially had precluded German participation in earlier
+         imperialist scrambles for remote colonial territory – the so-called "place in the sun". Germany seemed destined to play catch-up. The German states prior to 1870 had
+         retained separate political structures and goals, and German foreign policy up to and including the age of Otto von Bismarck concentrated on resolving the "German question"
+          in Europe and securing German interests on the continent.[3]
 
-         La Zamacueca, by Manuel Antonio Caro.
-         Music in Chile ranges from folkloric, popular and classical music. Its large geography generates different musical styles in the north, center and south of the country, including
-         also Easter Island and Mapuche music.[169] The national dance is the cueca. Another form of traditional Chilean song, though not a dance, is the tonada. Arising from music imported
-         by the Spanish colonists, it is distinguished from the cueca by an intermediate melodic section and a more prominent melody.
+         On the other hand, Germans had traditions of foreign sea-borne trade dating back to the Hanseatic League; a tradition existed of German emigration (eastward in the direction
+         of Russia and Transylvania and westward to the Americas); and North German merchants and missionaries showed interest in overseas engagements. The Hanseatic republics of
+         Hamburg and Bremen sent traders across the globe. These trading houses conducted themselves as successful Privatkolonisatoren [independent colonizers] and concluded treaties
+         and land purchases in Africa and the Pacific with chiefs or other tribal leaders. These early agreements with local entities, however, later formed the basis for annexation
+          treaties, diplomatic support and military protection by the German government.[4]
 
-         Between 1950 and 1970 appears a rebirth in folk music leading by groups such as Los de Ramón, Los Cuatro Huasos and Los Huasos Quincheros, among others[170] with composers such as
-         Raúl de Ramón, Violeta Parra and others. In the mid-1960s native musical forms were revitalized by the Parra family with the Nueva canción Chilena, which was associated with political
-         activists and reformers such as Víctor Jara, Inti-Illimani, and Quilapayún. Other important folk singer and researcher on folklore and Chilean ethnography, is Margot Loyola. Also many
-          Chilean rock bands like Los Jaivas, Los Prisioneros, La Ley, and Los Tres have reached international success. In February, annual music festivals are held in Viña del Mar.[171]
+         Scramble for colonies
 
-         Literature
-         Pablo Neruda
-         Gabriela Mistral
-         Pablo Neruda and Gabriela Mistral, Nobel Prize recipients in literature
-         Chile is a country of poets.[172][173] Gabriela Mistral was the first Latin American to receive a Nobel Prize in Literature (1945). Chile's most famous poet is Pablo Neruda, who
-          received the Nobel Prize for Literature (1971) and is world-renowned for his extensive library of works on romance, nature, and politics. His three highly personalized homes in
-          Isla Negra, Santiago and Valparaíso are popular tourist destinations.
+         Groß-Friedrichsburg, a Brandenburg colony (1683–1717) in the territory of modern Ghana
 
-         Among the list of other Chilean poets are Carlos Pezoa Véliz, Vicente Huidobro, Gonzalo Rojas, Pablo de Rokha, Nicanor Parra and Raúl Zurita. Isabel Allende is the best-selling
-         Chilean novelist, with 51 millions of her novels sold worldwide.[174] Novelist José Donoso's novel The Obscene Bird of Night is considered by critic Harold Bloom to be one of the
-          canonical works of 20th-century Western literature. Another internationally recognized Chilean novelist and poet is Roberto Bolaño whose translations into English have had an
-           excellent reception from the critics.[175][176][177]
+         Kladderadatsch caricature, 1884. Bismarck is happy with other nations being busy "down there"
+         Many Germans in the late 19th century viewed colonial acquisitions as a true indication of having achieved nationhood. Public opinion eventually arrived at an understanding
+          that prestigious African and Pacific colonies went hand-in-hand with dreams of a High Seas Fleet. Both aspirations would become reality, nurtured by a press replete with
+          Kolonialfreunde [supporters of colonial acquisitions] and by a myriad of geographical associations and colonial societies. Bismarck and many deputies in the Reichstag had
+          no interest in colonial conquests merely to acquire square miles of territory.[5]
 
-         Cuisine
+         In essence, Bismarck's colonial motives were obscure as he had said repeatedly "... I am no man for colonies"[6] and "remained as contemptuous of all colonial dreams as
+         ever."[7] However, in 1884 he consented to the acquisition of colonies by the German Empire, in order to protect trade, to safeguard raw materials and export markets and
+         to take opportunities for capital investment, among other reasons.[8] In the very next year Bismarck shed personal involvement when "he abandoned his colonial drive as
+         suddenly and casually as he had started it" as if he had committed an error in judgment that could confuse the substance of his more significant policies.[9] "Indeed, in
+         1889, [Bismarck] tried to give German South-West Africa away to the British. It was, he said, a burden and an expense, and he would like to saddle someone else with it."[10]
 
-         Chilean asado and marraqueta
-         Chilean cuisine is a reflection of the country's topographical variety, featuring an assortment of seafood, beef, fruits, and vegetables. Traditional recipes include asado, cazuela,
-          empanadas, humitas, pastel de choclo, pastel de papas, curanto and sopaipillas.[178] Crudos is an example of the mixture of culinary contributions from the various ethnic
-          influences in Chile. The raw minced llama, heavy use of shellfish and rice bread were taken from native Quechua Andean cuisine, (although now beef brought to Chile by Europeans
-          is also used in place of the llama meat), lemon and onions were brought by the Spanish colonists, and the use of mayonnaise and yogurt was introduced by German immigrants, as was
-           beer.
+         Acquisition of colonies
+         The development of German overseas protectorates (with the exception of concession territories) essentially followed three phases.
 
-         Folklore
-         The folklore of Chile, cultural and demographic characteristics of the country, is the result of mixture of Spanish and Amerindian elements that occurred during the colonial
-         period. Due to cultural and historical reasons, they are classified and distinguished four major areas in the country: northern areas, central, southern and south. Most of the
-         traditions of the culture of Chile have a festive purpose, but some, such as dances and ceremonies, have religious components.[citation needed]
+         Company land acquisitions and stewardship
 
-         Mythology
-         Main article: Chilean mythology
-         Chilean mythology, is the mythology and beliefs of the Folklore of Chile.
+         The Congo conference 1884/1885 in Berlin laid the basis for the Scramble for Africa, the colonial division of the continent
+         The rise of German imperialism and colonialism coincided with the latter stages of the "Scramble for Africa" during which enterprising German individuals, rather than
+          government entities, competed with other already established colonies and colonialist entrepreneurs. With the Germans joining the race for the last uncharted territories
+           in Africa and the Pacific that had not yet been carved up, competition for colonies thus involved major European nations, and several lesser powers.
 
-         This includes Chilote mythology, Rapa Nui mythology and Mapuche mythology.
+         The German effort included the first commercial enterprises in the 1850s and 1860s in West Africa, East Africa, the Samoan Islands and the unexplored north-east quarter
+         of New Guinea with adjacent islands.[11] German traders and merchants began to establish themselves in the African Cameroon delta and the mainland coast across from
+         Zanzibar.[12] At Apia and the settlements Finschhafen, Simpsonhafen and the islands Neu-Pommern and Neu-Mecklenburg, trading companies newly fortified with credit began
+         expansion into coastal landholding.[13] Large African inland acquisitions followed — mostly to the detriment of native inhabitants. In eastern Africa the imperialist and
+         “man-of-action” Karl Peters accumulated vast tracts of land for his colonization group, "emerging from the bush with X-marks [affixed by unlettered tribal chiefs] on
+         documents ... for some 60 thousand square miles of the Zanzibar Sultanate’s mainland property."[14] Such exploratory missions required security measures that could be
+         solved with small private, armed contingents recruited mainly in the Sudan and usually led by adventurous former military personnel of lower rank. Brutality, hanging and
+         flogging prevailed during these land-grab expeditions under Peters’ control as well as others as no-one "held a monopoly in the mistreatment of Africans."[15]
 
-         Cinema
-         Main article: Cinema of Chile
-         The film originated in Valparaíso on 26 May 1902 with the premiere of the documentary Exercise General Fire Brigade, the first film completely filmed and processed in the country.
-          In the following decades, marked milestones The deck of Death (or The Enigma of Lord Street) (1916), considered the first film Chilean story, The transmission of presidential
-          (1920), the first animated film in the country, and North and South (1934), the first sound film of Chile.
+         As Bismarck was converted to the colonial idea by 1884, he favored "chartered company" land management rather than establishment of colonial government due to financial
+         considerations.[16] Although temperate zone cultivation flourished, the demise and often failure of tropical low-land enterprises contributed to changing Bismarck’s view.
+          He reluctantly acquiesced to pleas for help to deal with revolts and armed hostilities by often powerful rulers whose lucrative slaving activities seemed at risk. German
+          native military forces initially engaged in dozens of punitive expeditions to apprehend and punish freedom fighters, at times with British assistance.[17] The author Charles
+           Miller offers the theory that the Germans had the handicap of trying to colonize African areas inhabited by aggressive tribes,[18] whereas their colonial neighbours had
+           more docile peoples to contend with. At that time, the German penchant for giving muscle priority over patience contributed to continued unrest. Several of the African
+           colonies remained powder kegs throughout this phase (and beyond). The transition to official acceptance of colonialism and to colonial government thus occurred during the
+            last quarter of Bismarck’s tenure of office.[19]
 
-         Sports
-         Main article: Sport in Chile
+         Growth
 
-         Estadio Nacional de Chile
-         Chile's most popular sport is association football. Chile has appeared in nine FIFA World Cups which includes hosting the 1962 FIFA World Cup where the national football team
-          finished third. Other results achieved by the national football team include two Copa América titles (2015 and 2016), and two runners up positions, one silver and two bronze
-          medals at the Pan American Games, a bronze medal at the 2000 Summer Olympics and two third places finishes in the FIFA under-17 and under-20 youth tournaments. The top league
-          in the Chilean football league system is the Chilean Primera División, which is named by the IFFHS as the ninth strongest national football league in the world.[179]
+         Railway station in Lüderitz, Namibia, 2006
 
-         The main football clubs are Colo-Colo, Universidad de Chile and Universidad Católica. Colo-Colo is the country's most successful football club, having both the most national and
-         international championships, including the coveted Copa Libertadores South American club tournament. Universidad de Chile was the last international champion (Copa Sudamericana 2011).
+         German Colonial Secretary Bernhard Dernburg (2nd from right) on inspection tour in East Africa, shown on a courtesy visit with British officials at Nairobi in 1907
 
-         Tennis is Chile's most successful sport. Its national team won the World Team Cup clay tournament twice (2003 & 2004), and played the Davis Cup final against Italy in 1976. At
-         the 2004 Summer Olympics the country captured gold and bronze in men's singles and gold in men's doubles. Marcelo Ríos became the first Latin American man to reach the number one
-          spot in the ATP singles rankings in 1998. Anita Lizana won the US Open in 1937, becoming the first woman from Latin America to win a Grand Slam tournament. Luis Ayala was twice
-          a runner-up at the French Open and both Ríos and Fernando González reached the Australian Open men's singles finals. González also won a silver medal in singles at the 2008
-          Summer Olympics in Beijing.
+         Postcards depicted romanticized images of natives and exotic locales, such as this early 20th century card of the German colonial territory in New Guinea
+         In the first years of the 20th century shipping lines had established scheduled services with refrigerated holds and agricultural products from the colonies, exotic fruits
+          and spices, were sold to the public in Germany. The colonies were romanticized. Geologists and cartographers explored what were the unmarked regions on European maps,
+          identifying mountains and rivers, and demarcating boundaries. Hermann Detzner and one Captain Nugent, R.A., had charge of a joint project to demarcate the British and
+          German frontiers of Cameroon, which was published in 1913.[20] Travelers and newspaper reporters brought back stories of black and brown natives serving German managers
+          and settlers. There were also suspicions and reports of colonial malfeasance, corruption and brutality in some protectorates, and Lutheran and Roman Catholic missionaries
+           dispatched disturbing reports to their mission headquarters in Germany.[21]
 
-         At the Summer Olympic Games Chile boasts a total of two gold medals (tennis), seven silver medals (athletics, equestrian, boxing, shooting and tennis) and four bronze medals
-         (tennis, boxing and football). In 2012, Chile won its first Paralympic Games medal (gold in Athletics).
+         German colonial diplomatic efforts remained commercially inspired, "the colonial economy was thriving ... and roads, railways, shipping and telegraph communications were
+         up to the minute."[22] Overhaul of the colonial administrative apparatus thus set the stage for the final and most promising period of German colonialism.[23] Bernhard
+         Dernburg’s declaration that the indigenous population in the protectorates "was the most important factor in our colonies" was affirmed by new laws. The use of forced,
+          unpaid labor went on the books as a criminal offense.[24] Governor Wilhelm Solf of Samoa would call the islanders "unsere braunen Schützlinge" [our brown charges], who
+          could be guided but not forced.[25] Heinrich Schnee in East Africa proclaimed that "the dominant feature of my administration [will be] ... the welfare of the natives
+          entrusted into my care."[26] Idealists often volunteered for selection and appointment to government posts, while others with an entrepreneurial bent labored to swell the
+           dividends at home for the Hanseatic trading houses and shipping lines. Subsequent historians would commend German colonialism in those years as "an engine of modernization
+            with far-reaching effects for the future."[27] The native population was forced into unequal treaties by the German colonial governments. This led to the local tribes
+            and natives losing their influence and power and eventually forced some of them to become slave laborers. Although slavery was partially outlawed in 1905 by Germany,
+            this caused a great deal of resentment and led eventually to revolts by the native population[further explanation needed]. The result was several military and genocidal
+            campaigns by the Germans against the natives.[28] Political and economic subjugation of Herero and Nama was envisioned. Both the colonial authorities and settlers were
+            of the opinion that native Africans were to be a lower class, their land seized and handed over to settlers and companies, while the remaining population was to be put
+             in reservations; the Germans planned to make a colony inhabited predominately by whites: a "new African Germany".[29]
+
+         The established merchants and plantation operators in the African colonies frequently managed to sway government policies. Capital investments by banks were secured with
+         public funds of the imperial treasury to minimize risk. Dernburg, as a former banker, facilitated such thinking; he saw his commission to also turn the colonies into paying
+          propositions. Every African protectorate built rail lines to the interior,[30] every colony in Africa and the Pacific established the beginnings of a public school system,
+          [31] and every colony built and staffed hospitals.[32] Whatever the Germans constructed in their colonies was made to last.[33]
 
 
-         The Chilean national polo team with President Michelle Bachelet and the trophy of the 2015 World Polo Championship.
-         Rodeo is the country's national sport and is practiced in the more rural areas of the nation. A sport similar to hockey called chueca was played by the Mapuche people during the
-          Spanish conquest. Skiing and snowboarding are practiced at ski centers located in the Central Andes, and in southern ski centers near to cities as Osorno, Puerto Varas, Temuco
-          and Punta Arenas. surfing is popular at some coastal towns. Polo is professionally practiced within Chile, with the country achieving top prize in the 2008 and 2015 World Polo
-           Championship.
+         Qingdao with German buildings, circa 1900
+         Dar es Salaam evolved into "the showcase city of all of tropical Africa,"[33] Lomé grew into the "prettiest city in western Africa",[34] and Tsingtao, China was, "in
+          miniature, as German a city as Hamburg or Bremen".[35] For indigenous populations in some colonies native agricultural holdings were encouraged and supported.[36]
 
-         Basketball is a popular sport in which Chile has earned a bronze medal in the first men's FIBA World Championship held in 1950 and winning a second bronze medal when Chile hosted
-         the 1959 FIBA World Championship. Chile hosted the first FIBA World Championship for Women in 1953 finishing the tournament with the silver medal. San Pedro de Atacama is host to
-          the annual "Atacama Crossing", a six-stage, 250-kilometre (160 mi) footrace which annually attracts about 150 competitors from 35 countries. The Dakar Rally off-road automobile
-           race has been held in both Chile and Argentina since 2009.
+         End of the German colonial empire
+         Conquest in World War I
 
-         Cultural heritage
+         December 1914: An Austrian lieutenant, Paul Fiedler,[37] bombards a South African military camp at the railway station of Tschaukaib, German South West Africa
+         In the years before the outbreak of the World War, British colonial officers viewed the Germans as deficient in “colonial aptitude”, but “whose colonial administration
+         was nevertheless superior to those of the other European states”.[38] Anglo-German colonial issues in the decade before 1914 were minor and both empires, the British and
+          German, took conciliatory attitudes. Foreign Secretary Sir Edward Grey, considered still a moderate in 1911, was willing to “study the map of Africa in a pro-German
+          spirit”.[39] Britain further recognized that Germany really had little of value to offer in territorial transactions; however, advice to Grey and Prime Minister H. H.
+          Asquith hardened by early 1914 “to stop the trend of what the advisers considered Germany’s taking and Britain’s giving.”[40]
 
-         The historical district of the port city of Valparaíso
-         The cultural heritage of Chile consists, first, of their intangible heritage, composed of various cultural events, such as visual arts, crafts, dances, holidays, cuisine, games,
-         music and traditions, and, secondly, by its tangible, consists of those buildings, objects and sites of archaeological, architectural, traditional, artistic, ethnographic,
-         folkloric, historical, religious or technological scattered through Chilean territory, among them, those goods are declared World Heritage Site by UNESCO, in accordance with
-         the provisions of the Convention concerning the Protection of World Cultural and Natural Heritage of 1972, ratified by Chile in 1980. These cultural sites are the Rapa Nui
-         National Park (1995), the Churches of Chiloé (2000), the historical district of the port city of Valparaíso (2003), Humberstone and Santa Laura Saltpeter Works (2005) and the
-         mining city Sewell (2006).
+         Once war was declared in late July 1914 Britain and its allies promptly moved against the colonies. The public was informed that German colonies were a threat because
+         "Every German colony has a powerful wireless station — they will talk to one another across the seas, and at every opportunity they [German ships] will dash from cover
+         to harry and destroy our commerce, and maybe, to raid our coasts."[41] The British position that Germany was a uniquely brutal and cruel colonial power originated during
+         the war; it had not been said during peacetime.[42]
 
-         In 1999 the Cultural Heritage Day was established as a way to honour and commemorate Chiles cultural heritage. It is an official national holiday celebrated in May every year.
+         In the Pacific, Britain's ally Japan declared war on Germany in 1914 and quickly seized several of Germany's island colonies, the Mariana, Caroline and Marshall Islands,
+          with virtually no resistance.
 
-         See also
-        }*/
+         By 1916 only in remote jungle regions in East Africa did the German forces hold out. South Africa’s J.C. Smuts, now in Britain's small War Cabinet, spoke of German schemes
+          for world power, militarisation and exploitation of resources, indicating Germany threatened western civilisation itself. Smuts' warnings were repeated in the press. The
+           idea took hold that they should not be returned to Germany after the war.[43]
+
+         Confiscation
+
+         */
 
 
 

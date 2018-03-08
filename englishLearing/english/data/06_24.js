@@ -1,0 +1,1269 @@
+wordJson["06_24"] = [{
+    "english": "armor",
+    "symbols": "['ɑ:mə]",
+    "chinese": "装甲；为…穿盔甲（或加置装甲）"
+}, {
+    "english": "armoured",
+    "symbols": "[ˈɑ:məd]",
+    "chinese": "装甲的，武装的"
+}, {
+    "english": "trench",
+    "symbols": "[trentʃ]",
+    "chinese": "战壕；掘沟；挖战壕"
+}, {
+    "english": "calibre",
+    "symbols": "[ˈkælɪbə(r)]",
+    "chinese": "口径"
+}, {
+    "english": "cannon",
+    "symbols": "[ˈkænən]",
+    "chinese": "大炮；与…猛撞；炮轰"
+}, {
+    "english": "turret",
+    "symbols": "[ˈtʌrət]",
+    "chinese": "炮塔，转塔"
+}, {
+    "english": "battlefield",
+    "symbols": "[ˈbætlfi:ld]",
+    "chinese": "战场，战地"
+}, {
+    "english": "firearm",
+    "symbols": "[ˈfaɪərɑ:m]",
+    "chinese": "火器，尤指手枪或步枪"
+}, {
+    "english": "gearbox",
+    "symbols": "[ˈgɪəbɒks]",
+    "chinese": "变速箱"
+}, {
+    "english": "Somme",
+    "symbols": "[]",
+    "chinese": "[地名] [法国] 索姆河"
+}, {
+    "english": "infantry",
+    "symbols": "[ˈɪnfəntri]",
+    "chinese": "步兵"
+}, {
+    "english": "grenade",
+    "symbols": "[grəˈneɪd]",
+    "chinese": "<军>手榴弹"
+}, {
+    "english": "bibliography  ",
+    "symbols": "[ˌbɪbliˈɒgrəfi]",
+    "chinese": "书志; 文献，文献学;"
+}, {
+    "english": "ironclad",
+    "symbols": "['aɪənklæd]",
+    "chinese": "装甲的；装甲舰"
+}, {
+    "english": "outdate",
+    "symbols": "[aʊt'deɪt]",
+    "chinese": "使过时"
+}, {
+    "english": "insofar",
+    "symbols": "[ˌɪnsəʊ'fɑ:]",
+    "chinese": "在这个范围，到这种程度"
+}, {
+    "english": "pedrail",
+    "symbols": "['pedreɪl]",
+    "chinese": "履带"
+}, {
+    "english": "camouflage",
+    "symbols": "[ˈkæməflɑ:ʒ]",
+    "chinese": "伪装；伪装"
+}, {
+    "english": "manipulate",
+    "symbols": "[məˈnɪpjuleɪt]",
+    "chinese": "操纵"
+}, {
+    "english": "deadlock",
+    "symbols": "[ˈdedlɒk]",
+    "chinese": "僵局；停顿；成僵局"
+}, {
+    "english": "milestone",
+    "symbols": "[ˈmaɪlstəʊn]",
+    "chinese": "里程碑"
+}, {
+    "english": "rugged",
+    "symbols": "[ˈrʌgɪd]",
+    "chinese": "崎岖的"
+}, {
+    "english": "problematic",
+    "symbols": "[ˌprɒbləˈmætɪk]",
+    "chinese": "成问题的，有疑问的，不确定的"
+}, {
+    "english": "track",
+    "symbols": "[træk]",
+    "chinese": "小路，小道；跟踪；沿着轨道前进"
+}, {
+    "english": "wane",
+    "symbols": "[weɪn]",
+    "chinese": "衰落；衰退"
+}, {
+    "english": "Solomon",
+    "symbols": "[ˈsɒləmən]",
+    "chinese": "所罗门（？-932BC,以色列国王，在位期间，发展贸易，以武力维持其统治，使犹太达到鼎盛，以智慧著称），聪明人"
+}, {
+    "english": "warhead",
+    "symbols": "[ˈwɔ:hed]",
+    "chinese": "（尤指导弹的）弹头"
+}, {
+    "english": "tactical",
+    "symbols": "[ˈtæktɪkl]",
+    "chinese": "战术的"
+}, {
+    "english": "countermeasure",
+    "symbols": "[]",
+    "chinese": "对策"
+}, {
+    "english": "reconnaissance",
+    "symbols": "[rɪˈkɒnɪsns]",
+    "chinese": "勘查"
+}, {
+    "english": "gun",
+    "symbols": "[gʌn]",
+    "chinese": "枪；射击（某人）；用枪打猎"
+}, {
+    "english": "subconsciously",
+    "symbols": "[ˌsʌb'kɒnʃəslɪ]",
+    "chinese": "潜意识地"
+}, {
+    "english": "nova",
+    "symbols": "[ˈnəʊvə]",
+    "chinese": "新星"
+}, {
+    "english": "field",
+    "symbols": "[fi:ld]",
+    "chinese": "田；[棒球、板球等]担任外场员，担任守队队员；实地的；保护"
+}, {
+    "english": "terra",
+    "symbols": "['terə]",
+    "chinese": "地，土地"
+}, {
+    "english": "memorandum",
+    "symbols": "[ˌmeməˈrændəm]",
+    "chinese": "[外]照会，备忘录"
+}, {
+    "english": "Zeppelin",
+    "symbols": "[ˈzepəlɪn]",
+    "chinese": "齐柏林硬式飞艇"
+}, {
+    "english": "biographer",
+    "symbols": "[baɪˈɒgrəfə(r)]",
+    "chinese": "传记作者"
+},  {
+    "english": "wagon",
+    "symbols": "[ˈwægən]",
+    "chinese": "四轮的运货马车；用运货马车运输货物；“waggon”的变体"
+}, {
+    "english": "boost",
+    "symbols": "[bu:st]",
+    "chinese": "增加；宣扬；提高，增加"
+}, {
+    "english": "curator",
+    "symbols": "[kjʊəˈreɪtə(r)]",
+    "chinese": "（图书馆等的）馆长"
+}, {
+    "english": "signaller",
+    "symbols": "[ˈsɪgnələ(r)]",
+    "chinese": "信号装置"
+}, {
+    "english": "jerry",
+    "symbols": "['dʒerɪ]",
+    "chinese": "草率的，偷工减料的"
+}, {
+    "english": "traversable",
+    "symbols": "['trævəsəbl]",
+    "chinese": "可以横过的，可以穿过的，可否定的"
+}, {
+    "english": "Lloyd",
+    "symbols": "[lɔid]",
+    "chinese": "劳埃德(m.)"
+}, {
+    "english": "enthusiasm",
+    "symbols": "[ɪnˈθju:ziæzəm]",
+    "chinese": "热情，热忱"
+}, {
+    "english": "George",
+    "symbols": "[dʒɔ:dʒ]",
+    "chinese": "男子名"
+}, {
+    "english": "David",
+    "symbols": "['deɪvɪd]",
+    "chinese": "大卫"
+}, {
+    "english": "munition",
+    "symbols": "[mju:ˈnɪʃn]",
+    "chinese": "军需品，军火"
+}, {
+    "english": "piecemeal",
+    "symbols": "[ˈpi:smi:l]",
+    "chinese": "逐渐地；零碎的；片，块；把…弄成碎块"
+}, {
+    "english": "obsolete",
+    "symbols": "[ˈɒbsəli:t]",
+    "chinese": "废弃的；废词；淘汰"
+}, {
+    "english": "versus",
+    "symbols": "[ˈvɜ:səs]",
+    "chinese": "对抗"
+}, {
+    "english": "doctrine",
+    "symbols": "[ˈdɒktrɪn]",
+    "chinese": "教条，教义"
+}, {
+    "english": "holt",
+    "symbols": "[həʊlt]",
+    "chinese": "<古>小林，林丘，林地"
+}, {
+    "english": "blitzkrieg",
+    "symbols": "[ˈblɪtskri:g]",
+    "chinese": "闪电战，闪击战，（尤指）猛烈的空袭"
+}, {
+    "english": "spear",
+    "symbols": "[spɪə(r)]",
+    "chinese": "矛；用矛刺；父系的，右边的"
+}, {
+    "english": "blunder",
+    "symbols": "[ˈblʌndə(r)]",
+    "chinese": "（因无知、粗心等造成）的错误;犯错误"
+}, {
+    "english": "faction",
+    "symbols": "[ˈfækʃn]",
+    "chinese": "派系"
+}, {
+    "english": "clandestine",
+    "symbols": "[klænˈdestɪn]",
+    "chinese": "秘密的"
+}, {
+    "english": "salute",
+    "symbols": "[səˈlu:t]",
+    "chinese": "欢迎，致敬；向…致意；行礼；敬礼"
+}, {
+    "english": "gasoline",
+    "symbols": "[ˈgæsəli:n]",
+    "chinese": "汽油"
+}, {
+    "english": "diesel",
+    "symbols": "[ˈdi:zl]",
+    "chinese": "柴油机"
+}, {
+    "english": "infiltration",
+    "symbols": "[ˌɪnfɪl'treɪʃn]",
+    "chinese": "渗透"
+}, {
+    "english": "newsreel",
+    "symbols": "[ˈnju:zri:l]",
+    "chinese": "新闻短片"
+}, {
+    "english": "subservient",
+    "symbols": "[səbˈsɜ:viənt]",
+    "chinese": "卑躬屈节的"
+}, {
+    "english": "vintage",
+    "symbols": "[ˈvɪntɪdʒ]",
+    "chinese": "老式的，过时的"
+}, {
+    "english": "bypass",
+    "symbols": "[]",
+    "chinese": "绕过，避开( bypass 的过去式和过去分词 )"
+}, {
+    "english": "entrenchment",
+    "symbols": "[ɪnˈtrentʃmənt]",
+    "chinese": "壕沟，防御设施"
+}, {
+    "english": "logistic",
+    "symbols": "[lə'dʒɪstɪkl]",
+    "chinese": "逻辑的；[逻]数理逻辑"
+}, {
+    "english": "invulnerable",
+    "symbols": "[ɪnˈvʌlnərəbl]",
+    "chinese": "无懈可击"
+}, {
+    "english": "disruption",
+    "symbols": "[dɪs'rʌpʃn]",
+    "chinese": "破坏"
+}, {
+    "english": "dogged",
+    "symbols": "[ˈdɒgɪd]",
+    "chinese": "顽强的；跟踪"
+}, {
+    "english": "up",
+    "symbols": "[ʌp]",
+    "chinese": "在上面，在高处；向上的；增加；在…的上端；上升，升高"
+}, {
+    "english": "gun",
+    "symbols": "[gʌn]",
+    "chinese": "枪；射击（某人）；用枪打猎"
+}, {
+    "english": "Tunisia",
+    "symbols": "[tjʊ'nɪzɪə]",
+    "chinese": "突尼斯（北非国家）"
+}, {
+    "english": "desolate",
+    "symbols": "[ˈdesələt]",
+    "chinese": "荒凉的；使荒无人烟，使荒芜"
+}, {
+    "english": "outpace",
+    "symbols": "[ˌaʊtˈpeɪs]",
+    "chinese": "超过…速度，赶过"
+}, {
+    "english": "inherent",
+    "symbols": "[ɪnˈhɪərənt]",
+    "chinese": "天生"
+}, {
+    "english": "no",
+    "symbols": "[nəʊ]",
+    "chinese": "不；没有的；不；数字(number)"
+}, {
+    "english": "beachhead",
+    "symbols": "[ˈbi:tʃhed]",
+    "chinese": "滩头阵地，滩头堡"
+}, {
+    "english": "casemate",
+    "symbols": "['keɪsmeɪt]",
+    "chinese": "暗炮台"
+}, {
+    "english": "feasible",
+    "symbols": "[ˈfi:zəbl]",
+    "chinese": "可行的"
+},  {
+    "english": "for",
+    "symbols": "[fə(r)]",
+    "chinese": "为，为了；因为，由于"
+}, {
+    "english": "be",
+    "symbols": "[bi]",
+    "chinese": "是；用来表示某人或某物即主语本身，用来表示某人或某物属于某一群体或有某种性质"
+}, {
+    "english": "rangefinder",
+    "symbols": "[ˈreɪndʒfaɪndə(r)]",
+    "chinese": "测距仪"
+}, {
+    "english": "hammer",
+    "symbols": "[ˈhæmə]",
+    "chinese": " 铁锤，榔头;"
+}, {
+    "english": "weaponry",
+    "symbols": "[ˈwepənri]",
+    "chinese": "仗; （总称） 武器，兵器; "
+}, {
+    "english": "platoon",
+    "symbols": "[pləˈtu:n]",
+    "chinese": "<军>排，团"
+},{
+    "english": "ammunition",
+    "symbols": "[ˌæmjuˈnɪʃn]",
+    "chinese": "子弹"
+}, {
+    "english": "sabot",
+    "symbols": "['sæbəʊ]",
+    "chinese": "木鞋，木底鞋"
+}, {
+    "english": "derivative， ",
+    "symbols": "[dɪˈrɪvətɪv]",
+    "chinese": "衍生的;衍生物，派生物"
+}, {
+    "english": "serial",
+    "symbols": "[ˈsɪəriəl]",
+    "chinese": "连续的；连载小说"
+}, {
+    "english": "personnel",
+    "symbols": "[ˌpɜ:səˈnel]",
+    "chinese": "全体员工"
+}, {
+    "english": "detonate",
+    "symbols": "[ˈdetəneɪt]",
+    "chinese": "（使）爆炸，引爆"
+}, {
+    "english": "vulnerability",
+    "symbols": "[ˌvʌlnərə'bɪlətɪ]",
+    "chinese": "脆弱性"
+}, {
+    "english": "muzzle",
+    "symbols": "[ˈmʌzl]",
+    "chinese": "枪口，炮口；给（狗等）戴口套"
+}, {
+    "english": "projectile",
+    "symbols": "[prəˈdʒektaɪl]",
+    "chinese": "抛射体；向前开进的"
+}, {
+    "english": "mine",
+    "symbols": "[maɪn]",
+    "chinese": "地雷; 水雷"
+}, {
+    "english": "recuperator",
+    "symbols": "[rɪ'kju:pəreɪtə]",
+    "chinese": "恢复者，复原者"
+}, {
+    "english": "cruiser",
+    "symbols": "[ˈkru:zə(r)]",
+    "chinese": "巡洋舰"
+}, {
+    "english": "discard",
+    "symbols": "[dɪsˈkɑ:d]",
+    "chinese": "丢弃，抛弃；被抛弃的人[物]；出无用的牌"
+}, {
+    "english": "terminology",
+    "symbols": "[ˌtɜ:mɪˈnɒlədʒi]",
+    "chinese": "专门名词"
+}, {
+    "english": "hybrid",
+    "symbols": "[ˈhaɪbrɪd]",
+    "chinese": "杂种；混合的"
+}, {
+    "english": "motto",
+    "symbols": "[ˈmɒtəʊ]",
+    "chinese": "座右铭"
+}, {
+    "english": "conurbation",
+    "symbols": "[ˌkɒnɜ:ˈbeɪʃn]",
+    "chinese": "有卫星城的大都市"
+},  {
+    "english": "chancellor",
+    "symbols": "['tʃɑ:nsələ(r)]",
+    "chinese": "大臣"
+}, {
+    "english": "metropolis",
+    "symbols": "[məˈtrɒpəlɪs]",
+    "chinese": "大都市，大都会"
+}, {
+    "english": "tuition",
+    "symbols": "[tjuˈɪʃn]",
+    "chinese": "学费"
+}, {
+    "english": "Rhine",
+    "symbols": "[rain]",
+    "chinese": "莱茵河（源出瑞士境内的阿尔卑斯山，贯穿西欧多国）"
+}, {
+    "english": "Schengen -----------------------------------------",
+    "symbols": "[]",
+    "chinese": "[地名] [卢森堡] 申根"
+}, {
+    "english": "Ruhr",
+    "symbols": "[ruə]",
+    "chinese": "鲁尔（联邦德国一地区）"
+}, {
+    "english": "Frankfurt",
+    "symbols": "[]",
+    "chinese": "[法]法兰克福储蓄银行"
+}, {
+    "english": "javelin",
+    "symbols": "[ˈdʒævlɪn]",
+    "chinese": "标枪，投枪"
+}, {
+    "english": "Munich",
+    "symbols": "['mju:nɪk]",
+    "chinese": "慕尼黑（德国城市，巴伐利亚州首府）"
+}, {
+    "english": "traverse",
+    "symbols": "[trəˈvɜ:s]",
+    "chinese": "穿过；通过；横越；横贯的"
+}, {
+    "english": "Frankish",
+    "symbols": "[ˈfræŋkiʃ]",
+    "chinese": "法兰克人的，法兰克语的，法兰克文化的；法兰克人讲的（西）日耳曼语"
+}, {
+    "english": "mammoth",
+    "symbols": "[ˈmæməθ]",
+    "chinese": "[动]猛玛（象）；庞大的，巨大的"
+}, {
+    "english": "Slavic",
+    "symbols": "[ˈslɑ:vɪk]",
+    "chinese": "斯拉夫人的，斯拉夫语的，斯拉夫语言"
+}, {
+    "english": "figurative",
+    "symbols": "[ˈfɪgərətɪv]",
+    "chinese": "比喻的"
+}, {
+    "english": "Ural",
+    "symbols": "[null]",
+    "chinese": "乌拉尔河，乌拉尔；乌拉尔山脉的"
+}, {
+    "english": "unearth",
+    "symbols": "[ʌn'əθ]",
+    "chinese": "出土的（考古）；发掘或挖出某物( unearth的过去式和过去分词 )"
+}, {
+    "english": "subjugate",
+    "symbols": "[ˈsʌbdʒugeɪt]",
+    "chinese": "征服，降伏"
+}, {
+    "english": "Elbe",
+    "symbols": "[ˈelbə,elb]",
+    "chinese": "易北河（流经中欧）"
+}, {
+    "english": "intertwine",
+    "symbols": "[ˌɪntəˈtwaɪn]",
+    "chinese": "缠结在一起；纠缠"
+}, {
+    "english": "archbishopric",
+    "symbols": "[ˌɑ:tʃˈbɪʃəprɪk]",
+    "chinese": "大主教之职"
+}, {
+    "english": "legion",
+    "symbols": "[ˈli:dʒən]",
+    "chinese": "大批部队；众多的"
+}, {
+    "english": "burgundy",
+    "symbols": "[ˈbɜ:gəndi]",
+    "chinese": "紫红色；（法国的）勃艮第葡萄酒"
+}, {
+    "english": "principality",
+    "symbols": "[ˌprɪnsɪˈpæləti]",
+    "chinese": "公国，侯国"
+}, {
+    "english": "Lutheranism",
+    "symbols": "[]",
+    "chinese": "(=Lutherism)路德教（教义）"
+}, {
+    "english": "regio",
+    "symbols": "['ri:dʒi:əʊ]",
+    "chinese": "[医] 区，部[位]"
+}, {
+    "english": "creed",
+    "symbols": "[kri:d]",
+    "chinese": "（尤指宗教）信条，教义"
+}, {
+    "english": "heresy",
+    "symbols": "[ˈherəsi]",
+    "chinese": "异端"
+}, {
+    "english": "theses",
+    "symbols": "[ˈθi:si:z]",
+    "chinese": "论文"
+}, {
+    "english": "monk",
+    "symbols": "[mʌŋk]",
+    "chinese": "修道士，僧侣"
+}, {
+    "english": "hereditary",
+    "symbols": "[həˈredɪtri]",
+    "chinese": "遗传性; 世袭的; （生物学中） 遗传的;"
+}, {
+    "english": "the",
+    "symbols": "[ðə]",
+    "chinese": "指已提到的人（物）"
+}, {
+    "english": "sanction",
+    "symbols": "[ˈsæŋkʃn]",
+    "chinese": "约束力；批准"
+}, {
+    "english": "pragmatic",
+    "symbols": "[prægˈmætɪk]",
+    "chinese": "爱管闲事的人"
+}, {
+    "english": "consort",
+    "symbols": "[ˈkɒnsɔ:t]",
+    "chinese": "配偶；结交；使陪伴"
+}, {
+    "english": "dualism",
+    "symbols": "[ˈdju:əlɪzəm]",
+    "chinese": "二元论"
+}, {
+    "english": "Lithuanian",
+    "symbols": "[ˌlɪθjʊ'eɪnɪən]",
+    "chinese": "立陶宛（前苏联加盟共和国）人；立陶宛的，立陶宛人的，立陶宛语的"
+}, {
+    "english": "Vienna",
+    "symbols": "[viˈenə]",
+    "chinese": "维也纳（奥地利首都）"
+}, {
+    "english": "convene",
+    "symbols": "[kənˈvi:n]",
+    "chinese": "召集；集合"
+}, {
+    "english": "acerbate",
+    "symbols": "['æsəbeɪt]",
+    "chinese": "使发怒，使烦恼；恼怒的"
+}, {
+    "english": "tariff",
+    "symbols": "[ˈtærɪf]",
+    "chinese": "关税；征收关税"
+}, {
+    "english": "Jutland",
+    "symbols": "[ˈdʒʌtlənd]",
+    "chinese": "日德兰半岛（北欧的半岛）"
+}, {
+    "english": "commoner",
+    "symbols": "[ˈkɒmənə(r)]",
+    "chinese": "平民"
+}, {
+    "english": "Versailles",
+    "symbols": "[vɛəˈsai,və:ˈseilz]",
+    "chinese": "凡尔赛（法国北部城市）"
+}, {
+    "english": "intellectual",
+    "symbols": "[ˌɪntəˈlektʃuəl]",
+    "chinese": "智力的；知识分子"
+}, {
+    "english": "Danish",
+    "symbols": "[ˈdeɪnɪʃ]",
+    "chinese": "丹麦语；丹麦的"
+}, {
+    "english": "incursion",
+    "symbols": "[ɪnˈkɜ:ʃn]",
+    "chinese": "侵入"
+}, {
+    "english": "Micronesia",
+    "symbols": "[ˌmaɪkrə'ni:zɪə]",
+    "chinese": "密克罗尼西亚（西太平洋岛群，意为“小岛群岛”）"
+}, {
+    "english": "Guinea",
+    "symbols": "['ɡɪnɪ]",
+    "chinese": "几内亚"
+}, {
+    "english": "Balkan",
+    "symbols": "['bɒlkən]",
+    "chinese": "巴尔干半岛的;"
+}, {
+    "english": "Namibia",
+    "symbols": "[nəˈmi:biə]",
+    "chinese": "纳米比亚"
+}, {
+    "english": "Samoa",
+    "symbols": "[sə'məʊə]",
+    "chinese": "萨摩亚群岛（南太平洋）"
+}, {
+    "english": "annihilation",
+    "symbols": "[əˌnaɪə'leɪʃn]",
+    "chinese": "湮没; 歼灭; 灭绝; （粒子与反粒子的）湮灭;"
+}, {
+    "english": "dehydration -----------------------------",
+    "symbols": "[ˌdi:haɪ'dreɪʃn]",
+    "chinese": "脱水"
+}, {
+    "english": "assassination",
+    "symbols": "[əˌsæsɪ'neɪʃn]",
+    "chinese": "暗杀;刺杀"
+}, {
+    "english": "pretext",
+    "symbols": "[ˈpri:tekst]",
+    "chinese": "借口，托辞；借口，假托"
+}, {
+    "english": "armistice",
+    "symbols": "[ˈɑ:mɪstɪs]",
+    "chinese": " 停战"
+}, {
+    "english": "Serbia",
+    "symbols": "['sɜ:bɪə]",
+    "chinese": "塞尔维亚（南斯拉夫成员共和国名）"
+}, {
+    "english": "Alsace",
+    "symbols": "[ælˈsæs]",
+    "chinese": "阿尔萨斯（法国东北部一地名）"
+}, {
+    "english": "abdicate",
+    "symbols": "[ˈæbdɪkeɪt]",
+    "chinese": "放弃（职责、权力等）；退位，逊位；可以放弃的；放弃权力者，退位者"
+}, {
+    "english": "Lorraine",
+    "symbols": "[null]",
+    "chinese": "洛林（法国东北部一地区）"
+}, {
+    "english": "austerity",
+    "symbols": "[ɒˈsterəti]",
+    "chinese": "简朴，朴素; 节衣缩食;"
+}, {
+    "english": "deflation",
+    "symbols": "[ˌdi:ˈfleɪʃn]",
+    "chinese": "通货紧缩"
+}, {
+    "english": "rearmament",
+    "symbols": "[rɪ'ɑ:məmənt]",
+    "chinese": "重整军备，改良装备"
+}, {
+    "english": "abrogate",
+    "symbols": "[ˈæbrəgeɪt]",
+    "chinese": "取消；取消，废除"
+}, {
+    "english": "totalitarian",
+    "symbols": "[təʊˌtæləˈteəriən]",
+    "chinese": "极权主义的；极权主义"
+}, {
+    "english": "plummet",
+    "symbols": "[ˈplʌmɪt]",
+    "chinese": "垂直落下；铅锤"
+}, {
+    "english": "Czechoslovakia",
+    "symbols": "[ˈtʃekəusləuˈvɑ:kiə]",
+    "chinese": "捷克斯洛伐克"
+}, {
+    "english": "synagogue",
+    "symbols": "[ˈsɪnəgɒg]",
+    "chinese": "犹太教堂"
+}, {
+    "english": "deficit",
+    "symbols": "[ˈdefɪsɪt]",
+    "chinese": "赤字"
+}, {
+    "english": "Soviet",
+    "symbols": "[ˈsəʊviət]",
+    "chinese": "苏维埃；苏联的"
+}, {
+    "english": "curfew",
+    "symbols": "[ˈkɜ:fju:]",
+    "chinese": "宵禁，戒严"
+}, {
+    "english": "ultimatum",
+    "symbols": "[ˌʌltɪˈmeɪtəm]",
+    "chinese": "最后通牒，最后条件"
+}, {
+    "english": "Luxembourg",
+    "symbols": "['lʌksəmbɜ:ɡ]",
+    "chinese": "卢森堡公国（西欧国家）"
+}, {
+    "english": "Yugoslavia",
+    "symbols": "[ˈju:ɡəuˈslɑ:vjə]",
+    "chinese": "南斯拉夫"
+}, {
+    "english": "Union",
+    "symbols": "[]",
+    "chinese": "[地名] [美国、特立尼达和多巴哥] 尤宁"
+}, {
+    "english": "homosexual",
+    "symbols": "[ˌhəʊməˈsekʃuəl]",
+    "chinese": "同性恋者；同性恋的"
+}, {
+    "english": "natal",
+    "symbols": "[ˈneɪtl]",
+    "chinese": "出生的，出生时具有的，先天的;"
+},  {
+    "english": "pronatalism",
+    "symbols": "[prəʊ'neɪtəlɪzəm]",
+    "chinese": "提高人口出生率主义"
+}, {
+    "english": "abduct",
+    "symbols": "[æbˈdʌkt]",
+    "chinese": "诱拐"
+}, {
+    "english": "summarised ------------------------------",
+    "symbols": "[undefined]",
+    "chinese": "总结"
+}, {
+    "english": "propaganda",
+    "symbols": "[ˌprɒpəˈgændə]",
+    "chinese": "宣传，宣传运动"
+}, {
+    "english": "quo",
+    "symbols": "[k'wəʊ]",
+    "chinese": "维持现状"
+}, {
+    "english": "quota",
+    "symbols": "[ˈkwəʊtə]",
+    "chinese": "配额"
+}, {
+    "english": "Constance",
+    "symbols": "[ˈkɔnstəns]",
+    "chinese": "康士坦茨湖（位于瑞士、德国和奥地利交界处）"
+}, {
+    "english": "ore",
+    "symbols": "[ɔ:(r)]",
+    "chinese": "矿"
+}, {
+    "english": "lignite",
+    "symbols": "[ˈlɪgnaɪt]",
+    "chinese": "褐煤"
+}, {
+    "english": "potash",
+    "symbols": "[ˈpɒtæʃ]",
+    "chinese": "钾碱"
+}, {
+    "english": "uranium",
+    "symbols": "[juˈreɪniəm]",
+    "chinese": "[化学]铀"
+}, {
+    "english": "drift",
+    "symbols": "[drɪft]",
+    "chinese": "漂泊；漂流；漂移，偏移"
+}, {
+    "english": "deciduous",
+    "symbols": "[dɪˈsɪdʒuəs]",
+    "chinese": "（指树木）每年落叶的"
+}, {
+    "english": "eagle",
+    "symbols": "[ˈi:gl]",
+    "chinese": "鹰；[高]低于标准杆数两杆"
+}, {
+    "english": "precipitation",
+    "symbols": "[prɪˌsɪpɪˈteɪʃn]",
+    "chinese": "沉淀"
+}, {
+    "english": "upland",
+    "symbols": "[ˈʌplənd]",
+    "chinese": "高地的，住在高地的；高地，山地"
+}, {
+    "english": "spruce",
+    "symbols": "[spru:s]",
+    "chinese": "衣着整洁的；云杉；打扮"
+}, {
+    "english": "fir",
+    "symbols": "[fɜ:(r)]",
+    "chinese": "冷杉；food-irradiation reactor 食物辐射（杀菌）用反应堆"
+}, {
+    "english": "badger",
+    "symbols": "[ˈbædʒə(r)]",
+    "chinese": "獾；烦扰"
+}, {
+    "english": "cornflower",
+    "symbols": "[ˈkɔ:nflaʊə(r)]",
+    "chinese": "矢车菊"
+}, {
+    "english": "larch",
+    "symbols": "[lɑ:tʃ]",
+    "chinese": "落叶松（木材）"
+}, {
+    "english": "vest",
+    "symbols": "[vest]",
+    "chinese": "合法地被授予；授权"
+}, {
+    "english": "moody",
+    "symbols": "[ˈmu:di]",
+    "chinese": "穆迪（姓氏）"
+}, {
+    "english": "delegate",
+    "symbols": "[ˈdelɪgət]",
+    "chinese": "代表，代表团成员( delegate的名词复数 )"
+}, {
+    "english": "perpetuity",
+    "symbols": "[ˌpɜ:pəˈtju:əti]",
+    "chinese": "永久，永恒，永远"
+}, {
+    "english": "Cologne",
+    "symbols": "[]",
+    "chinese": "科隆（德意志联邦共和国城市）"
+}, {
+    "english": "fitch",
+    "symbols": "[fɪtʃ]",
+    "chinese": "臭猫，臭猫毛，臭猫皮"
+}, {
+    "english": "judiciary",
+    "symbols": "[dʒuˈdɪʃəri]",
+    "chinese": "司法部；司法的"
+}, {
+    "english": "jurisdiction",
+    "symbols": "[ˌdʒʊərɪsˈdɪkʃn]",
+    "chinese": "管辖权"
+}, {
+    "english": "petty",
+    "symbols": "[ˈpeti]",
+    "chinese": "不重要的; 卑鄙的，小气的; 小的，一点点; 小规模的"
+}, {
+    "english": "rehabilitate",
+    "symbols": "[ˌri:əˈbɪlɪteɪt]",
+    "chinese": "使康复"
+}, {
+    "english": "Atlanticism",
+    "symbols": "[ætˈlæntɪsɪzəm]",
+    "chinese": "大西洋主义（欧洲西部国家和北美为相互间共同利益而合作的政策，提倡在政治和经济行为上的合作，尤指在防御措施上）"
+}, {
+    "english": "Kosovo",
+    "symbols": "[ˈkɔ:səvəu]",
+    "chinese": "科索沃（南斯拉夫自治省名）"
+}, {
+    "english": "donor",
+    "symbols": "[ˈdəʊnə(r)]",
+    "chinese": "捐赠者，[医]供血者，输血者"
+}, {
+    "english": "conscript",
+    "symbols": "[kənˈskrɪpt]",
+    "chinese": "征兵;被征入伍者;"
+},{
+    "english": "expenditure",
+    "symbols": "[ɪkˈspendɪtʃə(r)]",
+    "chinese": "花费，支出"
+}, {
+    "english": "cosmopolitan",
+    "symbols": "[ˌkɒzməˈpɒlɪtən]",
+    "chinese": "四海为家的；世界主义者"
+}, {
+    "english": "pharmaceutical",
+    "symbols": "[ˌfɑ:məˈsu:tɪkl]",
+    "chinese": "制药的，配药的；药物"
+}, {
+    "english": "polycentric",
+    "symbols": "[pɒlɪ'sentrɪk]",
+    "chinese": "多中心的"
+}, {
+    "english": "physiology",
+    "symbols": "[ˌfɪziˈɒlədʒi]",
+    "chinese": "生理学"
+}, {
+    "english": "integral",
+    "symbols": "[ˈɪntɪgrəl]",
+    "chinese": "积分的; 完整的; 积分; 整体;"
+}, {
+    "english": "reduction",
+    "symbols": "[rɪˈdʌkʃn]",
+    "chinese": "减少"
+}, {
+    "english": "quantum",
+    "symbols": "[ˈkwɒntəm]",
+    "chinese": "[物]量子"
+}, {
+    "english": "mechanic",
+    "symbols": "[mɪ'kænɪk]",
+    "chinese": "技工，机修工;"
+}, {
+    "english": "overnight",
+    "symbols": "[ˌəʊvəˈnaɪt]",
+    "chinese": "在晚上；一整夜的；前一天的晚上；过一夜"
+}, {
+    "english": "ray",
+    "symbols": "[reɪ]",
+    "chinese": "放射; 照射; （思想，希望等） 闪现; 发光;"
+}, {
+    "english": "pivotal",
+    "symbols": "[ˈpɪvətl]",
+    "chinese": "关键的"
+}, {
+    "english": "fusion",
+    "symbols": "[ˈfju:ʒn]",
+    "chinese": "融合"
+}, {
+    "english": "Sunnis",
+    "symbols": "[undefined]",
+    "chinese": "逊尼派"
+}, {
+    "english": "atheism",
+    "symbols": "[ˈeɪθiɪzəm]",
+    "chinese": "无神论"
+}, {
+    "english": "Judaism",
+    "symbols": "[ˈdʒu:deɪɪzəm]",
+    "chinese": "犹太教"
+}, {
+    "english": "federal",
+    "symbols": "[ˈfedərəl]",
+    "chinese": "联邦（制）的; 同盟的;"
+}, {
+    "english": "bloc",
+    "symbols": "[blɒk]",
+    "chinese": "集团，联盟"
+}, {
+    "english": "religiosity",
+    "symbols": "[rɪˌlɪdʒiˈɒsəti]",
+    "chinese": "笃信宗教，虔诚"
+}, {
+    "english": "Afrikaans",
+    "symbols": "[ˌæfrɪˈkɑ:ns]",
+    "chinese": "南非的公用荷兰语；（使用）南非荷兰语的，南非白人的"
+}, {
+    "english": "Goethe",
+    "symbols": "[ˈɡə:tə]",
+    "chinese": "歌德"
+}, {
+    "english": "adherent",
+    "symbols": "[ədˈhɪərənt]",
+    "chinese": "支持者，拥护者；粘着的"
+}, {
+    "english": "European",
+    "symbols": "[ˌjʊərəˈpi:ən]",
+    "chinese": "欧盟的；欧洲人"
+}, {
+    "english": "alphabet",
+    "symbols": "[ˈælfəbet]",
+    "chinese": "字母表"
+}, {
+    "english": "Indo",
+    "symbols": "[]",
+    "chinese": "Indonesia 印尼"
+}, {
+    "english": "lexicon",
+    "symbols": "[ˈleksɪkən]",
+    "chinese": "词典"
+}, {
+    "english": "phonology",
+    "symbols": "[fəˈnɒlədʒi]",
+    "chinese": "音韵学，语音体系"
+}, {
+    "english": "syntax",
+    "symbols": "[ˈsɪntæks]",
+    "chinese": "语法"
+}, {
+    "english": "supervision",
+    "symbols": "[ˌsju:pə'vɪʒn]",
+    "chinese": "监督"
+}, {
+    "english": "Kurdish",
+    "symbols": "[kə:diʃ,kuədiʃ]",
+    "chinese": "库尔德人的；库尔德语"
+}, {
+    "english": "gymnasium，",
+    "symbols": "[dʒɪmˈneɪziəm]",
+    "chinese": "健身房，体育馆; 大学预科，高级中学;"
+}, {
+    "english": "apprenticeship",
+    "symbols": "[əˈprentɪʃɪp]",
+    "chinese": "学徒期"
+}, {
+    "english": "enrol",
+    "symbols": "[ɪnˈrəʊl]",
+    "chinese": "登记；注册"
+}, {
+    "english": "state",
+    "symbols": "[steɪt]",
+    "chinese": "国家；规定；国家的"
+}, {
+    "english": "spital",
+    "symbols": "['spɪtl]",
+    "chinese": "医院（尤指为贫民或麻疯病人等开设的医院）"
+}, {
+    "english": "hospice",
+    "symbols": "[ˈhɒspɪs]",
+    "chinese": "（宗教团体开办的）旅客招待所"
+}, {
+    "english": "precursor",
+    "symbols": "[pri:ˈkɜ:sə(r)]",
+    "chinese": "前辈，前驱，先锋，前任"
+}, {
+    "english": "run",
+    "symbols": "[rʌn]",
+    "chinese": "跑；奔跑；逃跑；使奔跑；融化的"
+}, {
+    "english": "criteria",
+    "symbols": "[kraɪ'tɪərɪə]",
+    "chinese": "（批评、判断等的）标准，准则( criterion的名词复数 )"
+}, {
+    "english": "cardiovascular",
+    "symbols": "[ˌkɑ:diəʊˈvæskjələ(r)]",
+    "chinese": "心血管的"
+}, {
+    "english": "cumulative",
+    "symbols": "[ˈkju:mjələtɪv]",
+    "chinese": "累积的"
+}, {
+    "english": "malignant",
+    "symbols": "[məˈlɪgnənt]",
+    "chinese": "恶性的，致命的；怀有恶意的人"
+}, {
+    "english": "organ",
+    "symbols": "[ˈɔ:gən]",
+    "chinese": "器官"
+}, {
+    "english": "oratorio",
+    "symbols": "[ˌɒrəˈtɔ:riəʊ]",
+    "chinese": "（以宗教为主题的）清唱剧，神剧"
+}, {
+    "english": "obesity",
+    "symbols": "[əʊ'bi:sətɪ]",
+    "chinese": "肥胖症"
+}, {
+    "english": "tenure",
+    "symbols": "[ˈtenjə(r)]",
+    "chinese": "占有（职位，不动产等）; 占有期; 终身职位;"
+}, {
+    "english": "violinist",
+    "symbols": "[ˌvaɪəˈlɪnɪst]",
+    "chinese": "小提琴家"
+}, {
+    "english": "composer",
+    "symbols": "[kəmˈpəʊzə(r)]",
+    "chinese": "（尤指古典音乐）作曲家"
+}, {
+    "english": "mentor",
+    "symbols": "[ˈmentɔ:(r)]",
+    "chinese": "（无经验之人的）有经验可信赖的顾问；做…的良师；指导"
+}, {
+    "english": "renaissance",
+    "symbols": "[rɪˈneɪsns]",
+    "chinese": "文艺复兴"
+}, {
+    "english": "idiom",
+    "symbols": "[ˈɪdiəm]",
+    "chinese": "习语，成语"
+}, {
+    "english": "genre",
+    "symbols": "['ʒɒ̃rə]",
+    "chinese": "类型，种类"
+}, {
+    "english": "conceptualism",
+    "symbols": "[kənˈseptʃuəlɪzəm]",
+    "chinese": "概念论"
+}, {
+    "english": "plasterer",
+    "symbols": "[ˈplɑ:stərə(r)]",
+    "chinese": "泥水匠，石膏师"
+}, {
+    "english": "surrealism",
+    "symbols": "[səˈri:əlɪzəm]",
+    "chinese": "超现实主义"
+}, {
+    "english": "craftsman",
+    "symbols": "[ˈkrɑ:ftsmən]",
+    "chinese": "工匠"
+}, {
+    "english": "carpentry",
+    "symbols": "[ˈkɑ:pəntri]",
+    "chinese": "木工手艺，木匠业"
+}, {
+    "english": "stucco",
+    "symbols": "[ˈstʌkəʊ]",
+    "chinese": "粉饰灰泥；用拉毛粉饰法粉饰"
+}, {
+    "english": "rationalism",
+    "symbols": "[ˈræʃnəlɪzəm]",
+    "chinese": "理性主义，唯理论"
+}, {
+    "english": "cradle",
+    "symbols": "[ˈkreɪdl]",
+    "chinese": "摇篮；将…置于摇篮中"
+}, {
+    "english": "spa",
+    "symbols": "[spɑ:]",
+    "chinese": "休闲健身中心"
+}, {
+    "english": "metaphysical",
+    "symbols": "[ˌmetə'fɪzɪkl]",
+    "chinese": "抽象的; "
+}, {
+    "english": "pessimism",
+    "symbols": "[ˈpesɪmɪzəm]",
+    "chinese": "悲观"
+}, {
+    "english": "auteur",
+    "symbols": "[əʊ'tɜ:(r)]",
+    "chinese": "电影导演"
+}, {
+    "english": "cable",
+    "symbols": "[ˈkeɪbl]",
+    "chinese": "缆绳，绳索；发电报至；拍发电报"
+}, {
+    "english": "bratwurst",
+    "symbols": "['brætwɜ:rst]",
+    "chinese": "（供煎食的） 德国式小香肠;"
+}, {
+    "english": "weisswurst",
+    "symbols": "[waɪs wɜ:rst]",
+    "chinese": "（白色）小牛肉香肠;"
+}, {
+    "english": "relevant",
+    "symbols": "[ˈreləvənt]",
+    "chinese": "有关的，中肯的"
+}, {
+    "english": "litre",
+    "symbols": "[ˈli:tə(r)]",
+    "chinese": "（容量单位）升"
+}, {
+    "english": "gal",
+    "symbols": "[gæl]",
+    "chinese": "女孩，少女"
+}, {
+    "english": "ubiquitous",
+    "symbols": "[ju:ˈbɪkwɪtəs]",
+    "chinese": "无所不在的"
+},  {
+    "english": "saltire",
+    "symbols": "[ˈsæltaɪə(r)]",
+    "chinese": "X形十字，圣安得鲁十字"
+}, {
+    "english": "demonym",
+    "symbols": "['dɛmənɪm] ",
+    "chinese": "对当地居民的称呼（比如德国人：German、加拿大人：Canadian等）"
+}, {
+    "english": "unicorn",
+    "symbols": "[ˈju:nɪkɔ:n]",
+    "chinese": "（传说中身体似马的）独角兽"
+}, {
+    "english": "rowing",
+    "symbols": "[ˈrəʊɪŋ]",
+    "chinese": "赛艇运动；划船(row的现在分词)"
+}, {
+    "english": "athlete",
+    "symbols": "[ˈæθli:t]",
+    "chinese": "运动员"
+}, {
+    "english": "Briton",
+    "symbols": "[ˈbrɪtn]",
+    "chinese": "英国人，（大）不列颠人"
+}, {
+    "english": "house of Lords",
+    "symbols": "[haʊs]",
+    "chinese": "上议院；"
+},{
+    "english": "house of Commons",
+    "symbols": "[əv]",
+    "chinese": "英国国会下院"
+},{
+    "english": "bailiwick",
+    "symbols": "['beɪləˌwɪk]",
+    "chinese": "（郡副司法长官的）辖区"
+}, {
+    "english": "secede",
+    "symbols": "[sɪˈsi:d]",
+    "chinese": "从…中脱离；脱离"
+}, {
+    "english": "remnant",
+    "symbols": "[ˈremnənt]",
+    "chinese": "残余；残留的"
+}, {
+    "english": "connotation",
+    "symbols": "[ˌkɒnəˈteɪʃn]",
+    "chinese": "内涵，含义"
+}, {
+    "english": "Stonehenge",
+    "symbols": "[ˌstəʊnˈhendʒ]",
+    "chinese": "（英国 Salisbury 平原上的）史前巨石柱"
+}, {
+    "english": "anatomically",
+    "symbols": "[ˌænə'tɒmɪklɪ]",
+    "chinese": "在解剖学上"
+}, {
+    "english": "privateering",
+    "symbols": "[praɪvə'tɪrɪŋ]",
+    "chinese": "以私掠船巡逻，掳获商船；（战时特准攻击敌方商船的）武装民船，私掠船( privateer的现在分词 )"
+}, {
+    "english": "tapestry",
+    "symbols": "[ˈtæpəstri]",
+    "chinese": "挂毯；用挂毯装饰"
+}, {
+    "english": "Gaelic",
+    "symbols": "[ˈgælɪk]",
+    "chinese": "盖尔语；盖尔人的，盖尔语的"
+}, {
+    "english": "feudalism",
+    "symbols": "[ˈfju:dəlɪzəm]",
+    "chinese": "封建制度，封建主义"
+}, {
+    "english": "interregnum",
+    "symbols": "[ˌɪntəˈregnəm]",
+    "chinese": "中断; 过渡期; 停顿; （新旧王朝或新旧政府） 更迭的政权空白期"
+}, {
+    "english": "absolutism",
+    "symbols": "[ˈæbsəlu:tɪzəm]",
+    "chinese": "专制主义，绝对论"
+},{
+    "english": "blockade",
+    "symbols": "[blɒˈkeɪd]",
+    "chinese": "封锁；实行封锁"
+}, {
+    "english": "suffragette",
+    "symbols": "[ˌsʌfrəˈdʒet]",
+    "chinese": "妇女参政权论者"
+}, {
+    "english": "aristocracy",
+    "symbols": "[ˌærɪˈstɒkrəsi]",
+    "chinese": "贵族"
+}, {
+    "english": "enclosure",
+    "symbols": "[ɪnˈkləʊʒə(r)]",
+    "chinese": "圈占; 围绕; 圈占地;"
+}, {
+    "english": "helmet",
+    "symbols": "[ˈhelmɪt]",
+    "chinese": "头盔；给…戴上头盔"
+}, {
+    "english": "rifle",
+    "symbols": "[ˈraɪfl]",
+    "chinese": "步枪；快速搜寻"
+}, {
+    "english": "Ottoman",
+    "symbols": "[ˈɔtəmən]",
+    "chinese": "土耳其人的；土耳其民族的；土耳其帝国的（等于Turkish）"
+}, {
+    "english": "disruption",
+    "symbols": "[dɪs'rʌpʃn]",
+    "chinese": "中断"
+}, {
+    "english": "Burma",
+    "symbols": "['bɜ:mə]",
+    "chinese": "缅甸"
+}]

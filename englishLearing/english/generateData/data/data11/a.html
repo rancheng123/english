@@ -1,0 +1,174 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="generator" content="Aspose.Words for .NET 15.1.0.0">
+    <title></title></head>
+<script src="../../js/0_jquery-1.11.1.js"></script>
+
+
+
+<body>
+
+<!-- 将此div 复制到  百度翻译页面 -->
+<div id="words">
+
+    Solomon  camouflage  armor  armoured  battlefield  deadlock  trench   calibre   cannon   turret  rugged  firearm  tactical  gearbox  track  Somme
+    warhead  infantry  grenade  wane  reconnaissance  countermeasures  milestone  Bibliography
+    problematic  ironclad  insofar  pedrail   outdate   manipulate  subconsciously   field gun   memorandum   terra  nova   biographer   turret
+    boost  Zeppelin  curator  wagon  signaller  jerry   David Lloyd George
+    enthusiasm  Munitions  traversable  holt  versus  piecemeal  obsolete  doctrine   spear  blunders  blitzkrieg  clandestine  faction  vintage老式的，过时的;
+    inherent  diesel  gasoline  infiltration
+    salute  newsreel   weaponry  invulnerable  subservient  entrenchment  bypassed  desolate   logistic后勤学;   outpace  disruptions  Tunisia  dogged
+    up-gun  beachhead    be no match for   casemate  feasible   hammered  calibre  rangefinder  sabot  ammunition  obsolete  serial  derivative衍生物，派生物;
+    platoon   personnel   vulnerability  detonate   mine地雷; 水雷;   muzzle   projectile   hybrid  recuperator  traverse   discard  cruiser  terminology  reconnaissance
+
+    motto   chancellor  metropolis   conurbation  Ruhr  Munich   Frankfurt   tuition   Schengen申根   Rhine   javelin  unearthed   mammoth  figurative  Slavic  Ural
+    Frankish  legion  subjugate   intertwine  Elbe  burgundy  principality  archbishopric  monk  theses
+    Lutheranism   regio  creed  heresy  hereditary    the Pragmatic Sanction诏书   consort  dualism   Lithuanian    Vienna   convene  acerbate  tariff
+    intellectual  commoner  Jutland  Danish  Versailles  chancellor  incursion  Balkans  Guinea  Micronesia  Samoa  Namibia  annihilation  dehydration
+    assassination  pretext  Serbia  armistice  abdicate  Alsace-Lorraine  austerity  deflation  abrogate  totalitarian  rearmament   deficit  plummet
+    Czechoslovakia  synagogue  curfew  ultimatum   Luxembourg   Yugoslavia   Soviet Union   homosexual  abduct  quo  propaganda  pronatalism  summarised
+    quota  Constance  traverse  ore  potash  lignite  uranium  drift  precipitation （雨等） 降落;  upland  eagle  deciduous  spruce  fir  larch  badger
+    cornflower  conurbation  Cologne  perpetuity  delegates  vest授权; 赋予;   Moody  fitch   Judiciary   inquisitorial  rehabilitate   petty   tribunal
+    jurisdiction  donor  Kosovo  Atlanticism
+    expenditure  conscripts  Frankfurt  pharmaceutical  cosmopolitan  polycentric  reduction  integral  physiology  quantum  mechanics  rays  pivotal  fusion核聚变
+    overnight  Bloc  religiosity  atheism  Judaism  Federal  Sunnis  adherent   Goethe  Afrikaans  Indo-European  alphabet  lexicon  phonology  syntax  Kurdish  supervision
+    Gymnasium大学预科，高级中学  enrol  apprenticeship  state-run  tuition
+    hospice  precursor  spital   criteria   cardiovascular   malignant   cumulative  obesity   composer  oratorio  organ  tenure  violinist  mentor  idiom
+    genre  renaissance  Surrealism  Conceptualism  stucco  craftsman  plasterer  carpentry  spa  cradle  rationalism  metaphysical  pessimism  cable  relevant  auteur
+    ubiquitous  Bratwursts  Weisswursts   litre  gal  hockey  rowing  athlete
+
+
+    saltire  unicorn  demonym  Briton    House of Lords    House of Commons  conurbation  bailiwick  secede  remnant  expenditure  terminology  connotation  Stonehenge
+    anatomically  Gaelic  tapestry  feudalism
+    privateering  Interregnum  absolutism  blockade  infantry  pax  aristocracy  enclosure  suffragette  helmet  trench  rifle   disruption  Ottoman  Burma  Australasia
+
+</div>
+
+
+
+
+<script>
+
+    //注意  token和m  要替换
+
+
+
+
+    /*测试  start*/
+    // var wordArr = ["digress","feedback","hard","on","fluster","couch","ass","dick","hesitantly","paranoia","wrist","starfish","lingerie","ripping","flesh","pussy","belly","Shit","fidgeting","unzips","pop","eye","raping","vibrator","snicker","fingertip","clit","mutter","penetrates","flip","asshole","yelp","jam","hip","tits","climax","lick","waist","orgasm","boob","booth","winking","Wanna","rub","pelvis","lap","grip","dash","crawl","kneel","pat","drip","navel","Nipple","hickey","plunge","cranny","crevice","grind","squirt","Fountain","hooker","condoms","Myanmar","Lao","Bhutan","Bangladesh","Nope","blah","blowjob","slouch","sag","ensemble","shaggy","tingly","knot","drool","tease","mumble","coo","skull","denim","raccoon","wavy","rats","slash","legging","sneaker","sweatshirt","bun","outfit","lipgloss","tattoo","smirk","raging","splashed","blown","paragraph","drummer","snuck","intro","pouty","hum","rasp","tortuous","backpack","enticingly","lacy","exude","sigh","musky","scent","cafeteria","admitt","dreamboat","sinister","giggle","combust","nacho","tactic","popsicle","innuendo","chant","wuss","wrapper","bob","ferociously","catcall"];
+    // var times = 1;
+
+    // var wordArr = [1,2,3,4,5,6,7,8,9,10];
+    // var range = 3;
+    //var times = Math.ceil(wordArr.length/range);
+    /*测试  end*/
+        var range = 30;
+
+
+        var resultArr = [];
+        var words = $('#words').text()
+            .replace(/[\u4e00-\u9fa5\（\）]/g,'')
+            .replace(/\;/g,'')
+            .replace(/\-/g,' ')
+
+            .replace(/\s+/g,' ').trim().split(' ');
+        words.pop();
+        var wordArr = words;
+        var wordArrCount = 0;
+        var times = Math.ceil(wordArr.length/range);
+
+
+        //迭代 分批次
+        var cycleCount = 0;
+        var cycle = function(wordArr,range)
+        {
+            //取前**个
+            var subwordArr = wordArr.slice(cycleCount*range,(cycleCount+1)*range)
+            var subwordArrCount = 0;
+
+            for(j=0;j<subwordArr.length;j++){
+
+                var word = subwordArr[j];
+                $.ajax({
+                    type: "POST",
+                    url: "http://fanyi.baidu.com/v2transapi",
+                    cache: !1,
+                    data: {
+                        "from":"en",
+                        "to":"zh",
+                        "query":word,
+                        "transtype":"translang",
+                        "simple_means_flag":3,
+
+
+                        // m  要替换
+                        "sign":m(word),
+
+                        //token 要替换
+                        "token":"fc5300d73aaced3185e1a279f65cc9cf"
+                    }
+
+
+                }).done(function(t) {
+
+
+
+                    if(typeof t.dict_result == 'undefined' || typeof t.dict_result.simple_means == 'undefined'){
+                        if(typeof t.dict_result == 'undefined'){
+                            //debugger
+                        }
+                        var json = {"english": t.trans_result.data[0].src, "symbols": "[]", "chinese": ""};
+                    }else{
+                        var json = {
+                            "english": t.dict_result.simple_means.word_name,
+                            "symbols": "["+ t.dict_result.simple_means.symbols[0].ph_en +"]",
+                            "chinese": $.map(t.dict_result.simple_means.symbols[0].parts,function(mean,i){
+                                return  mean.means[0]
+                            }).join('；')
+                        };
+                    }
+
+                    resultArr.push(json);
+                    subwordArrCount++;
+                    wordArrCount++;
+                    if(wordArrCount == wordArr.length){
+
+                        //console.log(JSON.stringify(resultArr))
+
+                        console.log('wordJson["06_14"] = '+ JSON.stringify(resultArr) )
+
+                        debugger
+                    }
+                    if(subwordArrCount == range){
+                        //debugger
+                        cycleCount++;
+                        if(cycleCount < times)
+                        {
+                            setTimeout(function () {
+                                cycle(wordArr,range)
+                            },1000)
+
+                        }
+                    }
+
+                })
+
+            }
+
+
+
+        };
+        cycle(wordArr,range)
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
