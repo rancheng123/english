@@ -491,309 +491,625 @@ router.get('/*', function(req, res){
             });
 
             /*
+         
 
-
-
-             "english": "lexicon ",
-             "symbols": "[ˈleksɪkən]",
-             "chinese": "词典"
+             "english": "megalitre ",
+             "symbols": "[me'ɡəli:tər]",
+             "chinese": "兆升"
              }, {
-             "english": "phonology",
-             "symbols": "[fəˈnɒlədʒi]",
-             "chinese": "音韵学，语音体系"
+             "english": "sewerage",
+             "symbols": "[ˈsu:ərɪdʒ]",
+             "chinese": "污物处理（系统）"
              }, {
-             "english": "syntax",
-             "symbols": "[ˈsɪntæks]",
-             "chinese": "语法"
+             "english": "bulletin",
+             "symbols": "[ˈbʊlətɪn]",
+             "chinese": "公告，公报；公布，公告"
              }, {
-             "english": "supervision",
-             "symbols": "[ˌsju:pə'vɪʒn]",
-             "chinese": "监督"
+             "english": "gay",
+             "symbols": "[geɪ]",
+             "chinese": "男同性恋的；同性恋者（尤指男性）"
              }, {
-             "english": "Kurdish",
-             "symbols": "[kə:diʃ,kuədiʃ]",
-             "chinese": "库尔德人的；库尔德语"
+             "english": "chromosome",
+             "symbols": "[ˈkrəʊməsəʊm]",
+             "chinese": "染色体"
              }, {
-             "english": "gymnasium，",
-             "symbols": "[dʒɪmˈneɪziəm]",
-             "chinese": "健身房，体育馆; 大学预科，高级中学;"
+             "english": "Basque",
+             "symbols": "[bɑ:sk]",
+             "chinese": "巴斯克人[语]，一种妇人用短上衣；巴斯克人的"
              }, {
-             "english": "apprenticeship",
-             "symbols": "[əˈprentɪʃɪp]",
-             "chinese": "学徒期"
+             "english": "seamen",
+             "symbols": "['si:mən]",
+             "chinese": "水兵，水手，海员( seaman的名词复数 )"
              }, {
-             "english": "enrol",
-             "symbols": "[ɪnˈrəʊl]",
-             "chinese": "登记；注册"
+             "english": "gypsy",
+             "symbols": "['dʒɪpsɪ]",
+             "chinese": "吉普赛人；吉普赛人的；流浪"
              }, {
-             "english": "state",
-             "symbols": "[steɪt]",
-             "chinese": "国家；规定；国家的"
+             "english": "quadruple",
+             "symbols": "[kwɒˈdru:pl]",
+             "chinese": "四倍的；四倍；使乘四或被四乘"
              }, {
-             "english": "spital",
-             "symbols": "['spɪtl]",
-             "chinese": "医院（尤指为贫民或麻疯病人等开设的医院）"
+             "english": "Leicester",
+             "symbols": "[null]",
+             "chinese": "莱斯特（英国城市）"
              }, {
-             "english": "hospice",
-             "symbols": "[ˈhɒspɪs]",
-             "chinese": "（宗教团体开办的）旅客招待所"
+             "english": "facto",
+             "symbols": "['fæktəʊ]",
+             "chinese": "事实上，实际上"
              }, {
-             "english": "precursor",
-             "symbols": "[pri:ˈkɜ:sə(r)]",
-             "chinese": "前辈，前驱，先锋，前任"
+             "english": "monolingual",
+             "symbols": "[ˌmɒnəˈlɪŋgwəl]",
+             "chinese": "单语的，只用一种语言的"
              }, {
-             "english": "run",
-             "symbols": "[rʌn]",
-             "chinese": "跑；奔跑；逃跑；使奔跑；融化的"
+             "english": "Hebrides",
+             "symbols": "[ˈhebridi:z]",
+             "chinese": "赫布里底群岛（英国苏格兰西部）"
              }, {
-             "english": "criteria",
-             "symbols": "[kraɪ'tɪərɪə]",
-             "chinese": "（批评、判断等的）标准，准则( criterion的名词复数 )"
+             "english": "coronation",
+             "symbols": "[ˌkɒrəˈneɪʃn]",
+             "chinese": "加冕礼"
              }, {
-             "english": "cardiovascular",
-             "symbols": "[ˌkɑ:diəʊˈvæskjələ(r)]",
-             "chinese": "心血管的"
+             "english": "Nova Scotia",
+             "symbols": "[ˈnəuvəˈskəuʃə]",
+             "chinese": "新斯科舍（加拿大省名）;"
              }, {
-             "english": "cumulative",
-             "symbols": "[ˈkju:mjələtɪv]",
-             "chinese": "累积的"
+             "english": "abbey",
+             "symbols": "[ˈæbi]",
+             "chinese": "修道院，大教堂，大寺院"
              }, {
-             "english": "malignant",
-             "symbols": "[məˈlɪgnənt]",
-             "chinese": "恶性的，致命的；怀有恶意的人"
+             "english": "commentator",
+             "symbols": "[ˈkɒmənteɪtə(r)]",
+             "chinese": "（电台的）时事评论员，实况广播报导员"
              }, {
-             "english": "organ",
-             "symbols": "[ˈɔ:gən]",
-             "chinese": "器官"
+             "english": "Sikhism",
+             "symbols": "[ˈsi:kˌɪzəm]",
+             "chinese": "锡克教"
              }, {
-             "english": "oratorio",
-             "symbols": "[ˌɒrəˈtɔ:riəʊ]",
-             "chinese": "（以宗教为主题的）清唱剧，神剧"
+             "english": "Presbyterian",
+             "symbols": "[ˌprezbɪˈtɪəriən]",
+             "chinese": "长老派成员（长老会为苏格兰国教及美国最大教会之一）；长老会的"
              }, {
-             "english": "obesity",
-             "symbols": "[əʊ'bi:sətɪ]",
-             "chinese": "肥胖症"
+             "english": "Methodist",
+             "symbols": "[ˈmeθədɪst]",
+             "chinese": "卫理公会教徒；卫理公会教派的"
              }, {
-             "english": "tenure",
-             "symbols": "[ˈtenjə(r)]",
-             "chinese": "占有（职位，不动产等）; 占有期; 终身职位;"
+             "english": "Anglican",
+             "symbols": "[ˈæŋglɪkən]",
+             "chinese": "英国国教会的；圣公会的信徒"
              }, {
-             "english": "violinist",
-             "symbols": "[ˌvaɪəˈlɪnɪst]",
-             "chinese": "小提琴家"
+             "english": "veteran",
+             "symbols": "[ˈvetərən]",
+             "chinese": "退伍军人；老兵的"
              }, {
-             "english": "composer",
-             "symbols": "[kəmˈpəʊzə(r)]",
-             "chinese": "（尤指古典音乐）作曲家"
+             "english": "expulsion",
+             "symbols": "[ɪkˈspʌlʃn]",
+             "chinese": "驱逐"
              }, {
-             "english": "mentor",
-             "symbols": "[ˈmentɔ:(r)]",
-             "chinese": "（无经验之人的）有经验可信赖的顾问；做…的良师；指导"
+             "english": "incentive",
+             "symbols": "[ɪnˈsentɪv]",
+             "chinese": "动机；刺激性的"
              }, {
-             "english": "renaissance",
-             "symbols": "[rɪˈneɪsns]",
-             "chinese": "文艺复兴"
+             "english": "curriculum",
+             "symbols": "[kəˈrɪkjələm]",
+             "chinese": "全部课程，课程"
              }, {
-             "english": "idiom",
-             "symbols": "[ˈɪdiəm]",
-             "chinese": "习语，成语"
+             "english": "Aberdeen",
+             "symbols": "[ˌæbəˈdi:n]",
+             "chinese": "阿伯丁郡（苏格兰东部旧郡名）"
              }, {
-             "english": "genre",
-             "symbols": "['ʒɒ̃rə]",
-             "chinese": "类型，种类"
+             "english": "satirist",
+             "symbols": "[ˈsætərɪst]",
+             "chinese": "讽刺作家"
              }, {
-             "english": "conceptualism",
-             "symbols": "[kənˈseptʃuəlɪzəm]",
-             "chinese": "概念论"
+             "english": "holistic",
+             "symbols": "[həʊˈlɪstɪk]",
+             "chinese": "全盘的，整体的"
              }, {
-             "english": "plasterer",
-             "symbols": "[ˈplɑ:stərə(r)]",
-             "chinese": "泥水匠，石膏师"
+             "english": "grim",
+             "symbols": "[grɪm]",
+             "chinese": "冷酷的，残忍的"
              }, {
-             "english": "surrealism",
-             "symbols": "[səˈri:əlɪzəm]",
-             "chinese": "超现实主义"
+             "english": "couplet",
+             "symbols": "[ˈkʌplət]",
+             "chinese": "对联"
              }, {
-             "english": "craftsman",
-             "symbols": "[ˈkrɑ:ftsmən]",
-             "chinese": "工匠"
+             "english": "messiah",
+             "symbols": "[mə'saɪə]",
+             "chinese": "弥赛亚; 救世主耶稣; 救星; 解放者;"
              }, {
-             "english": "carpentry",
-             "symbols": "[ˈkɑ:pəntri]",
-             "chinese": "木工手艺，木匠业"
+             "english": "prose",
+             "symbols": "[prəʊz]",
+             "chinese": "散文；用散文写，把…改写成散文"
              }, {
-             "english": "stucco",
-             "symbols": "[ˈstʌkəʊ]",
-             "chinese": "粉饰灰泥；用拉毛粉饰法粉饰"
+             "english": "chorus",
+             "symbols": "[ˈkɔ:rəs]",
+             "chinese": "合唱；合唱"
              }, {
-             "english": "rationalism",
-             "symbols": "[ˈræʃnəlɪzəm]",
-             "chinese": "理性主义，唯理论"
+             "english": "symphonic",
+             "symbols": "[sɪm'fɒnɪk]",
+             "chinese": "交响乐的"
              }, {
-             "english": "cradle",
-             "symbols": "[ˈkreɪdl]",
-             "chinese": "摇篮；将…置于摇篮中"
+             "english": "tate",
+             "symbols": "[teit]",
+             "chinese": "少量，一小把，一绺头发"
              }, {
-             "english": "spa",
-             "symbols": "[spɑ:]",
-             "chinese": "休闲健身中心"
+             "english": "exponent",
+             "symbols": "[ɪkˈspəʊnənt]",
+             "chinese": "指数；说明的"
              }, {
-             "english": "metaphysical",
-             "symbols": "[ˌmetə'fɪzɪkl]",
-             "chinese": "抽象的; "
+             "english": "stake",
+             "symbols": "[steɪk]",
+             "chinese": "股份；用桩支撑"
              }, {
-             "english": "pessimism",
-             "symbols": "[ˈpesɪmɪzəm]",
-             "chinese": "悲观"
+             "english": "vertigo",
+             "symbols": "[ˈvɜ:tɪgəʊ]",
+             "chinese": "眩晕，头晕"
              }, {
-             "english": "auteur",
-             "symbols": "[əʊ'tɜ:(r)]",
-             "chinese": "电影导演"
+             "english": "Wembley",
+             "symbols": "[]",
+             "chinese": "[地名] [澳大利亚、加拿大、英国] 文布利"
              }, {
-             "english": "cable",
-             "symbols": "[ˈkeɪbl]",
-             "chinese": "缆绳，绳索；发电报至；拍发电报"
+             "english": "rugby",
+             "symbols": "[ˈrʌgbi]",
+             "chinese": "英式橄榄球"
              }, {
-             "english": "bratwurst",
-             "symbols": "['brætwɜ:rst]",
-             "chinese": "（供煎食的） 德国式小香肠;"
+             "english": "stadia",
+             "symbols": "['steɪdɪə]",
+             "chinese": " 露天大型运动场，体育场( stadium的名词复数 );"
              }, {
-             "english": "weisswurst",
-             "symbols": "[waɪs wɜ:rst]",
-             "chinese": "（白色）小牛肉香肠;"
+             "english": "sportsmanship",
+             "symbols": "[ˈspɔ:tsmənʃɪp]",
+             "chinese": "运动员精神"
              }, {
-             "english": "relevant",
-             "symbols": "[ˈreləvənt]",
-             "chinese": "有关的，中肯的"
+             "english": "cricket",
+             "symbols": "[ˈkrɪkɪt]",
+             "chinese": "板球；打板球；公平的"
              }, {
-             "english": "litre",
-             "symbols": "[ˈli:tə(r)]",
-             "chinese": "（容量单位）升"
+             "english": "Wimbledon",
+             "symbols": "[ˈwimbldən]",
+             "chinese": "温布尔登（英国英格兰东南部城市）（位于伦敦附近，是著名的国际网球比赛地）"
              }, {
-             "english": "gal",
-             "symbols": "[gæl]",
-             "chinese": "女孩，少女"
+             "english": "thoroughbred",
+             "symbols": "[ˈθʌrəbred]",
+             "chinese": "纯种的动物（尤指马）；纯种的，良种的"
              }, {
-             "english": "ubiquitous",
-             "symbols": "[ju:ˈbɪkwɪtəs]",
-             "chinese": "无所不在的"
+             "english": "spectate ",
+             "symbols": "[spekˈteɪt]",
+             "chinese": "出席观看"
+             }, {
+             "english": "formula",
+             "symbols": "[ˈfɔ:mjələ]",
+             "chinese": "公式，准则"
+             }, {
+             "english": "snooker",
+             "symbols": "[ˈsnu:kə(r)]",
+             "chinese": "斯诺克台球；阻挠，阻止"
+             }, {
+             "english": "hurl",
+             "symbols": "[hɜ:l]",
+             "chinese": "丢下，用力投掷；猛投，猛掷"
+             }, {
+             "english": "expatriate",
+             "symbols": "[ˌeksˈpætriət]",
+             "chinese": "侨民，移居国外者；移居国外的；移居国外，放弃原国籍；使移居国外，使放弃国籍"
+             }, {
+             "english": "shinty",
+             "symbols": "[]",
+             "chinese": "简化曲棍球（苏格兰运动，每队12人）"
+             }, {
+             "english": "Poseidon",
+             "symbols": "[pɔˈsaidən]",
+             "chinese": "海神"
+             }, {
+             "english": "personification",
+             "symbols": "[pəˌsɒnɪfɪˈkeɪʃn]",
+             "chinese": "拟人化"
+             }, {
+             "english": "prong",
+             "symbols": "[prɒŋ]",
+             "chinese": "叉子齿"
+             }, {
+             "english": "trident",
+             "symbols": "[ˈtraɪdnt]",
+             "chinese": "三叉戟；三叉的"
+             }, {
+             "english": "bulldog",
+             "symbols": "[ˈbʊldɒg]",
+             "chinese": "斗牛犬"
+             }, {
+             "english": "Vanuatu",
+             "symbols": "[ˌvɑ:nu:ˈɑ:tu:]",
+             "chinese": "瓦努阿图（西南太平洋岛国）"
+             }, {
+             "english": "Algiers",
+             "symbols": "[ælˈdʒiəz]",
+             "chinese": "阿尔及尔（阿尔及利亚首都）"
+             }, {
+             "english": "Louisiana",
+             "symbols": "[]",
+             "chinese": "路易斯安那，（美国南部的州名）"
+             }, {
+             "english": "Algeria",
+             "symbols": "[æl'dʒɪərɪə]",
+             "chinese": "阿尔及利亚"
+             }, {
+             "english": "Indochina",
+             "symbols": "[ˈindəuˈtʃainə]",
+             "chinese": "印度支那"
+             }, {
+             "english": "vestige",
+             "symbols": "[ˈvestɪdʒ]",
+             "chinese": "遗迹"
+             }, {
+             "english": "proponent",
+             "symbols": "[prəˈpəʊnənt]",
+             "chinese": "提倡者"
+             }, {
+             "english": "apex",
+             "symbols": "[ˈeɪpeks]",
+             "chinese": "顶"
+             }, {
+             "english": "Domingue",
+             "symbols": "[]",
+             "chinese": "多米尼格"
+             }, {
+             "english": "Saint",
+             "symbols": "[null]",
+             "chinese": "[土木]圣维南原理"
+             }, {
+             "english": "Dominica",
+             "symbols": "[ˌdɔmiˈni:kə]",
+             "chinese": "多米尼加（西印度群岛岛国）"
+             }, {
+             "english": "",
+             "symbols": "[]",
+             "chinese": "(=Saturday)星期六 (=Street)街道"
+             }, {
+             "english": "St. Lucia",
+             "symbols": "[null]",
+             "chinese": "圣 露西娅"
+             }, {
+             "english": "Grenada",
+             "symbols": "[ɡrəˈneidə]",
+             "chinese": "格林纳达"
+             }, {
+             "english": "Tobago",
+             "symbols": "[təˈbeiɡəu]",
+             "chinese": "多巴哥岛"
+             }, {
+             "english": "sparse",
+             "symbols": "[spɑ:s]",
+             "chinese": "稀疏的"
+             }, {
+             "english": "Quebec",
+             "symbols": "[kwɪ'bek]",
+             "chinese": "魁北克"
+             }, {
+             "english": "Mississippi",
+             "symbols": "[ˌmɪsɪ'sɪpɪ]",
+             "chinese": "密西西比河（发源于美国中北部湖沼区，南注墨西哥湾，是世界上最大的河流之一），密西西比州（美国州名）"
+             }, {
+             "english": "aboriginal",
+             "symbols": "[ˌæbəˈrɪdʒənl]",
+             "chinese": "土著人的；土著居民"
+             }, {
+             "english": "mercantile ------------------------------------------------",
+             "symbols": "[ˈmɜ:kəntaɪl]",
+             "chinese": "重商主义的"
+             }, {
+             "english": "vigilance",
+             "symbols": "['vɪdʒɪləns]",
+             "chinese": "警惕"
+             }, {
+             "english": "Arkansas",
+             "symbols": "[ˈɑ:kənsɔ:]",
+             "chinese": "阿肯色州（美国中南部的州）"
+             }, {
+             "english": "Haiti",
+             "symbols": "['heɪtɪ]",
+             "chinese": "海地"
+             }, {
+             "english": "Verdun",
+             "symbols": "[vəˈdʌn, verˈdɜ:n]",
+             "chinese": "凡尔登（法国城市； 加拿大城市）"
+             }, {
+             "english": "Hispaniola",
+             "symbols": "[ˌhispənˈjəulə]",
+             "chinese": "伊斯帕尼奥拉岛（拉丁美洲西印度群岛中部）（即海地岛）"
+             }, {
+             "english": "outpost",
+             "symbols": "[ˈaʊtpəʊst]",
+             "chinese": "前哨"
+             }, {
+             "english": "resume",
+             "symbols": "[rɪ'zju:m]",
+             "chinese": "继续；简历"
+             }, {
+             "english": "Liberia",
+             "symbols": "[laɪ'bɪərɪə]",
+             "chinese": "利比里亚（西非国家）"
+             }, {
+             "english": "Seychelles",
+             "symbols": "[seiˈʃelz]",
+             "chinese": "塞舌尔"
+             }, {
+             "english": "sharpshooter",
+             "symbols": "[ˈʃɑ:pʃu:tə(r)]",
+             "chinese": "射击名手，神枪手"
+             }, {
+             "english": "indemnity",
+             "symbols": "[ɪnˈdemnəti]",
+             "chinese": "赔偿"
+             }, {
+             "english": "energetic",
+             "symbols": "[ˌenəˈdʒetɪk]",
+             "chinese": "精力充沛的，充满活力的"
+             }, {
+             "english": "Cambodia",
+             "symbols": "[kæm'bəʊdɪə]",
+             "chinese": "柬埔寨（亚洲国名）"
+             }, {
+             "english": "Caledonia",
+             "symbols": "[ˌkæliˈdəunjə]",
+             "chinese": "喀里多尼亚"
+             }, {
+             "english": "Mauritius",
+             "symbols": "[mə'rɪʃəs]",
+             "chinese": "毛里求斯（非洲岛国）"
+             }, {
+             "english": "Crimea",
+             "symbols": "[kraiˈmiə]",
+             "chinese": "克里米亚（半岛）"
+             }, {
+             "english": "Dakar",
+             "symbols": "[ˈdækə]",
+             "chinese": "达喀尔（塞内加尔首都）"
+             }, {
+             "english": "groundnut",
+             "symbols": "[ˈgraʊndnʌt]",
+             "chinese": "落花生"
+             }, {
+             "english": "exclusive",
+             "symbols": "[ɪkˈsklu:sɪv]",
+             "chinese": "排外的; 单独的;"
+             }, {
+             "english": "Tientsin",
+             "symbols": "[ˈtjenˈtsin]",
+             "chinese": "天津（=tianjin）"
+             }, {
+             "english": "missionary",
+             "symbols": "[ˈmɪʃənri]",
+             "chinese": "传教士；传教（士）的"
+             }, {
+             "english": "pillage",
+             "symbols": "[ˈpɪlɪdʒ]",
+             "chinese": "掠夺；抢劫，掠夺"
+             }, {
+             "english": "march",
+             "symbols": "[mɑ:tʃ]",
+             "chinese": "（坚定地向某地）前进；使前进；行军"
+             }, {
+             "english": "loot",
+             "symbols": "[lu:t]",
+             "chinese": "抢劫；抢劫，掠夺"
+             }, {
+             "english": "China's Summer palace",
+             "symbols": "[null]",
+             "chinese": "圆明园"
              },  {
-             "english": "saltire",
-             "symbols": "[ˈsæltaɪə(r)]",
-             "chinese": "X形十字，圣安得鲁十字"
+             "english": "salon",
+             "symbols": "[ˈsælɒn]",
+             "chinese": "沙龙，客厅; 画廊; （营业性的） 厅，院; 美术展览会;"
              }, {
-             "english": "demonym",
-             "symbols": "['dɛmənɪm] ",
-             "chinese": "对当地居民的称呼（比如德国人：German、加拿大人：Canadian等）"
+             "english": "Fontainebleau",
+             "symbols": "[ˈfɔntinbləu]",
+             "chinese": "枫丹白露 （法国北部城镇）（在巴黎东南，有著名的宫殿）"
              }, {
-             "english": "unicorn",
-             "symbols": "[ˈju:nɪkɔ:n]",
-             "chinese": "（传说中身体似马的）独角兽"
+             "english": "regent",
+             "symbols": "['ri:dʒənt]",
+             "chinese": "摄政者；（用在名词后）摄政的"
              }, {
-             "english": "rowing",
-             "symbols": "[ˈrəʊɪŋ]",
-             "chinese": "赛艇运动；划船(row的现在分词)"
+             "english": "squadron",
+             "symbols": "[ˈskwɒdrən]",
+             "chinese": "中队；把…编成中队"
              }, {
-             "english": "athlete",
-             "symbols": "[ˈæθli:t]",
-             "chinese": "运动员"
+             "english": "headway",
+             "symbols": "[ˈhedweɪ]",
+             "chinese": "进展"
              }, {
-             "english": "Briton",
-             "symbols": "[ˈbrɪtn]",
-             "chinese": "英国人，（大）不列颠人"
+             "english": "retaliation",
+             "symbols": "[rɪˌtæliˈeɪʃn]",
+             "chinese": "报复，反击"
              }, {
-             "english": "house of Lords",
-             "symbols": "[haʊs]",
-             "chinese": "上议院；"
-             },{
-             "english": "house of Commons",
-             "symbols": "[əv]",
-             "chinese": "英国国会下院"
-             },{
-             "english": "bailiwick",
-             "symbols": "['beɪləˌwɪk]",
-             "chinese": "（郡副司法长官的）辖区"
+             "english": "shogunate",
+             "symbols": "['ʃəʊˌgʌnɪt]",
+             "chinese": "将军职位，将军政治，幕府时代"
              }, {
-             "english": "secede",
-             "symbols": "[sɪˈsi:d]",
-             "chinese": "从…中脱离；脱离"
+             "english": "Tokugawa",
+             "symbols": "[ˈtəuku:ˈɡɑ:wɑ:]",
+             "chinese": "德川（创建日本德川幕府的德川家族）"
              }, {
-             "english": "remnant",
-             "symbols": "[ˈremnənt]",
-             "chinese": "残余；残留的"
+             "english": "Lebanon",
+             "symbols": "['lebənən]",
+             "chinese": "黎巴嫩（西南亚国家）"
              }, {
-             "english": "connotation",
-             "symbols": "[ˌkɒnəˈteɪʃn]",
-             "chinese": "内涵，含义"
+             "english": "annoyance",
+             "symbols": "[əˈnɔɪəns]",
+             "chinese": "恼怒，烦恼"
              }, {
-             "english": "Stonehenge",
-             "symbols": "[ˌstəʊnˈhendʒ]",
-             "chinese": "（英国 Salisbury 平原上的）史前巨石柱"
+             "english": "Sultan",
+             "symbols": "[ˈsʌltən]",
+             "chinese": "苏丹（某些伊斯兰教国家统治者的称号）"
              }, {
-             "english": "anatomically",
-             "symbols": "[ˌænə'tɒmɪklɪ]",
-             "chinese": "在解剖学上"
+             "english": "festivity",
+             "symbols": "[feˈstɪvəti]",
+             "chinese": "欢庆"
              }, {
-             "english": "privateering",
-             "symbols": "[praɪvə'tɪrɪŋ]",
-             "chinese": "以私掠船巡逻，掳获商船；（战时特准攻击敌方商船的）武装民船，私掠船( privateer的现在分词 )"
+             "english": "sympathetic",
+             "symbols": "[ˌsɪmpəˈθetɪk]",
+             "chinese": "同情的，有同情心的"
              }, {
-             "english": "tapestry",
-             "symbols": "[ˈtæpəstri]",
-             "chinese": "挂毯；用挂毯装饰"
+             "english": "cholera",
+             "symbols": "[ˈkɒlərə]",
+             "chinese": "霍乱"
              }, {
-             "english": "Gaelic",
-             "symbols": "[ˈgælɪk]",
-             "chinese": "盖尔语；盖尔人的，盖尔语的"
+             "english": "stipend",
+             "symbols": "[ˈstaɪpend]",
+             "chinese": "（尤指牧师的）薪俸"
              }, {
-             "english": "feudalism",
-             "symbols": "[ˈfju:dəlɪzəm]",
-             "chinese": "封建制度，封建主义"
+             "english": "insurrection",
+             "symbols": "[ˌɪnsəˈrekʃn]",
+             "chinese": "暴动"
              }, {
-             "english": "interregnum",
-             "symbols": "[ˌɪntəˈregnəm]",
-             "chinese": "中断; 过渡期; 停顿; （新旧王朝或新旧政府） 更迭的政权空白期"
+             "english": "chateau",
+             "symbols": "[ʃæˈtəʊ]",
+             "chinese": "（法国封建时代的）城堡"
              }, {
-             "english": "absolutism",
-             "symbols": "[ˈæbsəlu:tɪzəm]",
-             "chinese": "专制主义，绝对论"
-             },{
-             "english": "blockade",
-             "symbols": "[blɒˈkeɪd]",
-             "chinese": "封锁；实行封锁"
+             "english": "lancer",
+             "symbols": "[ˈlɑ:nsə(r)]",
+             "chinese": "(19世纪法国的)枪骑兵"
              }, {
-             "english": "suffragette",
-             "symbols": "[ˌsʌfrəˈdʒet]",
-             "chinese": "妇女参政权论者"
+             "english": "locust",
+             "symbols": "[ˈləʊkəst]",
+             "chinese": "蝗虫，蚱蜢"
              }, {
-             "english": "aristocracy",
-             "symbols": "[ˌærɪˈstɒkrəsi]",
-             "chinese": "贵族"
+             "english": "sanity",
+             "symbols": "[ˈsænəti]",
+             "chinese": "神志正常"
              }, {
-             "english": "enclosure",
-             "symbols": "[ɪnˈkləʊʒə(r)]",
-             "chinese": "圈占; 围绕; 圈占地;"
+             "english": "contravention",
+             "symbols": "[ˌkɒntrə'venʃən]",
+             "chinese": "违背"
              }, {
-             "english": "helmet",
-             "symbols": "[ˈhelmɪt]",
-             "chinese": "头盔；给…戴上头盔"
+             "english": "flotilla",
+             "symbols": "[fləˈtɪlə]",
+             "chinese": "小舰队，小型船队"
              }, {
-             "english": "rifle",
-             "symbols": "[ˈraɪfl]",
-             "chinese": "步枪；快速搜寻"
+             "english": "hinder",
+             "symbols": "[ˈhɪndə(r)]",
+             "chinese": "阻碍，妨碍；后面的，后方的"
              }, {
-             "english": "Ottoman",
-             "symbols": "[ˈɔtəmən]",
-             "chinese": "土耳其人的；土耳其民族的；土耳其帝国的（等于Turkish）"
+             "english": "partisan",
+             "symbols": "[ˌpɑ:tɪˈzæn]",
+             "chinese": "游击队的；游击队员"
              }, {
-             "english": "disruption",
-             "symbols": "[dɪs'rʌpʃn]",
-             "chinese": "中断"
+             "english": "eve",
+             "symbols": "[i:v]",
+             "chinese": "前夕，前夜"
              }, {
-             "english": "Burma",
-             "symbols": "['bɜ:mə]",
-             "chinese": "缅甸"
+             "english": "waver",
+             "symbols": "[ˈweɪvə(r)]",
+             "chinese": "动摇；动摇"
+             }, {
+             "english": "cutoff",
+             "symbols": "['kʌtɔ:f]",
+             "chinese": " 中止;"
+             }, {
+             "english": "mill",
+             "symbols": "[mɪl]",
+             "chinese": "磨坊；研磨，粉碎；惊跑，乱闯"
+             }, {
+             "english": "siege",
+             "symbols": "[si:dʒ]",
+             "chinese": "围攻，围困，围城（期间）"
+             }, {
+             "english": "concession",
+             "symbols": "[kənˈseʃn]",
+             "chinese": "让步，迁就"
+             }, {
+             "english": "panorama",
+             "symbols": "[ˌpænəˈrɑ:mə]",
+             "chinese": "全景画; 全景照片; 一连串景象或事; 概论;"
+             }, {
+             "english": "Mauritania",
+             "symbols": "[ˌmɒrɪ'teɪnɪə]",
+             "chinese": "毛利塔尼亚（北非古国）"
+             }, {
+             "english": "Hanoi",
+             "symbols": "[hæˈnɔi]",
+             "chinese": "河内（越南首都）"
+             }, {
+             "english": "Mali",
+             "symbols": "['mɑ:lɪ]",
+             "chinese": "马里"
+             }, {
+             "english": "Niger",
+             "symbols": "[ni:'ʒeə(r)]",
+             "chinese": "尼日尔（非洲中西部国家）"
+             }, {
+             "english": "Chad",
+             "symbols": "[tʃæd]",
+             "chinese": "乍得湖（非洲中北部）（在乍得、尼日尔、尼日利亚、喀麦隆等国接界处）（计）孔屑"
+             }, {
+             "english": "Congo",
+             "symbols": "['kɒŋɡəʊ]",
+             "chinese": "刚果"
+             }, {
+             "english": "Gabon",
+             "symbols": "[ɡæ'bɒn]",
+             "chinese": "（国名）加蓬（位于非洲中西部，首都利伯维尔）"
+             }, {
+             "english": "Madagascar",
+             "symbols": "[ˌmædə'ɡæskə(r)]",
+             "chinese": "马达加斯加岛（非洲岛国）"
+             }, {
+             "english": "enclave",
+             "symbols": "[ˈenkleɪv]",
+             "chinese": "飞地（指在本国境内的隶属另一国的一块领土）"
+             }, {
+             "english": "warlord",
+             "symbols": "[ˈwɔ:lɔ:d]",
+             "chinese": "军阀"
+             }, {
+             "english": "manifesto",
+             "symbols": "[ˌmænɪˈfestəʊ]",
+             "chinese": "宣言；〈罕〉发表宣言[声明]"
+             }, {
+             "english": "benighted",
+             "symbols": "[bɪˈnaɪtɪd]",
+             "chinese": "愚昧无知"
+             }, {
+             "english": "uphold",
+             "symbols": "[ʌpˈhəʊld]",
+             "chinese": "支持"
+             }, {
+             "english": "hallmark",
+             "symbols": "[ˈhɔ:lmɑ:k]",
+             "chinese": "检验印记；给…盖上品质证明印记"
+             }, {
+             "english": "enslave",
+             "symbols": "[ɪnˈsleɪv]",
+             "chinese": "奴役"
+             }, {
+             "english": "Togo",
+             "symbols": "['təʊɡəʊ]",
+             "chinese": "多哥"
+             }, {
+             "english": "shell",
+             "symbols": "[ʃel]",
+             "chinese": "炮弹; 炮击;"
+             }, {
+             "english": "colon",
+             "symbols": "[ˈkəʊlən]",
+             "chinese": "冒号"
+             }, {
+             "english": "pied",
+             "symbols": "[paɪd]",
+             "chinese": "斑驳的，杂色的"
+             }, {
+             "english": "submissive",
+             "symbols": "[səbˈmɪsɪv]",
+             "chinese": "柔顺"
+             }, {
+             "english": "staunch",
+             "symbols": "[stɔ:ntʃ]",
+             "chinese": "坚定的，坚固的；止住"
+             }, {
+             "english": "Malagasy",
+             "symbols": "[ˌmælə'ɡæsɪ]",
+             "chinese": "马达加斯加人，马尔加什人（语）；马尔加什人（语）的"
              }]
+
 
              */
 
@@ -882,30 +1198,6 @@ router.get('/*', function(req, res){
          发明：    量子机械论    X射线   核裂变   微生物科学   全自动数字计算机    现代自动化和空气传播技术
          德国拥有107位 诺贝尔奖得主
 
-         utility  arsenal  strife  inflow  statutory  austerity  estuary  firth  demarcation  borough  plurality  Provost  Convenor  cemetery   Gibraltar  Cyprus  jurisdiction
-         privy   alphabetised  emulate  oath
-         devolution  diarchal  legislature  contingent 取决于…的;  Intergovernmental  prorogued  relevant  continuation  appellate  privy  explanatory  sheriff
-         verdicts  acquittal  cordiale  amplify  supercarrier  chair 主持;   swear  oath   garrison  Ascension island  Belize  Brunei  Kenya  Bosnia
-         Sierra Leone  exchequer
-         sterling  issue发行; 发布;   jaguar  Boeing   subcontractor  prototype  chalk  gypsum  lead铅  silica  canary  wharf  inequality  lax  launder  proceeds收入，获利;
-         illicit  dodger  keystone  cosmology  quantum  penicillin  locomotive  incandescent  bulb
-         encircle  terminus  commuter  Lille   barrel  crude原油;  gasification    the water table   plant工厂   sewer  abstraction  megalitre  sewerage
-         bulletin   gay 男同性恋者
-         chromosome  Basque  seamen  quadruple  Leicester  gypsy  facto  monolingual  Hebrides    Nova Scotia  abbey  coronation   commentator   Sikhism
-         Presbyterian  Methodist  Anglican  expulsion
-         veteran 老兵  incentive  curriculum  Aberdeen  holistic  satirist  grim  prose  couplet  symphonic  chorus  coronation  messiah
-         abstract  tate  vertigo  stake  exponent 倡导者   Wembley  stadia  rugby  cricket  sportsmanship  curriculum  Wimbledon  thoroughbred  formula  snooker  hurl
-         spectate  expatriate  shinty  personification  Poseidon  prong  trident  bulldog
-
-
-
-         Louisiana  Vanuatu  onward  Algiers  Algeria  Indochina  proponent  apex  vestige  Saint-Domingue  Dominica  St. Lucia   Grenada Tobago  vigilance  sparse  Quebec
-         aboriginal  mercantile  Mississippi  Arkansas  Haiti  Verdun  outpost
-         Hispaniola  Liberia  resume  Seychelles  Mauritius  indemnity  Caledonia  Cambodia  energetic  sharpshooter  Crimea  Dakar  groundnut  exclusive  Tientsin  missionary
-         pillage   China's Summer Palace   march  loot  salon  Fontainebleau  regent  squadron  retaliation  headway  Tokugawa  shogunate
-         Lebanon  contingent  Sultan  annoyance  chateau  festivity  sympathetic  stipend  insurrection  cholera  locust  hinder
-         flotilla  contravention  lancer  sanity  partisan游击队的;  eve  siege  mill  cutoff  waver  concession租借地;  Panorama  Hanoi  Mauritania  Mali  Niger  Chad  Congo
-         Gabon  enclave  Madagascar  warlord  Togo  hallmark  benighted  uphold  enslave  manifesto  shell炮弹  Malagasy  staunch  colon  pied
 
          */
 
@@ -949,6 +1241,8 @@ router.get('/*', function(req, res){
         38927
         38949
         39054
+        39114
+        39164
 
         var totalList = [];
         var pageNum= 1;
@@ -1016,12 +1310,10 @@ router.get('/*', function(req, res){
             return result;
         }
 
-
-
-
-        /* 张贺  end*/
-
         /*
+
+
+
 
          */
         var arr2 = $.map(json,function(i,ele){
@@ -1039,184 +1331,10 @@ router.get('/*', function(req, res){
 
 
         /*
-         This article is about colonies of the German Empire. For the territories of National Socialist Germany, see Reichskommissariat. For the Templer colonies in Israel, see German
-         Colony (disambiguation).
-         German colonial empire
-         Deutsches Kolonialreich
-         Colonial empire
-         1884–1918
-         Flag
-         Flag
-         Coat of arms
-         Coat of arms
-
-         German colonies and protectorates in 1914
-         Capital	Berlin
-         Languages	German
-         Local:
-         Political structure	Colonial empire
-         History
-         • 	Established	1884
-         • 	Heligoland–Zanzibar Treaty	1890
-         • 	Herero Wars	1904
-         • 	Disestablished	1918
-         • 	Treaty of Versailles	28 June 1919
-         Area
-         • 	1912[1] (not including Imperial Germany proper)	2,658,161 km2 (1,026,322 sq mi)
-
-         An East African native Askari holding the German Empire's colonial flag
-         The German colonial empire (German: Deutsches Kolonialreich) constituted the overseas colonies, dependencies and territories of Imperial Germany. Short-lived attempts of
-         colonization by individual German states had occurred in preceding centuries, but crucial colonial efforts only began in 1884 with the Scramble for Africa. Claiming much
-         of the left-over colonies that were yet unclaimed in the Scramble of Africa, Germany managed to build the third largest colonial empire after the British and the French,
-         at the time.[2] Germany lost control when World War I began in 1914 and its colonies were seized by its enemies in the first weeks of the war. However some military units
-         held out for a while longer: German South West Africa surrendered in 1915, Kamerun in 1916 and German East Africa only in 1918 at the end of the war. Germany's colonial
-         empire was officially confiscated with the Treaty of Versailles after Germany's defeat in the war and the various units became League of Nations mandates under the supervision
-          (but not ownership) of one of the victorious powers.
-
-         Contents
-         1	Origins
-         1.1	German unification
-         1.2	Scramble for colonies
-         2	Acquisition of colonies
-         2.1	Company land acquisitions and stewardship
-         2.2	Growth
-         3	End of the German colonial empire
-         3.1	Conquest in World War I
-         3.2	Confiscation
-         3.3	Epilogue
-         4	Administration and colonial policies
-         4.1	Colonial governments
-         4.2	German colonial population
-         4.3	Medicine and science
-         4.4	Rebellions and genocide
-         4.5	Social Darwinism
-         5	Colonies
-         6	Legacy
-         7	See also
-         8	Footnotes
-         9	Sources and references
-         10	Bibliography
-         10.1	In German
-         10.2	In French
-         11	External links
-         Origins
-         German unification
-         Until their 1871 unification, the German states had not concentrated on the development of a navy, and this essentially had precluded German participation in earlier
-         imperialist scrambles for remote colonial territory – the so-called "place in the sun". Germany seemed destined to play catch-up. The German states prior to 1870 had
-         retained separate political structures and goals, and German foreign policy up to and including the age of Otto von Bismarck concentrated on resolving the "German question"
-          in Europe and securing German interests on the continent.[3]
-
-         On the other hand, Germans had traditions of foreign sea-borne trade dating back to the Hanseatic League; a tradition existed of German emigration (eastward in the direction
-         of Russia and Transylvania and westward to the Americas); and North German merchants and missionaries showed interest in overseas engagements. The Hanseatic republics of
-         Hamburg and Bremen sent traders across the globe. These trading houses conducted themselves as successful Privatkolonisatoren [independent colonizers] and concluded treaties
-         and land purchases in Africa and the Pacific with chiefs or other tribal leaders. These early agreements with local entities, however, later formed the basis for annexation
-          treaties, diplomatic support and military protection by the German government.[4]
-
-         Scramble for colonies
-
-         Groß-Friedrichsburg, a Brandenburg colony (1683–1717) in the territory of modern Ghana
-
-         Kladderadatsch caricature, 1884. Bismarck is happy with other nations being busy "down there"
-         Many Germans in the late 19th century viewed colonial acquisitions as a true indication of having achieved nationhood. Public opinion eventually arrived at an understanding
-          that prestigious African and Pacific colonies went hand-in-hand with dreams of a High Seas Fleet. Both aspirations would become reality, nurtured by a press replete with
-          Kolonialfreunde [supporters of colonial acquisitions] and by a myriad of geographical associations and colonial societies. Bismarck and many deputies in the Reichstag had
-          no interest in colonial conquests merely to acquire square miles of territory.[5]
-
-         In essence, Bismarck's colonial motives were obscure as he had said repeatedly "... I am no man for colonies"[6] and "remained as contemptuous of all colonial dreams as
-         ever."[7] However, in 1884 he consented to the acquisition of colonies by the German Empire, in order to protect trade, to safeguard raw materials and export markets and
-         to take opportunities for capital investment, among other reasons.[8] In the very next year Bismarck shed personal involvement when "he abandoned his colonial drive as
-         suddenly and casually as he had started it" as if he had committed an error in judgment that could confuse the substance of his more significant policies.[9] "Indeed, in
-         1889, [Bismarck] tried to give German South-West Africa away to the British. It was, he said, a burden and an expense, and he would like to saddle someone else with it."[10]
-
-         Acquisition of colonies
-         The development of German overseas protectorates (with the exception of concession territories) essentially followed three phases.
-
-         Company land acquisitions and stewardship
-
-         The Congo conference 1884/1885 in Berlin laid the basis for the Scramble for Africa, the colonial division of the continent
-         The rise of German imperialism and colonialism coincided with the latter stages of the "Scramble for Africa" during which enterprising German individuals, rather than
-          government entities, competed with other already established colonies and colonialist entrepreneurs. With the Germans joining the race for the last uncharted territories
-           in Africa and the Pacific that had not yet been carved up, competition for colonies thus involved major European nations, and several lesser powers.
-
-         The German effort included the first commercial enterprises in the 1850s and 1860s in West Africa, East Africa, the Samoan Islands and the unexplored north-east quarter
-         of New Guinea with adjacent islands.[11] German traders and merchants began to establish themselves in the African Cameroon delta and the mainland coast across from
-         Zanzibar.[12] At Apia and the settlements Finschhafen, Simpsonhafen and the islands Neu-Pommern and Neu-Mecklenburg, trading companies newly fortified with credit began
-         expansion into coastal landholding.[13] Large African inland acquisitions followed — mostly to the detriment of native inhabitants. In eastern Africa the imperialist and
-         “man-of-action” Karl Peters accumulated vast tracts of land for his colonization group, "emerging from the bush with X-marks [affixed by unlettered tribal chiefs] on
-         documents ... for some 60 thousand square miles of the Zanzibar Sultanate’s mainland property."[14] Such exploratory missions required security measures that could be
-         solved with small private, armed contingents recruited mainly in the Sudan and usually led by adventurous former military personnel of lower rank. Brutality, hanging and
-         flogging prevailed during these land-grab expeditions under Peters’ control as well as others as no-one "held a monopoly in the mistreatment of Africans."[15]
-
-         As Bismarck was converted to the colonial idea by 1884, he favored "chartered company" land management rather than establishment of colonial government due to financial
-         considerations.[16] Although temperate zone cultivation flourished, the demise and often failure of tropical low-land enterprises contributed to changing Bismarck’s view.
-          He reluctantly acquiesced to pleas for help to deal with revolts and armed hostilities by often powerful rulers whose lucrative slaving activities seemed at risk. German
-          native military forces initially engaged in dozens of punitive expeditions to apprehend and punish freedom fighters, at times with British assistance.[17] The author Charles
-           Miller offers the theory that the Germans had the handicap of trying to colonize African areas inhabited by aggressive tribes,[18] whereas their colonial neighbours had
-           more docile peoples to contend with. At that time, the German penchant for giving muscle priority over patience contributed to continued unrest. Several of the African
-           colonies remained powder kegs throughout this phase (and beyond). The transition to official acceptance of colonialism and to colonial government thus occurred during the
-            last quarter of Bismarck’s tenure of office.[19]
-
-         Growth
-
-         Railway station in Lüderitz, Namibia, 2006
-
-         German Colonial Secretary Bernhard Dernburg (2nd from right) on inspection tour in East Africa, shown on a courtesy visit with British officials at Nairobi in 1907
-
-         Postcards depicted romanticized images of natives and exotic locales, such as this early 20th century card of the German colonial territory in New Guinea
-         In the first years of the 20th century shipping lines had established scheduled services with refrigerated holds and agricultural products from the colonies, exotic fruits
-          and spices, were sold to the public in Germany. The colonies were romanticized. Geologists and cartographers explored what were the unmarked regions on European maps,
-          identifying mountains and rivers, and demarcating boundaries. Hermann Detzner and one Captain Nugent, R.A., had charge of a joint project to demarcate the British and
-          German frontiers of Cameroon, which was published in 1913.[20] Travelers and newspaper reporters brought back stories of black and brown natives serving German managers
-          and settlers. There were also suspicions and reports of colonial malfeasance, corruption and brutality in some protectorates, and Lutheran and Roman Catholic missionaries
-           dispatched disturbing reports to their mission headquarters in Germany.[21]
-
-         German colonial diplomatic efforts remained commercially inspired, "the colonial economy was thriving ... and roads, railways, shipping and telegraph communications were
-         up to the minute."[22] Overhaul of the colonial administrative apparatus thus set the stage for the final and most promising period of German colonialism.[23] Bernhard
-         Dernburg’s declaration that the indigenous population in the protectorates "was the most important factor in our colonies" was affirmed by new laws. The use of forced,
-          unpaid labor went on the books as a criminal offense.[24] Governor Wilhelm Solf of Samoa would call the islanders "unsere braunen Schützlinge" [our brown charges], who
-          could be guided but not forced.[25] Heinrich Schnee in East Africa proclaimed that "the dominant feature of my administration [will be] ... the welfare of the natives
-          entrusted into my care."[26] Idealists often volunteered for selection and appointment to government posts, while others with an entrepreneurial bent labored to swell the
-           dividends at home for the Hanseatic trading houses and shipping lines. Subsequent historians would commend German colonialism in those years as "an engine of modernization
-            with far-reaching effects for the future."[27] The native population was forced into unequal treaties by the German colonial governments. This led to the local tribes
-            and natives losing their influence and power and eventually forced some of them to become slave laborers. Although slavery was partially outlawed in 1905 by Germany,
-            this caused a great deal of resentment and led eventually to revolts by the native population[further explanation needed]. The result was several military and genocidal
-            campaigns by the Germans against the natives.[28] Political and economic subjugation of Herero and Nama was envisioned. Both the colonial authorities and settlers were
-            of the opinion that native Africans were to be a lower class, their land seized and handed over to settlers and companies, while the remaining population was to be put
-             in reservations; the Germans planned to make a colony inhabited predominately by whites: a "new African Germany".[29]
-
-         The established merchants and plantation operators in the African colonies frequently managed to sway government policies. Capital investments by banks were secured with
-         public funds of the imperial treasury to minimize risk. Dernburg, as a former banker, facilitated such thinking; he saw his commission to also turn the colonies into paying
-          propositions. Every African protectorate built rail lines to the interior,[30] every colony in Africa and the Pacific established the beginnings of a public school system,
-          [31] and every colony built and staffed hospitals.[32] Whatever the Germans constructed in their colonies was made to last.[33]
 
 
-         Qingdao with German buildings, circa 1900
-         Dar es Salaam evolved into "the showcase city of all of tropical Africa,"[33] Lomé grew into the "prettiest city in western Africa",[34] and Tsingtao, China was, "in
-          miniature, as German a city as Hamburg or Bremen".[35] For indigenous populations in some colonies native agricultural holdings were encouraged and supported.[36]
 
-         End of the German colonial empire
-         Conquest in World War I
 
-         December 1914: An Austrian lieutenant, Paul Fiedler,[37] bombards a South African military camp at the railway station of Tschaukaib, German South West Africa
-         In the years before the outbreak of the World War, British colonial officers viewed the Germans as deficient in “colonial aptitude”, but “whose colonial administration
-         was nevertheless superior to those of the other European states”.[38] Anglo-German colonial issues in the decade before 1914 were minor and both empires, the British and
-          German, took conciliatory attitudes. Foreign Secretary Sir Edward Grey, considered still a moderate in 1911, was willing to “study the map of Africa in a pro-German
-          spirit”.[39] Britain further recognized that Germany really had little of value to offer in territorial transactions; however, advice to Grey and Prime Minister H. H.
-          Asquith hardened by early 1914 “to stop the trend of what the advisers considered Germany’s taking and Britain’s giving.”[40]
-
-         Once war was declared in late July 1914 Britain and its allies promptly moved against the colonies. The public was informed that German colonies were a threat because
-         "Every German colony has a powerful wireless station — they will talk to one another across the seas, and at every opportunity they [German ships] will dash from cover
-         to harry and destroy our commerce, and maybe, to raid our coasts."[41] The British position that Germany was a uniquely brutal and cruel colonial power originated during
-         the war; it had not been said during peacetime.[42]
-
-         In the Pacific, Britain's ally Japan declared war on Germany in 1914 and quickly seized several of Germany's island colonies, the Mariana, Caroline and Marshall Islands,
-          with virtually no resistance.
-
-         By 1916 only in remote jungle regions in East Africa did the German forces hold out. South Africa’s J.C. Smuts, now in Britain's small War Cabinet, spoke of German schemes
-          for world power, militarisation and exploitation of resources, indicating Germany threatened western civilisation itself. Smuts' warnings were repeated in the press. The
-           idea took hold that they should not be returned to Germany after the war.[43]
-
-         Confiscation
 
          */
 

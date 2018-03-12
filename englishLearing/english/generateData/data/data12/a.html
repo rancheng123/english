@@ -1,0 +1,168 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="generator" content="Aspose.Words for .NET 15.1.0.0">
+    <title></title></head>
+<script src="../../js/0_jquery-1.11.1.js"></script>
+
+
+
+<body>
+
+<!-- 将此div 复制到  百度翻译页面 -->
+<div id="words">
+
+    utility  arsenal  strife  inflow  statutory  austerity  estuary  firth  demarcation  borough  plurality  Provost  Convenor  cemetery   Gibraltar  Cyprus  jurisdiction
+    privy   alphabetised  emulate  oath
+    devolution  diarchal  legislature  contingent 取决于…的;  Intergovernmental  prorogued  relevant  continuation  appellate  privy  explanatory  sheriff
+    verdicts  acquittal  cordiale  amplify  supercarrier  chair 主持;   swear  oath   garrison  Ascension island  Belize  Brunei  Kenya  Bosnia
+    Sierra Leone  exchequer
+    sterling  issue发行; 发布;   jaguar  Boeing   subcontractor  prototype  chalk  gypsum  lead铅  silica  canary  wharf  inequality  lax  launder  proceeds收入，获利;
+    illicit  dodger  keystone  cosmology  quantum  penicillin  locomotive  incandescent  bulb
+    encircle  terminus  commuter  Lille   barrel  crude原油;  gasification    the water table   plant工厂   sewer  abstraction  megalitre  sewerage
+    bulletin   gay 男同性恋者
+    chromosome  Basque  seamen  quadruple  Leicester  gypsy  facto  monolingual  Hebrides    Nova Scotia  abbey  coronation   commentator   Sikhism
+    Presbyterian  Methodist  Anglican  expulsion
+    veteran 老兵  incentive  curriculum  Aberdeen  holistic  satirist  grim  prose  couplet  symphonic  chorus  coronation  messiah
+    abstract  tate  vertigo  stake  exponent 倡导者   Wembley  stadia  rugby  cricket  sportsmanship  curriculum  Wimbledon  thoroughbred  formula  snooker  hurl
+    spectate  expatriate  shinty  personification  Poseidon  prong  trident  bulldog
+
+
+
+    Louisiana  Vanuatu  onward  Algiers  Algeria  Indochina  proponent  apex  vestige  Saint-Domingue  Dominica  St. Lucia   Grenada Tobago  vigilance  sparse  Quebec
+    aboriginal  mercantile  Mississippi  Arkansas  Haiti  Verdun  outpost
+    Hispaniola  Liberia  resume  Seychelles  Mauritius  indemnity  Caledonia  Cambodia  energetic  sharpshooter  Crimea  Dakar  groundnut  exclusive  Tientsin  missionary
+    pillage   China's Summer Palace   march  loot  salon  Fontainebleau  regent  squadron  retaliation  headway  Tokugawa  shogunate
+    Lebanon  contingent  Sultan  annoyance  chateau  festivity  sympathetic  stipend  insurrection  cholera  locust  hinder
+    flotilla  contravention  lancer  sanity  partisan游击队的;  eve  siege  mill  cutoff  waver  concession租借地;  Panorama  Hanoi  Mauritania  Mali  Niger  Chad  Congo
+    Gabon  enclave  Madagascar  warlord  Togo  hallmark  benighted  uphold  enslave  manifesto  shell炮弹  Malagasy  staunch  colon  pied  submissive  Australasia
+
+</div>
+
+
+
+
+<script>
+
+    //注意  token和m  要替换
+
+
+
+
+    /*测试  start*/
+    // var wordArr = ["digress","feedback","hard","on","fluster","couch","ass","dick","hesitantly","paranoia","wrist","starfish","lingerie","ripping","flesh","pussy","belly","Shit","fidgeting","unzips","pop","eye","raping","vibrator","snicker","fingertip","clit","mutter","penetrates","flip","asshole","yelp","jam","hip","tits","climax","lick","waist","orgasm","boob","booth","winking","Wanna","rub","pelvis","lap","grip","dash","crawl","kneel","pat","drip","navel","Nipple","hickey","plunge","cranny","crevice","grind","squirt","Fountain","hooker","condoms","Myanmar","Lao","Bhutan","Bangladesh","Nope","blah","blowjob","slouch","sag","ensemble","shaggy","tingly","knot","drool","tease","mumble","coo","skull","denim","raccoon","wavy","rats","slash","legging","sneaker","sweatshirt","bun","outfit","lipgloss","tattoo","smirk","raging","splashed","blown","paragraph","drummer","snuck","intro","pouty","hum","rasp","tortuous","backpack","enticingly","lacy","exude","sigh","musky","scent","cafeteria","admitt","dreamboat","sinister","giggle","combust","nacho","tactic","popsicle","innuendo","chant","wuss","wrapper","bob","ferociously","catcall"];
+    // var times = 1;
+
+    // var wordArr = [1,2,3,4,5,6,7,8,9,10];
+    // var range = 3;
+    //var times = Math.ceil(wordArr.length/range);
+    /*测试  end*/
+        var range = 30;
+
+
+        var resultArr = [];
+        var words = $('#words').text()
+            .replace(/[\u4e00-\u9fa5\（\）]/g,'')
+            .replace(/\;/g,'')
+            .replace(/\-/g,' ')
+
+            .replace(/\s+/g,' ').trim().split(' ');
+        words.pop();
+        var wordArr = words;
+        var wordArrCount = 0;
+        var times = Math.ceil(wordArr.length/range);
+
+
+        //迭代 分批次
+        var cycleCount = 0;
+        var cycle = function(wordArr,range)
+        {
+            //取前**个
+            var subwordArr = wordArr.slice(cycleCount*range,(cycleCount+1)*range)
+            var subwordArrCount = 0;
+
+            for(j=0;j<subwordArr.length;j++){
+
+                var word = subwordArr[j];
+                $.ajax({
+                    type: "POST",
+                    url: "http://fanyi.baidu.com/v2transapi",
+                    cache: !1,
+                    data: {
+                        "from":"en",
+                        "to":"zh",
+                        "query":word,
+                        "transtype":"translang",
+                        "simple_means_flag":3,
+
+
+                        // m  要替换
+                        "sign":m(word),
+
+                        //token 要替换
+                        "token":"c93e58d3ef006c29d23589b785511859"
+                    }
+
+
+                }).done(function(t) {
+
+
+
+                    if(typeof t.dict_result == 'undefined' || typeof t.dict_result.simple_means == 'undefined'){
+                        if(typeof t.dict_result == 'undefined'){
+                            //debugger
+                        }
+                        var json = {"english": t.trans_result.data[0].src, "symbols": "[]", "chinese": ""};
+                    }else{
+                        var json = {
+                            "english": t.dict_result.simple_means.word_name,
+                            "symbols": "["+ t.dict_result.simple_means.symbols[0].ph_en +"]",
+                            "chinese": $.map(t.dict_result.simple_means.symbols[0].parts,function(mean,i){
+                                return  mean.means[0]
+                            }).join('；')
+                        };
+                    }
+
+                    resultArr.push(json);
+                    subwordArrCount++;
+                    wordArrCount++;
+                    if(wordArrCount == wordArr.length){
+
+                        //console.log(JSON.stringify(resultArr))
+
+                        console.log('wordJson["06_14"] = '+ JSON.stringify(resultArr) )
+
+                        debugger
+                    }
+                    if(subwordArrCount == range){
+                        //debugger
+                        cycleCount++;
+                        if(cycleCount < times)
+                        {
+                            setTimeout(function () {
+                                cycle(wordArr,range)
+                            },1000)
+
+                        }
+                    }
+
+                })
+
+            }
+
+
+
+        };
+        cycle(wordArr,range)
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
