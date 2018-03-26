@@ -1,0 +1,20 @@
+全量更新（一般情况下）
+
+	所有项目全部跟新
+
+
+增量更新 （紧急情况下   特殊情况下）
+
+
+	1. 程序自动替换  （通常情况下，程序一定要测试好，否则替换错误）
+
+	xbn_user\css\style.css
+	xbn_user\js\vendor\product-common.js
+	xbn_user\js\custom\module\in\account.js
+	xbn_user\tpl\quality\brandEdit.html
+
+	2.  手动替换（文件量少的情况下）
+	xbn_user\css\style.css                     +   真实的文件
+	xbn_user\js\vendor\product-common.js       +   真实的文件
+
+
