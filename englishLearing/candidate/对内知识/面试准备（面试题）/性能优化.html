@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script>
+window.onload=function()
+{
+	
+		
+	1.减少页面的重绘(批量，一次渲染)	   页面的重绘 是指 obj.innerHTML += str    每次页面重新渲染
+	
+	
+		for(var i = 0; i < 100; i++){
+			obj.innerHTML += str + i;
+		}
+		//"效率低"
+		
+		
+	
+		var arr = [];
+		for(var i = 0; i < 100; i++){
+		arr[i] = str + i;
+		}
+		obj.innerHTML = arr.join("");
+		//"效率高"
+	
+	
+	
+	2.事件委托
+	
+	//使用了事件委托   仅用1个事件处理程序           //减少事件处理程序的使用，节省内存	         
+	oUl.onclick=function(ev)    
+	{
+		var oEvent=ev||event;
+		var src= oEvent.srcElement||oEvent.target;  
+		if(src==aLi[0])
+		{
+			alert(0)	
+		}
+		else if(src==aLi[1])
+		{
+			alert(1)	
+		};	
+	};	
+	
+	//没有用时间委托的    用了2个事件处理程序    耗用内存
+	aLi[0].onclick=function()
+	{
+		alert(0)	
+	};
+	aLi[1].onclick=function()
+	{
+		alert(1)	
+	};
+
+	
+	
+	3. 减少 HTTP请求数
+	
+	 机制： 
+	 	1.每个请求都是   漫长而复杂的过程 
+	 	1.浏览器 并发请求数有上限 （过多，分批请求，造成延时。也叫分布式请求）
+	
+	 好处：  
+	 	节省时间  
+		节省带宽。
+		
+	 方法：
+	  1. 保持页面简洁、减少资源的使用时最直接的
+	  2. 合理设置 HTTP缓存
+	  		很少变化的图片资源可以直接通过 HTTP Header中的Expires设置一个很长的过期头 ;变化不频繁而又可能会变的资源可以使用 Last-Modifed来做请求验证。尽可能的让资源能够在缓存中待得更久。关于 HTTP缓存的具体设置和原理此处就不再详述了，有兴趣的可以参考下列文章：
+
+		
+		
+	4.资源合并与压缩 （合并：减少请求数）	
+	
+		1.图片 
+			 1. CSS Sprites
+			 
+			 2. 图片惰性加载（默认只加载第一屏，用户往下滚动在加载其他）
+			 
+		2.css
+		3.script
+	
+	5. 将外链脚本置底
+		原因： 外链脚本加载时会阻塞其他资源（外链脚本加载是同步的）
+		
+		情景：
+			1.外链脚本置底在顶部
+				 外链脚本加载时会阻塞  浏览器并发请求（加载资源更快）
+				 
+			2.外链脚本置底在底部	 
+				 外链脚本加载时不会阻塞  浏览器并发请求（加载资源更快）
+	
+	6. 异步执行 inline脚本	
+	    原因： 脚本在执行时 会阻塞并发请求
+		方法：  
+			1. script元素的defer 属性(存在兼容性问题和其他一些问题，例如不能使用 document.write)
+			2.使用setTimeout 
+			3.在HTML5中引入了 Web Workers的机制，恰恰可以解决此类问题。		 
+		
+		
+	7. Lazy Load Javascript（需要时才加载）
+	
+		原因： 不需要的js 也加载，浪费资源 浪费带宽 浪费时间。
+		
+		方法：
+			1. 流量特别大的页面
+				专门定制一个专用的 mini版框架
+			2. 另一种则是 Lazy Load。
+				YUI 则使用了第二种方式，在 YUI的实现中，最初只加载核心模块，其他模块可以等到需要使用的时候才加载。
+	
+		
+		
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</script>
+</head>
+
+<body>
+</body>
+</html>

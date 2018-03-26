@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<script>
+		function Person (name)
+		{
+			//实例属性
+			this.name = name;	
+			this.friends = ['Lucy','David','Jim'];  //引用类型值只能给实例属性
+			
+			//this.hair = 'gold';    同名的实例属性 会屏蔽同名的原型属性
+		};
+		
+		
+		                 //用新对象  代替 默认内置的原型对象
+		Person.prototype = {
+			//原型属性
+			constructor : Person, //修正constructor 指针
+			blood : 'O',
+			hair : 'black'	
+		};
+		
+		
+		
+		function Student(name,age)
+		{
+			Person.call(this,name);  //实现  实例属性的继承
+			this.age = age;	         //添加额外实例属性
+		};
+		
+		                 //利用对象实例的_proto_指针  实现原型的继承
+		Student.prototype = new Person();
+		Student.prototype.constructor = Student;
+		//添加额外原型
+		student.prototype.showAge = function(){
+			alert(this.age)	
+		}
+
+
+	
+</script>
+</head>
+
+<body>
+</body>
+</html>
