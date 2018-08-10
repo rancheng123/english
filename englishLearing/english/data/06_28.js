@@ -1,0 +1,905 @@
+wordJson["06_28"] = [{
+    "english": "collier",
+    "symbols": "[ˈkɒliə(r)]",
+    "chinese": "矿工，运煤船，煤船员"
+}, {
+    "english": "baptise",
+    "symbols": "[bæp'taɪz]",
+    "chinese": "给…施浸礼（或洗礼）；行浸礼（或洗礼）"
+}, {
+    "english": "algebra",
+    "symbols": "[ˈældʒɪbrə]",
+    "chinese": "代数学，代数"
+}, {
+    "english": "swain",
+    "symbols": "[sweɪn]",
+    "chinese": "<诗><古>情人"
+}, {
+    "english": "ply",
+    "symbols": "[plaɪ]",
+    "chinese": "经常供应（食物、饮料）"
+}, {
+    "english": "gratuity",
+    "symbols": "[grəˈtju:əti]",
+    "chinese": "小费"
+}, {
+    "english": "postulate",
+    "symbols": "[ˈpɒstjuleɪt]",
+    "chinese": "假定；假定"
+}, {
+    "english": "australis",
+    "symbols": "[ɒst'rəlɪs]",
+    "chinese": "南极光"
+}, {
+    "english": "mishap",
+    "symbols": "[ˈmɪshæp]",
+    "chinese": "灾祸"
+}, {
+    "english": "aground",
+    "symbols": "[əˈgraʊnd]",
+    "chinese": "搁浅地；搁浅的"
+}, {
+    "english": "shoal",
+    "symbols": "[ʃəʊl]",
+    "chinese": "浅滩，沙洲;变浅；变浅；浅的"
+}, {
+    "english": "scurvy",
+    "symbols": "[ˈskɜ:vi]",
+    "chinese": "坏血病；下贱的，卑鄙的"
+}, {
+    "english": "hypothetical",
+    "symbols": "[ˌhaɪpəˈθetɪkl]",
+    "chinese": "假想"
+}, {
+    "english": "trinket",
+    "symbols": "[ˈtrɪŋkɪt]",
+    "chinese": "小装饰品"
+}, {
+    "english": "disrepute",
+    "symbols": "[ˌdɪsrɪˈpju:t]",
+    "chinese": "声名狼藉"
+}, {
+    "english": "inedible",
+    "symbols": "[ɪnˈedəbl]",
+    "chinese": "不能吃的，不适合食用的"
+}, {
+    "english": "walrus",
+    "symbols": "[ˈwɔ:lrəs]",
+    "chinese": "海象"
+}, {
+    "english": "incarnation",
+    "symbols": "[ˌɪnkɑ:ˈneɪʃn]",
+    "chinese": "化身"
+}, {
+    "english": "surf",
+    "symbols": "[sɜ:f]",
+    "chinese": "海浪；冲浪"
+}, {
+    "english": "spyglass",
+    "symbols": "[ˈspaɪglɑ:s]",
+    "chinese": "小望远镜"
+}, {
+    "english": "mast",
+    "symbols": "[mɑ:st]",
+    "chinese": "桅杆；在…上装桅杆"
+}, {
+    "english": "bowel",
+    "symbols": "[ˈbaʊəl]",
+    "chinese": "肠"
+}, {
+    "english": "hierarchy",
+    "symbols": "[ˈhaɪərɑ:ki]",
+    "chinese": "[计]分层，层次"
+}, {
+    "english": "rig",
+    "symbols": "[rɪg]",
+    "chinese": "船桅（或船帆等）的装置；给（船、桅杆）装配帆及索具"
+}, {
+    "english": "reminiscent",
+    "symbols": "[ˌremɪˈnɪsnt]",
+    "chinese": "怀旧的；回忆录作者"
+}, {
+    "english": "Jakarta",
+    "symbols": "[dʒəˈkɑ:tə]",
+    "chinese": "雅加达（印度尼西亚首都）"
+}, {
+    "english": "deification",
+    "symbols": "[ˌdi:ɪfɪ'keɪʃn]",
+    "chinese": "祀为神，奉若神明，被奉为神者"
+}, {
+    "english": "frigid",
+    "symbols": "[ˈfrɪdʒɪd]",
+    "chinese": "寒冷的；寒冷地，冷漠地；寒冷，冷漠"
+}, {
+    "english": "karst",
+    "symbols": "[kɑ:st]",
+    "chinese": "喀斯特地形，喀斯特地貌"
+}, {
+    "english": "frond",
+    "symbols": "[frɒnd]",
+    "chinese": "蕨类或棕榈类植物的叶子"
+}, {
+    "english": "protein",
+    "symbols": "[ˈprəʊti:n]",
+    "chinese": "[化]朊，蛋白（质）；蛋白质的"
+}, {
+    "english": "epitome",
+    "symbols": "[ɪˈpɪtəmi]",
+    "chinese": "缩影"
+}, {
+    "english": "mintage",
+    "symbols": "['mɪntɪdʒ]",
+    "chinese": "铸币，硬币，臆造"
+}, {
+    "english": "replenishment",
+    "symbols": "[rɪ'plenɪʃmənt]",
+    "chinese": "补给，补充"
+}, {
+    "english": "seep",
+    "symbols": "[si:p]",
+    "chinese": "渗透；"
+}, {
+    "english": "scone",
+    "symbols": "[skɒn]",
+    "chinese": "烤饼"
+}, {
+    "english": "shun",
+    "symbols": "[ʃʌn]",
+    "chinese": "避免"
+}, {
+    "english": "grail",
+    "symbols": "[greɪl]",
+    "chinese": "杯，圣杯，大盘"
+}, {
+    "english": "churn",
+    "symbols": "[tʃɜ:n]",
+    "chinese": "搅拌；制造（奶油等）；搅乳桶"
+}, {
+    "english": "toffee",
+    "symbols": "[ˈtɒfi]",
+    "chinese": "太妃糖"
+}, {
+    "english": "maple",
+    "symbols": "[ˈmeɪpl]",
+    "chinese": "枫树"
+},{
+    "english": "buffet",
+    "symbols": "[ˈbʊfeɪ]",
+    "chinese": "自助餐； 对…打来打去"
+}, {
+    "english": "Britannic",
+    "symbols": "[brɪˈtænɪk]",
+    "chinese": "大不列颠的，英国的"
+}, {
+    "english": "coriander",
+    "symbols": "[ˌkɒriˈændə(r)]",
+    "chinese": "香菜"
+}, {
+    "english": "convoy",
+    "symbols": "[ˈkɒnvɔɪ]",
+    "chinese": "护送；护航"
+}, {
+    "english": "refrigerator   -------------------------------------------------",
+    "symbols": "[rɪˈfrɪdʒəreɪtə(r)]",
+    "chinese": "冰箱"
+}, {
+    "english": "Pennsylvania",
+    "symbols": "[pensɪl'veɪnjə]",
+    "chinese": "宾夕法尼亚州（美国州名）"
+}, {
+    "english": "girlie",
+    "symbols": "[ˈgɜ:li]",
+    "chinese": "（杂志或图片）以表现裸体女子为特色的， 色情的；少女"
+}, {
+    "english": "receptionest",
+    "symbols": "[rɪˈsepʃənɪst]",
+    "chinese": "接待员"
+}, {
+    "english": "Ontario",
+    "symbols": "[ɒn'teərɪəʊ]",
+    "chinese": "安大略湖（北美洲中东部）（美国和加拿大共有的湖）"
+}, {
+    "english": "strut",
+    "symbols": "[strʌt]",
+    "chinese": "炫耀；趾高气扬地走；支柱"
+},  {
+    "english": "cleavage",
+    "symbols": "[ˈkli:vɪdʒ]",
+    "chinese": "分裂; 乳沟; [胚] 卵裂;"
+}, {
+    "english": "twitch",
+    "symbols": "[twɪtʃ]",
+    "chinese": "（使）抽动，（使）颤动；痉挛，抽筋"
+}, {
+    "english": "duckling",
+    "symbols": "[ˈdʌklɪŋ]",
+    "chinese": "小鸭，幼鸭"
+}, {
+    "english": "caress",
+    "symbols": "[kəˈres]",
+    "chinese": "拥抱；爱抚，抚摸"
+},{
+    "english": "gulp",
+    "symbols": "[gʌlp]",
+    "chinese": "狼吞虎咽地吃，吞咽；哽住；吞咽"
+}, {
+    "english": "frown",
+    "symbols": "[fraʊn]",
+    "chinese": "皱眉；皱眉，蹙额"
+}, {
+    "english": "exstatic",
+    "symbols": "[ekˈstætɪk]",
+    "chinese": "狂喜的； 入迷的，出神的；"
+}, {
+    "english": "piss",
+    "symbols": "[pɪs]",
+    "chinese": "小便；撒尿；撒尿弄脏"
+}, {
+    "english": "glare",
+    "symbols": "[gleə(r)]",
+    "chinese": "怒目而视；发强光；强光"
+}, {
+    "english": "brag",
+    "symbols": "[bræg]",
+    "chinese": "自大，吹嘘；自夸；第一流的，极好的"
+}, {
+    "english": "balcony",
+    "symbols": "[ˈbælkəni]",
+    "chinese": "阳台"
+}, {
+    "english": "bloomer",
+    "symbols": "[ˈblu:mə(r)]",
+    "chinese": "挫折，失败，完全成熟的人"
+}, {
+    "english": "limo",
+    "symbols": "[ˈlɪməʊ]",
+    "chinese": "豪华轿车"
+}, {
+    "english": "bimbo",
+    "symbols": "[ˈbɪmbəʊ]",
+    "chinese": "妓女、荡妇，蠢女人"
+}, {
+    "english": "babe",
+    "symbols": "[beɪb]",
+    "chinese": "婴儿"
+}, {
+    "english": "seethe",
+    "symbols": "[si:ð]",
+    "chinese": "生闷气"
+}, {
+    "english": "stomp",
+    "symbols": "[stɒmp]",
+    "chinese": "跺脚，重踩；践踏"
+}, {
+    "english": "suitor",
+    "symbols": "[ˈsu:tə(r)]",
+    "chinese": "求婚者"
+}, {
+    "english": "etch",
+    "symbols": "[etʃ]",
+    "chinese": "蚀刻，浸蚀；腐蚀剂"
+}, {
+    "english": "shaft",
+    "symbols": "[ʃɑ:ft]",
+    "chinese": "柄，轴；给…装上杆柄"
+}, {
+    "english": "woo",
+    "symbols": "[wu:]",
+    "chinese": "求爱，求婚；求爱"
+}, {
+    "english": "bachelor",
+    "symbols": "[ˈbætʃələ(r)]",
+    "chinese": "单身汉; 尚未交配的幼雄兽"
+}, {
+    "english": "bingo",
+    "symbols": "[ˈbɪŋgəʊ]",
+    "chinese": "太好了，好极了;宾果游戏"
+}, {
+    "english": "giddy",
+    "symbols": "[ˈgɪdi]",
+    "chinese": "头晕的；使眩晕"
+}, {
+    "english": "devishly",
+    "symbols": "[ˈdevəlɪʃli]",
+    "chinese": "过分地，厉害地;"
+}, {
+    "english": "buddy",
+    "symbols": "[ˈbʌdi]",
+    "chinese": "密友，好友；交朋友"
+}, {
+    "english": "sizzle",
+    "symbols": "[ˈsɪzl]",
+    "chinese": "发咝咝声；把…烧得嘶嘶响；油煎食物时)发出的咝咝声"
+}, {
+    "english": "adreniline",
+    "symbols": "[ə'drenəlɪn]",
+    "chinese": "肾上腺素"
+}, {
+    "english": "smug",
+    "symbols": "[smʌg]",
+    "chinese": "自鸣得意的；自命不凡的人，沾沾自喜的人"
+}, {
+    "english": "blurt",
+    "symbols": "[blɜ:t]",
+    "chinese": "脱口而出"
+}, {
+    "english": "swollen",
+    "symbols": "[ˈswəʊlən]",
+    "chinese": "膨胀的；增强，肿胀，鼓起(swell的过去式和过去分词)"
+}, {
+    "english": "dammit",
+    "symbols": "['dæmɪt]",
+    "chinese": "该死，真他妈的"
+}, {
+    "english": "libido",
+    "symbols": "[lɪˈbi:dəʊ]",
+    "chinese": "本能冲动，性欲"
+}, {
+    "english": "raspy",
+    "symbols": "[ˈrɑ:spi]",
+    "chinese": "刺耳的，焦躁的，易怒的"
+}, {
+    "english": "womanhood",
+    "symbols": "[ˈwʊmənhʊd]",
+    "chinese": "女子成年期，女子特征，女子气质"
+}, {
+    "english": "whimper",
+    "symbols": "[ˈwɪmpə(r)]",
+    "chinese": "啜泣，呜咽；啜泣或呜咽着说；啜泣声，呜咽声"
+}, {
+    "english": "manicure",
+    "symbols": "[ˈmænɪkjʊə(r)]",
+    "chinese": "修指甲；修剪…的指甲"
+}, {
+    "english": "malfunction",
+    "symbols": "[ˌmælˈfʌŋkʃn]",
+    "chinese": "失灵；失灵"
+}, {
+    "english": "buckle",
+    "symbols": "[ˈbʌkl]",
+    "chinese": "用搭扣扣紧；搭扣，扣环"
+}, {
+    "english": "brim",
+    "symbols": "[brɪm]",
+    "chinese": "（浅底容器的）边缘；充盈，满；注满"
+}, {
+    "english": "cuddle",
+    "symbols": "[ˈkʌdl]",
+    "chinese": "拥抱，怀抱；依偎着睡；搂抱，拥抱"
+}, {
+    "english": "shiver",
+    "symbols": "[ˈʃɪvə(r)]",
+    "chinese": "发抖，颤抖；战栗，发抖；由于航行时太靠近风而使（帆）颤动"
+}, {
+    "english": "beam",
+    "symbols": "[bi:m]",
+    "chinese": "束；发出光与热；播送；笑容满面，眉开眼笑"
+}, {
+    "english": "growl",
+    "symbols": "[graʊl]",
+    "chinese": "（雷）作隆隆声；低声咆哮着说；低吼，狺狺声"
+}, {
+    "english": "glint",
+    "symbols": "[glɪnt]",
+    "chinese": "闪烁，闪光；闪光，闪耀；闪烁"
+}, {
+    "english": "buttock",
+    "symbols": "[ˈbʌtək]",
+    "chinese": "臀部，屁股；[跤]背摔"
+}, {
+    "english": "grit",
+    "symbols": "[grɪt]",
+    "chinese": "勇气；发出轧轧声"
+}, {
+    "english": "bristle ---------------------------------------------------------",
+    "symbols": "[ˈbrɪsl]",
+    "chinese": "刚毛；发怒；使（毛发等像鬃毛似的）直立"
+}, {
+    "english": "numb",
+    "symbols": "[nʌm]",
+    "chinese": "麻木的，失去感觉的；使麻木，使麻痹"
+}, {
+    "english": "flinch",
+    "symbols": "[flɪntʃ]",
+    "chinese": "退缩"
+},  {
+    "english": "kitten",
+    "symbols": "[ˈkɪtn]",
+    "chinese": "小猫；产小猫"
+}, {
+    "english": "adorable",
+    "symbols": "[əˈdɔ:rəbl]",
+    "chinese": "值得崇拜的，可敬重的"
+}, {
+    "english": "snatch",
+    "symbols": "[snætʃ]",
+    "chinese": "抢；作出握住或抢夺的动作；抢夺，夺得"
+}, {
+    "english": "garage",
+    "symbols": "[ˈgærɑ:ʒ]",
+    "chinese": "车库；把…送入车库"
+},{
+    "english": "bartender",
+    "symbols": "[ˈbɑ:tendə(r)]",
+    "chinese": "酒吧间销售酒精饮料的人，酒吧间男招待"
+}, {
+    "english": "spade",
+    "symbols": "[speɪd]",
+    "chinese": "铁锹，铲子；铲"
+}, {
+    "english": "scowl",
+    "symbols": "[skaʊl]",
+    "chinese": "皱眉；皱眉表示；怒容"
+}, {
+    "english": "coddle",
+    "symbols": "[ˈkɒdl]",
+    "chinese": "悉心照料，娇惯"
+}, {
+    "english": "diaper",
+    "symbols": "[ˈdaɪəpə(r)]",
+    "chinese": "尿布；包上尿布"
+}, {
+    "english": "luxury",
+    "symbols": "[ˈlʌkʃəri]",
+    "chinese": "奢侈，豪华；奢华的，豪华的"
+}, {
+    "english": "thrash",
+    "symbols": "[θræʃ]",
+    "chinese": "（用棍、鞭等） 痛打，责打; "
+}, {
+    "english": "Yokohama",
+    "symbols": "[ˈjəukəˈhɑ:mə]",
+    "chinese": "横滨（日本本州岛东南岸港市）"
+},  {
+    "english": "assertive",
+    "symbols": "[əˈsɜ:tɪv]",
+    "chinese": "观点明确的; 坚决主张的"
+}, {
+    "english": "self",
+    "symbols": "[self]",
+    "chinese": "自己；同一的；使自花授精；自花授精"
+}, {
+    "english": "perpetrate",
+    "symbols": "[ˈpɜ:pətreɪt]",
+    "chinese": "犯（罪）"
+}, {
+    "english": "coward",
+    "symbols": "[ˈkaʊəd]",
+    "chinese": "胆小鬼，懦夫；怯懦的，胆小的"
+}, {
+    "english": "escort",
+    "symbols": "[ˈeskɔ:t]",
+    "chinese": "护送者；护送，护卫"
+}, {
+    "english": "traitor",
+    "symbols": "[ˈtreɪtə(r)]",
+    "chinese": "叛徒"
+}, {
+    "english": "treachery",
+    "symbols": "[ˈtretʃəri]",
+    "chinese": "背叛"
+}, {
+    "english": "Yankee",
+    "symbols": "[ˈjæŋki]",
+    "chinese": "美国佬，美国人；美国北方人的"
+}, {
+    "english": "eternity",
+    "symbols": "[ɪˈtɜ:nəti]",
+    "chinese": "永恒"
+}, {
+    "english": "hammock",
+    "symbols": "[ˈhæmək]",
+    "chinese": "吊床"
+}, {
+    "english": "heed",
+    "symbols": "[hi:d]",
+    "chinese": "注意，留心；留心，注意，听从；嘻笑（ te-hee的过去式）"
+},  {
+    "english": "buoy",
+    "symbols": "[bɔɪ]",
+    "chinese": "浮标；使浮起"
+}, {
+    "english": "acclimate   ---------------------------------------------------------------",
+    "symbols": "[ˈækləmeɪt]",
+    "chinese": "使习惯于"
+}, {
+    "english": "concussion",
+    "symbols": "[kənˈkʌʃn]",
+    "chinese": "震荡"
+}, {
+    "english": "Manila",
+    "symbols": "[mə'nɪlə]",
+    "chinese": "马尼拉麻"
+}, {
+    "english": "major",
+    "symbols": "[ˈmeɪdʒə(r)]",
+    "chinese": "陆军少校"
+}, {
+    "english": "luggage",
+    "symbols": "[ˈlʌgɪdʒ]",
+    "chinese": "<英>行李"
+}, {
+    "english": "exult",
+    "symbols": "[ɪgˈzʌlt]",
+    "chinese": "狂喜，欢跃"
+}, {
+    "english": "endorse",
+    "symbols": "[ɪnˈdɔ:s]",
+    "chinese": "签名"
+}, {
+    "english": "general",
+    "symbols": "[ˈdʒenrəl]",
+    "chinese": "上将;"
+}, {
+    "english": "haversack",
+    "symbols": "[ˈhævəsæk]",
+    "chinese": "粗帆布背包"
+}, {
+    "english": "berth",
+    "symbols": "[bɜ:θ]",
+    "chinese": "（船、列车等的）卧铺；"
+}, {
+    "english": "wiry",
+    "symbols": "[ˈwaɪəri]",
+    "chinese": "金属丝的; 金属线制的; 铁丝似的"
+}, {
+    "english": "cartridge",
+    "symbols": "[ˈkɑ:trɪdʒ]",
+    "chinese": "子弹，弹药筒"
+}, {
+    "english": "behoof",
+    "symbols": "[bɪ'hu:f]",
+    "chinese": "利益，好处"
+}, {
+    "english": "bronco",
+    "symbols": "[ˈbrɒŋkəʊ]",
+    "chinese": "（美国西部的）野马，半驯化马"
+}, {
+    "english": "Mauser",
+    "symbols": "[ˈmauzə]",
+    "chinese": "毛瑟枪"
+}, {
+    "english": "chum",
+    "symbols": "[tʃʌm]",
+    "chinese": "密友；成为好朋友"
+}, {
+    "english": "yacht",
+    "symbols": "[jɒt]",
+    "chinese": "快艇，帆船，游艇"
+}, {
+    "english": "hurdle",
+    "symbols": "[ˈhɜ:dl]",
+    "chinese": "障碍，困难；克服困难；跳过障碍"
+}, {
+    "english": "corporal",
+    "symbols": "[ˈkɔ:pərəl]",
+    "chinese": "下士"
+}, {
+    "english": "brisk",
+    "symbols": "[brɪsk]",
+    "chinese": "轻快的；活跃起来；使…活泼"
+},  {
+    "english": "prairie",
+    "symbols": "[ˈpreəri]",
+    "chinese": "（尤指北美的）大草原，大牧场"
+}, {
+    "english": "tawny",
+    "symbols": "[ˈtɔ:ni]",
+    "chinese": "黄褐色的；黄褐色"
+}, {
+    "english": "scouse",
+    "symbols": "[skaʊs]",
+    "chinese": "（海员常吃的）炖杂烩（肉和蔬菜和饼干等混成的炖菜）"
+}, {
+    "english": "gymkana",
+    "symbols": "[dʒɪm'kənə]",
+    "chinese": "运动会场，运动会"
+}, {
+    "english": "rancher",
+    "symbols": "[ˈrɑ:ntʃə(r)]",
+    "chinese": "大牧场主; 大农场工人"
+}, {
+    "english": "hushpuppy",
+    "symbols": "[hʌʃ'pʌpɪ]",
+    "chinese": "油炸玉米饼；南部的，南部乡下的"
+}, {
+    "english": "soliloquy",
+    "symbols": "[səˈlɪləkwi]",
+    "chinese": "自言自语"
+}, {
+    "english": "antiquated",
+    "symbols": "[ˈæntɪkweɪtɪd]",
+    "chinese": "过时的，陈旧的；使古旧，废弃（antiquate的过去式和过去分词）"
+}, {
+    "english": "mare",
+    "symbols": "[meə(r)]",
+    "chinese": "母马，母驴"
+}, {
+    "english": "trot",
+    "symbols": "[trɒt]",
+    "chinese": "小跑；使小跑"
+}, {
+    "english": "devilish",
+    "symbols": "[ˈdevəlɪʃ]",
+    "chinese": "邪恶的"
+}, {
+    "english": "dynamite",
+    "symbols": "[ˈdaɪnəmaɪt]",
+    "chinese": "炸药；破坏，炸毁；极好的"
+}, {
+    "english": "brute",
+    "symbols": "[bru:t]",
+    "chinese": "畜生，兽；残忍的"
+}, {
+    "english": "fraternize",
+    "symbols": "[ˈfrætənaɪz]",
+    "chinese": "结交，交友，（尤指）亲敌"
+}, {
+    "english": "cyclone",
+    "symbols": "[ˈsaɪkləʊn]",
+    "chinese": "气旋，旋风; 飓风，暴风"
+}, {
+    "english": "deftness",
+    "symbols": "[deftnis]",
+    "chinese": "熟练；灵巧；敏捷"
+}, {
+    "english": "skylark",
+    "symbols": "[ˈskaɪlɑ:k]",
+    "chinese": "发疯般的胡闹；开玩笑，胡闹"
+}, {
+    "english": "heterogeneous",
+    "symbols": "[ˌhetərəˈdʒi:niəs]",
+    "chinese": "各种各样的"
+}, {
+    "english": "ranch",
+    "symbols": "[rɑ:ntʃ]",
+    "chinese": "大牧场，大农场；经营牧场；经营牧场"
+}, {
+    "english": "mascot",
+    "symbols": "[ˈmæskət]",
+    "chinese": "吉祥物"
+}, {
+    "english": "untamable",
+    "symbols": "['ʌn'teɪməbl]",
+    "chinese": "不可驯养的，难驯服的，不能制服的"
+}, {
+    "english": "chestnut",
+    "symbols": "[ˈtʃesnʌt]",
+    "chinese": "栗子；栗色的"
+},  {
+    "english": "sergeant",
+    "symbols": "[ˈsɑ:dʒənt]",
+    "chinese": "[军]军士，中士"
+}, {
+    "english": "slender",
+    "symbols": "[ˈslendə(r)]",
+    "chinese": "苗条的"
+}, {
+    "english": "wrath",
+    "symbols": "[rɒθ]",
+    "chinese": "愤怒"
+}, {
+    "english": "tame",
+    "symbols": "[teɪm]",
+    "chinese": "驯服的；驯服"
+},  {
+    "english": "feller",
+    "symbols": "['felə]",
+    "chinese": "男朋友"
+}, {
+    "english": "Arizona",
+    "symbols": "[ˌæriˈzəunə]",
+    "chinese": "亚利桑那州（美国西南部的州）"
+}, {
+    "english": "quiver",
+    "symbols": "[ˈkwɪvə(r)]",
+    "chinese": "微颤，抖动；使震动；抖动"
+}, {
+    "english": "prick",
+    "symbols": "[prɪk]",
+    "chinese": "刺，扎，戳；刺，扎"
+}, {
+    "english": "discomfiture",
+    "symbols": "[dɪs'kʌmfɪtʃə(r)]",
+    "chinese": "困惑"
+}, {
+    "english": "trough",
+    "symbols": "[trɒf]",
+    "chinese": "水槽，食槽"
+}, {
+    "english": "cantle",
+    "symbols": "['kæntl]",
+    "chinese": "鞍后桥"
+}, {
+    "english": "bleed",
+    "symbols": "[bli:d]",
+    "chinese": "使出血；流血；散开；[印]出血版"
+}, {
+    "english": "picket",
+    "symbols": "[ˈpɪkɪt]",
+    "chinese": "木桩"
+}, {
+    "english": "obedience",
+    "symbols": "[ə'bi:dɪəns]",
+    "chinese": "服从"
+}, {
+    "english": "senorita",
+    "symbols": "[ˌsenjə'rɪtə]",
+    "chinese": "小姐，女士"
+}, {
+    "english": "intercession",
+    "symbols": "[ˌɪntə'seʃn]",
+    "chinese": "说情; 求情; "
+}, {
+    "english": "squeal",
+    "symbols": "[skwi:l]",
+    "chinese": "发尖叫声；长而尖锐的叫声"
+},  {
+    "english": "reveille",
+    "symbols": "[rɪˈvæli]",
+    "chinese": "起床号"
+}, {
+    "english": "reciprocate",
+    "symbols": "[rɪˈsɪprəkeɪt]",
+    "chinese": "回报；回报"
+}, {
+    "english": "lavish",
+    "symbols": "[ˈlævɪʃ]",
+    "chinese": "过分慷慨的；过分给予，滥施"
+}, {
+    "english": "whereabouts",
+    "symbols": "[ˈweərəbaʊts]",
+    "chinese": "在什么地方；下落"
+}, {
+    "english": "forlorn",
+    "symbols": "[fəˈlɔ:n]",
+    "chinese": "渺茫的; 绝望的，孤立无助的; 凄凉的，荒凉的; "
+}, {
+    "english": "hoarse",
+    "symbols": "[hɔ:s]",
+    "chinese": "嘶哑的"
+},{
+    "english": "protrude  ------------------------------------------------------",
+    "symbols": "[prəˈtru:d]",
+    "chinese": "使突出；突出"
+}, {
+    "english": "brass",
+    "symbols": "[brɑ:s]",
+    "chinese": "黄铜；〈英〉付（款）"
+}, {
+    "english": "mellow",
+    "symbols": "[ˈmeləʊ]",
+    "chinese": "圆润的；（使）成熟"
+}, {
+    "english": "audible",
+    "symbols": "[ˈɔ:dəbl]",
+    "chinese": "听得见的"
+}, {
+    "english": "cinder",
+    "symbols": "[ˈsɪndə(r)]",
+    "chinese": "煤渣"
+}, {
+    "english": "beckon",
+    "symbols": "[ˈbekən]",
+    "chinese": "（用头或手的动作）示意，召唤"
+}, {
+    "english": "perspiration",
+    "symbols": "[ˌpɜ:spəˈreɪʃn]",
+    "chinese": "汗"
+},  {
+    "english": "rivulet",
+    "symbols": "[ˈrɪvjələt]",
+    "chinese": "小河，小溪"
+},  {
+    "english": "Dakota",
+    "symbols": "[dəˈkəutə]",
+    "chinese": "达科他（美国过去一地区名，现分为南、北达科他州）；达科他人的"
+}, {
+    "english": "jingle",
+    "symbols": "[ˈdʒɪŋgl]",
+    "chinese": "叮当声；（使）叮当作响"
+}, {
+    "english": "furtively  -----------------------------------------------------------",
+    "symbols": "['fɜ:tɪvlɪ]",
+    "chinese": "偷偷地，秘密地"
+}, {
+    "english": "stalwart",
+    "symbols": "[ˈstɔ:lwət]",
+    "chinese": "坚定的; 可靠的"
+},{
+    "english": "swelter",
+    "symbols": "[ˈsweltə(r)]",
+    "chinese": "热得难受；热得难受，闷热"
+},{
+    "english": "sardine",
+    "symbols": "[ˌsɑ:ˈdi:n]",
+    "chinese": "沙丁鱼；紧紧地裹起来，塞满"
+},  {
+    "english": "mule",
+    "symbols": "[mju:l]",
+    "chinese": "骡子"
+},  {
+    "english": "Yucatan",
+    "symbols": "[]",
+    "chinese": "尤卡坦半岛"
+}, {
+    "english": "suffocation",
+    "symbols": "[ˌsʌfə'keɪʃn]",
+    "chinese": "窒息"
+}, {
+    "english": "bogie",
+    "symbols": "[ˈbəʊgi]",
+    "chinese": "妖怪，可怕的人（物）"
+}, {
+    "english": "broiling",
+    "symbols": "['brɔɪlɪŋ]",
+    "chinese": "酷热的，炽热的，似烧的"
+}, {
+    "english": "torpedoe",
+    "symbols": "[tɔ:ˈpi:dəʊ]",
+    "chinese": "鱼雷"
+}, {
+    "english": "coxswain",
+    "symbols": "[ˈkɒksn]",
+    "chinese": "艇长，舵手"
+}, {
+    "english": "doom",
+    "symbols": "[du:m]",
+    "chinese": "厄运；注定"
+}, {
+    "english": "postpone",
+    "symbols": "[pəˈspəʊn]",
+    "chinese": "使延期，延缓；延缓"
+}, {
+    "english": "imperative",
+    "symbols": "[ɪmˈperətɪv]",
+    "chinese": "必要的；势在必行的；命令"
+}, {
+    "english": "rudder",
+    "symbols": "[ˈrʌdə(r)]",
+    "chinese": "船舵"
+}, {
+    "english": "clumsy",
+    "symbols": "[ˈklʌmzi]",
+    "chinese": "笨拙的"
+}, {
+    "english": "hornet",
+    "symbols": "[ˈhɔ:nɪt]",
+    "chinese": "大黄蜂"
+}, {
+    "english": "aft",
+    "symbols": "[ɑ:ft]",
+    "chinese": "在船尾；在船尾的"
+}, {
+    "english": "sentry",
+    "symbols": "[ˈsentri]",
+    "chinese": "哨兵"
+}, {
+    "english": "veranda",
+    "symbols": "[vəˈrændə]",
+    "chinese": "阳台，走廊"
+}, {
+    "english": "awning",
+    "symbols": "[ˈɔ:nɪŋ]",
+    "chinese": "雨篷"
+}, {
+    "english": "indelible",
+    "symbols": "[ɪnˈdeləbl]",
+    "chinese": "不可磨灭"
+}, {
+    "english": "legation",
+    "symbols": "[lɪˈgeɪʃn]",
+    "chinese": "公使馆全体人员"
+},{
+    "english": "fume",
+    "symbols": "[fju:m]",
+    "chinese": "烟气，烟雾；冒烟；用烟熏"
+}, {
+    "english": "countersign",
+    "symbols": "[ˈkaʊntəsaɪn]",
+    "chinese": "连署，副署，会签 （文件）"
+}, {
+    "english": "ignominious",
+    "symbols": "[ˌɪgnəˈmɪniəs]",
+    "chinese": "耻辱的"
+}]

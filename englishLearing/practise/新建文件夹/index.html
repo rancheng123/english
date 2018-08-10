@@ -87,6 +87,12 @@
 
 
                     if( h.code == 0){
+
+                        $.each(h.content.positionResult.result,function(i,ele){
+                            ele.pageNum = pageNum;
+                        })
+
+
                         totalList = totalList.concat(h.content.positionResult.result);
 
                         var a = totalList;
@@ -134,28 +140,7 @@
         });
 
 
-        Array.prototype.distinct = function(){
-
-            var arr = this,
-                result = [],
-                i,
-                j,
-                len = arr.length;
-            for(i = 0; i < len; i++){
-                for(j = i + 1; j < len; j++){
-                    if(arr[i].companyName === arr[j].companyName){
-                        j = ++i;
-                    }
-                }
-                result.push(arr[i]);
-            }
-            return result;
-        }
-
-        var quchongResult = result.distinct();
-
-
-        var result2 = $.map(quchongResult,function(ele,i){
+        var result2 = $.map(result,function(ele,i){
             return {
                 companyName: ele.companyFullName,
                 shortName: ele.companyShortName,

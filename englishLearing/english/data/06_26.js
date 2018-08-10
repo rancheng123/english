@@ -114,7 +114,7 @@ wordJson["06_26"] = [{
     "english": "conciliatory",
     "symbols": "[kənˈsɪliətəri]",
     "chinese": "调和的"
-}, {s
+}, {
     "english": "harry",
     "symbols": "[ˈhæri]",
     "chinese": "一再骚扰；恶魔，恶鬼"

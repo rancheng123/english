@@ -6,6 +6,289 @@ var module = that.cache.currentRoute.module;
 var action = that.cache.currentRoute.action || 'init';
 
 
+
+var obj = {
+    a: {
+        a:1,
+        b: {
+            a:1,
+            name: 'rancheng'
+        }
+    },
+    b: {
+        name: 'rancheng',
+        c: {
+            name: 'rancheng'
+        }
+    }
+};
+
+var count = 0;
+getRancheng(obj);
+console.log(count);
+function getRancheng(json){
+    for(var key in json){
+        var type = Object.prototype.toString.call(json[key]);
+        if(type == "[object Object]"){
+            getRancheng(json[key])
+        }else{
+            if(json[key] == 'rancheng'){
+                count++;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+var xhr = new XMLHttpRequest();
+xhr.open('POST',"http://192.168.0.44:8084/qjlianlian/front/v1/ad/getHeadList",true);
+xhr.setRequestHeader('Content-Type','application/json');
+xhr.send('{"adCity":"北京市"}');
+xhr.onreadystatechange = function(){
+
+    if(xhr.readyState == 4 && xhr.status == 200){
+        console.log(xhr.responseText)
+    }
+}
+
+
+var oScript = document.createElement('script');
+oScript.src='http://192.168.0.44:8084/qjlianlian/front/v1/ad/getHeadList?a=1&b=2';
+document.body.appendChild(oScript);
+
+window['callback'] = function(data){
+    alert(data);
+
+    document.body.removeChild(oScript);
+
+
+}
+
+
+
+getByClass function(className){
+    if(document.getElementsByClassName){
+        return document.getElementsByClassName(className);
+    }else{
+        var res = [];
+        var all = document.getElementsByTagName('*');
+        for(var i=0;i<all.length;i++){
+            if(all[i].className.match(new RegExp('\\b'+className+'\\b'))){
+                res.push(all[i])
+            }
+        };
+        return res;
+    }
+}
+
+getStyle function(obj,attr){
+    return obj.currentStyle? obj.currentStyle[attr] : getComputedStyle(obj,false)[attr]
+}
+
+
+
+function deepCopy(obj){
+    var newObj = {};
+    for(var key in obj){
+        var type = Object.prototype.toString.call(obj[key]);
+        if(type == '[object Object]'){
+            newObj[key] = deepCopy(obj[key])
+        }else{
+            newObj[key] = obj[key]
+        }
+    }
+    return newObj
+}
+deepCopy({
+    a: {
+        a:1
+    }
+})
+
+
+function Lazyman(name){
+    var that = this;
+    that.tasks = [];
+
+
+    that.tasks.push(function(){
+        console.log('This is '+name);
+        that.next();
+    });
+
+    //等待后面注册任务
+    setTimeout(function(){
+        that.next();
+    },5)
+
+
+}
+Lazyman.prototype = {
+    next: function(){
+        var task = this.tasks.shift();
+        task && task();
+    },
+    eat: function(mealType){
+        var that = this;
+        that.tasks.push(function(){
+            console.log('eat '+mealType)
+            that.next();
+        })
+        return that;
+    },
+    sleep: function(time){
+        var that = this;
+        that.tasks.push(function(){
+            setTimeout(function(){
+                console.log('sleep' + time);
+                that.next();
+            },time*1000)
+        })
+        return that;
+    },
+    sleepFirst: function(time){
+        var that = this;
+        that.tasks.unshift(function(){
+            setTimeout(function(){
+                console.log('sleepFirst' + time);
+                that.next();
+            },time*1000)
+        })
+        return that;
+    }
+}
+
+var ran = new Lazyman('rancheng').sleep(5).eat('breakfast').sleepFirst(3);
+
+
+
+
+
+
+
+
+
+var timer;
+document.getElementById('kw').oninput = function(){
+    if(!timer){
+        timer = setTimeout(function(){
+            console.log(1);
+            clearTimeout(timer);
+            timer = null;
+        },2000)
+    }
+}
+
+
+
+
+
+
+
+var fn = x=1=>2;
+fn();
+
+{a,b,c}
+
+class A {
+    constructor(name,age){
+        this.name=name;
+    }
+    walk(){
+
+    }
+}
+
+class B extends A{
+    constructor(name,age,job){
+        super(name,age)
+        this.job = job;
+    };
+    fight(){
+
+    }
+}
+
+
+fetch(new request({
+    url: 'a.php',
+    body:
+})).then(function(){
+
+})
+
+
+
+var arr = [1,2,6,2,3,4,3,3,3,3,3,2,1,3,4,5,7,8,7,7,6,3,4,5,6,7,8,9,10,11];
+var res = [];
+findJishu(arr)
+function findJishu(arr){
+    var num = arr.shift();
+    if(num && num%2==1){
+        res.push(num);
+    }
+    if(arr.length){
+        findJishu(arr)
+    }
+}
+console.log(res)
+
+
+var createPerson = (function (){
+    var person;
+    return function(){
+        if(!person){
+            person = new Person();
+        }
+        return person;
+    }
+})()
+
+
+var result = [];
+
+
+var beforeObj = {
+    a: {},
+    b: {
+
+    }
+}
+
+var afterObj = {
+    a: {},
+    b: {
+        b:1
+    },
+    c: {}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 */
@@ -99,7 +382,7 @@ Utils.requestData({
                     }
                 });
                 /*
-                 salutation
+                 Ten years ago, you are a
 
                  */
 
@@ -426,7 +709,19 @@ router.get('/*', function(req, res){
             disoblige.mature = function(){
             /*
 
+Handjob
+From Wikipedia, the free encyclopedia
+Jump to navigationJump to search
 
+A female stimulating a male's erect penis
+A handjob is the manual stimulation of the penis or scrotum by another person to induce sexual pleasure, sometimes resulting in orgasm. Manual stimulation of the vagina, clitoris or rest of the vulva is fingering, while the manual stimulation of the genitals performed between two people is mutual masturbation. For circumcised people, lubrication is commonly used, while in uncircumcised people, a handjob is performed by moving the foreskin back and forth.
+
+Prevalence in massage parlors
+In massage parlours a masseuse, whether as part of the massage itself or directly after it, may perform a handjob on their customer; this is known by the euphemism "happy ending".[1][2]
+
+According to a 1975 study by A. J. Velarde, in an unnamed American West Coast city, offering the client a handjob was a service masseuses were employed to give. Subsequent newspaper publicity caused by public awareness of the prevalence of this practice caused local governments to impose licensing requirements on masseuses, similar to the ones imposed on prostitutes. The sexual nature of this licensing led to an attitude that massage parlors would now offer sexual intercourse. Masseuses felt that they had nothing to lose by acting as prostitutes, and because the new regulations classified them as sex workers, masseuses often complied. This gave rise to more prostitution and solicitation in the city.[3][4]
+
+An investigation by Time Out New York in January 2011 found many New York City massage parlors advertising "sensual massage" and providing handjobs. The parlors charged from $60 to $160, with an extra tip for the sex workers (usually $40) for a massage and manual "happy ending". Most of the massage parlors reviewed were "rub and tug joints" where handjobs were the only sexual services provided, and there was a strict policy of the male clients not touching the female workers.[5]
 
              */
             }
@@ -466,10 +761,13 @@ router.get('/*', function(req, res){
 
         /*
 
+
+
          */
 
          archer.spike.jurist = function(){
 
+             contect
          }
         describe('setHeaders', function() {
             before(function() {
@@ -491,628 +789,72 @@ router.get('/*', function(req, res){
             });
 
             /*
-         
+                             找一个怎样的人？
+                                 能力： 中等，听话
+                                     react
 
-             "english": "megalitre ",
-             "symbols": "[me'ɡəli:tər]",
-             "chinese": "兆升"
-             }, {
-             "english": "sewerage",
-             "symbols": "[ˈsu:ərɪdʒ]",
-             "chinese": "污物处理（系统）"
-             }, {
-             "english": "bulletin",
-             "symbols": "[ˈbʊlətɪn]",
-             "chinese": "公告，公报；公布，公告"
-             }, {
-             "english": "gay",
-             "symbols": "[geɪ]",
-             "chinese": "男同性恋的；同性恋者（尤指男性）"
-             }, {
-             "english": "chromosome",
-             "symbols": "[ˈkrəʊməsəʊm]",
-             "chinese": "染色体"
-             }, {
-             "english": "Basque",
-             "symbols": "[bɑ:sk]",
-             "chinese": "巴斯克人[语]，一种妇人用短上衣；巴斯克人的"
-             }, {
-             "english": "seamen",
-             "symbols": "['si:mən]",
-             "chinese": "水兵，水手，海员( seaman的名词复数 )"
-             }, {
-             "english": "gypsy",
-             "symbols": "['dʒɪpsɪ]",
-             "chinese": "吉普赛人；吉普赛人的；流浪"
-             }, {
-             "english": "quadruple",
-             "symbols": "[kwɒˈdru:pl]",
-             "chinese": "四倍的；四倍；使乘四或被四乘"
-             }, {
-             "english": "Leicester",
-             "symbols": "[null]",
-             "chinese": "莱斯特（英国城市）"
-             }, {
-             "english": "facto",
-             "symbols": "['fæktəʊ]",
-             "chinese": "事实上，实际上"
-             }, {
-             "english": "monolingual",
-             "symbols": "[ˌmɒnəˈlɪŋgwəl]",
-             "chinese": "单语的，只用一种语言的"
-             }, {
-             "english": "Hebrides",
-             "symbols": "[ˈhebridi:z]",
-             "chinese": "赫布里底群岛（英国苏格兰西部）"
-             }, {
-             "english": "coronation",
-             "symbols": "[ˌkɒrəˈneɪʃn]",
-             "chinese": "加冕礼"
-             }, {
-             "english": "Nova Scotia",
-             "symbols": "[ˈnəuvəˈskəuʃə]",
-             "chinese": "新斯科舍（加拿大省名）;"
-             }, {
-             "english": "abbey",
-             "symbols": "[ˈæbi]",
-             "chinese": "修道院，大教堂，大寺院"
-             }, {
-             "english": "commentator",
-             "symbols": "[ˈkɒmənteɪtə(r)]",
-             "chinese": "（电台的）时事评论员，实况广播报导员"
-             }, {
-             "english": "Sikhism",
-             "symbols": "[ˈsi:kˌɪzəm]",
-             "chinese": "锡克教"
-             }, {
-             "english": "Presbyterian",
-             "symbols": "[ˌprezbɪˈtɪəriən]",
-             "chinese": "长老派成员（长老会为苏格兰国教及美国最大教会之一）；长老会的"
-             }, {
-             "english": "Methodist",
-             "symbols": "[ˈmeθədɪst]",
-             "chinese": "卫理公会教徒；卫理公会教派的"
-             }, {
-             "english": "Anglican",
-             "symbols": "[ˈæŋglɪkən]",
-             "chinese": "英国国教会的；圣公会的信徒"
-             }, {
-             "english": "veteran",
-             "symbols": "[ˈvetərən]",
-             "chinese": "退伍军人；老兵的"
-             }, {
-             "english": "expulsion",
-             "symbols": "[ɪkˈspʌlʃn]",
-             "chinese": "驱逐"
-             }, {
-             "english": "incentive",
-             "symbols": "[ɪnˈsentɪv]",
-             "chinese": "动机；刺激性的"
-             }, {
-             "english": "curriculum",
-             "symbols": "[kəˈrɪkjələm]",
-             "chinese": "全部课程，课程"
-             }, {
-             "english": "Aberdeen",
-             "symbols": "[ˌæbəˈdi:n]",
-             "chinese": "阿伯丁郡（苏格兰东部旧郡名）"
-             }, {
-             "english": "satirist",
-             "symbols": "[ˈsætərɪst]",
-             "chinese": "讽刺作家"
-             }, {
-             "english": "holistic",
-             "symbols": "[həʊˈlɪstɪk]",
-             "chinese": "全盘的，整体的"
-             }, {
-             "english": "grim",
-             "symbols": "[grɪm]",
-             "chinese": "冷酷的，残忍的"
-             }, {
-             "english": "couplet",
-             "symbols": "[ˈkʌplət]",
-             "chinese": "对联"
-             }, {
-             "english": "messiah",
-             "symbols": "[mə'saɪə]",
-             "chinese": "弥赛亚; 救世主耶稣; 救星; 解放者;"
-             }, {
-             "english": "prose",
-             "symbols": "[prəʊz]",
-             "chinese": "散文；用散文写，把…改写成散文"
-             }, {
-             "english": "chorus",
-             "symbols": "[ˈkɔ:rəs]",
-             "chinese": "合唱；合唱"
-             }, {
-             "english": "symphonic",
-             "symbols": "[sɪm'fɒnɪk]",
-             "chinese": "交响乐的"
-             }, {
-             "english": "tate",
-             "symbols": "[teit]",
-             "chinese": "少量，一小把，一绺头发"
-             }, {
-             "english": "exponent",
-             "symbols": "[ɪkˈspəʊnənt]",
-             "chinese": "指数；说明的"
-             }, {
-             "english": "stake",
-             "symbols": "[steɪk]",
-             "chinese": "股份；用桩支撑"
-             }, {
-             "english": "vertigo",
-             "symbols": "[ˈvɜ:tɪgəʊ]",
-             "chinese": "眩晕，头晕"
-             }, {
-             "english": "Wembley",
-             "symbols": "[]",
-             "chinese": "[地名] [澳大利亚、加拿大、英国] 文布利"
-             }, {
-             "english": "rugby",
-             "symbols": "[ˈrʌgbi]",
-             "chinese": "英式橄榄球"
-             }, {
-             "english": "stadia",
-             "symbols": "['steɪdɪə]",
-             "chinese": " 露天大型运动场，体育场( stadium的名词复数 );"
-             }, {
-             "english": "sportsmanship",
-             "symbols": "[ˈspɔ:tsmənʃɪp]",
-             "chinese": "运动员精神"
-             }, {
-             "english": "cricket",
-             "symbols": "[ˈkrɪkɪt]",
-             "chinese": "板球；打板球；公平的"
-             }, {
-             "english": "Wimbledon",
-             "symbols": "[ˈwimbldən]",
-             "chinese": "温布尔登（英国英格兰东南部城市）（位于伦敦附近，是著名的国际网球比赛地）"
-             }, {
-             "english": "thoroughbred",
-             "symbols": "[ˈθʌrəbred]",
-             "chinese": "纯种的动物（尤指马）；纯种的，良种的"
-             }, {
-             "english": "spectate ",
-             "symbols": "[spekˈteɪt]",
-             "chinese": "出席观看"
-             }, {
-             "english": "formula",
-             "symbols": "[ˈfɔ:mjələ]",
-             "chinese": "公式，准则"
-             }, {
-             "english": "snooker",
-             "symbols": "[ˈsnu:kə(r)]",
-             "chinese": "斯诺克台球；阻挠，阻止"
-             }, {
-             "english": "hurl",
-             "symbols": "[hɜ:l]",
-             "chinese": "丢下，用力投掷；猛投，猛掷"
-             }, {
-             "english": "expatriate",
-             "symbols": "[ˌeksˈpætriət]",
-             "chinese": "侨民，移居国外者；移居国外的；移居国外，放弃原国籍；使移居国外，使放弃国籍"
-             }, {
-             "english": "shinty",
-             "symbols": "[]",
-             "chinese": "简化曲棍球（苏格兰运动，每队12人）"
-             }, {
-             "english": "Poseidon",
-             "symbols": "[pɔˈsaidən]",
-             "chinese": "海神"
-             }, {
-             "english": "personification",
-             "symbols": "[pəˌsɒnɪfɪˈkeɪʃn]",
-             "chinese": "拟人化"
-             }, {
-             "english": "prong",
-             "symbols": "[prɒŋ]",
-             "chinese": "叉子齿"
-             }, {
-             "english": "trident",
-             "symbols": "[ˈtraɪdnt]",
-             "chinese": "三叉戟；三叉的"
-             }, {
-             "english": "bulldog",
-             "symbols": "[ˈbʊldɒg]",
-             "chinese": "斗牛犬"
-             }, {
-             "english": "Vanuatu",
-             "symbols": "[ˌvɑ:nu:ˈɑ:tu:]",
-             "chinese": "瓦努阿图（西南太平洋岛国）"
-             }, {
-             "english": "Algiers",
-             "symbols": "[ælˈdʒiəz]",
-             "chinese": "阿尔及尔（阿尔及利亚首都）"
-             }, {
-             "english": "Louisiana",
-             "symbols": "[]",
-             "chinese": "路易斯安那，（美国南部的州名）"
-             }, {
-             "english": "Algeria",
-             "symbols": "[æl'dʒɪərɪə]",
-             "chinese": "阿尔及利亚"
-             }, {
-             "english": "Indochina",
-             "symbols": "[ˈindəuˈtʃainə]",
-             "chinese": "印度支那"
-             }, {
-             "english": "vestige",
-             "symbols": "[ˈvestɪdʒ]",
-             "chinese": "遗迹"
-             }, {
-             "english": "proponent",
-             "symbols": "[prəˈpəʊnənt]",
-             "chinese": "提倡者"
-             }, {
-             "english": "apex",
-             "symbols": "[ˈeɪpeks]",
-             "chinese": "顶"
-             }, {
-             "english": "Domingue",
-             "symbols": "[]",
-             "chinese": "多米尼格"
-             }, {
-             "english": "Saint",
-             "symbols": "[null]",
-             "chinese": "[土木]圣维南原理"
-             }, {
-             "english": "Dominica",
-             "symbols": "[ˌdɔmiˈni:kə]",
-             "chinese": "多米尼加（西印度群岛岛国）"
-             }, {
-             "english": "",
-             "symbols": "[]",
-             "chinese": "(=Saturday)星期六 (=Street)街道"
-             }, {
-             "english": "St. Lucia",
-             "symbols": "[null]",
-             "chinese": "圣 露西娅"
-             }, {
-             "english": "Grenada",
-             "symbols": "[ɡrəˈneidə]",
-             "chinese": "格林纳达"
-             }, {
-             "english": "Tobago",
-             "symbols": "[təˈbeiɡəu]",
-             "chinese": "多巴哥岛"
-             }, {
-             "english": "sparse",
-             "symbols": "[spɑ:s]",
-             "chinese": "稀疏的"
-             }, {
-             "english": "Quebec",
-             "symbols": "[kwɪ'bek]",
-             "chinese": "魁北克"
-             }, {
-             "english": "Mississippi",
-             "symbols": "[ˌmɪsɪ'sɪpɪ]",
-             "chinese": "密西西比河（发源于美国中北部湖沼区，南注墨西哥湾，是世界上最大的河流之一），密西西比州（美国州名）"
-             }, {
-             "english": "aboriginal",
-             "symbols": "[ˌæbəˈrɪdʒənl]",
-             "chinese": "土著人的；土著居民"
-             }, {
-             "english": "mercantile ------------------------------------------------",
-             "symbols": "[ˈmɜ:kəntaɪl]",
-             "chinese": "重商主义的"
-             }, {
-             "english": "vigilance",
-             "symbols": "['vɪdʒɪləns]",
-             "chinese": "警惕"
-             }, {
-             "english": "Arkansas",
-             "symbols": "[ˈɑ:kənsɔ:]",
-             "chinese": "阿肯色州（美国中南部的州）"
-             }, {
-             "english": "Haiti",
-             "symbols": "['heɪtɪ]",
-             "chinese": "海地"
-             }, {
-             "english": "Verdun",
-             "symbols": "[vəˈdʌn, verˈdɜ:n]",
-             "chinese": "凡尔登（法国城市； 加拿大城市）"
-             }, {
-             "english": "Hispaniola",
-             "symbols": "[ˌhispənˈjəulə]",
-             "chinese": "伊斯帕尼奥拉岛（拉丁美洲西印度群岛中部）（即海地岛）"
-             }, {
-             "english": "outpost",
-             "symbols": "[ˈaʊtpəʊst]",
-             "chinese": "前哨"
-             }, {
-             "english": "resume",
-             "symbols": "[rɪ'zju:m]",
-             "chinese": "继续；简历"
-             }, {
-             "english": "Liberia",
-             "symbols": "[laɪ'bɪərɪə]",
-             "chinese": "利比里亚（西非国家）"
-             }, {
-             "english": "Seychelles",
-             "symbols": "[seiˈʃelz]",
-             "chinese": "塞舌尔"
-             }, {
-             "english": "sharpshooter",
-             "symbols": "[ˈʃɑ:pʃu:tə(r)]",
-             "chinese": "射击名手，神枪手"
-             }, {
-             "english": "indemnity",
-             "symbols": "[ɪnˈdemnəti]",
-             "chinese": "赔偿"
-             }, {
-             "english": "energetic",
-             "symbols": "[ˌenəˈdʒetɪk]",
-             "chinese": "精力充沛的，充满活力的"
-             }, {
-             "english": "Cambodia",
-             "symbols": "[kæm'bəʊdɪə]",
-             "chinese": "柬埔寨（亚洲国名）"
-             }, {
-             "english": "Caledonia",
-             "symbols": "[ˌkæliˈdəunjə]",
-             "chinese": "喀里多尼亚"
-             }, {
-             "english": "Mauritius",
-             "symbols": "[mə'rɪʃəs]",
-             "chinese": "毛里求斯（非洲岛国）"
-             }, {
-             "english": "Crimea",
-             "symbols": "[kraiˈmiə]",
-             "chinese": "克里米亚（半岛）"
-             }, {
-             "english": "Dakar",
-             "symbols": "[ˈdækə]",
-             "chinese": "达喀尔（塞内加尔首都）"
-             }, {
-             "english": "groundnut",
-             "symbols": "[ˈgraʊndnʌt]",
-             "chinese": "落花生"
-             }, {
-             "english": "exclusive",
-             "symbols": "[ɪkˈsklu:sɪv]",
-             "chinese": "排外的; 单独的;"
-             }, {
-             "english": "Tientsin",
-             "symbols": "[ˈtjenˈtsin]",
-             "chinese": "天津（=tianjin）"
-             }, {
-             "english": "missionary",
-             "symbols": "[ˈmɪʃənri]",
-             "chinese": "传教士；传教（士）的"
-             }, {
-             "english": "pillage",
-             "symbols": "[ˈpɪlɪdʒ]",
-             "chinese": "掠夺；抢劫，掠夺"
-             }, {
-             "english": "march",
-             "symbols": "[mɑ:tʃ]",
-             "chinese": "（坚定地向某地）前进；使前进；行军"
-             }, {
-             "english": "loot",
-             "symbols": "[lu:t]",
-             "chinese": "抢劫；抢劫，掠夺"
-             }, {
-             "english": "China's Summer palace",
-             "symbols": "[null]",
-             "chinese": "圆明园"
-             },  {
-             "english": "salon",
-             "symbols": "[ˈsælɒn]",
-             "chinese": "沙龙，客厅; 画廊; （营业性的） 厅，院; 美术展览会;"
-             }, {
-             "english": "Fontainebleau",
-             "symbols": "[ˈfɔntinbləu]",
-             "chinese": "枫丹白露 （法国北部城镇）（在巴黎东南，有著名的宫殿）"
-             }, {
-             "english": "regent",
-             "symbols": "['ri:dʒənt]",
-             "chinese": "摄政者；（用在名词后）摄政的"
-             }, {
-             "english": "squadron",
-             "symbols": "[ˈskwɒdrən]",
-             "chinese": "中队；把…编成中队"
-             }, {
-             "english": "headway",
-             "symbols": "[ˈhedweɪ]",
-             "chinese": "进展"
-             }, {
-             "english": "retaliation",
-             "symbols": "[rɪˌtæliˈeɪʃn]",
-             "chinese": "报复，反击"
-             }, {
-             "english": "shogunate",
-             "symbols": "['ʃəʊˌgʌnɪt]",
-             "chinese": "将军职位，将军政治，幕府时代"
-             }, {
-             "english": "Tokugawa",
-             "symbols": "[ˈtəuku:ˈɡɑ:wɑ:]",
-             "chinese": "德川（创建日本德川幕府的德川家族）"
-             }, {
-             "english": "Lebanon",
-             "symbols": "['lebənən]",
-             "chinese": "黎巴嫩（西南亚国家）"
-             }, {
-             "english": "annoyance",
-             "symbols": "[əˈnɔɪəns]",
-             "chinese": "恼怒，烦恼"
-             }, {
-             "english": "Sultan",
-             "symbols": "[ˈsʌltən]",
-             "chinese": "苏丹（某些伊斯兰教国家统治者的称号）"
-             }, {
-             "english": "festivity",
-             "symbols": "[feˈstɪvəti]",
-             "chinese": "欢庆"
-             }, {
-             "english": "sympathetic",
-             "symbols": "[ˌsɪmpəˈθetɪk]",
-             "chinese": "同情的，有同情心的"
-             }, {
-             "english": "cholera",
-             "symbols": "[ˈkɒlərə]",
-             "chinese": "霍乱"
-             }, {
-             "english": "stipend",
-             "symbols": "[ˈstaɪpend]",
-             "chinese": "（尤指牧师的）薪俸"
-             }, {
-             "english": "insurrection",
-             "symbols": "[ˌɪnsəˈrekʃn]",
-             "chinese": "暴动"
-             }, {
-             "english": "chateau",
-             "symbols": "[ʃæˈtəʊ]",
-             "chinese": "（法国封建时代的）城堡"
-             }, {
-             "english": "lancer",
-             "symbols": "[ˈlɑ:nsə(r)]",
-             "chinese": "(19世纪法国的)枪骑兵"
-             }, {
-             "english": "locust",
-             "symbols": "[ˈləʊkəst]",
-             "chinese": "蝗虫，蚱蜢"
-             }, {
-             "english": "sanity",
-             "symbols": "[ˈsænəti]",
-             "chinese": "神志正常"
-             }, {
-             "english": "contravention",
-             "symbols": "[ˌkɒntrə'venʃən]",
-             "chinese": "违背"
-             }, {
-             "english": "flotilla",
-             "symbols": "[fləˈtɪlə]",
-             "chinese": "小舰队，小型船队"
-             }, {
-             "english": "hinder",
-             "symbols": "[ˈhɪndə(r)]",
-             "chinese": "阻碍，妨碍；后面的，后方的"
-             }, {
-             "english": "partisan",
-             "symbols": "[ˌpɑ:tɪˈzæn]",
-             "chinese": "游击队的；游击队员"
-             }, {
-             "english": "eve",
-             "symbols": "[i:v]",
-             "chinese": "前夕，前夜"
-             }, {
-             "english": "waver",
-             "symbols": "[ˈweɪvə(r)]",
-             "chinese": "动摇；动摇"
-             }, {
-             "english": "cutoff",
-             "symbols": "['kʌtɔ:f]",
-             "chinese": " 中止;"
-             }, {
-             "english": "mill",
-             "symbols": "[mɪl]",
-             "chinese": "磨坊；研磨，粉碎；惊跑，乱闯"
-             }, {
-             "english": "siege",
-             "symbols": "[si:dʒ]",
-             "chinese": "围攻，围困，围城（期间）"
-             }, {
-             "english": "concession",
-             "symbols": "[kənˈseʃn]",
-             "chinese": "让步，迁就"
-             }, {
-             "english": "panorama",
-             "symbols": "[ˌpænəˈrɑ:mə]",
-             "chinese": "全景画; 全景照片; 一连串景象或事; 概论;"
-             }, {
-             "english": "Mauritania",
-             "symbols": "[ˌmɒrɪ'teɪnɪə]",
-             "chinese": "毛利塔尼亚（北非古国）"
-             }, {
-             "english": "Hanoi",
-             "symbols": "[hæˈnɔi]",
-             "chinese": "河内（越南首都）"
-             }, {
-             "english": "Mali",
-             "symbols": "['mɑ:lɪ]",
-             "chinese": "马里"
-             }, {
-             "english": "Niger",
-             "symbols": "[ni:'ʒeə(r)]",
-             "chinese": "尼日尔（非洲中西部国家）"
-             }, {
-             "english": "Chad",
-             "symbols": "[tʃæd]",
-             "chinese": "乍得湖（非洲中北部）（在乍得、尼日尔、尼日利亚、喀麦隆等国接界处）（计）孔屑"
-             }, {
-             "english": "Congo",
-             "symbols": "['kɒŋɡəʊ]",
-             "chinese": "刚果"
-             }, {
-             "english": "Gabon",
-             "symbols": "[ɡæ'bɒn]",
-             "chinese": "（国名）加蓬（位于非洲中西部，首都利伯维尔）"
-             }, {
-             "english": "Madagascar",
-             "symbols": "[ˌmædə'ɡæskə(r)]",
-             "chinese": "马达加斯加岛（非洲岛国）"
-             }, {
-             "english": "enclave",
-             "symbols": "[ˈenkleɪv]",
-             "chinese": "飞地（指在本国境内的隶属另一国的一块领土）"
-             }, {
-             "english": "warlord",
-             "symbols": "[ˈwɔ:lɔ:d]",
-             "chinese": "军阀"
-             }, {
-             "english": "manifesto",
-             "symbols": "[ˌmænɪˈfestəʊ]",
-             "chinese": "宣言；〈罕〉发表宣言[声明]"
-             }, {
-             "english": "benighted",
-             "symbols": "[bɪˈnaɪtɪd]",
-             "chinese": "愚昧无知"
-             }, {
-             "english": "uphold",
-             "symbols": "[ʌpˈhəʊld]",
-             "chinese": "支持"
-             }, {
-             "english": "hallmark",
-             "symbols": "[ˈhɔ:lmɑ:k]",
-             "chinese": "检验印记；给…盖上品质证明印记"
-             }, {
-             "english": "enslave",
-             "symbols": "[ɪnˈsleɪv]",
-             "chinese": "奴役"
-             }, {
-             "english": "Togo",
-             "symbols": "['təʊɡəʊ]",
-             "chinese": "多哥"
-             }, {
-             "english": "shell",
-             "symbols": "[ʃel]",
-             "chinese": "炮弹; 炮击;"
-             }, {
-             "english": "colon",
-             "symbols": "[ˈkəʊlən]",
-             "chinese": "冒号"
-             }, {
-             "english": "pied",
-             "symbols": "[paɪd]",
-             "chinese": "斑驳的，杂色的"
-             }, {
-             "english": "submissive",
-             "symbols": "[səbˈmɪsɪv]",
-             "chinese": "柔顺"
-             }, {
-             "english": "staunch",
-             "symbols": "[stɔ:ntʃ]",
-             "chinese": "坚定的，坚固的；止住"
-             }, {
-             "english": "Malagasy",
-             "symbols": "[ˌmælə'ɡæsɪ]",
-             "chinese": "马达加斯加人，马尔加什人（语）；马尔加什人（语）的"
-             }]
+                                     项目经验
+                                     能改bug
 
 
-             */
 
+
+
+
+
+
+
+
+
+                                证明有无工作经验
+                                     1. 如何防止连续发送请求
+                                     2. 图片上传有几种方式
+                                     3. 跨域有几种方式
+                                     3. 手机软键盘
+                                     4. 看工资要求
+                                     4. 同步与异步的理解
+
+
+
+                                证明有无能力
+                                     1.基础知识
+                                        作用域链，原型链
+                                        闭包
+                                        面向对象
+                                        事件代理
+
+                                        性能优化
+                                    -----------------------------------------------
+                                     1. nodeJS
+
+                                            webpack
+
+                                                代码切割
+
+                                     2. react
+
+                                            setState()之后，放生了哪些过程
+
+                                            如何理解单向数据流
+                                            react 组件间如何通讯
+
+                                     3. es6
+
+                                     4. 算法
+                                        去重
+                                        深拷贝
+
+                                     5. 设计模式
+
+                                             单例模式
+
+                                             观察者模式
+
+                                             适配器模式
+
+
+
+                         */
 
 
             it('GET /example.com should replace header', function(done) {
@@ -1191,6 +933,8 @@ router.get('/*', function(req, res){
          英国
          科学家： 牛顿   达尔文   史蒂芬霍金
          发明：   氢气   青霉素  DNA   蒸汽机火车  电动机   白炽灯  电话  电视   喷气式飞机发动机   现代计算机基本原理   世界网络
+         machine code, the computer
+
          2005年,206000本 书在英国出版。2006年英国成为世界上最大的图书出版国
 
          德国
@@ -1229,22 +973,91 @@ router.get('/*', function(req, res){
 
 
 
+            真的
+        https://order.duolabao.com/active/c?code=081Ms9VJ1H4TF60tfxUJ1g80VJ1Ms9Vl&state=%7C10011014664138299025465%7C%7CN%7CFIXCODE%7C%7Cuuide6e32e53d9daae93-6f20c5c%7C
+
+            https://order.duolabao.com/active/c?state=%7C10011014664138299025465%7C%7CN%7CFIXCODE%7C
+
+
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0; LLD-AL10 Build/HONORLLD-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044030 Mobile Safari/537.36 MicroMessenger/6.6.5.1280(0x26060536) NetType/WIFI Language/zh_CN
+
+        User-Agent: Mozilla/5.0 (Linux; Android 8.0; LLD-AL10 Build/HONORLLD-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044030 Mobile Safari/537.36 MicroMessenger/6.6.5.1280(0x26060536) NetType/WIFI Language/zh_CN
+
+
+        User-Agent: Mozilla/5.0 (Linux; Android 8.0; LLD-AL10 Build/HONORLLD-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044030 Mobile Safari/537.36 MicroMessenger/6.6.5.1280(0x26060536) NetType/WIFI Language/zh_CN
+
+
+        Cookie: open_idwxd77d285576f20c5c=ojiuXuBgBHdl8lkZVM6vV5nXL1T8; union_idwxd77d285576f20c5c=""; phone_num=""; dlb_cv=1.0.0; SERVERID=3; JSESSIONID=EF5579B2D24B4EB8A50FB03194635A35.s1
+
+
+
+
+        document.cookie='open_idwxd77d285576f20c5c=ojiuXuBgBHdl8lkZVM6vV5nXL1T8'
+        document.cookie='union_idwxd77d285576f20c5c=""'
+        document.cookie='phone_num=""'
+
+        document.cookie='dlb_cv=1.0.0'
+        document.cookie='SERVERID=3'
+        document.cookie='JSESSIONID=EF5579B2D24B4EB8A50FB03194635A35.s1'
+
 
 
 
 
 /* 张贺  start*/
-        36523
-        37311
-        37554
-        38859
-        38927
-        38949
-        39054
-        39114
-        39164
 
-        var totalList = [];
+
+        fable embroidery  superstition  lukewarm  pliant  ringlet  pliable  pigeon  parsley  anthropology
+        nonchalantly  brunch  prequel   gubernatorial  resonate  fixate  celibacy  epitomise   finale  expletive  banter  sexpot  labia  ode
+        Sinai  dub起绰号  heady  cerulean   mirage  Mahmoud  gruff  epiphany  interject  sprout  morph  Bedouin  reticent  venturesome  disorient  feta  siesta  charismatic  forebear
+        Cretan   ibex  tiptoed  scarper  beguile  lentil  pasta  Suez  slate  scenic  pinnacle  biblical  turquoise  marquis  cannibalize  headwater  creek  upstate
+        Virginia  sachem
+        creek  atrocity  trio  feint  presage  beset  machination  meager  disparage  acre  Appalachian  Antilles  repercussion
+        Genoa  electorate  Saxony  upheaval  Bohemia Silesia  centrifugal  sceptical  regnant  contiguous  diverge  renege  dubious  sieve   countermarch  mock  precarious  foothold
+        foray  defile  Tsarina  fallout  quiescent  pastel  hitherto  auxiliary  cockade  Stuart  sanctuary  annuity  charisma  emissary  Toulon  recrimination  barrage  mystique
+        Jacobite  Hanovarian  stubble  turnabout  overawe  Breslau  Hohenfriedberg  Reichenberg  Neapolitan  Milanese  vigilant  Turin  Naples  Venice  Bourbon  grandiose
+        half-dressed  Apennines  brusque  maul  foray  chevalier  concede  epithet  arbiter  carnation  carnatic  Madras  partake  dockyard  galleon  Martinique  Anguilla
+        homeward bullion  sporadic  van前部   cohesion  deride
+        exemplify  notch  expat  gastronomical  terracotta  debtor  chitchat  Valencia  flair  nuance
+        leafy  cartography  tome  friar  wile  Florentine  astound  juxtaposition  erase  warrant
+        bead  dew  abyss  punctuate  champagne  hypnotize  glide  lid  sinuous  evaluate  millimeter  ravenous  elastic  unfasten  umpteenth  pupil瞳孔  wand
+        wiggle  smack  dishevel  mesh  stroke  cupping  worn  shiny
+        fictitious  superfluous  whaling  Nimrod  grammar  thimble  crape  shawl  saucer  bushel  wardrobe  tarpaulin  Jerusalem  jest  ferriage  cent  penny
+        bearer  deduct  pence  rupee  ruble  lire  francs  tavern  grocer  fluctuation  wistful  apron  pigtail  stammer  asthmatic  waft  cushion
+        spinach  putter  addendum  antecedent  Malay  inclusion  verbose  homogeneity  anthropology  circumvent  quintessential  fanatical
+        asthma  wheeze  respiratory  verdant  ghat  allergy  fluffy  paediatrician  flare  charcoal  inhale  smog  puff  dander  ethereal  cleansing  bundle  choppy  dunk
+        sin  carousel  upside  maternal  rickshaw  wobbly  motorised  tricycle   stretcher dispenser  preliminary   steroid  fluorescent  fiasco  itemise  chemist
+        sinuous  emerald  tuk-tuk
+        Shikoku  perch  precarious  stilt  slump  windbreaker  yarn  barrow  smock  warily   （Ayano Saki）  scarecrow  rust  shed  kimono  lacquer  Osaka  kakashi
+        sip  braid  supervise  lounge  poignancy  minivan  stretchy  quilt  tuck  torso  scarves  copycat  ingrain  yellowtail  bream  bonito  crinkle
+        reticent  Kyoto  sketchy  enigmatic  beret  samurai  Mystification  calligraphic  rectangle
+
+        breadfruit  patriarch  waxy  soursop  passionfruit   hexagonal  fibrous  jackfruit  fig  outrigger bark  carb  custardy  fritter  gluten  pedigree  vanilla
+        gardenia  pulpy
+
+
+
+
+        http://www.bbc.com/travel/story/20180626-the-egyptian-hike-thats-rewriting-history
+        https://en.wikipedia.org/wiki/War_of_the_Austrian_Succession
+            https://en.wikipedia.org/wiki/War_of_the_Spanish_Succession
+                https://en.wikipedia.org/wiki/Dutch_Republic
+                    https://en.wikipedia.org/wiki/Thirty_Years%27_War
+                        https://en.wikipedia.org/wiki/Crimean_Khanate
+                            https://en.wikipedia.org/wiki/Mexican%E2%80%93American_War
+                                https://en.wikipedia.org/wiki/Montesquieu
+                                    https://en.wikipedia.org/wiki/Italy
+                                        https://en.wikipedia.org/wiki/War_of_Jenkins%27_Ear (Britain-Spain)
+
+
+
+
+        https://en.wikipedia.org/wiki/Amerigo_Vespucci
+            https://en.wikipedia.org/wiki/Treaty_of_Tordesillas
+                http://www.bbc.com/travel/story/20180628-the-scarecrow-master-of-shikoku-japan
+                    http://www.bbc.com/travel/story/20180517-the-island-fruit-that-caused-a-mutiny
+
+                var totalList = [];
         var pageNum= 1;
         var anchorId = '';
 
@@ -1267,6 +1080,11 @@ router.get('/*', function(req, res){
                             getList()
                         }else{
 
+
+
+
+
+
                             var realTotlList = totalList.distinct();
 
 
@@ -1281,6 +1099,8 @@ router.get('/*', function(req, res){
 
                             console.log(JSON.stringify(newArr))
                             //console.log(realTotlList)
+
+
                         }
 
                     }
@@ -1289,10 +1109,97 @@ router.get('/*', function(req, res){
         }
         getList();
 
+        bureaucracy  ornate  Antwerp  lolly   tit-for-tat  sober  jeopardy  aluminium  Geneva
+        patrilineal  steppe  Cossacks  disintegrate  clan  Tatar  thenceforth  veto  Genghis  mint  vanguard  galley  poeticize  burgeon  Volga  Caspian  sobriquet
 
 
 
-        Array.prototype.distinct = function(){
+
+        This section needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (November 2016) (Learn how and when to remove this template message)
+
+        Commander Tugai Bey leads the Tatar cavalry, by Juliusz Kossak.
+
+            Crimean Tatar Imams teach the Quran. Lithograph by Carlo Bossoli
+        The Turkish traveler writer Evliya Çelebi mentions the impact of Cossack raids from Azak upon the territories of the Crimean Khanate. These raids ruined trade routes and severely depopulated many important regions. By the time Evliya Çelebi had arrived almost all the towns he visited were affected by the Cossack raids. In fact, the only place Evliya Çelebi considered safe from the Cossacks was the Ottoman fortress at Arabat.[14]
+
+        The decline of the Crimean Khanate was a consequence of the weakening of the Ottoman Empire and a change in the balance of power in Eastern Europe favouring its neighbours. Crimean Tatars often returned from Ottoman campaigns without booty, and Ottoman subsidies were less likely for unsuccessful campaigns. Tatar cavalry, without sufficient guns, suffered great loss against European and Russian armies with modern equipment. By the late 17th century, Muscovite Russia became too strong a power for Crimea to pillage and the Treaty of Karlowitz (1699) outlawed further raids. The era of great slave raids in Russia and Ukraine was over, although brigands and Nogay raiders continued their attacks and Russian hatred of the Khanate did not decrease. These polito-economic losses led in turn to erosion of the khan's support among noble clans, and internal conflicts for power ensued. The Nogays, who provided a significant portion of the Crimean military forces, also took back their support from the khans towards the end of the empire.
+
+        In the first half of 17th century, Kalmyks formed the Kalmyk Khanate in the Lower Volga and under Ayuka Khan conducted many military expeditions against the Crimean Khanate and Nogays. By becoming an important ally and later part of the Russian Empire and taking an oath to protect its southeastern borders, the Kalmyk Khanate took an active part in all Russian war campaigns in 17th and 18th centuries, providing up to 40,000 fully equipped horsemen.
+
+            The united Russian and Ukrainian forces attacked the Khanate during the Chigirin Campaigns and the Crimean Campaigns. It was during the Russo-Turkish War, 1735-1739 that the Russians, under the command of Field-Marshal Münnich, finally managed to penetrate the Crimean Peninsula itself, burning and destroying everything on their way.
+
+            More warfare ensued during the reign of Catherine II. The Russo-Turkish War, 1768-1774 resulted in the Treaty of Kuchuk-Kainarji, which made the Crimean Khanate independent from the Ottoman Empire and aligned it with the Russian Empire.
+
+            The rule of the last Crimean khan Şahin Giray was marked with increasing Russian influence and outbursts of violence from the khan administration towards internal opposition. On 8 April 1783, in violation of the treaty (some parts of which had been already violated by Crimeans and Ottomans), Catherine II intervened in the civil war, de facto annexing the whole peninsula as the Taurida Governorate. In 1787, Şahin Giray took refuge in the Ottoman Empire and was eventually executed, on Rhodes, by the Ottoman authorities for betrayal. The royal Giray family survives to this day.
+
+            Through the 1792 Treaty of Jassy (Iaşi), the Russian frontier was extended to the Dniester River and the takeover of Yedisan was complete. The 1812 Treaty of Bucharest transferred Bessarabia to Russian control.
+
+            Government
+
+        At the Southern Border of Moscva state by Sergey Vasilievich Ivanov.
+            All Khans were from the Giray clan, which traced its right to rule to its descent from Genghis Khan. According to the tradition of the steppes, the ruler was legitimate only if he was of Genghisid royal descent (i.e. "ak süyek"). Although the Giray dynasty was the symbol of government, the khan actually governed with the participation of Qaraçı Beys, the leaders of the noble clans such as Şirin, Barın, Arğın, Qıpçaq, and in the later period, Mansuroğlu and Sicavut. After the collapse of the Astrakhan Khanate in 1556, an important element of the Crimean Khanate were the Nogays, who most of them transferred their allegiance from Astrakhan to Crimea. Circassians (Atteghei) and Cossacks also occasionally played roles in Crimean politics, alternating their allegiance between the khan and the beys. The Nogay pastoral nomads north of the Black Sea were nominally subject to the Crimean Khan. They were divided into the following groups: Budjak (from the Danube to the Dniester), Yedisan (from the Dniester to the Bug), Jamboyluk (Bug to Crimea), Yedickul (north of Crimea) and Kuban.
+
+            Internal affairs
+
+        Khan Qirim Girai, is known to have authorized the construction of many landmarks in Bakhchysarai and the Crimean Khanate.
+            Internally, the khanate territory was divided among the beys, and beneath the beys were mirzas from noble families. The relationship of peasants or herdsmen to their mirzas was not feudal. They were free and the Islamic law protected them from losing their rights. Apportioned by village, the land was worked in common and taxes were assigned to the whole village. The tax was one tenth of an agricultural product, one twentieth of a herd animal, and a variable amount of unpaid labor. During the reforms by the last khan Şahin Giray, the internal structure was changed following the Turkish pattern: the nobles' landholdings were proclaimed the domain of the khan and reorganized into qadılıqs (provinces governed by representatives of the khan).
+
+        Crimean law
+
+        Meñli I Giray at the court of Ottoman sultan Bayezid II
+        Crimean law was based on Tatar law, Islamic law, and, in limited matters, Ottoman law. The leader of the Muslim establishment was the mufti, who was selected from among the local Muslim clergy. His major duty was neither judicial nor theological, but financial. The mufti’s administration controlled all of the vakif lands and their enormous revenues. Another Muslim official, appointed not by the clergy but the Ottoman sultan, was the kadıasker, the overseer of the khanate’s judicial districts, each under jurisdiction of a kadi. In theory, kadis answered to the kadiaskers, but in practice they answered to the clan leaders and the khan. The kadis determined the day to day legal behavior of Muslims in the khanate.
+
+            Non-Muslim minorities
+
+        "Crimean Tatars travelling on the plains" by Carlo Bossoli.
+            Substantial non-Muslim minorities, Greeks, Armenians, Crimean Goths, Adyghe (Circassians), Venetians, Genoese, Crimean Karaites and Qırımçaq Jews, lived principally in the cities, mostly in separate districts or suburbs. Under the millet system, they had their own religious and judicial institutions. They were subject to extra taxes in exchange for exemption from military service, living like Crimean Tatars and speaking dialects of Crimean Tatar.[15] Mikhail Kizilov writes: "According to Marcin Broniewski (1578), the Tatars seldom cultivated the soil themselves, with most of their land tilled by the Polish, Ruthenian, Russian, and Walachian (Moldavian) slaves."[11]
+
+        The Jewish population was concentrated in Çufut Kale ('Jewish Fortress'), a separate town near Bahçeseray that was the Khan's original capital. As other minorities, they spoke a Turkic language. Crimean law granted them special financial and political rights as a reward, according to local folklore, for historic services rendered to an uluhane (first wife of a Khan). The capitation tax on Jews in Crimea was levied by the office of the uluhane in Bahçeseray.[16] The Jews in Crimea were actively involved in the slave trade.[11]
+
+        Economy
+
+        Crimean Tatar children. Detail of a portrait of Agha Dedesh at the court of King John II Casimir,
+            by Daniel Schultz.
+            The nomadic part of the Crimean Tatars and all the Nogays were cattle breeders. Crimea had important trading ports where the goods arrived via the Silk Road were exported to the Ottoman Empire and Europe. Crimean Khanate had many large, beautiful, and lively cities such as the capital Bahçeseray, Gözleve (Yevpatoria), Karasu Bazaar (Karasu-market) and Aqmescit (White-mosque) having numerous hans (caravansarais and merchant quarters), tanners, and mills. Many monuments constructed under the Crimean Khanate were destroyed or left in ruins after the Russian invasion.[17] Mosques, in particular were demolished or remade into Orthodox churches.[17] The settled Crimean Tatars were engaged in trade, agriculture, and artisanry. Crimea was a center of wine, tobacco, and fruit cultivation. Bahçeseray kilims (oriental rugs) were exported to Poland, and knives made by Crimean Tatar artisans were deemed the best by the Caucasian tribes. Crimea was also renowned for manufacture of silk and honey.
+
+            The slave trade (15th-17th century) in captured Ukrainians and Russians was one of the major sources of income of Crimean Tartar and Nogay nobility. In this process, known as harvesting the steppe, raiding parties would go out and capture, and then enslave the local Christian peasants living in the countryside.[18] In spite of the dangers, Polish and Russian serfs were attracted to the freedom offered by the empty steppes of Ukraine. The slave raids entered Russian and Cossack folklore and many dumy were written elegising the victims' fates. This contributed to a hatred for the Khanate that transcended political or military concerns. But in fact, there were always small raids committed by both Tatars and Cossacks, in both directions.[19] The last recorded major Crimean raid, before those in the Russo-Turkish War (1768–1774) took place during the reign of Peter I (1682–1725).[19]
+
+        Crimean art and architecture
+        Selim II Giray fountain
+
+        Fountain of Selim II Giray
+        The Selim II Giray fountain, built in 1747, is considered one of the masterpieces of Crimean Khanate's hydraulic engineering designs and is still marveled in modern times. It consists of small ceramic pipes, boxed in an underground stone tunnel, stretching back to the spring source more than 20 metres (66 feet) away. It was one of the finest sources of water in Bakhchisaray.
+
+        Bakhchisaray Fountain
+
+        The Bakhchisaray Fountain.
+
+            The Crimean Khan's Palace in Bakhchysaray, by Carlo Bossoli
+        One of the notable constructors of Crimean art and architecture was Qırım Giray, who in 1764 commissioned the fountain master Omer the Persian to construct the Bakhchisaray Fountain. The Bakhchisaray Fountain or Fountain of Tears is a real case of life imitating art. The fountain is known as the embodiment of love of one of the last Crimean Khans, Khan Qırım Giray for his young wife, and his grief after her early death. The Khan was said to have fallen in love with a Polish girl in his harem. Despite his battle-hardened harshness, he was grievous and wept when she died, astonishing all those who knew him. He commissioned a marble fountain to be made, so that the rock would weep, like him, forever.[20]
+
+        Regions and administration
+        Main regions outside of Qirim yurt (the peninsula)
+        Kaztsiv ulus (located in Kuban)
+        Yedychkul Horde
+        Djambayluk Horde
+        Yedisan Horde
+        Budzhak Horde
+        Prohnoinsk Palanka (possibly leased to the Zaporizhian Host) (located on the Kinburn peninsula)
+        Silistra Province, Ottoman Empire for sometime governed by Bakhchisaray
+        The peninsula itself was divided by the khan's family and several beys. The estates controlled by beys were called beylik. Beys in the khanate were as important as the Polish Magnats. Directly to the khan belonged Cufut-Qale, Bakhchisaray, and Staryi Krym (Eski Qirim). The khan also possessed all the salt lakes and the villages around them, as well as the woods around the rivers Alma, Kacha, and Salgir. Part of his own estate included the wastelands with their newly created settlements.
+
+        Part of the main khan's estates were the lands of the Kalha-sultan (Qalğa) who was next in the line of succession of the khan's family. He usually administered the eastern portion of the peninsula. Kalha also was Chief Commander of the Crimean Army in the absence of the Khan. The next hereditary administrative position, called Nureddin, was also assigned to the khan's family. He administrated the western region of the peninsula. There also was a specifically assigned position for the khan's mother or sister — Ana-beim — which was similar to the Ottomans' Valide Sultan. The senior wife of the Khan carried a rank of Ulu-beim and was next in importance to the Nureddin.
+
+        By the end of the khanate regional offices of the kaimakans, who administered smaller regions of the Crimean Khanate, were created.
+
+            Or Qapı (Perekop) had special status. The fortress was controlled either directly by the khan's family or by the family of Shirin.
+        Ottoman Empire territories
+        Kefe Eyalet, a seat of Ottomans in Crimea until 1774
+        Silistra Eyalet, the western coast of Black Sea, later Danube Vilayet
+
+
+
+            Array.prototype.distinct = function(){
 
             var arr = this,
                 result = [],

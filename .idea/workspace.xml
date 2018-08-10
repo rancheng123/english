@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7da4f4b3-de0b-47bc-952f-75130e006b80" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/englishLearing/english/data/06_26.js" afterPath="$PROJECT_DIR$/englishLearing/english/data/06_26.js" />
+      <change beforePath="$PROJECT_DIR$/englishLearing/english/index.html" afterPath="$PROJECT_DIR$/englishLearing/english/index.html" />
+      <change beforePath="$PROJECT_DIR$/englishLearing/english/learing/words.js" afterPath="$PROJECT_DIR$/englishLearing/english/learing/words.js" />
+      <change beforePath="$PROJECT_DIR$/englishLearing/practise/index.js" afterPath="$PROJECT_DIR$/englishLearing/practise/index.js" />
+      <change beforePath="$PROJECT_DIR$/englishLearing/practise/新建文件夹/index.html" afterPath="$PROJECT_DIR$/englishLearing/practise/新建文件夹/index.html" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="06_28.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/englishLearing/english/data/06_28.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14237">
+              <caret line="619" column="23" lean-forward="false" selection-start-line="619" selection-start-column="23" selection-end-line="619" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/englishLearing/english/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="258" column="55" lean-forward="false" selection-start-line="258" selection-start-column="55" selection-end-line="258" selection-end-column="55" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/englishLearing/practise/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1068" column="0" lean-forward="false" selection-start-line="1068" selection-start-column="0" selection-end-line="1068" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="06_29.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/englishLearing/english/data/06_29.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30613">
+              <caret line="1331" column="18" lean-forward="false" selection-start-line="1331" selection-start-column="16" selection-end-line="1331" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="words.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/englishLearing/english/learing/words.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248492">
+              <caret line="10804" column="0" lean-forward="false" selection-start-line="10804" selection-start-column="0" selection-end-line="10804" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>river</find>
+      <find>cannon</find>
+      <find>crouch</find>
+      <find>\bcro</find>
+      <find>extent</find>
+      <find>treach</find>
+      <find>展</find>
+      <find>trod</find>
+      <find>踩</find>
+      <find>bread</find>
+      <find>wide</find>
+      <find>hurrah</find>
+      <find>exha</find>
+      <find>gaunt</find>
+      <find>cast\b</find>
+      <find>hollow</find>
+      <find>narrat</find>
+      <find>pray</find>
+      <find>skipper</find>
+      <find>throng</find>
+      <find>scent</find>
+      <find>recov</find>
+      <find>神志</find>
+      <find>小屋\b</find>
+      <find>feeble</find>
+      <find>clutch</find>
+      <find>console</find>
+      <find>stalwart</find>
+      <find>bed\b</find>
+      <find>\bbed\b</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/englishLearing/english/findMusic/findMusic.js" />
+        <option value="$PROJECT_DIR$/englishLearing/english/readHistory/readHistory.js" />
+        <option value="H:/test/remote/index.html" />
+        <option value="$PROJECT_DIR$/englishLearing/english/data/06_29.js" />
+        <option value="$PROJECT_DIR$/englishLearing/english/learing/words.js" />
+        <option value="$PROJECT_DIR$/englishLearing/english/data/06_28.js" />
+        <option value="$PROJECT_DIR$/englishLearing/practise/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="229" />
+    <option name="y" value="11" />
+    <option name="width" value="1570" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="english" type="b2602c69:ProjectViewProjectNode" />
+              <item name="english" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="english" type="b2602c69:ProjectViewProjectNode" />
+              <item name="english" type="462c0819:PsiDirectoryNode" />
+              <item name="englishLearing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="english" type="b2602c69:ProjectViewProjectNode" />
+              <item name="english" type="462c0819:PsiDirectoryNode" />
+              <item name="englishLearing" type="462c0819:PsiDirectoryNode" />
+              <item name="english" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="english" type="b2602c69:ProjectViewProjectNode" />
+              <item name="english" type="462c0819:PsiDirectoryNode" />
+              <item name="englishLearing" type="462c0819:PsiDirectoryNode" />
+              <item name="english" type="462c0819:PsiDirectoryNode" />
+              <item name="learing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="english" type="b2602c69:ProjectViewProjectNode" />
+              <item name="english" type="462c0819:PsiDirectoryNode" />
+              <item name="englishLearing" type="462c0819:PsiDirectoryNode" />
+              <item name="english" type="462c0819:PsiDirectoryNode" />
+              <item name="readHistory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="english" type="b2602c69:ProjectViewProjectNode" />
+              <item name="english" type="462c0819:PsiDirectoryNode" />
+              <item name="englishLearing" type="462c0819:PsiDirectoryNode" />
+              <item name="practise" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7da4f4b3-de0b-47bc-952f-75130e006b80" name="Default" comment="" />
+      <created>1527821449766</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527821449766</updated>
+      <workItem from="1527821451816" duration="5593000" />
+      <workItem from="1528078259492" duration="11882000" />
+      <workItem from="1528166326578" duration="13113000" />
+      <workItem from="1529992943180" duration="10567000" />
+      <workItem from="1530065207911" duration="21108000" />
+      <workItem from="1530151601203" duration="17991000" />
+      <workItem from="1530237838681" duration="5024000" />
+      <workItem from="1530270765902" duration="5355000" />
+      <workItem from="1530583462313" duration="598000" />
+      <workItem from="1530669844893" duration="268000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="91499000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07850369" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12118019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/englishLearing/english/data/06_29.js</url>
+          <line>266</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/data/06_29.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30613">
+          <caret line="1331" column="18" lean-forward="false" selection-start-line="1331" selection-start-column="16" selection-end-line="1331" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/learing/words.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248492">
+          <caret line="10804" column="0" lean-forward="true" selection-start-line="10804" selection-start-column="0" selection-end-line="10804" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/practise/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24472">
+          <caret line="1064" column="18" lean-forward="true" selection-start-line="1064" selection-start-column="18" selection-end-line="1064" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/data/06_28.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20424">
+          <caret line="888" column="4" lean-forward="false" selection-start-line="888" selection-start-column="4" selection-end-line="888" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5934">
+          <caret line="258" column="55" lean-forward="false" selection-start-line="258" selection-start-column="55" selection-end-line="258" selection-end-column="55" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/data/06_29.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26197">
+          <caret line="1139" column="27" lean-forward="false" selection-start-line="1139" selection-start-column="16" selection-end-line="1139" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/learing/words.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187726">
+          <caret line="8162" column="44" lean-forward="true" selection-start-line="8162" selection-start-column="44" selection-end-line="8162" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/practise/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17848">
+          <caret line="776" column="76" lean-forward="true" selection-start-line="776" selection-start-column="76" selection-end-line="776" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/data/06_28.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20424">
+          <caret line="888" column="4" lean-forward="false" selection-start-line="888" selection-start-column="4" selection-end-line="888" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5934">
+          <caret line="258" column="55" lean-forward="false" selection-start-line="258" selection-start-column="55" selection-end-line="258" selection-end-column="55" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/data/06_29.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16813">
+          <caret line="731" column="18" lean-forward="false" selection-start-line="731" selection-start-column="16" selection-end-line="731" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/learing/words.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418876">
+          <caret line="18212" column="6" lean-forward="false" selection-start-line="18212" selection-start-column="4" selection-end-line="18212" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/practise/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22632">
+          <caret line="984" column="20" lean-forward="false" selection-start-line="984" selection-start-column="20" selection-end-line="984" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/data/06_28.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20424">
+          <caret line="888" column="4" lean-forward="false" selection-start-line="888" selection-start-column="4" selection-end-line="888" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/practise/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21735">
+          <caret line="945" column="0" lean-forward="false" selection-start-line="945" selection-start-column="0" selection-end-line="945" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/data/06_29.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3565">
+          <caret line="155" column="32" lean-forward="false" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/learing/words.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310454">
+          <caret line="13498" column="29" lean-forward="false" selection-start-line="13498" selection-start-column="29" selection-end-line="13498" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5934">
+          <caret line="258" column="55" lean-forward="false" selection-start-line="258" selection-start-column="55" selection-end-line="258" selection-end-column="55" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/data/06_28.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18929">
+          <caret line="823" column="22" lean-forward="true" selection-start-line="823" selection-start-column="22" selection-end-line="823" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="258" column="55" lean-forward="false" selection-start-line="258" selection-start-column="55" selection-end-line="258" selection-end-column="55" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/learing/words.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41837">
+          <caret line="1819" column="0" lean-forward="true" selection-start-line="1819" selection-start-column="0" selection-end-line="1819" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/readHistory/readHistory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4439">
+          <caret line="193" column="0" lean-forward="true" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/practise/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22632">
+          <caret line="984" column="31" lean-forward="true" selection-start-line="984" selection-start-column="31" selection-end-line="984" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/data/06_28.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11523">
+          <caret line="501" column="91" lean-forward="false" selection-start-line="501" selection-start-column="91" selection-end-line="501" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="263" column="13" lean-forward="true" selection-start-line="263" selection-start-column="13" selection-end-line="263" selection-end-column="13" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/learing/words.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38571">
+          <caret line="1677" column="43" lean-forward="false" selection-start-line="1677" selection-start-column="37" selection-end-line="1677" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/readHistory/readHistory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4439">
+          <caret line="193" column="10" lean-forward="true" selection-start-line="193" selection-start-column="10" selection-end-line="193" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/practise/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24012">
+          <caret line="1044" column="0" lean-forward="true" selection-start-line="1044" selection-start-column="0" selection-end-line="1044" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/data/06_28.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6187">
+          <caret line="269" column="7" lean-forward="true" selection-start-line="269" selection-start-column="7" selection-end-line="269" selection-end-column="7" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/learing/words.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248078">
+          <caret line="10786" column="41" lean-forward="false" selection-start-line="10786" selection-start-column="32" selection-end-line="10786" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/practise/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37237">
+          <caret line="1619" column="0" lean-forward="true" selection-start-line="1619" selection-start-column="0" selection-end-line="1619" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/对外知识/知识/社会知识/查找歌曲（按录音）/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/findMusic/findMusic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="95" lean-forward="false" selection-start-line="0" selection-start-column="95" selection-end-line="0" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/learing/将来的公司.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/data/06_26.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/data/06_27.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/词的来源.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/readHistory/readHistory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="200" column="4" lean-forward="true" selection-start-line="200" selection-start-column="4" selection-end-line="200" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/交接文档.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3072">
+          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/对外知识/知识/JS/前端架构/优异精彩/带队经验 教训总结.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/对外知识/知识/JS/前端架构/前端架构.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1518">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/对外知识/知识/JS/前端架构/优异精彩/面试体会.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/对外知识/candidate/candidateProgress.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/对外知识/candidate/question.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="1953" column="0" lean-forward="true" selection-start-line="1953" selection-start-column="0" selection-end-line="1953" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/test/remote/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="134" column="17" lean-forward="true" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/learing/words.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248492">
+          <caret line="10804" column="0" lean-forward="false" selection-start-line="10804" selection-start-column="0" selection-end-line="10804" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="258" column="55" lean-forward="false" selection-start-line="258" selection-start-column="55" selection-end-line="258" selection-end-column="55" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/data/06_29.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30613">
+          <caret line="1331" column="18" lean-forward="false" selection-start-line="1331" selection-start-column="16" selection-end-line="1331" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/english/data/06_28.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14237">
+          <caret line="619" column="23" lean-forward="false" selection-start-line="619" selection-start-column="23" selection-end-line="619" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/englishLearing/practise/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1068" column="0" lean-forward="false" selection-start-line="1068" selection-start-column="0" selection-end-line="1068" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

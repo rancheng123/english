@@ -1,0 +1,164 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="generator" content="Aspose.Words for .NET 15.1.0.0">
+    <title></title></head>
+<script src="../../js/0_jquery-1.11.1.js"></script>
+
+
+
+<body>
+
+<!-- 将此div 复制到  百度翻译页面 -->
+<div id="words">
+
+    cutter  baptise  ply  collier  algebra  hierarchy  swain  gratuity  postulate  australis  mishap  aground  shoal  Jakarta  interlude  hypothetical  scurvy  trinket  disrepute
+    walrus  inedible  rig  deification  incarnation
+    mast  surf  spyglass  bowel  reminiscent  tuberculosis  replenishment  mintage  vase
+    boulder  frigid  karst  frond  protein  epitome  seep  shun  grail  churn  scone  maple  toffee  potassium  buffet  coriander  therapy
+    Pennsylvania  Britannic  convoy  Ontario
+    refrigerator  fiery  girlie  strut  receptionest  sway  twitch  duckling  jot  gulp  cleavage  caress  glare  frown  piss  exstatic  stomp  balcony  brag  bloomer  babe
+    limo  bimbo  suitor  seethe   woo  shaft  etch  buddy  smug  bingo  devishly  bachelor  giddy  sizzle  adreniline  blurt
+    dammit  wink  libido  swollen  gasp  raspy  wriggle  wetness  womanhood  whimper  devour  buckle  brim  malfunction  manicure  shiver  cuddle  beam  glint
+    growl  buttock  grit  numb  bristle  flinch  piss  adorable  kitten  snatch  dammit  bartender  garage  spade  nudge  scowl  epilogue  diaper  chuckle
+    coddle  thrash  congenial  tragic  luxury  Yokohama  fastidious  recital  self-assertive  thrash  coward  perpetrate  escort  treachery  Yankee  traitor  thunder-bolt
+    hammock  eternity  buoy  concussion  heed  relinquish  acclimate  bulletin  endorse  exult  Manila  general上将  major少校
+    luggage  berth  haversack  wiry  prodigious  cartridge  trotter  yacht  Mauser  bronco  behoof  chum  hurdle  corporal下士;  remonstrate
+    prairie  tawny  bearing  brisk  antiquated  soliloquy gymkana  scouse  hushpuppy  rancher  trot  devilish  mare  bronco  dynamite  brute  sabe  cyclone  heterogeneous
+    fraternize  skylark  deftness  ranch  Arizona  mascot  chestnut  slender  untamable  snort  sergeant
+    wrath  tame feller  choke  quiver  prick  trough  saddle  stroke  discomfiture  pommel  cantle  bleed  picket  flinch  squeal  obedience  intercession  nimble  bridle  senorita
+    lavish  reciprocate  reveille  mellow  counsel  hoarse
+    whereabouts  forlorn  epaulette  brass  cinder  protrude  audible  begrime  rivulet  perspiration  coarse  beckon  turbulent  stalwart  Dakota  horrid  jingle  furtively  ply
+    exalt  handkerchief  swelter  bogie  sardine  mule  dim  vexatious  Yucatan  imperative  broiling  suffocation  exult  torpedoe  dingy  postpone
+    coxswain  doom  hornet  rudder  aft  clumsy  awning  lounge  veranda  sentry  fume  snort  perplexity  indelible  ignominious  legation  countersign  vouch  desertion
+
+
+</div>
+
+
+
+
+<script>
+
+    //注意  token 和 m  要替换
+
+
+
+
+    /*测试  start*/
+    // var wordArr = ["digress","feedback","hard","on","fluster","couch","ass","dick","hesitantly","paranoia","wrist","starfish","lingerie","ripping","flesh","pussy","belly","Shit","fidgeting","unzips","pop","eye","raping","vibrator","snicker","fingertip","clit","mutter","penetrates","flip","asshole","yelp","jam","hip","tits","climax","lick","waist","orgasm","boob","booth","winking","Wanna","rub","pelvis","lap","grip","dash","crawl","kneel","pat","drip","navel","Nipple","hickey","plunge","cranny","crevice","grind","squirt","Fountain","hooker","condoms","Myanmar","Lao","Bhutan","Bangladesh","Nope","blah","blowjob","slouch","sag","ensemble","shaggy","tingly","knot","drool","tease","mumble","coo","skull","denim","raccoon","wavy","rats","slash","legging","sneaker","sweatshirt","bun","outfit","lipgloss","tattoo","smirk","raging","splashed","blown","paragraph","drummer","snuck","intro","pouty","hum","rasp","tortuous","backpack","enticingly","lacy","exude","sigh","musky","scent","cafeteria","admitt","dreamboat","sinister","giggle","combust","nacho","tactic","popsicle","innuendo","chant","wuss","wrapper","bob","ferociously","catcall"];
+    // var times = 1;
+
+    // var wordArr = [1,2,3,4,5,6,7,8,9,10];
+    // var range = 3;
+    //var times = Math.ceil(wordArr.length/range);
+    /*测试  end*/
+        var range = 30;
+
+
+        var resultArr = [];
+        var words = $('#words').text()
+            .replace(/[\u4e00-\u9fa5\（\）]/g,'')
+            .replace(/\;/g,'')
+            .replace(/\-/g,' ')
+
+            .replace(/\s+/g,' ').trim().split(' ');
+        words.pop();
+        var wordArr = words;
+        var wordArrCount = 0;
+        var times = Math.ceil(wordArr.length/range);
+
+
+        //迭代 分批次
+        var cycleCount = 0;
+        var cycle = function(wordArr,range)
+        {
+            //取前**个
+            var subwordArr = wordArr.slice(cycleCount*range,(cycleCount+1)*range)
+            var subwordArrCount = 0;
+
+            for(j=0;j<subwordArr.length;j++){
+
+                var word = subwordArr[j];
+                $.ajax({
+                    type: "POST",
+                    url: "http://fanyi.baidu.com/v2transapi",
+                    cache: !1,
+                    data: {
+                        "from":"en",
+                        "to":"zh",
+                        "query":word,
+                        "transtype":"translang",
+                        "simple_means_flag":3,
+
+
+                        // m  要替换
+                        "sign":m(word),
+
+                        //token 要替换
+                        "token":"bbe62140545f9998506c169b6ae486d5"
+                    }
+
+
+                }).done(function(t) {
+
+
+
+                    if(typeof t.dict_result == 'undefined' || typeof t.dict_result.simple_means == 'undefined'){
+                        if(typeof t.dict_result == 'undefined'){
+                            //debugger
+                        }
+                        var json = {"english": t.trans_result.data[0].src, "symbols": "[]", "chinese": ""};
+                    }else{
+                        var json = {
+                            "english": t.dict_result.simple_means.word_name,
+                            "symbols": "["+ t.dict_result.simple_means.symbols[0].ph_en +"]",
+                            "chinese": $.map(t.dict_result.simple_means.symbols[0].parts,function(mean,i){
+                                return  mean.means[0]
+                            }).join('；')
+                        };
+                    }
+
+                    resultArr.push(json);
+                    subwordArrCount++;
+                    wordArrCount++;
+                    if(wordArrCount == wordArr.length){
+
+                        //console.log(JSON.stringify(resultArr))
+
+                        console.log('wordJson["06_14"] = '+ JSON.stringify(resultArr) )
+
+                        debugger
+                    }
+                    if(subwordArrCount == range){
+                        //debugger
+                        cycleCount++;
+                        if(cycleCount < times)
+                        {
+                            setTimeout(function () {
+                                cycle(wordArr,range)
+                            },1000)
+
+                        }
+                    }
+
+                })
+
+            }
+
+
+
+        };
+        cycle(wordArr,range)
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
