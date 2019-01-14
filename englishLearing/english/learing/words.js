@@ -199,7 +199,7 @@ traffic
                      卸船
                      lade out
             运送
-                ferry  
+                ferry
                 carry
                      运费; 运输，输送
                      carriage
@@ -800,7 +800,7 @@ human
 
                              相识; 相识的人，熟人; 对…有了解
                              acquaintance
-                             
+
                      密切关系，姻亲关系; （男女之间的） 吸引力，吸引人的异性;
                      affinity
 
@@ -835,7 +835,7 @@ human
 
                     赞成者；赞成地
                     pro
-                    
+
                     grant
                     consent
                          赞同; 赞成：赞成
@@ -1247,7 +1247,7 @@ human
 
                      心血管的
                      cardiovascular
-                     
+
                 胃
                 stomach
                     胃不舒服
@@ -2887,6 +2887,11 @@ human
                     有利的; 优越
                     advantageous
 
+                    优势，有利地位
+                    vantage
+
+
+
             帮助，效劳
             oblige
                  不亲切的，薄情的，不体贴的
@@ -3552,7 +3557,7 @@ human
 
              惊恐的，悸惧的，不安的
              trepid
-            
+
                  大胆，刚勇; 大胆的行为
                  intrepidity
 
@@ -4494,6 +4499,9 @@ human
         拨款; 补助金;
             grant
 
+            汇款；汇款；提交，移交事项
+            remit
+
         储蓄，存款
             deposit    saving
 
@@ -4650,7 +4658,7 @@ human
                          archly
                              狡猾，淘气;
                              archness
-                         
+
                          狡猾的; 灵巧的; 奸诈的;狡猾; 狡黠; 诡诈
                          cunning
 
@@ -4738,7 +4746,7 @@ human
                 深思; 沉思
                 meditate
 
-                ponder   
+                ponder
                 consider
                      不值得考虑的;无足轻重的; 微小的; 价值低的
                      inconsiderable
@@ -5757,7 +5765,7 @@ human
 
             liberal
                 liberation
-                
+
                 自由
                 liberty
 
@@ -7540,7 +7548,7 @@ economy
         metal
             金属的; 金属性的; 金属制的; 含金属的
             metallic
-            
+
 
             合金; （合金中的） 劣等金属; 搀杂品; 成色
             alloy
@@ -8617,11 +8625,11 @@ militray
 
 
      人物
-        aide  
+        aide
         chief
              主要; 首先，第一; 尤其
              chiefly
-             
+
         commander
 
              上校
@@ -8855,7 +8863,7 @@ militray
 
             子弹，弹药;
             bullet
-            
+
                  子弹，弹药筒
                  cartridge
 
@@ -10194,7 +10202,7 @@ music
 
              人口
              population
-             
+
              平民主义，平民论;
              populism
 
@@ -12375,7 +12383,7 @@ land, landmass
             shire
                  赫特福德郡
                  Hertfordshire
-         
+
          领地
             territary
 
@@ -12424,6 +12432,9 @@ land, landmass
 
                  测距仪
                  rangefinder
+
+                 护林者
+                 ranger
 
             范围; 眼界，见识
             scope
@@ -12677,6 +12688,9 @@ weather
  wind
         windy
 
+        风味；（风）猛刮
+        gust
+
         微风；吹微风
         breeze
 
@@ -12786,6 +12800,9 @@ weather
 
         结霜; 霜冻，结霜
         frost
+
+          冻伤；参加冬季帆船比赛；使冻伤
+          frostbite
 
         冰雹；下冰雹；致敬
         hail
@@ -13738,7 +13755,7 @@ things
             little some few
 
             罕见的，稀有的;
-            rare   
+            rare
             scarce
                  稀少; 不足，缺乏; 萧条
                  scarcity
@@ -14787,10 +14804,10 @@ math
 
              超过; 超额量; 多余量;超重的，过量的，额外的;
              excess
-             
+
                  过分地; 过度地; 极度地
                  excessively
-             
+
         超过; 优于; 胜过
         surpass
 
@@ -15065,7 +15082,7 @@ math
 
 -------------------------------------------------
     优点
-        advantage
+
 
         擅长;优于
         excel
@@ -15547,10 +15564,10 @@ rule
 
              催促; 使忙碌;奔忙; 忙乱
              bustle
-            
+
              匆忙，急忙;
              hurry
-            
+
                  快点
                  in a hurry
 
@@ -15565,8 +15582,8 @@ rule
 
              急匆匆地走；快步急跑，疾走
              scurry
-    
-    
+
+
      慢
         slow
 
@@ -16435,7 +16452,7 @@ rule
          偷笑，窃笑；窃笑着说；窃笑
          snicker
 
-         
+
 
 
     哭
@@ -16505,7 +16522,7 @@ rule
 
                      抛弃，遗弃（情人）
                      jilt
-                 
+
 
             约会
             date
@@ -17499,6 +17516,9 @@ rule
              （尤指岩石的）裂缝，缺口
              crevice
 
+             缝合，接合；裂开，发生裂痕
+             seam
+
      关
         close
 
@@ -17943,7 +17963,7 @@ rule
 
                  接近的，大概的，约莫的
                  approximate
-                 
+
              接壤; 邻接; 邻近;
              neighbour
 
@@ -19107,7 +19127,7 @@ rule
 
                  怜悯，同情;
                  commiseration
-             
+
              可怜，悲惨
              wretchedness
 
@@ -20210,6 +20230,9 @@ vessel (tank)
          签字人， 签约国；签署的，签约的
          signatory
 
+         证章，官职的标志（如肩章、领章等）
+         insignia
+
          签名
          endorse
 
@@ -20807,7 +20830,7 @@ time
              灾祸
              mishap
 
-        
+
         忍受
             suffer  sustain
 
@@ -21509,11 +21532,11 @@ cloth
                      thread
                          穿旧的;（衣物破损的）
                          thread-bare
-                         
-                         
+
+
                          破布
                          rag
-                         
+
                              衣着破烂的，衣衫褴褛的
                              ragged
 
@@ -21568,7 +21591,7 @@ cloth
 
             制服(学生制服，或工作制服);使穿制服
             uniform
-            
+
                  统一的，始终如一的
                  uniform
 
@@ -21638,6 +21661,9 @@ cloth
 
              饰头巾，头发编梳的式样
              headdress
+
+             贝雷帽
+             beret
 
 
 
@@ -22331,6 +22357,9 @@ nations
                  喜玛拉雅的
                  Himalayan
 
+                   喜马拉雅山脉
+                   Himalayas
+
             Japan
 
                  将军职位，将军政治，幕府时代
@@ -22427,6 +22456,9 @@ nations
 
         Afghanistan
 
+            库纳尔
+            Kunar
+
         Palestine
 
              巴勒斯坦的；巴勒斯坦人[居民]
@@ -22438,6 +22470,9 @@ nations
 
              腓尼基的，腓尼基人的
              Phoenician
+
+             汉尼拔（前247-前183，迦太基统帅）
+             Hannibal
 
         黎巴嫩
         Lebanon
@@ -22725,6 +22760,9 @@ nations
                  卡佩（Hugues，940—996，法国封建王朝的建立者）
                  Capet
 
+                 波拿巴（姓氏，法国科西嘉岛上的家族； Napoleon, 1769-1821，法国皇帝， 1804-1815在位）
+                 Bonaparte
+
 
             雅利安人的
             Aryan
@@ -22807,6 +22845,9 @@ nations
 
                  热那亚
                  Genoa
+
+                 亚平宁
+                 Apennine
 
              Greece
                  克利特岛（位于地中海东部，属希腊）
@@ -23159,6 +23200,9 @@ profile  contour
 
                  周长; 周围，边界
                  perimeter
+
+                   仙女；周围
+                   peri
 
              半径范围; 半径（距离）
              radius
