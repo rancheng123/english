@@ -1,0 +1,172 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="generator" content="Aspose.Words for .NET 15.1.0.0">
+    <title></title></head>
+<script src="../../js/0_jquery-1.11.1.js"></script>
+
+
+
+<body>
+
+<!-- 将此div 复制到  百度翻译页面 -->
+<div id="words">
+
+
+    fable embroidery  superstition  lukewarm  pliant  ringlet  pliable  pigeon  parsley  anthropology
+    nonchalantly  brunch  prequel   gubernatorial  resonate  fixate  celibacy  epitomise   finale  expletive  banter  sexpot  labia  ode
+    Sinai  dub起绰号  heady  cerulean   mirage  Mahmoud  gruff  epiphany  interject  sprout  morph  Bedouin  reticent  venturesome  disorient  feta  siesta  charismatic  forebear
+    Cretan   ibex  tiptoed  scarper  beguile  lentil  pasta  Suez  slate  scenic  pinnacle  biblical  turquoise  marquis  cannibalize  headwater  creek  upstate
+    Virginia  sachem
+    creek  atrocity  trio  feint  presage  beset  machination  meager  disparage  acre  Appalachian  Antilles  repercussion
+    Genoa  electorate  Saxony  upheaval  Bohemia Silesia  centrifugal  sceptical  regnant  contiguous  diverge  renege  dubious  sieve   countermarch  mock  precarious  foothold
+    foray  defile  Tsarina  fallout  quiescent  pastel  hitherto  auxiliary  cockade  Stuart  sanctuary  annuity  charisma  emissary  Toulon  recrimination  barrage  mystique
+    Jacobite  Hanovarian  stubble  turnabout  overawe  Breslau  Hohenfriedberg  Reichenberg  Neapolitan  Milanese  vigilant  Turin  Naples  Venice  Bourbon  grandiose
+    half-dressed  Apennines  brusque  maul  foray  chevalier  concede  epithet  arbiter  carnation  carnatic  Madras  partake  dockyard  galleon  Martinique  Anguilla
+    homeward bullion  sporadic  van前部   cohesion  deride
+    exemplify  notch  expat  gastronomical  terracotta  debtor  chitchat  Valencia  flair  nuance
+    leafy  cartography  tome  friar  wile  Florentine  astound  juxtaposition  erase  warrant
+    bead  dew  abyss  punctuate  champagne  hypnotize  glide  lid  sinuous  evaluate  millimeter  ravenous  elastic  unfasten  umpteenth  pupil瞳孔  wand
+    wiggle  smack  dishevel  mesh  stroke  cupping  worn  shiny
+    fictitious  superfluous  whaling  Nimrod  grammar  thimble  crape  shawl  saucer  bushel  wardrobe  tarpaulin  Jerusalem  jest  ferriage  cent  penny
+    bearer  deduct  pence  rupee  ruble  lire  francs  tavern  grocer  fluctuation  wistful  apron  pigtail  stammer  asthmatic  waft  cushion
+    spinach  putter  addendum  antecedent  Malay  inclusion  verbose  homogeneity  anthropology  circumvent  quintessential  fanatical
+    asthma  wheeze  respiratory  verdant  ghat  allergy  fluffy  paediatrician  flare  charcoal  inhale  smog  puff  dander  ethereal  cleansing  bundle  choppy  dunk
+    sin  carousel  upside  maternal  rickshaw  wobbly  motorised  tricycle   stretcher dispenser  preliminary   steroid  fluorescent  fiasco  itemise  chemist
+    sinuous  emerald  tuk-tuk
+    Shikoku  perch  precarious  stilt  slump  windbreaker  yarn  barrow  smock  warily   （Ayano Saki）  scarecrow  rust  shed  kimono  lacquer  Osaka  kakashi
+    sip  braid  supervise  lounge  poignancy  minivan  stretchy  quilt  tuck  torso  scarves  copycat  ingrain  yellowtail  bream  bonito  crinkle
+    reticent  Kyoto  sketchy  enigmatic  beret  samurai  Mystification  calligraphic  rectangle
+
+    breadfruit  patriarch  waxy  soursop  passionfruit   hexagonal  fibrous  jackfruit  fig  outrigger bark  carb  custardy  fritter  gluten  pedigree  vanilla
+    gardenia  pulpy
+</div>
+
+
+
+
+<script>
+
+    //注意  token 和 m  要替换
+
+
+
+
+    /*测试  start*/
+    // var wordArr = ["digress","feedback","hard","on","fluster","couch","ass","dick","hesitantly","paranoia","wrist","starfish","lingerie","ripping","flesh","pussy","belly","Shit","fidgeting","unzips","pop","eye","raping","vibrator","snicker","fingertip","clit","mutter","penetrates","flip","asshole","yelp","jam","hip","tits","climax","lick","waist","orgasm","boob","booth","winking","Wanna","rub","pelvis","lap","grip","dash","crawl","kneel","pat","drip","navel","Nipple","hickey","plunge","cranny","crevice","grind","squirt","Fountain","hooker","condoms","Myanmar","Lao","Bhutan","Bangladesh","Nope","blah","blowjob","slouch","sag","ensemble","shaggy","tingly","knot","drool","tease","mumble","coo","skull","denim","raccoon","wavy","rats","slash","legging","sneaker","sweatshirt","bun","outfit","lipgloss","tattoo","smirk","raging","splashed","blown","paragraph","drummer","snuck","intro","pouty","hum","rasp","tortuous","backpack","enticingly","lacy","exude","sigh","musky","scent","cafeteria","admitt","dreamboat","sinister","giggle","combust","nacho","tactic","popsicle","innuendo","chant","wuss","wrapper","bob","ferociously","catcall"];
+    // var times = 1;
+
+    // var wordArr = [1,2,3,4,5,6,7,8,9,10];
+    // var range = 3;
+    //var times = Math.ceil(wordArr.length/range);
+    /*测试  end*/
+        var range = 30;
+
+
+        var resultArr = [];
+        var words = $('#words').text()
+            .replace(/[\u4e00-\u9fa5\（\）]/g,'')
+            .replace(/\;/g,'')
+            .replace(/\-/g,' ')
+
+            .replace(/\s+/g,' ').trim().split(' ');
+        words.pop();
+        var wordArr = words;
+        var wordArrCount = 0;
+        var times = Math.ceil(wordArr.length/range);
+
+
+        //迭代 分批次
+        var cycleCount = 0;
+        var cycle = function(wordArr,range)
+        {
+            //取前**个
+            var subwordArr = wordArr.slice(cycleCount*range,(cycleCount+1)*range)
+            var subwordArrCount = 0;
+
+            for(j=0;j<subwordArr.length;j++){
+
+                var word = subwordArr[j];
+                $.ajax({
+                    type: "POST",
+                    url: "https://fanyi.baidu.com/v2transapi",
+                    cache: !1,
+                    data: {
+                        "from":"en",
+                        "to":"zh",
+                        "query":word,
+                        "transtype":"translang",
+                        "simple_means_flag":3,
+
+
+                        // m  要替换
+                        "sign":y(word),
+
+                        //token 要替换
+                        "token":"48b4afddcf39c73f0021e1a32637c0c7"
+                    }
+
+
+
+                }).done(function(t) {
+
+
+
+                    if(typeof t.dict_result == 'undefined' || typeof t.dict_result.simple_means == 'undefined'){
+                        if(typeof t.dict_result == 'undefined'){
+                            //debugger
+                        }
+                        var json = {"english": t.trans_result.data[0].src, "symbols": "[]", "chinese": ""};
+                    }else{
+                        var json = {
+                            "english": t.dict_result.simple_means.word_name,
+                            "symbols": "["+ t.dict_result.simple_means.symbols[0].ph_en +"]",
+                            "chinese": $.map(t.dict_result.simple_means.symbols[0].parts,function(mean,i){
+                                return  mean.means[0]
+                            }).join('；')
+                        };
+                    }
+
+                    resultArr.push(json);
+                    subwordArrCount++;
+                    wordArrCount++;
+                    if(wordArrCount == wordArr.length){
+
+                        //console.log(JSON.stringify(resultArr))
+
+                        console.log('wordJson["06_14"] = '+ JSON.stringify(resultArr) )
+
+                        debugger
+                    }
+                    if(subwordArrCount == range){
+                        //debugger
+                        cycleCount++;
+                        if(cycleCount < times)
+                        {
+                            setTimeout(function () {
+                                cycle(wordArr,range)
+                            },1000)
+
+                        }
+                    }
+
+                })
+
+            }
+
+
+
+        };
+        cycle(wordArr,range)
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>

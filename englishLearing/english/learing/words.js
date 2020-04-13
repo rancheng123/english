@@ -548,6 +548,9 @@ human
                 女子成年期，女子特征，女子气质
                 womanhood
 
+                妻子;太太
+                missis
+
             girl
                  女孩子（似）的，少女的;
                  girlish
@@ -2560,6 +2563,9 @@ human
                      想像，设想
                      envisage
 
+                         (人的)脸，面容
+                         visage
+
                  空想的，幻想的
                  visionary
 
@@ -3726,6 +3732,9 @@ human
              心地不良的，歪曲的
              ill-natured
 
+             耍脾气，使性子
+             tantrum
+
         性情，性格
         disposition
 
@@ -3744,6 +3753,9 @@ human
 
              善行; 慈善; 行善; 仁慈;
              beneficence
+
+                 女捐赠（助）人，女保护人，女恩人
+                 benefactress
 
              慈善（行为）; 施舍，捐助; 慈善机关; 仁爱，宽容
              charity
@@ -3915,6 +3927,9 @@ human
 
             活泼，快活，有生气
             vivacity
+
+            不活泼的
+            torpid
 
 
 
@@ -5241,6 +5256,9 @@ human
                         证据
                         testament
 
+                        证实
+                        attest
+
                         目击者，见证人; 证人; 证据
                         witness
 
@@ -5636,6 +5654,9 @@ human
                     厌食的; 患神经性厌食症的; 食欲缺乏的
                     anorexic
 
+                        恶心的
+                        bilious
+
                  eat
 
                      填满; 塞满; 猛吃; 狼吞虎咽地吃东西;
@@ -5836,6 +5857,9 @@ human
 
              悬挂； 帘子，帷帘，帷幕; （帘、幕、衣、裙等） 悬挂状;
              drape
+
+                 垂褶布(或织物)
+                 drapery
 
          滚动
             roll
@@ -6094,6 +6118,9 @@ animal
 
                  小猫；产小猫
                  kitten
+
+            老鼠；捕鼠
+            rat
     家禽
         poultry
 
@@ -6152,6 +6179,9 @@ animal
 
                          水鸟，水禽
                          waterfowl
+
+                             家禽；捕鸟
+                             fowl
 
                  鸥
                     gull
@@ -6572,6 +6602,9 @@ action
 
                  膨胀; 凸出部分; 暴涨，突增
                  bulge
+
+                 鼓起；波涛般的浓烟(或蒸汽等)
+                 billow
 
         收缩
             收缩，缩水; 退缩
@@ -7044,6 +7077,9 @@ police
                     邪恶的
                     devilish
 
+                        (用于问句代替devil， 表示烦恼或吃惊)究竟，到底
+                        dickens
+
                     不正当
                     devious
 
@@ -7051,6 +7087,9 @@ police
 
                     死人般的，可怕的
                     ghast
+
+                鬼；像鬼的
+                phantom
 
                 妖怪，可怕的人（物）
                 bogie
@@ -10463,6 +10502,9 @@ fashion
                 梳妆，打扮，装饰
                 toilette
 
+                    梳妆台
+                    toilet-table
+
         首饰
              手镯; 手铐;
              bracelet
@@ -11140,6 +11182,9 @@ buildings
 
                                      太妃糖
                                      toffee
+
+                                     糖果
+                                     sweetmeat
 
                                  咖喱
                                  curry
@@ -12050,6 +12095,7 @@ psychology
 
              海水
                  海浪
+
                      wave
 
                          波状的，有波纹的，起伏的；波状地，有波纹地，起伏地；起浪，成波浪形，动摇
@@ -12917,6 +12963,9 @@ weather
          品红，洋红；紫红色的，洋红色的
          magenta
 
+         深红色的；深红色；变为深红色
+         crimson
+
 
 
 part
@@ -13133,6 +13182,9 @@ process
 
         继续; 续集，续篇; 结局，后果; 余波;
         sequel
+
+            先篇，前篇
+            prequel
 
         maintain
             维护; 维修; 维持，保持; 保养，保管
@@ -13981,6 +14033,12 @@ plant
 
         喇叭花
         bellflower
+
+            喇叭
+            bell
+
+                大声吼叫，怒吼;(像拿着喇叭吼叫)
+                bellow
 
         紫罗兰；紫罗兰色的
         violet
@@ -15608,6 +15666,9 @@ rule
 ----------------------------------
     松的
         loose
+
+        (肌肉)松弛的
+        flabby
     紧的
         tense
             紧张， 紧张气氛;
@@ -16049,6 +16110,9 @@ rule
         华丽的，艳丽的; 光彩夺目的;
         gorgeous
 
+            贪婪地吃
+            gorge
+
     丑
         ugly
             ungainly
@@ -16069,6 +16133,9 @@ rule
                 replenishment
 
             fill
+
+            增补
+            subjoin
 
     减
 
@@ -16715,6 +16782,9 @@ rule
                 boring
             dreary
 
+                阴郁的; 阴沉的;
+                drear
+
             无聊的; 令人生厌的;
             tiresome
 
@@ -17301,6 +17371,9 @@ rule
                 criticise
                     批评家; 批评者; 评论员; 挑剔的人;
                     critic
+
+                批评
+                chide
 
             谴责; 训斥;
                 reprimand
@@ -18660,6 +18733,9 @@ rule
              迷宫; （文字，建筑，事件） 错综复杂; 难解的事件;
              labyrinth
 
+        使轮廓模糊，使模糊不清;
+        blear
+
 -------------------------------
     普通的
         ordinary
@@ -19149,6 +19225,9 @@ rule
 
 
          outrage   欺负
+
+             仗势欺人者；恐吓；好
+             bully
          beat
 
              （拳击练习中） 不用力打
@@ -20973,6 +21052,9 @@ time
 
         黄昏，傍晚;
         dusk
+            黄昏
+            eventide
+
         evening
 
              前夕，前夜
@@ -20985,6 +21067,9 @@ time
 
              在晚上；一整夜的；前一天的晚上；过一夜
              overnight
+
+             暮色；奇妙神秘的
+             twilight
 
      同时
         meanwhile
@@ -21091,6 +21176,9 @@ condition
 
                      欢庆
                      festivity
+
+                     给…饰以花彩；彩灯；
+                     festoon
 
                  宴会; 盛会; 宗教节日;大吃大喝，享用美食
                  feast
@@ -21266,6 +21354,9 @@ literary ( literature )
                  散文；用散文写，把…改写成散文
                  prose
 
+                 短文，简介，花絮;
+                 vignette
+
     地图;图表; 航海图; 绘制地图;
         chart   map
 
@@ -21341,6 +21432,9 @@ literary ( literature )
 
                  tale
 
+                 寓言；讲故事
+                 fable
+
                  legend
                     传奇的; 传说的
                     legendary
@@ -21366,6 +21460,9 @@ literary ( literature )
         line
              线
              lineae
+
+                （面，外，地）貌；轮廓；特征
+                 lineament
 
                  分岔，岔路，分歧，餐叉
                  fork
@@ -21406,6 +21503,10 @@ literary ( literature )
 
                  突起
                  protuberance
+
+        带子，绳索，绷带；结扎
+        ligature
+
         rope
 
             绑上；附上; 贴上，系;
@@ -21543,6 +21644,9 @@ cloth
                  缝纫，刺绣，针线活;
                  needlework
 
+                 绣花
+                 embroidery
+
 
 
         衣服
@@ -21616,6 +21720,9 @@ cloth
 
              衬裙
              petticoat
+
+             (女子的)紧身褡；围绕
+             girdle
 
         裤子
             trousers
@@ -22454,6 +22561,9 @@ nations
              拜占庭的
              Byzantine
 
+             土耳其人,突厥
+             Turk
+
         Afghanistan
 
             库纳尔
@@ -22887,6 +22997,9 @@ nations
                 Norse
 
                 Norwegian
+
+                斯匹茨卑尔根岛
+                Spitzbergen
 
             Swede
 

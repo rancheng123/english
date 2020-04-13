@@ -1219,7 +1219,7 @@ An investigation by Time Out New York in January 2011 found many New York City m
 
         /*
 
-
+hector  ham
 
 
          */
@@ -1237,13 +1237,137 @@ An investigation by Time Out New York in January 2011 found many New York City m
         console.log(arr2)
 
 
-        /*
 
 
 
 
 
-         */
+
+
+/*
+
+relish  pitcher  ewer  muslin  acquit  animadversion  tonnage  poundage  skein  stitch  knit  ominous  pensive  rod   forbearance
+chastiser  meed  expostulation  assiduity  Northumberland  brook  conscientiousness  prerogative  disown  truculent  animosity
+cumbrous  creed  abyss  abhor  reverie  numbed  chilblain  famished  exigency  penurious  plaid  stalwart  crouch  hebdomadal
+moiety  bounteous  archdeacon  gaunt  surtout  perfidious  villainy  orb  calico  chemise  memorandum  hose  ma'am   laundress
+tucker  pamper  obviate  edification  evince  martyrs  exhortation  disciples  chisel  majestically  evangelical  barber  grimace
+knell  plait  attire  tresses  rummage  obtrusive  dagger  hypocrite  contaminate  infamy  triviality  molest  choke  chafe  absolve
+hoof  vehement  smite  coherently  gall  wormwood  clutch  imputation  fragrant  beverage  nectar  ambrosia  mien  construe  phylactery
+corroborate  ameliorate  beck  eddy  holm  sleet  gale  elm  dell  contagion  malady  effluvia  lily  tulip  daisy  reciprocate redeeming
+swine  recoil  camphor  vinegar  ajar  throes  delirious  dissipated  quilt  virulence  brackish  fetid  zeal  imbibe  routine  servitude
+snore nasal  nuisance  soliloquise  ferret  herald  thrice  garment  sublunary  dale  burgh  fumble  sup  soporific  attire  breadth
+barrister  import(重要)  waltz  kinsfolk  butler  environs  numbness  illumination  inured  apron  demurely  apparatus  confining  vault
+eerie  implore  thorn  plank  attire  recoil  cuirass  threshold  rookery  knoll  rook  yonder  hazel  specimen  forsaken  perfidy
+lisp  naivete  easel  docile  portfolio  novice  boudoir  garland  fastidious  salient  cherub  repose  pallid  azure  groping
+garret  cachinnation  wayward  vivacious  prattle  parenthese  egotism  humbug  sequestered  stiller  eccentric  vapid  pliability
+belfry  haws  hawthorn  hazel  causeway  russet  browse  brooklet  vale  dale  tinkle  bole  efface  azure  steed  goblin  carcass
+predicament  gallantry  raiment  Mahomet  grimace  waft  threshold  fetter  zenith  fathomless  eerie  vacate  rill  Heidelberg
+brooch  keepsake  choler  physiognomy  accost  trite  condole  irate  forsake  kinfolk  eulogium  bias  blasphemous  indite  vouch
+livid  foam  gem  palette  travail  muster  lance  serried  colossal  turban  drapery  lurid  diadem  elfish  gale  relish  evasive
+aver  rencontre  haughtily  ebb  inclement  braid  petit  embowel  anatomical  entrails  lid  cord  tissue  prattle  bachelor  lisp
+tete-a-tete  brat  lap  damask  cushion  physiognomy  quaint  brusque  pretence  soothing  repartee  sable  suave  philanthropist
+conscience  unfledged  unfostered  chink  flesh   queer    gregarious  demeanour  intrinsic  chandelier  complacent
+
+
+
+
+
+
+
+Master Reed (John Reed,   died nine years ago )
+Mrs.   Reed
+
+    Abbot    (miad)
+    Bessie   (nurse) （对我很好）
+
+        Robert Leaven（husband）
+
+        Bobby (son)
+
+
+    Eliza
+    Georgiana
+
+
+    //被扶养的孩子(John Reed is my uncle, my mother's brother)
+    Miss Jane Eyre (me)
+
+
+Mr. Lloyd （apothecary）
+
+Sarah
+
+
+School (Lowood)
+
+    Mr. Brocklehurst
+
+        Broughton Brocklehurst(father)
+        Naomi     Brocklehurst
+
+        Miss Temple（teacher）（Maria Temple） （married, go to a distant county）
+
+        Miss Smith
+        Miss Scatcherd
+        Madame Pierrot (teach French, from France)
+
+
+        Augusta
+        Theodore
+
+
+        Miss Miller （teacher）
+
+        Helen Burns（pupil） (died of disease)
+
+        Julia Severn
+        Mary Ann Wilson
+
+
+        Mr. Bates
+
+        Mr. Nasmyth
+
+        Miss Gryce
+
+
+
+
+
+    Agnes (guest)
+    Catherine Johnstone (guest)
+
+
+Thornfield
+    Mr. Rochester (master)
+
+        Mr. Rowland Rochester
+        Mr. Edward
+
+    Mrs. Fairfax （housekeeper）
+        Miss Fairfax
+        Miss Varens (Adela Varens) (my pupil)
+
+            Sophie (nurse)
+
+
+        Leah (housemaid)
+
+        John
+
+        Mr. Carter (the surgeon)
+
+
+
+
+
+
+
+
+
+but John Reed's tastes were no rule for mine  ????
+
+*/
 
 
 

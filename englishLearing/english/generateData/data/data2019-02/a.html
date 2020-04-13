@@ -1,0 +1,173 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="generator" content="Aspose.Words for .NET 15.1.0.0">
+    <title></title></head>
+<script src="../../js/0_jquery-1.11.1.js"></script>
+
+
+
+<body>
+
+<!-- 将此div 复制到  百度翻译页面 -->
+<div id="words">
+
+
+
+    twilight  chide  adjoined  Turk  drear  afar   sea-fowl  Spitzbergen  forlorn  vignettes  billow  ghastly  girdle
+    attest  eventide  torpid  phantom  fiend  dickens  unwholesome  lineament  visage  gorge  bilious  bleared  flabby
+    sweetmeat  bully  infliction  equilibrium  sneaking  rat  rummage  poise  headlong  pungent  bellow  subjoin  benefactress
+    garter  divest  ligature  ignominy  missis  underhand  poorhouse  tantrums  mahogany  damask  tabernacle  festoons  drapery
+    crimson  toilet-table  mattresses   Marseilles  counterpane  cushion  nursery  casket  coffin  rivet  speck  phantoms
+    imp  dell  superstition  quail  dismal   tyranny  aversion  partiality  browbeat  indemnity  thwarted  pigeons  hothouse
+    choicest  conservatory  attire  sullen  wantonly  opprobrium  vassalage  heterogeneous  germ  sanguine  romp  complacently
+    scapegoat  forsake  courage  ember  ire  vault  bourne  interloper  irksome  uncongenial  perjure  sob  glide  herald
+    peremptorily  abhor  artifice  virulent  anguish  parley  sup  ailment  unwonted  fagging  rack  scrutinise  ailing
+    infer  reverberation  pang  rend  uprooting  ailment  tart  wont  nook   Lilliput and Brobdingnag  diminutive  mastiff
+    eerie  goblins  malevolent  imp  refrain  cadence  orphan  beguile  divine morbid   pettish  fie  mortified  grate
+    underhand  forlorn  toad  tarry  crib  dearth  blubbering  banister  nimbly  hiatus  homily  butler  jingling
+    scarecrow  thimble  knack  slim  hoarding  vend  hoard  usurious  attic  porter  robin  chirrup  morsel  sash  sill
+    pinafore  washstand  poltroon  sable  bass  perpendicular  interrogator  Bible  Psalms  deceit  impotent  akin
+    brimstone  nimble  attire  conformity  Archdeacon  pamphlet  robust  obese  tenor  foment  antagonist  voce
+    pang  aromatic  pettish  self-esteem  debase  boast  typhus  closet  tug  desist   boxed my ears 打我耳光    hum  bun  tuck
+    parterre  drawer  playthings  fretted  petrify  veiling  pane  scrub  remorse  heath  dreariness  racy  corrode  turbulent
+    faculty  sequester  congeal  russet  stiffened  blanch  canopy  flakes  hoary  lea  roving  queer provoking  mutually lapse
+    pelisse  foe  sodden  thaw  kindle  chandelier  pendent  apprehensive  lull  slumber  dimly  mahogany  careworn  gait
+    quaint  con  tray  moniter班长  mug  fatigue  torrent  basin脸盆  prayer经文  indefatigable  inanition  fumes  repast  buxom
+    nauseous  abominable  wrath  throng  babel  grotesque   weather-beaten饱经风霜的  benignant  velvet  girdle  arithmetic
+    calico  wintry  inclement  drizzle  sundry  herd聚集  verandah  gnaw  lattice  ponder  perusal  hardihood  chord  frivolous
+    substantial  genii  deficiency  subscription  tablet  pelisse  regaled  redolent  rancid  adjourn  ignominious
+
+
+</div>
+
+
+
+
+<script>
+
+    //注意  token 和 m  要替换
+
+
+
+
+    /*测试  start*/
+    // var wordArr = ["digress","feedback","hard","on","fluster","couch","ass","dick","hesitantly","paranoia","wrist","starfish","lingerie","ripping","flesh","pussy","belly","Shit","fidgeting","unzips","pop","eye","raping","vibrator","snicker","fingertip","clit","mutter","penetrates","flip","asshole","yelp","jam","hip","tits","climax","lick","waist","orgasm","boob","booth","winking","Wanna","rub","pelvis","lap","grip","dash","crawl","kneel","pat","drip","navel","Nipple","hickey","plunge","cranny","crevice","grind","squirt","Fountain","hooker","condoms","Myanmar","Lao","Bhutan","Bangladesh","Nope","blah","blowjob","slouch","sag","ensemble","shaggy","tingly","knot","drool","tease","mumble","coo","skull","denim","raccoon","wavy","rats","slash","legging","sneaker","sweatshirt","bun","outfit","lipgloss","tattoo","smirk","raging","splashed","blown","paragraph","drummer","snuck","intro","pouty","hum","rasp","tortuous","backpack","enticingly","lacy","exude","sigh","musky","scent","cafeteria","admitt","dreamboat","sinister","giggle","combust","nacho","tactic","popsicle","innuendo","chant","wuss","wrapper","bob","ferociously","catcall"];
+    // var times = 1;
+
+    // var wordArr = [1,2,3,4,5,6,7,8,9,10];
+    // var range = 3;
+    //var times = Math.ceil(wordArr.length/range);
+    /*测试  end*/
+        var range = 30;
+
+
+        var resultArr = [];
+        var words = $('#words').text()
+            .replace(/[\u4e00-\u9fa5\（\）]/g,'')
+            .replace(/\;/g,'')
+            .replace(/\-/g,' ')
+
+            .replace(/\s+/g,' ').trim().split(' ');
+        words.pop();
+        var wordArr = words;
+        var wordArrCount = 0;
+        var times = Math.ceil(wordArr.length/range);
+
+
+        //迭代 分批次
+        var cycleCount = 0;
+        var cycle = function(wordArr,range)
+        {
+            //取前**个
+            var subwordArr = wordArr.slice(cycleCount*range,(cycleCount+1)*range)
+            var subwordArrCount = 0;
+
+            for(j=0;j<subwordArr.length;j++){
+
+                var word = subwordArr[j];
+                $.ajax({
+                    type: "POST",
+                    url: "https://fanyi.baidu.com/v2transapi",
+                    cache: !1,
+                    data: {
+                        "from":"en",
+                        "to":"zh",
+                        "query":word,
+                        "transtype":"translang",
+                        "simple_means_flag":3,
+
+
+                        // m  要替换
+                        "sign":y(word),
+
+                        //token 要替换
+                        "token":"d2eb5a0970864b2dc952fd22243be8be"
+                    }
+
+
+
+                }).done(function(t) {
+
+
+
+
+
+                    if(typeof t.dict_result == 'undefined' || typeof t.dict_result.simple_means == 'undefined'){
+                        if(typeof t.dict_result == 'undefined'){
+                            debugger
+                        }
+                        var json = {"english": t.trans_result.data[0].src, "symbols": "[]", "chinese": ""};
+                    }else{
+                        var json = {
+                            "english": t.dict_result.simple_means.word_name,
+                            "symbols": "["+ t.dict_result.simple_means.symbols[0].ph_en +"]",
+                            "chinese": $.map(t.dict_result.simple_means.symbols[0].parts,function(mean,i){
+                                return  mean.means[0]
+                            }).join('；')
+                        };
+                    }
+
+                    resultArr.push(json);
+                    subwordArrCount++;
+                    wordArrCount++;
+                    if(wordArrCount == wordArr.length){
+
+                        //console.log(JSON.stringify(resultArr))
+
+                        console.log('wordJson["06_14"] = '+ JSON.stringify(resultArr) )
+
+                        debugger
+                    }
+                    if(subwordArrCount == range){
+                        //debugger
+                        cycleCount++;
+                        if(cycleCount < times)
+                        {
+                            setTimeout(function () {
+                                cycle(wordArr,range)
+                            },1000)
+
+                        }
+                    }
+
+                })
+
+            }
+
+
+
+        };
+        cycle(wordArr,range)
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
